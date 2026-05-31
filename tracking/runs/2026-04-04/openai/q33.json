@@ -1,0 +1,138 @@
+{
+  "id": "resp_0981c04127e5a9af0069d134d8f28081a2baa4ddd6a76ab6bd",
+  "object": "response",
+  "created_at": 1775318232,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318238,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0981c04127e5a9af0069d134d9029881a29a27e83382506146",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "How often should you get a facial?"
+        ],
+        "query": "How often should you get a facial?"
+      }
+    },
+    {
+      "id": "msg_0981c04127e5a9af0069d134d9f22481a281aef9bcbeb57260",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 384,
+              "start_index": 257,
+              "title": "How Often Should You Get a Facial? Skin and Beauty Center, Los Angeles",
+              "url": "https://www.dermla.com/skin-care/skin-care-awareness-month-how-often-you-should-get-a-facial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 653,
+              "start_index": 526,
+              "title": "How Often Should You Get a Facial? Skin and Beauty Center, Los Angeles",
+              "url": "https://www.dermla.com/skin-care/skin-care-awareness-month-how-often-you-should-get-a-facial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 910,
+              "start_index": 783,
+              "title": "How Often Should You Get a Facial? Skin and Beauty Center, Los Angeles",
+              "url": "https://www.dermla.com/skin-care/skin-care-awareness-month-how-often-you-should-get-a-facial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1133,
+              "start_index": 1006,
+              "title": "How Often Should You Get a Facial? Skin and Beauty Center, Los Angeles",
+              "url": "https://www.dermla.com/skin-care/skin-care-awareness-month-how-often-you-should-get-a-facial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1470,
+              "start_index": 1343,
+              "title": "How Often Should You Get a Facial? Skin and Beauty Center, Los Angeles",
+              "url": "https://www.dermla.com/skin-care/skin-care-awareness-month-how-often-you-should-get-a-facial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1825,
+              "start_index": 1698,
+              "title": "How Often Should You Get a Facial? Skin and Beauty Center, Los Angeles",
+              "url": "https://www.dermla.com/skin-care/skin-care-awareness-month-how-often-you-should-get-a-facial/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "The ideal frequency for facials varies based on individual skin types, concerns, and goals. Generally, dermatologists recommend scheduling a facial every four to six weeks to align with the skin's natural renewal cycle, which typically spans about 28 days. ([dermla.com](https://www.dermla.com/skin-care/skin-care-awareness-month-how-often-you-should-get-a-facial/?utm_source=openai))\n\n**Considerations by Skin Type:**\n\n- **Oily or Acne-Prone Skin:** Facials every two to three weeks can help manage breakouts and excess oil. ([dermla.com](https://www.dermla.com/skin-care/skin-care-awareness-month-how-often-you-should-get-a-facial/?utm_source=openai))\n\n- **Dry or Sensitive Skin:** A gentler approach with facials every six weeks may be more appropriate to avoid over-exfoliation. ([dermla.com](https://www.dermla.com/skin-care/skin-care-awareness-month-how-often-you-should-get-a-facial/?utm_source=openai))\n\n- **Normal or Combination Skin:** A monthly facial helps maintain a healthy balance and glow. ([dermla.com](https://www.dermla.com/skin-care/skin-care-awareness-month-how-often-you-should-get-a-facial/?utm_source=openai))\n\n**Lifestyle and Environmental Factors:**\n\nIf you wear heavy makeup daily, spend significant time outdoors, or live in areas with high pollution, more frequent facials can help combat environmental stressors. ([dermla.com](https://www.dermla.com/skin-care/skin-care-awareness-month-how-often-you-should-get-a-facial/?utm_source=openai))\n\n**Specific Skin Concerns:**\n\nFor issues like hyperpigmentation, fine lines, or acne scars, a series of treatments spaced closer together (every two to four weeks) may be recommended initially, followed by maintenance facials. ([dermla.com](https://www.dermla.com/skin-care/skin-care-awareness-month-how-often-you-should-get-a-facial/?utm_source=openai))\n\n**At-Home Facials:**\n\nIncorporating at-home facials can complement professional treatments. These can be done weekly using masks or exfoliants suitable for your skin type. However, it's essential to avoid over-exfoliation and to choose products that align with your skin's needs.\n\n**Consultation with Professionals:**\n\nBefore starting any facial regimen, especially if you have specific skin concerns or conditions, consult with a licensed aesthetician or dermatologist. They can provide personalized recommendations tailored to your skin's unique needs.\n\nRemember, consistency in skincare routines, including regular facials, contributes significantly to maintaining healthy, glowing skin. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 310,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 549,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 859
+  },
+  "user": null,
+  "metadata": {}
+}

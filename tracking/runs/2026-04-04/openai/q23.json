@@ -1,0 +1,117 @@
+{
+  "id": "resp_09f885b5958b3b370069d13499460481a38632ce490a1b8432",
+  "object": "response",
+  "created_at": 1775318169,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318172,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_09f885b5958b3b370069d134995aa481a3800e3f8f6ad7c9f0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best facial for dry dehydrated skin Katy TX"
+        ],
+        "query": "Best facial for dry dehydrated skin Katy TX"
+      }
+    },
+    {
+      "id": "msg_09f885b5958b3b370069d1349a016081a3b0ab932fc996ecce",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 378,
+              "start_index": 217,
+              "title": "Restore Hyper Wellness",
+              "url": "https://www.restore.com/locations/tx-katy-tx014?utm_medium=Yext&y_source=1_MzE2Mjk5MzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 740,
+              "start_index": 677,
+              "title": "Selah MediSpa",
+              "url": "http://www.selahmedispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1100,
+              "start_index": 1017,
+              "title": "Aika Skin Care LLC",
+              "url": "https://www.aikaskincarellc.com/book-online?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "For addressing dry and dehydrated skin in Katy, TX, several local spas and wellness centers offer specialized facials designed to restore moisture and enhance skin health. Here are some options you might consider:\n\n**[Restore Hyper Wellness](https://www.restore.com/locations/tx-katy-tx014?utm_medium=Yext&y_source=1_MzE2Mjk5MzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D&utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.9 (281 reviews)**  \n_23116 Cinco Ranch Blvd, Katy, TX 77494_  \nOffers the HydroPeptide Moisture Infusion Ultra-Hydrating Facial, utilizing triple-weight hyaluronic acid and patented peptide technology to deeply hydrate and strengthen the skin's natural barrier.\n\n**[Selah MediSpa](http://www.selahmedispa.com/?utm_source=openai)**  \n**Open now \u00b7 Medical clinic \u00b7 4.8 (421 reviews)**  \n_21715 Kingsland Blvd #100, Katy, TX 77450_  \nProvides HydraFacial treatments that cleanse, exfoliate, extract, and hydrate the skin using a handheld device, effectively addressing dryness and improving skin texture.\n\n**[Aika Skin Care LLC](https://www.aikaskincarellc.com/book-online?utm_source=openai)**  \n**Open now \u00b7 Facial spa \u00b7 5.0 (44 reviews)**  \n_24551 Katy Fwy Spa#1, Katy, TX 77494_  \nProvides customized facials tailored to individual skin types, including treatments specifically designed for dry and sensitive skin, aiming to restore moisture and improve skin health.\n\nEach of these establishments offers treatments specifically designed to combat dryness and dehydration, helping to restore your skin's moisture balance and overall health. It's advisable to contact them directly to discuss your specific skin concerns and determine the most suitable treatment for your needs. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 312,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 400,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 712
+  },
+  "user": null,
+  "metadata": {}
+}

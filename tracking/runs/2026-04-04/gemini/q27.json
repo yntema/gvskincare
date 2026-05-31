@@ -1,0 +1,435 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "It appears you're asking for a comparison between Hand & Stone and independent facial spas in Katy, Texas. Here's a breakdown to help you decide:\n\n**1. Hand & Stone Massage and Facial Spa**\n\n*   **What it is**: A franchise spa with multiple locations.\n*   **Services**: Offers a range of massages (Swedish, deep tissue, hot stone) and facials (anti-aging, acne, sensitive skin). They also offer enhancements like aromatherapy and foot treatments.\n*   **Professionals:** Employs fully certified estheticians and massage therapists.\n*   **Ambience**: Aims for a consistent, professional, and tranquil environment in all locations.\n*   **Membership**: Offers membership plans that can provide good value for regular customers.\n*   **Introductory Offers**: Often has introductory deals for first-time guests.\n*   **Reviews:** Hand & Stone in Katy has a 4.6-star rating with 375 reviews. Some customers have reported issues with cancelling memberships and managing credits.\n\n**2. Independent Facial Spas**\n\n*   **What they are**: Locally owned and operated businesses.\n*   **Services**: Can offer more specialized and personalized skincare treatments, potentially using natural and organic products tailored to individual skin types. Examples of independent spas in Katy include:\n    *   Glow With The Flow Skin Studio\n    *   Face to Face Spa at Cinco Ranch\n    *   Ola Aesthetic Spa\n    *   Katy Medi Spa\n    *   MedSpa at Villagio\n*   **Ambience**: Often have a more intimate and cozy atmosphere, reflecting the owner's personal style.\n*   **Customer Experience**: May offer a more personal touch.\n\n**Key Considerations:**\n\n*   **Personalization:** If you prefer a tailored approach to skincare with treatments addressing your specific needs, an independent spa might be a better fit.\n*   **Consistency:** Hand & Stone provides standardized services, which can be appealing if you value predictability.\n*   **Atmosphere:** Consider whether you prefer a consistent, professional environment (Hand & Stone) or a more intimate, cozy setting (independent spas).\n*   **Price:** Introductory offers at Hand & Stone can be attractive, but consider the long-term costs, especially regarding memberships.\n*   **Reviews:** Look at reviews for specific independent spas to gauge their quality and customer service. Be cautious of deals that seem too good to be true, as they may involve hidden loans or subscriptions.\n\nTo make an informed decision, it's best to research specific independent facial spas in Katy, read their reviews, and compare their services and pricing with Hand & Stone.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaOArXZif94MDRAvDmAOUUNNwS2lUXfrHCyr0UWsv9zH1s3xUBCXHqRQCdPcHatKAnLlkr9wkfTVC6OjdmWOOOIKe3bJGMOKz3CqKogsJuEc7WoLm50uwRdQvsuBoKoax-DczZg-UToAAGLGEpqiDd9XakL0mEvFF6ncd71dvSqN0x1U1aDPrMMIEiCY_pnENzpTMFO0dviJOF6BfUW7QljeiDctw=\"\u003eHand and Stone facial Katy reviews\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBhaLaoC-ksRL5iH5vGZndVSVS-nxJ0we5czEtHaDiscpgJWdDT69U1U6f2dC-_Tpx93TrP6hio_dq0N809Pwaz-qHbWle_4bC4zKBKU56DDPQgHZJR-4oPHriWixG2uJnNAG_z_Qy3iLqTpTAqWH-IU8h9ioFcZJBZr6-QMGTEqtaNt0rYmrkRclVWEoqukM1zudwEkjG1Mi6-dHTvEm-OK5Ahq8ZbaEXYH7bmr1uHw==\"\u003eHand and Stone vs independent facial spa Katy\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMhB1ikXWzeD2NIohjwGbGWCLT7HxA6Mtc0jWo7ud9MF2Ivh0wsbFk2K0NR85_OWTm24voHd8oJoTye_f7CMyT0okxDBuV3KWfQ6K9Fv7dMr1ptHvisFsY0eSg1JjyLSscmyjp-aOGR7YG5plUx3safvsYP59CSaa0Yz8UKjOdnPtb-Slt6i4tCePXGRR4qSFUr492N6UhRunWVHfP8VVabmptuW7J\"\u003eIndependent facial spa Katy reviews\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqKI43CTyUcC4c2z8pFoq6e0U1I64r52o6TW1BA50UtLc8xI-4IZeI-ZIXq8XVRTB2CFeIeMM5I5Fl-lFsjDP9w6UifcXBElOCA2gBAZSnT4Vp_Ro=",
+              "title": "handandstone.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqz_duw327MG9nGupqF_Y3jheoljk8pj1KKlSEH9E1iZCW-88jkTdDN7M1BzLEeIna99Dc3_TKP2kG10Vdavx9ix6opIwF4wPyhgN4mS0hceIS6Gcf4fkS0h4k7XHFO78dtoPFd_9okYFT4_zLUEt9_f9p9qH1BRhkAXGFLwUzN7qKb0qQN2uHi6T8",
+              "title": "glowwiththeflowskinstudio.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-jMUgYLFjkgAC6x9zRngu0fE4nIllkT1L04-AxZ1VWtpfqMUnR7xqJ5PrsEt4fHF-MEb4gjKOdjKE7kqX9xkX26T9YSz9NOmh4m339KiXDl3XvvygRxUJn1u66xlQYPU51egCMzKMYcoptUB9Zwjrw1PubeVHeGbLJF5h-C1uOP0BqHTD5K9Akqiz8NeQIT0=",
+              "title": "katytimes.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcnN5q2mnvbOsW7rMc6OUGwFwgSq0oZFT_EnXBi4my6WqEaS_x7-3yi5lXu4KVTMGt6B1adm-qHL6inXo4y8x3wJY6uZSBCcw95eqfrAwSNFQbPq_1Bz-C3huwLkmLOlJgg8g=",
+              "title": "handandstone.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCP_GfvGc2OMBa4vJD00LHW6gmEoh4WL2aZ6_h6wLULbqwAVxdwO0fZ2WzvzlPNRSsVmhiMVT4x04qwKDndPDb-HBWq0axLzmIH6BdWKPpl5D33AnK9ql765bk-Myg4tpXLAUtKp6aXlwdGP5DCEuA2Fwf6ciIIZv9yfhnl5JEY_kSUdkWRkJINdy3z-YictTORGam7mBwDkkkPRvNtswJ2Fnz_uqOfvqweSohVw2fk7zZ_GVGE19JCXUQT1Z2VcrHwjCzll3vrq28VAeSJWCzCD25V9Ow7Qpz2xayI8NekT-rL2tnvKB4MmEPwZ1HtJwSq3SfKfRRrfovncabX6gmYWc-2G1Y3SE7cEAbM0pb2Yyf92jve66YdLhaTYUl",
+              "title": "handandstone.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEDFIS5O3lh9t7IX_HF3LhWXxtnwb04Qxvi09qUzq0z7k9mX4-c6f0sOW5TEK9pw-68T8g0WTB7e4UXn047gkcG-UT1ZoC7Dd-9qIgVN8vvk4KA66-SlC_VErVj2Gfn7NQ-6Ag8Pzw6GqUB03XRRHf0MHZAt5gTdje904GLtzScWM19gqJ13N1",
+              "title": "birdeye.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWZshOUhEu0Z6Yo37-sfi20LUPKSrX1p5VHzu7lj9iOHHohV02Ol0wL18D9zI3iOYd3xS8yhMyBZnd2tzrTSeF8ztoRnJENLEeki6DQZURWjTvWHepRil0RHMa6gROQ2_MHzHhgXm3E4kdyNhv",
+              "title": "trustpilot.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjMW_k9Idvw_FKUkGYMI-4_iZcPI81AOrrCe1nl7xAwMLpU1XG4aPwc2qBMU3EoejVwDXnFy4yC4fyS8BxWeJRAEwNtG4NbFSSTcDeawsun5rZJw7cjabS0VhUUm87JdL4t5JqGdNMa-CS5ktPsWnlaqAZYhbj53rQ2IQvPQ==",
+              "title": "classpass.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGX9fS6GzCz1zNyIcoaFcLsAs-Yi32D1Z_mFwsvzE-JuADqaX3PGewbILx97SBqEjrG7Xg57nGF-Ubqg7_uyjiGn1uLfgA642KrS-JEviFWPbtMPXSu8eo2oaHZtipjAMy6P9pDNSk=",
+              "title": "youtube.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgNJMFrh9vlXviKatxxbFqJAcfng5mRzNsCgZk5dsnkShlN5Bj0dpZ89qS0NwjM5PK4IDojSqNDc_mHe_sgLdreSah5xd0IjLISyO9ePxR2dAg1ufp0so=",
+              "title": "katymedispa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFC3Ci56vUSi4SMVn_fxHfjNxdcnjVzJ8067_96Q2fletjdKy3tGDCaoxWYJAPntZo_A0k6Lk17Cbw1qlLCYlm_Yvbn1E7bKQNLiWZNlLFEmGVZ_lmJHL31",
+              "title": "medspaatvillagio.com"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "startIndex": 191,
+              "endIndex": 250,
+              "text": "*   **What it is**: A franchise spa with multiple locations"
+            },
+            "groundingChunkIndices": [
+              0,
+              1
+            ],
+            "confidenceScores": [
+              0.65180856,
+              0.010893194
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 252,
+              "endIndex": 377,
+              "text": "*   **Services**: Offers a range of massages (Swedish, deep tissue, hot stone) and facials (anti-aging, acne, sensitive skin)"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.9094456
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 379,
+              "endIndex": 445,
+              "text": "They also offer enhancements like aromatherapy and foot treatments"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.828263
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 447,
+              "endIndex": 529,
+              "text": "*   **Professionals:** Employs fully certified estheticians and massage therapists"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.90188617
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 531,
+              "endIndex": 627,
+              "text": "*   **Ambience**: Aims for a consistent, professional, and tranquil environment in all locations"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.008049883
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 629,
+              "endIndex": 722,
+              "text": "*   **Membership**: Offers membership plans that can provide good value for regular customers"
+            },
+            "groundingChunkIndices": [
+              3,
+              1
+            ],
+            "confidenceScores": [
+              0.07397252,
+              0.004916267
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 724,
+              "endIndex": 803,
+              "text": "*   **Introductory Offers**: Often has introductory deals for first-time guests"
+            },
+            "groundingChunkIndices": [
+              3,
+              4
+            ],
+            "confidenceScores": [
+              0.032954615,
+              0.47796825
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 805,
+              "endIndex": 881,
+              "text": "*   **Reviews:** Hand & Stone in Katy has a 4.6-star rating with 375 reviews"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.85689527
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 883,
+              "endIndex": 967,
+              "text": "Some customers have reported issues with cancelling memberships and managing credits"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.435425
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1002,
+              "endIndex": 1062,
+              "text": "*   **What they are**: Locally owned and operated businesses"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.0060603274
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1064,
+              "endIndex": 1227,
+              "text": "*   **Services**: Can offer more specialized and personalized skincare treatments, potentially using natural and organic products tailored to individual skin types"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.9272631
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1229,
+              "endIndex": 1313,
+              "text": "Examples of independent spas in Katy include:\n    *   Glow With The Flow Skin Studio"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.10884339
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1318,
+              "endIndex": 1353,
+              "text": "*   Face to Face Spa at Cinco Ranch"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.6203285
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1358,
+              "endIndex": 1379,
+              "text": "*   Ola Aesthetic Spa"
+            },
+            "groundingChunkIndices": [
+              8
+            ],
+            "confidenceScores": [
+              0.68661696
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1384,
+              "endIndex": 1401,
+              "text": "*   Katy Medi Spa"
+            },
+            "groundingChunkIndices": [
+              9
+            ],
+            "confidenceScores": [
+              0.822854
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1406,
+              "endIndex": 1428,
+              "text": "*   MedSpa at Villagio"
+            },
+            "groundingChunkIndices": [
+              10
+            ],
+            "confidenceScores": [
+              0.8983107
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1429,
+              "endIndex": 1532,
+              "text": "*   **Ambience**: Often have a more intimate and cozy atmosphere, reflecting the owner's personal style"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.011748563
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1534,
+              "endIndex": 1594,
+              "text": "*   **Customer Experience**: May offer a more personal touch"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.40683052
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1622,
+              "endIndex": 1781,
+              "text": "*   **Personalization:** If you prefer a tailored approach to skincare with treatments addressing your specific needs, an independent spa might be a better fit"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.29903814
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1783,
+              "endIndex": 1899,
+              "text": "*   **Consistency:** Hand & Stone provides standardized services, which can be appealing if you value predictability"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.014829175
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1901,
+              "endIndex": 2054,
+              "text": "*   **Atmosphere:** Consider whether you prefer a consistent, professional environment (Hand & Stone) or a more intimate, cozy setting (independent spas)"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.081543006
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2056,
+              "endIndex": 2192,
+              "text": "*   **Price:** Introductory offers at Hand & Stone can be attractive, but consider the long-term costs, especially regarding memberships"
+            },
+            "groundingChunkIndices": [
+              3,
+              4
+            ],
+            "confidenceScores": [
+              0.031295873,
+              0.01804543
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2194,
+              "endIndex": 2300,
+              "text": "*   **Reviews:** Look at reviews for specific independent spas to gauge their quality and customer service"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.00975307
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2302,
+              "endIndex": 2403,
+              "text": "Be cautious of deals that seem too good to be true, as they may involve hidden loans or subscriptions"
+            },
+            "groundingChunkIndices": [
+              8
+            ],
+            "confidenceScores": [
+              0.036861785
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "Hand and Stone vs independent facial spa Katy",
+          "Hand and Stone facial Katy reviews",
+          "Independent facial spa Katy reviews"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 8,
+    "candidatesTokenCount": 556,
+    "totalTokenCount": 564,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 8
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 556
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "2zrRaenDMYHjz7IPgYWSmQw"
+}

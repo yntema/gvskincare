@@ -1,0 +1,131 @@
+{
+  "id": "resp_01962d3a7908c0890069d134ff14b481a385ab289f086d87f5",
+  "object": "response",
+  "created_at": 1775318271,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318276,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_01962d3a7908c0890069d134ff24d881a3af8fe94576fc9563",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Tratamiento facial profesional en Katy TX"
+        ],
+        "query": "Tratamiento facial profesional en Katy TX"
+      }
+    },
+    {
+      "id": "msg_01962d3a7908c0890069d134ffcde081a38041ac8cd94962f6",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 257,
+              "start_index": 190,
+              "title": "GV SKINCARE CENTER",
+              "url": "https://www.gvskincare.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 550,
+              "start_index": 473,
+              "title": "The Perfect Touch SPA",
+              "url": "http://www.theperfecttouchspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 931,
+              "start_index": 779,
+              "title": "Massage Envy",
+              "url": "https://locations.massageenvy.com/texas/katy/23730-westheimer-parkway.html?utm_medium=useractions&utm_campaign=website&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1259,
+              "start_index": 1176,
+              "title": "Aika Skin Care LLC",
+              "url": "https://www.aikaskincarellc.com/book-online?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1567,
+              "start_index": 1478,
+              "title": "Viata Aesthetics and Wellness",
+              "url": "http://viataaestheticsandwellness.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "En Katy, Texas, hay varias opciones para tratamientos faciales profesionales que pueden ayudarte a mejorar la salud y apariencia de tu piel. A continuaci\u00f3n, te presento algunas de ellas:\n\n**[GV SKINCARE CENTER](https://www.gvskincare.com/?utm_source=openai)**  \n**Abierto ahora \u00b7 Facial spa \u00b7 4.8 (107 rese\u00f1as)**  \n_23410 Grand Reserve Dr Suite 302, Katy, TX 77494_  \nOfrece tratamientos faciales y corporales personalizados para promover una piel saludable y radiante.\n\n**[The Perfect Touch SPA](http://www.theperfecttouchspa.com/?utm_source=openai)**  \n**Abierto ahora \u00b7 Spa \u00b7 5.0 (20 rese\u00f1as)**  \n_2027 N Mason Rd #304, Katy, TX 77449_  \nProporciona una variedad de tratamientos faciales, peelings y microneedling, adaptados a las necesidades individuales de cada cliente.\n\n**[Massage Envy](https://locations.massageenvy.com/texas/katy/23730-westheimer-parkway.html?utm_medium=useractions&utm_campaign=website&utm_source=openai)**  \n**Abierto ahora \u00b7 Massage spa \u00b7 4.4 (349 rese\u00f1as)**  \n_23730 Westheimer Pkwy Suite L, Katy, TX 77494_  \nBrinda faciales y tratamientos de cuidado de la piel realizados por esteticistas profesionales, con planes de cuidado a largo plazo.\n\n**[Aika Skin Care LLC](https://www.aikaskincarellc.com/book-online?utm_source=openai)**  \n**Abierto ahora \u00b7 Facial spa \u00b7 5.0 (44 rese\u00f1as)**  \n_24551 Katy Fwy Spa#1, Katy, TX 77494_  \nOfrece faciales personalizados seg\u00fan el tipo de piel y necesidades espec\u00edficas, incluyendo an\u00e1lisis de piel gratuito.\n\n**[Viata Aesthetics and Wellness](http://viataaestheticsandwellness.com/?utm_source=openai)**  \n**Cerrado \u00b7 Medical spa \u00b7 5.0 (125 rese\u00f1as)**  \n_26077 Nelson Way #802, Katy, TX 77494_  \nOfrece el Botox Facial, una t\u00e9cnica rejuvenecedora que combina microneedling con una mezcla personalizada de vitaminas y nutrientes.\n\nTe recomiendo contactar directamente con estos centros para obtener m\u00e1s informaci\u00f3n sobre sus servicios, horarios y precios, y as\u00ed elegir el que mejor se adapte a tus necesidades. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 308,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 504,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 812
+  },
+  "user": null,
+  "metadata": {}
+}

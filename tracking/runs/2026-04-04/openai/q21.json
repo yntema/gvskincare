@@ -1,0 +1,138 @@
+{
+  "id": "resp_0cc7314090a04bf90069d1348b02d881948f07de5863157a06",
+  "object": "response",
+  "created_at": 1775318155,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318160,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0cc7314090a04bf90069d1348b20088194adbd666621bd2743",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Where to get PRP for hair loss Katy Texas"
+        ],
+        "query": "Where to get PRP for hair loss Katy Texas"
+      }
+    },
+    {
+      "id": "msg_0cc7314090a04bf90069d1348c100481948274cbb4df84ca27",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 230,
+              "start_index": 146,
+              "title": "Integrative Primary Care",
+              "url": "http://www.integrativeprimarycare.net/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 578,
+              "start_index": 512,
+              "title": "Arhez Wellness",
+              "url": "https://www.arhezwellness.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 934,
+              "start_index": 863,
+              "title": "Ageless Med Spa",
+              "url": "https://www.agelessmedspakaty.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1275,
+              "start_index": 1187,
+              "title": "Aesthetic Master Infusions LLC",
+              "url": "http://aestheticmasterinfusions.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1583,
+              "start_index": 1514,
+              "title": "Luminous MediSpa",
+              "url": "http://www.luminousmedispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1943,
+              "start_index": 1869,
+              "title": "Rich & Rooted Medspa",
+              "url": "https://richandrootedmedspa.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "If you're seeking Platelet-Rich Plasma (PRP) therapy for hair loss in Katy, Texas, here are several reputable clinics offering this treatment:\n\n**[Integrative Primary Care](http://www.integrativeprimarycare.net/?utm_source=openai)**  \n**Closed \u00b7 Internist \u00b7 4.7 (158 reviews)**  \n_225 Bella Katy Dr, Katy, TX 77494_  \nDr. Syed Farhat Zaidi provides PRP therapy to address cosmetic concerns, including hair loss. The clinic is located at 225 Bella Katy Dr, Katy, TX 77494. For appointments, call 832-500-7585.\n\n**[Arhez Wellness](https://www.arhezwellness.com/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 5.0 (41 reviews)**  \n_23960 Katy Fwy Suite 320, Katy, TX 77494_  \nDr. Makkani specializes in personalized PRP therapy treatments for hair restoration. The clinic is situated at 23960 Katy Fwy, Suite 320, Katy, TX 77494. Contact them at 346-355-5999.\n\n**[Ageless Med Spa](https://www.agelessmedspakaty.com/?utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 4.5 (117 reviews)**  \n_414 W Grand Pkwy S #115, Katy, TX 77494_  \nOffers noninvasive PRP therapy for hair restoration. Located at 414 W Grand Pkwy S., #115, Katy, TX 77494. To schedule an appointment, call 281-392-3700.\n\n**[Aesthetic Master Infusions LLC](http://aestheticmasterinfusions.com/?utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 5.0 (51 reviews)**  \n_5231 E 5th St, Katy, TX 77493_  \nProvides PRP treatments for hair restoration, facial rejuvenation, and joint pain management. Contact them at 832-301-0013 to schedule a consultation.\n\n**[Luminous MediSpa](http://www.luminousmedispa.com/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 5.0 (134 reviews)**  \n_410 W Grand Pkwy S #310, Katy, TX 77494_  \nOffers PRP Hair Restoration treatments designed to rejuvenate and stimulate hair growth. Located at 410 W Grand Pkwy S # Suite 310, Katy, TX 77494. For appointments, call 281-665-3666.\n\n**[Rich & Rooted Medspa](https://richandrootedmedspa.com/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.8 (17 reviews)**  \n_24022 Cinco Village Center Blvd Suite 120 2A, Park Row, TX 77494_  \nProvides PRP treatments for skin rejuvenation and hair restoration. Located at 24022 Cinco Village Center Blvd Suite 120 Unit 2, Katy, TX 77494. Contact them at 832-427-9872.\n\nBefore proceeding with PRP therapy, it's advisable to consult with a healthcare professional to determine the most suitable treatment plan for your specific needs. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 314,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 670,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 984
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,117 @@
+{
+  "id": "resp_0f7990df75ed6a990069d1340d2db4819085e8a38924565b42",
+  "object": "response",
+  "created_at": 1775318029,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318034,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0f7990df75ed6a990069d1340d5248819098770c2c0ba8ac7c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best facial spa near Houston TX"
+        ],
+        "query": "Best facial spa near Houston TX"
+      }
+    },
+    {
+      "id": "msg_0f7990df75ed6a990069d1340e23dc8190a87c3d13347fe3a6",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 186,
+              "start_index": 124,
+              "title": "Sanctuary Spa",
+              "url": "http://www.besanctuary.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 983,
+              "start_index": 911,
+              "title": "Skin 101 Medical Spa",
+              "url": "http://www.skin101houston.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1382,
+              "start_index": 1312,
+              "title": "Bare Necessities Spa & Boutique",
+              "url": "https://bnwax.com?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Houston boasts a variety of exceptional facial spas catering to diverse skincare needs. Here are some top-rated options:\n\n**[Sanctuary Spa](http://www.besanctuary.com/?utm_source=openai)**  \n**Open now \u00b7 Day spa \u00b7 4.8 (284 reviews)**  \n_1701 S Shepherd Dr suite c, Houston, TX 77019_  \nEstablished in 1984, Sanctuary Spa offers luxurious facials, therapeutic massages, and hydrotherapy services. Located at 1701 S. Shepherd, Suite C, they operate Monday through Friday from 9 am to 8 pm, Saturday from 9 am to 7 pm, and Sunday from 11 am to 5 pm.\n\n**Houston, TX**  \n**Closed \u00b7 City**  \n_Texas_  \nThis luxury medspa provides customized facials combining medical-grade skincare with a serene spa experience. Services include deep hydration, pore refinement, and anti-aging treatments. Located at 10927 Louetta Road, they are open Monday to Thursday from 9 am to 8 pm, and Friday to Saturday from 9 am to 5 pm.\n\n**[Skin 101 Medical Spa](http://www.skin101houston.com/?utm_source=openai)**  \n**Open now \u00b7 Skin care clinic \u00b7 4.8 (178 reviews)**  \n_11300 Katy Fwy B625, Houston, TX 77043_  \nA full-service medical spa offering state-of-the-art aesthetic treatments, including facials, chemical peels, and injectables. Located at 11300 Katy Freeway, Suite B-625, they operate Tuesday to Saturday with varying hours.\n\n**[Bare Necessities Spa & Boutique](https://bnwax.com?utm_source=openai)**  \n**Open now \u00b7 Spa**  \n_1643 Richmond Ave, Houston, TX 77006_  \nKnown for personalized facials, waxing, massages, and organic spray tanning, Bare Necessities provides a comprehensive spa experience. Located at 1643 Richmond Ave., they are open Monday to Friday from 9 am to 9 pm, and Saturday to Sunday from 10 am to 6 pm.\n\n**Houston, TX**  \n**Closed \u00b7 City**  \n_Texas_  \nOffers a range of facial treatments, including anti-aging facials, HIFU face treatments, and microneedling with RF. They focus on advanced skincare solutions tailored to individual needs.\n\nWhen selecting a facial spa, consider factors such as the specific treatments offered, the expertise of the staff, the quality of products used, and the overall ambiance to ensure a relaxing and effective experience. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 306,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 531,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 837
+  },
+  "user": null,
+  "metadata": {}
+}

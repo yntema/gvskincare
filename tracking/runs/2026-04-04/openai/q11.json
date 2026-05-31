@@ -1,0 +1,145 @@
+{
+  "id": "resp_0bec143317fb54c10069d13445e21081968c573ae78ecc963e",
+  "object": "response",
+  "created_at": 1775318085,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318090,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0bec143317fb54c10069d1344604908196b5d20c19d245ff03",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best chemical peel facial Katy TX"
+        ],
+        "query": "Best chemical peel facial Katy TX"
+      }
+    },
+    {
+      "id": "msg_0bec143317fb54c10069d13446dcc08196b1b1fd63dd87edba",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 235,
+              "start_index": 123,
+              "title": "Clear Dermatology",
+              "url": "https://cleardermatology.com/?utm_medium=organic&utm_campaign=gbp-listing&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 605,
+              "start_index": 502,
+              "title": "H-Town Aesthetics",
+              "url": "https://htownaesthetics.com/?utm_medium=organic&utm_campaign=gbp&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 954,
+              "start_index": 892,
+              "title": "Ara Med Spa",
+              "url": "https://www.thearamedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1324,
+              "start_index": 1235,
+              "title": "Viata Aesthetics and Wellness",
+              "url": "http://viataaestheticsandwellness.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1664,
+              "start_index": 1593,
+              "title": "LUXE Medical Aesthetics",
+              "url": "https://theluxeeffect.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2029,
+              "start_index": 1919,
+              "title": "Face to Face Spa at Cinco Ranch",
+              "url": "https://facetofacespa.com/cinco-ranch/?utm_medium=organic&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2393,
+              "start_index": 2278,
+              "title": "Shining Way Esthetics",
+              "url": "https://www.shiningwayesthetics.com/?utm_medium=GMB&utm_campaign=Organic&utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "If you're seeking top-quality chemical peel facials in Katy, TX, here are several reputable establishments to consider:\n\n**[Clear Dermatology](https://cleardermatology.com/?utm_medium=organic&utm_campaign=gbp-listing&utm_source=openai)**  \n**Closed \u00b7 Dermatologist \u00b7 4.8 (1598 reviews)**  \n_17756 Katy Fwy g1, Houston, TX 77094_  \nOffers a range of chemical peels, including superficial, medium, and deep options, tailored to individual skin concerns such as fine lines, acne, and uneven skin tone.\n\n**[H-Town Aesthetics](https://htownaesthetics.com/?utm_medium=organic&utm_campaign=gbp&utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 5.0 (128 reviews)**  \n_21003 Highland Knolls Dr Ste.300, Katy, TX 77450_  \nSpecializes in VI Chemical Peels, targeting various skin concerns including signs of aging, scarring, and hyperpigmentation, offering multiple peel options for personalized care.\n\n**[Ara Med Spa](https://www.thearamedspa.com/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.9 (103 reviews)**  \n_7103 Katy-Gaston Rd Suite 100, Richmond, TX 77406_  \nProvides chemical peels designed to improve skin texture and tone, addressing issues like discoloration, wrinkles, and scars, with treatments customized to client needs.\n\n**[Viata Aesthetics and Wellness](http://viataaestheticsandwellness.com/?utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 5.0 (125 reviews)**  \n_26077 Nelson Way #802, Katy, TX 77494_  \nOffers chemical peels using various agents to smooth skin texture by removing damaged outer layers, with treatments customized based on individual skin types and concerns.\n\n**[LUXE Medical Aesthetics](https://theluxeeffect.com/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.9 (76 reviews)**  \n_21770 Kingsland Blvd, Katy, TX 77450_  \nProvides chemical peels in different strengths to reduce fine lines, wrinkles, and dark spots, with each peel performed by experienced medical professionals.\n\n**[Face to Face Spa at Cinco Ranch](https://facetofacespa.com/cinco-ranch/?utm_medium=organic&utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.9 (353 reviews)**  \n_27131 Cinco Ranch Blvd Suite 750, Katy, TX 77494_  \nA beauty med spa offering a calm setting for high-quality treatments, including facials and chemical peels, supported by medical guidance.\n\n**[Shining Way Esthetics](https://www.shiningwayesthetics.com/?utm_medium=GMB&utm_campaign=Organic&utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.9 (150 reviews)**  \n_24646 Kingsland Blvd, Katy, TX 77494_  \nProvides a variety of facials and chemical peels, including signature and express facials, tailored to individual skincare needs and concerns.\n\nWhen selecting a provider, consider factors such as the specific skin concerns you wish to address, the types of chemical peels offered, the qualifications of the staff, and the overall atmosphere of the facility. It's advisable to schedule a consultation to discuss your goals and determine the most suitable treatment plan for your skin type and needs. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 306,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 723,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1029
+  },
+  "user": null,
+  "metadata": {}
+}

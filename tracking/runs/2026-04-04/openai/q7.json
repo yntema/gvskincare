@@ -1,0 +1,138 @@
+{
+  "id": "resp_03b6a3824f4d67fd0069d1342ae894819fa9c7db355def5967",
+  "object": "response",
+  "created_at": 1775318058,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318065,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_03b6a3824f4d67fd0069d1342afc8c819f87f6ee70d42bdd79",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Professional facial treatment Katy TX"
+        ],
+        "query": "Professional facial treatment Katy TX"
+      }
+    },
+    {
+      "id": "msg_03b6a3824f4d67fd0069d1342c97ec819fb70b88338175fe81",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 206,
+              "start_index": 139,
+              "title": "GV SKINCARE CENTER",
+              "url": "https://www.gvskincare.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 525,
+              "start_index": 468,
+              "title": "Suimin Spa",
+              "url": "http://www.suiminspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 780,
+              "start_index": 726,
+              "title": "City Glow",
+              "url": "https://cityglowtx.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1168,
+              "start_index": 1007,
+              "title": "Restore Hyper Wellness",
+              "url": "https://www.restore.com/locations/tx-katy-tx014?utm_medium=Yext&y_source=1_MzE2Mjk5MzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1484,
+              "start_index": 1407,
+              "title": "The Perfect Touch SPA",
+              "url": "http://www.theperfecttouchspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1819,
+              "start_index": 1704,
+              "title": "Shining Way Esthetics",
+              "url": "https://www.shiningwayesthetics.com/?utm_medium=GMB&utm_campaign=Organic&utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "If you're seeking professional facial treatments in Katy, TX, here are several reputable establishments offering a variety of services:\n\n**[GV SKINCARE CENTER](https://www.gvskincare.com/?utm_source=openai)**  \n**Open now \u00b7 Facial spa \u00b7 4.8 (107 reviews)**  \n_23410 Grand Reserve Dr Suite 302, Katy, TX 77494_  \nOffers comprehensive skin and body spa services, including facial treatments tailored to individual needs, aiming to promote healthy and confident skin.\n\n**[Suimin Spa](http://www.suiminspa.com/?utm_source=openai)**  \n**Open now \u00b7 Spa \u00b7 5.0 (41 reviews)**  \n_1830 S Mason Rd Suite 115, Katy, TX 77450_  \nProvides tailored facial treatments using premium products and advanced techniques to enhance skin health.\n\n**[City Glow](https://cityglowtx.com/?utm_source=openai)**  \n**Open now \u00b7 Day spa \u00b7 4.9 (602 reviews)**  \n_9006 S Fry Rd Suite G2, Katy, TX 77494_  \nOffers facial treatments designed to rejuvenate and refresh your complexion, using high-quality products suited to your skin type.\n\n**[Restore Hyper Wellness](https://www.restore.com/locations/tx-katy-tx014?utm_medium=Yext&y_source=1_MzE2Mjk5MzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D&utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.9 (281 reviews)**  \n_23116 Cinco Ranch Blvd, Katy, TX 77494_  \nFeatures the HydroPeptide Custom Facial, personalized to smooth complexion, enhance product penetration, and effectively purge impurities.\n\n**[The Perfect Touch SPA](http://www.theperfecttouchspa.com/?utm_source=openai)**  \n**Open now \u00b7 Spa \u00b7 5.0 (20 reviews)**  \n_2027 N Mason Rd #304, Katy, TX 77449_  \nOffers a range of facial services, including peels and microneedling, with personalized treatments to suit individual preferences.\n\n**[Shining Way Esthetics](https://www.shiningwayesthetics.com/?utm_medium=GMB&utm_campaign=Organic&utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.9 (150 reviews)**  \n_24646 Kingsland Blvd, Katy, TX 77494_  \nProvides a variety of facials, including signature, express, and specialized treatments like dermaplaning and microdermabrasion.\n\nBefore scheduling an appointment, consider contacting these establishments to discuss your specific skin concerns and determine which treatment best suits your needs. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 304,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 562,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 866
+  },
+  "user": null,
+  "metadata": {}
+}

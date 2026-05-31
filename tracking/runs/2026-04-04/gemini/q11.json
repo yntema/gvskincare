@@ -1,0 +1,239 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Here are some of the highly-rated options for chemical peel facials in Katy, TX, based on the search results:\n\n*   **H-Town Aesthetics:** Offers VI Chemical Peels, known for improving skin tone and texture, reducing signs of aging, and diminishing scarring. They offer a range of specialized treatments like VI Peel Original, Advanced, Precision Plus, and Purify, each targeting specific skin concerns. A Tox Booster Chemical Peel is also available to enhance the effects of VI Peels by targeting fine lines and wrinkles.\n*   **Anita's Skin Care Clinic:** This clinic provides custom facials and chemical peels, taking a holistic approach to skincare to address individual skin concerns.\n*   **Viata Aesthetics and Wellness:** Provides chemical peels tailored to your unique skin needs. They offer Vi Peels and Vi Peel Precision Plus, which can improve skin tone, texture, and clarity, fade sunspots, and soften lines and wrinkles.\n*   **Face to Face Spa:** This medical spa offers chemical peels to support renewed smoothness, as well as other advanced options. They offer a wide array of skincare services in addition to chemical peels, and a series of six progressive exfoliation treatments spaced two weeks apart is typically recommended for optimal improvement.\n*   **Luxe Medical Aesthetics:** Combines cutting-edge techniques and professional care with high-quality medical-grade products.\n*   **Luminous MediSpa Katy:** This med spa combines the relaxing aspects of a traditional spa with medical-grade treatments.\n*   **AVIVA Dermatology:** Expert dermatologists provide personalized chemical peel treatments to rejuvenate your skin.\n\nWhen choosing a location, consider the specific skin concerns you want to address, the type of peel offered, and the experience and qualifications of the staff.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5dSNWN9NMqoPkIZz0sTsA4IhzRlb3ZRpdtZoY4K7tm00-2xbOFmXsbcaNHHDrM2IWohsIbpGM1MVh2PJLDExXVYi6X5nORTyc1LQZeQV_bAAPyTmt1ZtejGnSpg_uCYlhHa1NBtePOne75D7lh4O17YipzJjiPlEfdMh7L5NHtsMtvM9awdGKvbE4oMyvAx033evrY4-ldUeD9l8FW_dGMqX1es05eyGg8rQh\"\u003etop rated chemical peel facial katy texas\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMq0JnbmM0sI4an6_wMZWzZfU0n91i8ajpU0c8UkKrykuPu4hCKm-xl38exUJRDaYr01HWrOQiNaGGM_NnRZB6pejEOHQj9-t8o2xh2XatLAyoAsdtnlE_pMQmh4N3MkBTayybP3g5rcp8HTG_E3zvHi8OOdiNePiWnxgOKrt8uvD-zO3COviqnr_Tevc8ppASN0UsiYQ3rDDz_OQ31EJpJdoP1g==\"\u003ebest chemical peel facial Katy TX\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESU92GFfP5SBwIxqrA0zU0zyGiSnESdb1JObU9MYJO907DDcMVtDi5V1K5iXuqrAX6K3HSz1ztOpmYTPlUTY4U77b4MepnzbevX7JPx84o6XcFYSqDJT48i1Gji4xt3XhjBEGj6N7YqTn_jN-gx2uwO3M=",
+              "title": "htownaesthetics.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaP0DXcw1h_9uovrezptcmTOFYKWJVgNE3juGbXKtvCNu0-bAbKSmOOrS8BVefAw23djilnQ1yzZyMkon8pv11q0p-TL1QHrj1Ly-fId6YGj_GHstuLjUES7YQaZg8MQ0=",
+              "title": "anitasskincareclinickaty.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsrszAGgt5kXJEnVHEkwxSpLwTbUBYkptIpfQL8fuxaJmpQYbY1lQ_BPeoXtAjlnUqGtH5lU-hRdjbf4eL6PVFjBMjxPJi9D6S16Ai-aZm2EcWNnYftrxUpQio4zw5SQ9efG30QhseSM4FHa1llLf2PFGjVbw=",
+              "title": "viataaestheticsandwellness.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmdDjMbtGd1n-C0UaOmxoH9WGDo99svQOLKjOa4r5zVDzNJAAKZGfS33rvBbh4e1cjyDs8tRxelBfJC7Z-6wPbEt5cvhfIWovIoaSQg8ZESyoggUP9b7lvinQhcTHesgPu",
+              "title": "facetofacespa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkT0FcBCmffK3MP2gejWD5iTn_IHNBsAhUcqu5sT9TK-mA9xLHSxDMel6_1E2MtEGmn6qjhiSRqoFkXH37xbATYt2GX6lmpzikSeqS4ZW8QswLNqKeYT342Tq6N59y8KMWzyKtJJx-7SQshq5Z4eFI",
+              "title": "facetofacespa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqtWI_OTfslxPL_rAbUrMr06Vo3cJTNUqftq35ttaodTvQLnZB3PkY9zjlF92Y0GiIx8gLbXOowNpiUAG6poRmQMvkRSEohe-UImFptAgddHR1s-Cu",
+              "title": "theluxeeffect.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8S2sMc-JwYT_ZFgh3OHrel0ia3fjnBuEk6ggpG0KrvOu6tNjAcO1xEjU2kCJSRobNJKV18rVfJFi4Kqxhum5QzD4Pb8eJqa60B8XVRoyMMhhfuPImtbQ=",
+              "title": "luminousmedispa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcUaBOjJcyTqlRaB2vRqGFWzKnIYqHWX0oVsOOmSAhN73O7jIMODwfb7wuri9TWqo15b5QLylsdMy6JahnozMuzdnHWK-vWtHhS7FTGWnbAbg5OuhuvqqvJrNKjzmz0Cm_tJ0erwjzzSKof4PsEQP-FGkg93WAqLiY",
+              "title": "avivaderm.com"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "startIndex": 111,
+              "endIndex": 256,
+              "text": "*   **H-Town Aesthetics:** Offers VI Chemical Peels, known for improving skin tone and texture, reducing signs of aging, and diminishing scarring"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.85041326
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 258,
+              "endIndex": 401,
+              "text": "They offer a range of specialized treatments like VI Peel Original, Advanced, Precision Plus, and Purify, each targeting specific skin concerns"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.95855683
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 403,
+              "endIndex": 520,
+              "text": "A Tox Booster Chemical Peel is also available to enhance the effects of VI Peels by targeting fine lines and wrinkles"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.9751847
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 522,
+              "endIndex": 686,
+              "text": "*   **Anita's Skin Care Clinic:** This clinic provides custom facials and chemical peels, taking a holistic approach to skincare to address individual skin concerns"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.9383224
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 688,
+              "endIndex": 785,
+              "text": "*   **Viata Aesthetics and Wellness:** Provides chemical peels tailored to your unique skin needs"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.38496444
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 787,
+              "endIndex": 930,
+              "text": "They offer Vi Peels and Vi Peel Precision Plus, which can improve skin tone, texture, and clarity, fade sunspots, and soften lines and wrinkles"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.93435776
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 932,
+              "endIndex": 1061,
+              "text": "*   **Face to Face Spa:** This medical spa offers chemical peels to support renewed smoothness, as well as other advanced options"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.93820864
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1063,
+              "endIndex": 1265,
+              "text": "They offer a wide array of skincare services in addition to chemical peels, and a series of six progressive exfoliation treatments spaced two weeks apart is typically recommended for optimal improvement"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.0054620844
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1267,
+              "endIndex": 1395,
+              "text": "*   **Luxe Medical Aesthetics:** Combines cutting-edge techniques and professional care with high-quality medical-grade products"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.9550142
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1397,
+              "endIndex": 1521,
+              "text": "*   **Luminous MediSpa Katy:** This med spa combines the relaxing aspects of a traditional spa with medical-grade treatments"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.92315096
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1523,
+              "endIndex": 1641,
+              "text": "*   **AVIVA Dermatology:** Expert dermatologists provide personalized chemical peel treatments to rejuvenate your skin"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.9392097
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "best chemical peel facial Katy TX",
+          "top rated chemical peel facial katy texas"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 6,
+    "candidatesTokenCount": 360,
+    "totalTokenCount": 366,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 6
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 360
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "azrRacmLJ7znz7IPzbjF4AU"
+}

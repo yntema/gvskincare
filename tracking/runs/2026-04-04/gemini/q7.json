@@ -1,0 +1,394 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Here are some options for professional facial treatments in Katy, TX, based on the search results:\n\n**Med Spas & Clinics:**\n\n*   **Anita's Skin Care Clinic:** This clinic offers customized facials, threading, dermaplaning, chemical peels, and waxing services. Anita takes a holistic approach, tailoring treatments to address individual skin concerns. They specialize in holistic skincare and beauty therapy treatments.\n*   **SkinSpirit Katy:** This medical spa offers custom facials, signature facials, and other aesthetic treatments like Botox, fillers, microneedling, and chemical peels. They focus on tailoring each treatment to your skin's needs.\n*   **Luminous MediSpa Katy:** They offer a range of services from facials and skin rejuvenation to injectables and laser treatments.\n*   **Face to Face Spa:** This beauty med spa offers high-quality treatments supported by medical guidance in a calm and welcoming setting. Services include classic facials and Hydrafacials. They also have a special offer for first-time clients: a 60-minute Premium Medi-Facial with a choice of chemical peel or microdermabrasion for $149.\n*   **Katy Med Tech Spa:** They offer personalized treatments and focus on customer service. First-time customers can get an Ageless Signature Facial or a luxurious Body Treatment for $59.99.\n*   **LUXE Medical Aesthetics:** This med spa combines cutting-edge techniques and professional care with high-quality products. They offer signature facials.\n\n**Day Spas:**\n\n*   **Spavia Cinco Ranch:** This day spa offers massage, facials, body treatments and waxing in a luxury setting.\n*   **Hand & Stone Katy:** They provide professional spa services at affordable prices, including various facials. Introductory classic facials are offered for $79.95 for non-members.\n\n**Other Options:**\n\n*   **The Only Facial:** They specialize in one signature facial, customizing the steps to each individual's skin type and concerns. They also offer a Teen Facial.\n*   **Hibiscus Aesthetics & Wellness:** They offer Hydrafacial, Acne Facial, Glow Facial, Chemical Peel and SkinPen Microneedling.\n*   **Divinity Spa:** They offer customized facial treatments using techniques like radiofrequency, ultrasound, and illuminator.\n\n**Deals:**\n\n*   **Groupon:** Check Groupon for deals on facials in and near Katy, TX.\n\nIt's recommended to check recent reviews and compare services and pricing before making a decision.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHNi2ue9xauqO3IUZtbRrDeWwPCxa831zVMv_mbqKMX_MVgcw7WFtc_VdSJpRrxnvX615C3xRkcuduYCn5TaIbrKMx17gzck3fG8dEs-An6oId4O34Isyphzww8KBAvABoRf3tXNo4BFzTesptZV5QIer9rQDAB4OOcpniuG7OlQCwEyFT7lEaq25-WOhYy-6BVAzDZK34uDDDJQ==\"\u003ebest facial spas Katy TX\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHZpkAHa8HcZB-BgH3vBwqxqlMCKKHSZ03SCzIIxrYtdjp-HXCkiQLwglCkQC0M3TfEu3DXM5y0unecBWBIV6kMSjoE31bhsgs6xKxZGj1LBujgQRNDbDNBfvlabf1HCJLcee7UmBBIj1ynEsxGDJ138zyrJY__Tek0mOdDWsmoXJFNguOIOdvm_vqS73Yd-gfYTDLu0eZ-mKJiJsGVgWvWH8pLa1O\"\u003etop rated facial treatments Katy TX\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLnzB7IJQlb3x4yZkewwwvhbJEfm8Qx9gAr_Qb9GupuEMDU3KpwtXjafMPxiv26zjTSvhAIHfkTKT6xdywgIbKFfocPKdRiHLVTt5lHldne98CdQWeLmLMDYaBL0gGN7Uu7MQ9DaHWNQ4-dA5hQQl9CJcCP4OwOVXil4u6MGLrHk7ySa1RABwR2p6AgmIAkw8O-EzCtpJ_bbq9KqGqbM0oVAGpOm4kuA==\"\u003eaffordable facial treatments Katy TX\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHz81VRbpKMc7F-43wIxPlQGLlYAfIaWtKSECa-rNkoT0AdKh0OOYDGeriQgK5URPI0duHvyiAFdcmaCTiEn3KgyPm__lvhXyFQPQ64YGY4hNiO4OTuSxcqdZyyxrBtonI=",
+              "title": "anitasskincareclinickaty.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeC-3BalNa46oibka9cNXkyazfT1Od5iUlwX7yH75lqx_QUPIRckDbCjBKY8XQPn9oDyQx5JOqsF43kijLngkHA2dx1JCyzMTyeUCxFx2swJyTPHdg2iA89yw-mCVkeItNXZYt",
+              "title": "skinspirit.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHxf_ztU0i4kiz3dCsCXM7vVn3VSSPo-us3pZm7_YFNjLKnxIu5NzeY6J4Veb_7-4fzOo4L0bFAMTYQe3mnyz41XeRc564y7OP60WtS1Mk8lbLJEVSZ18s=",
+              "title": "luminousmedispa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaj68lC0kLGy3l-FF87sDxJSNBDE3p3dRR4XBlH1DPuHxbaAW0fA0ToDXXWIQnu1uJz4x-T3DDYFV4cF4uZBe_XnuzpM2zzmEVpWS58Mf4nw1nZJfZ3kk8ta7OWRUe3V4J",
+              "title": "facetofacespa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVhdkYiqZL8aYjXU8IJAZk4tbYrhHjzuU6twDqg623PqDSxy34PDVpb-7swd8fCiIcOpSxLx_vR-UKXteqN651aXijAw700MIiR0v5YaOo5_v3NKH2HA==",
+              "title": "katymedtechspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBtjhPIWOqexy83rv1pySumOOEC0csdj3o6sUEYOINJS-5UHAWvWnmU3mZHUtkCyz6_bi8bRKWx-Sw51xMOw8agd5ID-eYmsfpZjoCTcf60peOhQX9",
+              "title": "theluxeeffect.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIErkvD_lyebb45zA46Ue95fYwmPv4MWlBVk0ba9Zjk_ukaJlubXNIsKi0AwEHVeDLBPb3SV6ZnXjICvTeiHU_lJP9sGRvHOLXWq7uXJ9sZztl19FZvQ9NHI3k07EPe0Kh",
+              "title": "spaviadayspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFKmoB2vmJBBXf1p2StrwjdAkEU9UL8IBKEaoHX1geIRTVJGPwHVyfzsc4Dxy-3mtxiIlhvRB7DpvQCMkTZfTpFpumTU9VNTSMXT5yyLkHhXc4zqsFnOcXeHOPX8n3J_jAX5nA=",
+              "title": "handandstone.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7mUuPCjRbkvD5pgI5TQvu_p06hpzeMUpCWZJRG5dva3Aa8VVSAegVk8-A80ccgIzL00zfpL5jmd8hGSyYh9isy6fay4nHJ7g69BrFn6hwExbC8fRFX3mMF94G4BdjIMVojuWYCDdXuw==",
+              "title": "theonlyfacial.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE23q-hHXMJjSQccnTKE0YRyh1r4zjRM1uS5ZVCjlV6TphhlRPuff8lGVkvwMGFm3n8oUxjwxHpV4pV_3-FaT1xlLp7vfIcScqy2upemOgO4LX5MOd1jQveFdJh1swRWODF9Govq7FS0HSPcum4CcZ3Xw==",
+              "title": "hibiscus.health"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoVOq92CgkttPRkcJ5jm505LDK8rtFcgYsxxRnP2ytAQaiWsvv6DeXPgFQpt9N1PjNQXYNpRh6f-BhCKq8lKDyuJnaJNLSBd8fHENaWg-iH3t0GeERyDMTOWjczw==",
+              "title": "divinityspa-katy.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcAJWrKHp3sobWAYnXN8VWqtDBUyPKO0Zw8fhlPxzAOr0oPn_PGnihfHrnfHxFU7Yc-XPhy5YoDZHd_yn_EvXu1P97UD0ElAIhHie6Q3tCj3IZq7FUDD_3y_NOCARCweCE49ownJEU",
+              "title": "groupon.com"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "startIndex": 125,
+              "endIndex": 258,
+              "text": "*   **Anita's Skin Care Clinic:** This clinic offers customized facials, threading, dermaplaning, chemical peels, and waxing services"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.92191744
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 260,
+              "endIndex": 349,
+              "text": "Anita takes a holistic approach, tailoring treatments to address individual skin concerns"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.91118956
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 351,
+              "endIndex": 417,
+              "text": "They specialize in holistic skincare and beauty therapy treatments"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.88828564
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 419,
+              "endIndex": 588,
+              "text": "*   **SkinSpirit Katy:** This medical spa offers custom facials, signature facials, and other aesthetic treatments like Botox, fillers, microneedling, and chemical peels"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.24808429
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 590,
+              "endIndex": 649,
+              "text": "They focus on tailoring each treatment to your skin's needs"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.6416826
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 651,
+              "endIndex": 783,
+              "text": "*   **Luminous MediSpa Katy:** They offer a range of services from facials and skin rejuvenation to injectables and laser treatments"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.9335381
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 785,
+              "endIndex": 923,
+              "text": "*   **Face to Face Spa:** This beauty med spa offers high-quality treatments supported by medical guidance in a calm and welcoming setting"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.9614489
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 925,
+              "endIndex": 974,
+              "text": "Services include classic facials and Hydrafacials"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.008380485
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 976,
+              "endIndex": 1123,
+              "text": "They also have a special offer for first-time clients: a 60-minute Premium Medi-Facial with a choice of chemical peel or microdermabrasion for $149"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.0035100984
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1125,
+              "endIndex": 1216,
+              "text": "*   **Katy Med Tech Spa:** They offer personalized treatments and focus on customer service"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.82680553
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1218,
+              "endIndex": 1315,
+              "text": "First-time customers can get an Ageless Signature Facial or a luxurious Body Treatment for $59.99"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.96450406
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1317,
+              "endIndex": 1444,
+              "text": "*   **LUXE Medical Aesthetics:** This med spa combines cutting-edge techniques and professional care with high-quality products"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.6794762
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1446,
+              "endIndex": 1474,
+              "text": "They offer signature facials"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.87821174
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1492,
+              "endIndex": 1604,
+              "text": "*   **Spavia Cinco Ranch:** This day spa offers massage, facials, body treatments and waxing in a luxury setting"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.94811696
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1606,
+              "endIndex": 1719,
+              "text": "*   **Hand & Stone Katy:** They provide professional spa services at affordable prices, including various facials"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.89642566
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1721,
+              "endIndex": 1788,
+              "text": "Introductory classic facials are offered for $79.95 for non-members"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.7775453
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1811,
+              "endIndex": 1942,
+              "text": "*   **The Only Facial:** They specialize in one signature facial, customizing the steps to each individual's skin type and concerns"
+            },
+            "groundingChunkIndices": [
+              8
+            ],
+            "confidenceScores": [
+              0.93427366
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1944,
+              "endIndex": 1973,
+              "text": "They also offer a Teen Facial"
+            },
+            "groundingChunkIndices": [
+              8
+            ],
+            "confidenceScores": [
+              0.4619508
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1975,
+              "endIndex": 2104,
+              "text": "*   **Hibiscus Aesthetics & Wellness:** They offer Hydrafacial, Acne Facial, Glow Facial, Chemical Peel and SkinPen Microneedling"
+            },
+            "groundingChunkIndices": [
+              9
+            ],
+            "confidenceScores": [
+              0.13583414
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2106,
+              "endIndex": 2233,
+              "text": "*   **Divinity Spa:** They offer customized facial treatments using techniques like radiofrequency, ultrasound, and illuminator"
+            },
+            "groundingChunkIndices": [
+              10
+            ],
+            "confidenceScores": [
+              0.936762
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2248,
+              "endIndex": 2320,
+              "text": "*   **Groupon:** Check Groupon for deals on facials in and near Katy, TX"
+            },
+            "groundingChunkIndices": [
+              11
+            ],
+            "confidenceScores": [
+              0.8602886
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "top rated facial treatments Katy TX",
+          "best facial spas Katy TX",
+          "affordable facial treatments Katy TX"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 5,
+    "candidatesTokenCount": 535,
+    "totalTokenCount": 540,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 5
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 535
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "TjrRadnaJ67pz7IPjKyV-AQ"
+}

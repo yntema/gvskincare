@@ -1,0 +1,138 @@
+{
+  "id": "resp_0f857875f776a2c90069d1349e307c8195941a83d0ff94b016",
+  "object": "response",
+  "created_at": 1775318174,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318183,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0f857875f776a2c90069d1349e51588195a5c4c8472abe9a81",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Teen acne treatment options Katy Texas"
+        ],
+        "query": "Teen acne treatment options Katy Texas"
+      }
+    },
+    {
+      "id": "msg_0f857875f776a2c90069d1349f4488819598222e3cdbb18d8a",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 1025,
+              "start_index": 952,
+              "title": "AcneFix\u00ae | Acne Treatment in Katy, TX",
+              "url": "https://www.acnefix.com/locations/katy?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1616,
+              "start_index": 1501,
+              "title": "Teen Acne Treatment Success with Winlevi\u00ae and Tretinoin in Katy & Houston, Texas \u2014 Reena Jogi, MD | PRP Hair Restoration Expert Houston, TX",
+              "url": "https://www.reenajogi.com/blog1/teen-acne-management-in-katy-and-houston-texas?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2345,
+              "start_index": 2276,
+              "title": "Acne | Dermatologist In Katy, TX | Dermatology Associates of Katy",
+              "url": "https://www.dermofkaty.com/acne?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2818,
+              "start_index": 2696,
+              "title": "Laser Acne Treatment | Preferred Aesthetics & Wellness",
+              "url": "https://preferredaestheticsandwellness.com/laser-acne-treatment/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3343,
+              "start_index": 3255,
+              "title": "Acne Treatment \u2013 Oasis Laser MedSpa",
+              "url": "https://oasislasermedspa.com/acne-treatment/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3698,
+              "start_index": 3609,
+              "title": "ACNE FACIAL \u2013 Katy Med Tech Spa",
+              "url": "https://katymedtechspa.com/products/acne-facial?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Managing teen acne effectively often requires a combination of professional treatments and consistent skincare routines. In Katy, Texas, several reputable dermatology clinics offer specialized services for adolescents dealing with acne.\n\n**AcneFix\u00ae**\n\nAcneFix\u00ae specializes in personalized acne treatments tailored to individual skin types and concerns. Their services include:\n\n- **Acne Consultation**: Comprehensive skin assessment to identify acne type and develop a customized treatment plan.\n- **Acne Consultation and Treatment**: Combines initial consultation with the first treatment session, incorporating extractions, high-frequency therapy, and LED light therapy.\n- **Acne Treatment**: Ongoing sessions featuring professional extractions, high-frequency treatment, and LED light therapy.\n\n*Location*: 707 S Fry Rd, Ste. 495, Katy, TX 77450\n\n*Contact*: 832-237-6178\n\n*Hours*: Tuesday to Friday: 10:30 AM \u2013 6:30 PM; Saturday: 9:00 AM \u2013 1:30 PM\n\n([acnefix.com](https://www.acnefix.com/locations/katy?utm_source=openai))\n\n**Reena Jogi, MD**\n\nDr. Reena Jogi offers comprehensive acne management plans, including:\n\n- **Topical Therapies**: Utilization of medications like Winlevi\u00ae (clascoterone) and tretinoin to reduce inflammation and prevent new breakouts.\n- **Oral Medications**: For severe cases, treatments such as isotretinoin (commonly known as Accutane) are prescribed to target acne at its source.\n\n*Location*: Houston and Katy, TX\n\n*Contact*: Details available on the clinic's website.\n\n([reenajogi.com](https://www.reenajogi.com/blog1/teen-acne-management-in-katy-and-houston-texas?utm_source=openai))\n\n**Dermatology Associates of Katy**\n\nDr. Uyen Ngoc Mui provides various acne treatments, including:\n\n- **Prescription Medications**: Topical and oral antibiotics to address bacterial infections.\n- **Benzoyl Peroxide Products**: To unclog pores and reduce blackheads and whiteheads.\n- **Tretinoin Medications**: For severe acne cases.\n- **Laser Therapy**: To eliminate underlying bacteria.\n- **Extraction Treatments**: To remove blackheads and whiteheads.\n\n*Location*: 23510 Kingsland Boulevard, Suite 110, Katy, TX 77494\n\n*Contact*: (281) 400-1224\n\n*Hours*: Monday to Friday: 9:00 AM \u2013 12:00 PM, 1:00 PM \u2013 6:00 PM; One Saturday per month: 8:00 AM \u2013 12:00 PM\n\n([dermofkaty.com](https://www.dermofkaty.com/acne?utm_source=openai))\n\n**Preferred Aesthetics & Wellness**\n\nThis clinic offers AviClear\u00ae, the first FDA-cleared energy device for treating mild to severe acne. AviClear\u00ae uses laser light to target and suppress sebaceous glands, reducing acne without the need for prescription medications.\n\n*Location*: 1450 W Grand Pkwy S Ste M, Katy, TX 77494\n\n*Contact*: (346) 485-5623\n\n([preferredaestheticsandwellness.com](https://preferredaestheticsandwellness.com/laser-acne-treatment/?utm_source=openai))\n\n**Oasis Laser MedSpa**\n\nOasis Laser MedSpa provides acne treatments focusing on reducing breakouts and preventing future blemishes through:\n\n- **Topical Medications**: To address mild to moderate acne.\n- **Advanced Therapies**: Including laser treatments tailored to clear the skin and minimize scarring.\n\n*Location*: 25145 Star Ln, Suite 301, Katy, TX 77494\n\n*Contact*: (713) 999-4494\n\n*Hours*: Monday to Saturday: 9:00 AM \u2013 6:00 PM\n\n([oasislasermedspa.com](https://oasislasermedspa.com/acne-treatment/?utm_source=openai))\n\n**Katy Med Tech Spa**\n\nOffers specialized acne facials designed to cleanse and target flare-ups and redness, promoting clearer skin.\n\n*Location*: 25145 Star Ln Suite 1002, Katy, TX 77494\n\n*Contact*: +1 832-554-4948\n\n*Hours*: Sunday to Saturday: 8:00 AM \u2013 8:00 PM\n\n([katymedtechspa.com](https://katymedtechspa.com/products/acne-facial?utm_source=openai))\n\nWhen selecting a treatment option, it's essential to consult with a dermatologist to develop a personalized plan that addresses the specific needs and severity of the acne. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 306,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 977,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1283
+  },
+  "user": null,
+  "metadata": {}
+}

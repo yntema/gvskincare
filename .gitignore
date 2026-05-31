@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets / API keys (audit.sh sources .env from here or ~/repos/gotomarket/.env)
+.env
+.env.*
+*.key
+
+# Local tooling artifacts
+.playwright-mcp/
+*.jpeg

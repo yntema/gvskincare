@@ -1,0 +1,124 @@
+{
+  "id": "resp_0887e015fd8329250069d134b92aa8819fb4930dade3b250f9",
+  "object": "response",
+  "created_at": 1775318201,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318206,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0887e015fd8329250069d134b94298819f835aebae67ddd462",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Woodhouse Spa alternatives Katy Houston"
+        ],
+        "query": "Woodhouse Spa alternatives Katy Houston"
+      }
+    },
+    {
+      "id": "msg_0887e015fd8329250069d134ba3bbc819fa42726f37bb4949f",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 205,
+              "start_index": 137,
+              "title": "MedSpa at Villagio",
+              "url": "http://medspaatvillagio.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 564,
+              "start_index": 456,
+              "title": "Houstonian Trellis Spa",
+              "url": "https://www.trellisspa.com/?utm_medium=Search&utm_campaign=local&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 967,
+              "start_index": 823,
+              "title": "Spa World Houston - Korean Spa & Sauna",
+              "url": "https://spaworldhouston.com/?utm_medium=organic&utm_campaign=google_business_profile&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1344,
+              "start_index": 1195,
+              "title": "Organic Spa Houston (Museum District)",
+              "url": "https://organic-spa-houston.zoca.com/?utm_medium=googlemapsprofile&utm_campaign=googlemaps&utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "If you're seeking alternatives to The Woodhouse Day Spa in the Katy and Houston area, here are several reputable options to consider:\n\n**[MedSpa at Villagio](http://medspaatvillagio.com/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.9 (478 reviews)**  \n_22764 Westheimer Pkwy # 690, Katy, TX 77450_  \nCombines traditional spa services with medical aesthetics, offering treatments like Botox, dermal fillers, laser hair removal, and microneedling.\n\n**[Houstonian Trellis Spa](https://www.trellisspa.com/?utm_medium=Search&utm_campaign=local&utm_source=openai)**  \n**Open now \u00b7 Spa \u00b7 4.2 (544 reviews)**  \n_111 N Post Oak Ln, Houston, TX 77024_  \nA Forbes Four-Star rated spa situated at The Houstonian Hotel, offering custom massages, advanced skincare, hydrotherapy, and fitness classes in an elegant environment.\n\n**[Spa World Houston - Korean Spa & Sauna](https://spaworldhouston.com/?utm_medium=organic&utm_campaign=google_business_profile&utm_source=openai)**  \n**Open now \u00b7 Spa \u00b7 4.2 (1282 reviews)**  \n_929 Westgreen Blvd, Katy, TX 77450_  \nA Korean-style spa and sauna featuring various therapy rooms, hot tubs, and relaxation lounges. Provides a unique cultural spa experience.\n\n**[Organic Spa Houston (Museum District)](https://organic-spa-houston.zoca.com/?utm_medium=googlemapsprofile&utm_campaign=googlemaps&utm_source=openai)**  \n**Open now \u00b7 Day spa \u00b7 $$ \u00b7 4.8 (241 reviews)**  \n_5305 Jackson St, Houston, TX 77004_  \nSpecializes in organic skincare and beauty treatments, including facials, brow and lash services, and permanent makeup, using vegan-friendly and paraben-free products.\n\nEach of these spas offers a unique experience, so consider your specific preferences and desired treatments when making a selection. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 306,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 419,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 725
+  },
+  "user": null,
+  "metadata": {}
+}

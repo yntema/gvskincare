@@ -1,0 +1,131 @@
+{
+  "id": "resp_08721847abc970310069d134bfaef4819ea703a9d783c90a4d",
+  "object": "response",
+  "created_at": 1775318207,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318211,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_08721847abc970310069d134bfc594819eb320e3440713d4c6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best HydraFacial provider Houston Katy area"
+        ],
+        "query": "Best HydraFacial provider Houston Katy area"
+      }
+    },
+    {
+      "id": "msg_08721847abc970310069d134c0b644819eb13e54d27fedab44",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 194,
+              "start_index": 122,
+              "title": "Skin 101 Medical Spa",
+              "url": "http://www.skin101houston.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 604,
+              "start_index": 535,
+              "title": "Luminous MediSpa",
+              "url": "http://www.luminousmedispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1051,
+              "start_index": 939,
+              "title": "Elite Dermatology & Plastic Surgery",
+              "url": "https://www.elitedermatology.com/?utm_campaign=fulshear&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1432,
+              "start_index": 1369,
+              "title": "Selah MediSpa",
+              "url": "http://www.selahmedispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1879,
+              "start_index": 1757,
+              "title": "Lind Plastic Surgery & Med Spa",
+              "url": "http://www.lindplasticsurgery.com/?utm_medium=organic&utm_campaign=gmb&utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "If you're seeking a HydraFacial provider in the Houston and Katy area, here are several reputable options to consider:\n\n**[Skin 101 Medical Spa](http://www.skin101houston.com/?utm_source=openai)**  \n**Open now \u00b7 Skin care clinic \u00b7 4.8 (178 reviews)**  \n_11300 Katy Fwy B625, Houston, TX 77043_  \nLocated at 11300 Katy Freeway, Suite B-625, SKIN 101 offers HydraFacial treatments combining cleansing, exfoliation, extraction, hydration, and antioxidant protection. They cater to both men and women, addressing various skin concerns.\n\n**[Luminous MediSpa](http://www.luminousmedispa.com/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 5.0 (134 reviews)**  \n_410 W Grand Pkwy S #310, Katy, TX 77494_  \nSituated at 410 W Grand Pkwy S, Suite 310, Luminous MediSpa provides HydraFacial treatments tailored to individual skin needs. They offer Signature, Deluxe, and Platinum HydraFacials, each designed to rejuvenate and hydrate the skin.\n\n**[Elite Dermatology & Plastic Surgery](https://www.elitedermatology.com/?utm_campaign=fulshear&utm_source=openai)**  \n**Closed \u00b7 Dermatologist \u00b7 4.9 (3053 reviews)**  \n_27131 Fulshear Bend Dr, Fulshear, TX 77441_  \nWith a location at 27131 Fulshear Bend Dr, Elite Dermatology provides HydraFacial services that cleanse, exfoliate, extract, and hydrate the skin. Their treatments are customized to address various skin concerns.\n\n**[Selah MediSpa](http://www.selahmedispa.com/?utm_source=openai)**  \n**Open now \u00b7 Medical clinic \u00b7 4.8 (421 reviews)**  \n_21715 Kingsland Blvd #100, Katy, TX 77450_  \nLocated at 21767 Provincial Blvd, Suite 110, Selah MediSpa offers HydraFacial treatments that cleanse, exfoliate, extract, and hydrate the skin. Their services aim to improve skin texture, tone, and overall appearance.\n\n**[Lind Plastic Surgery & Med Spa](http://www.lindplasticsurgery.com/?utm_medium=organic&utm_campaign=gmb&utm_source=openai)**  \n**Closed \u00b7 Plastic surgeon \u00b7 4.9 (245 reviews)**  \n_3592 Harmony Commons Dr, Spring, TX 77386_  \nLocated in Houston, Lind Plastic Surgery offers HydraFacial MD treatments that cleanse, exfoliate, extract, and hydrate the skin, providing a refreshed and more youthful complexion.\n\nWhen selecting a provider, consider factors such as proximity, specific services offered, and any current promotions. It's advisable to contact the clinics directly to inquire about availability, pricing, and to schedule a consultation to determine the best treatment plan for your skin needs. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 310,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 601,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 911
+  },
+  "user": null,
+  "metadata": {}
+}

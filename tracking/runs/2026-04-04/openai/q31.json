@@ -1,0 +1,138 @@
+{
+  "id": "resp_0b434db3524c75e00069d134ca646081a1a3bc47b8bbcd1bff",
+  "object": "response",
+  "created_at": 1775318218,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318224,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0b434db3524c75e00069d134ca7ae481a1828ddd3e28653600",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Is HydraFacial worth it?"
+        ],
+        "query": "Is HydraFacial worth it?"
+      }
+    },
+    {
+      "id": "msg_0b434db3524c75e00069d134cb181881a1a3cc0c3a0456251e",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 752,
+              "start_index": 672,
+              "title": "HydraFacial Reviews | Was it Worth It? | RealSelf",
+              "url": "https://www.realself.com/reviews/hydrafacial?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1071,
+              "start_index": 968,
+              "title": "Hydrafacial | Honest Patient Feedback & Results",
+              "url": "https://www.consultingroom.com/treatment/hydrafacial/reviews/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1782,
+              "start_index": 1691,
+              "title": "What Is a HydraFacial? Benefits, Side Effects, Procedure, and Cost",
+              "url": "https://www.healthline.com/health/what-is-hydrafacial?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2179,
+              "start_index": 2088,
+              "title": "What Is a HydraFacial? Benefits, Side Effects, Procedure, and Cost",
+              "url": "https://www.healthline.com/health/what-is-hydrafacial?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2610,
+              "start_index": 2519,
+              "title": "What Is a HydraFacial? Benefits, Side Effects, Procedure, and Cost",
+              "url": "https://www.healthline.com/health/what-is-hydrafacial?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3188,
+              "start_index": 3044,
+              "title": "Hydrafacial Before & After Review for Acne and Aging Skin... Is it Worth $150??",
+              "url": "https://www.youtube.com/watch?v=twpnd8J6IKo&utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "HydraFacial is a non-invasive skincare treatment that combines cleansing, exfoliation, extraction, hydration, and antioxidant protection. It aims to improve skin texture, tone, and overall appearance.\n\n**Effectiveness and User Satisfaction:**\n\nMany individuals report positive outcomes from HydraFacial treatments. On RealSelf, a platform for cosmetic procedure reviews, HydraFacial holds a 95% \"Worth It\" rating based on 102 recent reviews. Users have noted improvements in skin clarity, hydration, and a reduction in breakouts. For instance, one reviewer mentioned feeling refreshed and relaxed after the treatment, highlighting the professionalism of the clinic staff. ([realself.com](https://www.realself.com/reviews/hydrafacial?utm_source=openai))\n\nSimilarly, Consulting Room features 108 reviews with an average rating of 4.9 out of 5 stars. Users praised the treatment for enhancing skin glow and addressing specific concerns like blackheads and clogged pores. ([consultingroom.com](https://www.consultingroom.com/treatment/hydrafacial/reviews/?utm_source=openai))\n\n**Procedure and Benefits:**\n\nA typical HydraFacial session lasts less than an hour and involves multiple steps:\n\n- **Cleansing and Exfoliation:** Removes dead skin cells and excess sebum.\n- **Acid Peel:** Applies a gentle chemical peel to loosen debris.\n- **Extraction:** Uses a vacuum-like device to extract impurities from pores.\n- **Hydration:** Delivers moisturizing serums into the skin.\n\nThis process is designed to be gentle, making it suitable for various skin types, including sensitive skin. The treatment addresses multiple skin concerns, such as fine lines, wrinkles, enlarged pores, and uneven skin tone. ([healthline.com](https://www.healthline.com/health/what-is-hydrafacial?utm_source=openai))\n\n**Cost Considerations:**\n\nThe cost of a HydraFacial varies depending on location and provider, with sessions typically starting around $175. Additional treatments or booster serums can increase the price. While more expensive than standard facials, some find the comprehensive benefits justify the cost. ([healthline.com](https://www.healthline.com/health/what-is-hydrafacial?utm_source=openai))\n\n**Potential Side Effects:**\n\nHydraFacial is generally well-tolerated, with minimal side effects. Some individuals may experience slight redness or tingling immediately after the procedure, but these effects usually subside quickly. It's advisable to avoid exfoliating treatments for a couple of days post-treatment to prevent irritation. ([healthline.com](https://www.healthline.com/health/what-is-hydrafacial?utm_source=openai))\n\n**Conclusion:**\n\nHydraFacial has garnered positive feedback for its ability to enhance skin health and appearance with minimal downtime. However, individual experiences may vary. Consulting with a dermatologist or licensed skincare professional can help determine if HydraFacial aligns with your specific skin needs and goals.\n\nFor a visual perspective on the treatment and its results, you might find the following video helpful:\n\n[Hydrafacial Before & After Review for Acne and Aging Skin... Is it Worth $150??](https://www.youtube.com/watch?v=twpnd8J6IKo&utm_source=openai)\n "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 308,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 660,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 968
+  },
+  "user": null,
+  "metadata": {}
+}

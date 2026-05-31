@@ -1,0 +1,138 @@
+{
+  "id": "resp_0cb1110e5d27977f0069d1347533f881928f52e6e7c8a16adc",
+  "object": "response",
+  "created_at": 1775318133,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318137,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0cb1110e5d27977f0069d134756a3481928a17bca2f5a75399",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best treatment for melasma near Houston"
+        ],
+        "query": "Best treatment for melasma near Houston"
+      }
+    },
+    {
+      "id": "msg_0cb1110e5d27977f0069d1347624308192a2051f21f4d9c48d",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 372,
+              "start_index": 279,
+              "title": "DermSurgery Associates \u2013 Main - Dermatology",
+              "url": "https://www.dermsurgery.org/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 725,
+              "start_index": 648,
+              "title": "Houston Laser Skin Center",
+              "url": "https://www.houstonlasers.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1052,
+              "start_index": 941,
+              "title": "Elite Dermatology & Plastic Surgery",
+              "url": "https://www.elitedermatology.com/?utm_campaign=heights&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1382,
+              "start_index": 1314,
+              "title": "West Houston Dermatology",
+              "url": "http://www.whderm.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1796,
+              "start_index": 1631,
+              "title": "Dermatology & Laser Surgery Center",
+              "url": "https://www.dermlasersurgery.com/?utm_medium=organic&utm_campaign=dermatology+laser+surgery+center+houston+tx&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2122,
+              "start_index": 2050,
+              "title": "Inkfree, MD Laser Clinic",
+              "url": "https://www.inkfreemd.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Melasma is a common skin condition characterized by dark, discolored patches, often on the face. Effective treatments are available in the Houston area, ranging from topical medications to advanced laser therapies. Here are some reputable clinics offering melasma treatments:\n\n**[DermSurgery Associates \u2013 Main - Dermatology](https://www.dermsurgery.org/?utm_source=openai)**  \n**Closed \u00b7 Dermatologist \u00b7 4.6 (87 reviews)**  \n_6700 W Loop S Suite 500, Bellaire, TX 77401_  \nOffers treatments including topical medications like hydroquinone and tretinoin, as well as in-office procedures such as Fraxel\u00ae laser skin resurfacing and chemical peels.\n\n**[Houston Laser Skin Center](https://www.houstonlasers.com/?utm_source=openai)**  \n**Closed \u00b7 Medical clinic**  \n_Houston, TX 77065_  \nProvides laser therapy using advanced technology to target hyperpigmentation associated with melasma, with treatments designed to be quick and comfortable.\n\n**[Elite Dermatology & Plastic Surgery](https://www.elitedermatology.com/?utm_campaign=heights&utm_source=openai)**  \n**Closed \u00b7 Dermatologist \u00b7 4.8 (946 reviews)**  \n_2222 N Shepherd Dr Suite 102, Houston, TX 77008_  \nProvides integrative treatments for melasma, including topical therapies and advanced procedures, across multiple locations in the Greater Houston area.\n\n**[West Houston Dermatology](http://www.whderm.com/?utm_source=openai)**  \n**Closed \u00b7 Dermatologist \u00b7 3.8 (85 reviews)**  \n_2925 Briarpark Dr # 150, Houston, TX 77042_  \nOffers a variety of treatments including topical medications, chemical peels, microdermabrasion, and fractional laser therapy to address melasma.\n\n**[Dermatology & Laser Surgery Center](https://www.dermlasersurgery.com/?utm_medium=organic&utm_campaign=dermatology+laser+surgery+center+houston+tx&utm_source=openai)**  \n**Closed \u00b7 Skin care clinic \u00b7 4.7 (300 reviews)**  \n_1802 Binz St Suite 500, Houston, TX 77004_  \nOffers treatments such as microdermabrasion, Clear + Brilliant\u00ae Touch Laser, Vbeam\u00ae Laser, Spectra\u2122 Laser Skin Treatment, and PicoWay\u2122 for melasma.\n\n**[Inkfree, MD Laser Clinic](https://www.inkfreemd.com/?utm_source=openai)**  \n**Open now \u00b7 Tattoo removal service \u00b7 4.8 (119 reviews)**  \n_11240 Farm to Market 1960 Rd W #401, Houston, TX 77065_  \nUtilizes the SPECTRA\u2122 laser, the only FDA-cleared laser for melasma treatment, providing effective outcomes as part of a comprehensive treatment regimen.\n\nIt's essential to consult with a board-certified dermatologist to determine the most appropriate treatment plan tailored to your specific needs. These clinics offer a range of options to help manage and reduce the appearance of melasma effectively. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 308,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 630,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 938
+  },
+  "user": null,
+  "metadata": {}
+}

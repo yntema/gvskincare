@@ -1,0 +1,300 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Radiofrequency (RF) microneedling is a minimally invasive cosmetic procedure that combines traditional microneedling with radiofrequency energy to rejuvenate the skin. It is used to address wrinkles, acne scars, age spots, and lax skin.\n\nHere's how it works:\n\n*   A device with tiny, sterile needles creates micro-injuries in the skin, triggering the body's natural healing response and stimulating collagen and elastin production.\n*   Simultaneously, the device delivers RF energy deep into the dermis, further enhancing skin tightening and scar reduction. The RF energy heats the underlying layers of skin, causing constriction and tightening.\n\nThe benefits of RF microneedling include:\n\n*   Improved skin texture and firmness\n*   Skin resurfacing\n*   Reduction in wrinkles, acne scars, and large pores\n*   Tighter skin\n*   Reduced appearance of stretch marks, age spots, and sun spots\n\nCompared to traditional microneedling, RF microneedling produces more dramatic results faster. It is also comparable to laser skin resurfacing but with a shorter downtime. Improvements can be seen within a few weeks, with full results typically visible after 3-6 months. Results can last up to 1-2 years, and maintenance treatments are recommended once a year to maintain the results.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHjWlNDMOssJJwdcSfNpyzJl_cR7ETABgqzgWpY6LmAV_3mubPns_gk16D11sfVv-jFDwuniunSxRPZtzbkg4OpX3JqMYNsoAzl4mnAMXp8dqhBBLT52C5p8n6uKAFkbrryjx97mTv5TOyBFDRK8zhZn1jWR2_Q6peaabq4C_oEsfXY2USuskNRKXssckWyBcS7pmCCVJKqrjdeIYDQCM=\"\u003eradiofrequency microneedling\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHHZjVoOwjgt_nSsS-jqI4lARzbHhUfmIzyjlrOPFCXoxGQpDT4DH-BnZwrOZl33XyJiTfQvtG8m5_zqFy2dyH5JKsDRwdhWTF61rPFUOYQ9dsB8YXIEoeiIkfWSkacRxCMZFBg6ze6m1ps1CvJFdv7rMFsXSGtdeqKaljvjNDoAgJn",
+              "title": "theskincentermd.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkBg8IQfkwZ6YEISdy88hZI33rS-AVvocWmiM2tQd-8TBHAa4bCZ33pV_Tv4cwiqRAJX8HHNo4B6zhN37TvNVF_-ecPGTPe73PksregrrFpgiWFZFR0b_G6hscioYMcoAua0bC-DNjWhXFEpwobf0l",
+              "title": "unionderm.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5zE8RdkxroPjdFEefZoH1RJnOHTRlmANWbx8LHimMHnKja74hLNE8cOLp7iAMuiasm9RAnGYgXn7mZYM9OgOppt8rhLLOqzDOddz-GFzd6OnoUTRZlwn7jHIlos_wWW7wMVHT_TSc6CI-v0em1dfmq8TzbAdt9g==",
+              "title": "lumenis.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwTpR5APBORaF4be3l0Uu3ozDZTlLS3QRqb3aFjR4glnC0vFayd5szEx2BoASvSg2awZI48nctPpDKv3P99kKD3dga0JT9zzV3zDoBFWwVaQHLBEUpojWjJdaT6Z0RMmTQpkdc9J5DEFESkCASLuPQDRHc69zOlDcg",
+              "title": "healthline.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkapduSAclPE17I1N4SKwLSaDKwWZD_oQSS3-K9qKvblfBy_yYtY8fMQPtjf-C_Uy8knpP-LWZyKmpMLyB88MqYwM-fuhptBJCjvHF4SFlM9ZovbqjB86dr59kc7-IhT5o2b3DiCDJeszRIXxJr17zCNa_SjZ_9RuJ35BQxNecz8WKTJpkiXjIx9Q=",
+              "title": "bhskin.com"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "endIndex": 166,
+              "text": "Radiofrequency (RF) microneedling is a minimally invasive cosmetic procedure that combines traditional microneedling with radiofrequency energy to rejuvenate the skin"
+            },
+            "groundingChunkIndices": [
+              0,
+              1
+            ],
+            "confidenceScores": [
+              0.6971142,
+              0.6943191
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 168,
+              "endIndex": 235,
+              "text": "It is used to address wrinkles, acne scars, age spots, and lax skin"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.94411945
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 238,
+              "endIndex": 257,
+              "text": "Here's how it works"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.39634055
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 260,
+              "endIndex": 430,
+              "text": "*   A device with tiny, sterile needles creates micro-injuries in the skin, triggering the body's natural healing response and stimulating collagen and elastin production"
+            },
+            "groundingChunkIndices": [
+              0,
+              2
+            ],
+            "confidenceScores": [
+              0.8928886,
+              0.12561586
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 432,
+              "endIndex": 556,
+              "text": "*   Simultaneously, the device delivers RF energy deep into the dermis, further enhancing skin tightening and scar reduction"
+            },
+            "groundingChunkIndices": [
+              2,
+              0
+            ],
+            "confidenceScores": [
+              0.8068665,
+              0.36039934
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 558,
+              "endIndex": 644,
+              "text": "The RF energy heats the underlying layers of skin, causing constriction and tightening"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.94599235
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 647,
+              "endIndex": 687,
+              "text": "The benefits of RF microneedling include"
+            },
+            "groundingChunkIndices": [
+              1,
+              0,
+              3
+            ],
+            "confidenceScores": [
+              0.6614825,
+              0.7590816,
+              0.7179985
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 690,
+              "endIndex": 728,
+              "text": "*   Improved skin texture and firmness"
+            },
+            "groundingChunkIndices": [
+              0,
+              2
+            ],
+            "confidenceScores": [
+              0.8749324,
+              0.806479
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 729,
+              "endIndex": 749,
+              "text": "*   Skin resurfacing"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.444482
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 750,
+              "endIndex": 804,
+              "text": "*   Reduction in wrinkles, acne scars, and large pores"
+            },
+            "groundingChunkIndices": [
+              1,
+              3
+            ],
+            "confidenceScores": [
+              0.24657647,
+              0.44150588
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 805,
+              "endIndex": 821,
+              "text": "*   Tighter skin"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.38440913
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 822,
+              "endIndex": 887,
+              "text": "*   Reduced appearance of stretch marks, age spots, and sun spots"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.760875
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 889,
+              "endIndex": 982,
+              "text": "Compared to traditional microneedling, RF microneedling produces more dramatic results faster"
+            },
+            "groundingChunkIndices": [
+              1,
+              0
+            ],
+            "confidenceScores": [
+              0.9515947,
+              0.08181898
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 984,
+              "endIndex": 1059,
+              "text": "It is also comparable to laser skin resurfacing but with a shorter downtime"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.8678851
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1061,
+              "endIndex": 1158,
+              "text": "Improvements can be seen within a few weeks, with full results typically visible after 3-6 months"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.9537344
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1160,
+              "endIndex": 1272,
+              "text": "Results can last up to 1-2 years, and maintenance treatments are recommended once a year to maintain the results"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.9672956
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "radiofrequency microneedling"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 9,
+    "candidatesTokenCount": 271,
+    "totalTokenCount": 280,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 9
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 271
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "BzvRae3GM-npz7IPnfeziQQ"
+}

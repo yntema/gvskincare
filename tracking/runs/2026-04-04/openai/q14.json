@@ -1,0 +1,131 @@
+{
+  "id": "resp_06eee2d6c3eb7ca00069d1345977588193a82a8fd7e18251e9",
+  "object": "response",
+  "created_at": 1775318105,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318111,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_06eee2d6c3eb7ca00069d13459ae1c819390b5063578569138",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best acne facial treatment Katy Texas"
+        ],
+        "query": "Best acne facial treatment Katy Texas"
+      }
+    },
+    {
+      "id": "msg_06eee2d6c3eb7ca00069d1345b12188193ae540f59b905e6a5",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 187,
+              "start_index": 118,
+              "title": "Luminous MediSpa",
+              "url": "http://www.luminousmedispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 483,
+              "start_index": 426,
+              "title": "AcneFix Katy",
+              "url": "http://www.acnefix.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 841,
+              "start_index": 762,
+              "title": "Dermatology Associates of Katy",
+              "url": "https://www.dermofkaty.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1175,
+              "start_index": 1106,
+              "title": "Katy Med Tech Spa",
+              "url": "http://www.katymedtechspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1478,
+              "start_index": 1379,
+              "title": "Preferred Aesthetics & Wellness",
+              "url": "http://www.preferredaestheticsandwellness.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "If you're seeking effective acne facial treatments in Katy, Texas, here are several reputable options to consider:\n\n**[Luminous MediSpa](http://www.luminousmedispa.com/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 5.0 (134 reviews)**  \n_410 W Grand Pkwy S #310, Katy, TX 77494_  \nOffers specialized Acne Facials focusing on deep cleansing, exfoliation, and acne-fighting products to reduce breakouts and inflammation.\n\n**[AcneFix Katy](http://www.acnefix.com/?utm_source=openai)**  \n**Open now \u00b7 Skin care clinic \u00b7 5.0 (82 reviews)**  \n_707 S Fry Rd #495, Katy, TX 77450_  \nProvides comprehensive acne treatment programs, including consultations, personalized treatment plans, and professional extractions, high-frequency therapy, and LED light therapy.\n\n**[Dermatology Associates of Katy](https://www.dermofkaty.com/?utm_source=openai)**  \n**Open now \u00b7 Dermatologist \u00b7 4.8 (282 reviews)**  \n_23510 Kingsland Blvd #110, Katy, TX 77494_  \nLed by Dr. Uyen Ngoc Mui, this clinic provides treatments like prescription medications, laser therapy, and extractions tailored to individual acne conditions.\n\n**[Katy Med Tech Spa](http://www.katymedtechspa.com/?utm_source=openai)**  \n**Open now \u00b7 Facial spa \u00b7 4.9 (1292 reviews)**  \n_25145 Star Ln #1002, Katy, TX 77494_  \nOffers an Acne Facial designed to deeply cleanse and target flare-ups and redness, promoting clearer skin.\n\n**[Preferred Aesthetics & Wellness](http://www.preferredaestheticsandwellness.com/?utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 5.0 (9 reviews)**  \n_1450 W Grand Pkwy S ste m, Katy, TX 77494_  \nUtilizes AviClear\u00ae, an FDA-cleared laser treatment that targets and suppresses sebaceous glands to reduce acne.\n\nEach of these establishments offers unique approaches to acne treatment. It's advisable to consult with them directly to determine the best course of action for your specific skin needs. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 306,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 466,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 772
+  },
+  "user": null,
+  "metadata": {}
+}

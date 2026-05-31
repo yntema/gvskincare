@@ -1,0 +1,131 @@
+{
+  "id": "resp_02396bee37f345550069d134256d1081928c1099e228288932",
+  "object": "response",
+  "created_at": 1775318053,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318057,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_02396bee37f345550069d134257e8481928574a82385e6c6b4",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best place for facials in Katy TX"
+        ],
+        "query": "Best place for facials in Katy TX"
+      }
+    },
+    {
+      "id": "msg_02396bee37f345550069d134262d28819288a58fd78cfe7a60",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 188,
+              "start_index": 117,
+              "title": "Divinity Spa Katy",
+              "url": "http://www.divinityspa-katy.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 489,
+              "start_index": 412,
+              "title": "The Perfect Touch SPA",
+              "url": "http://www.theperfecttouchspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 785,
+              "start_index": 702,
+              "title": "Aika Skin Care LLC",
+              "url": "https://www.aikaskincarellc.com/book-online?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1036,
+              "start_index": 982,
+              "title": "City Glow",
+              "url": "https://cityglowtx.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1318,
+              "start_index": 1247,
+              "title": "Ageless Med Spa",
+              "url": "https://www.agelessmedspakaty.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "If you're seeking top-notch facial treatments in Katy, TX, here are several reputable establishments to consider:\n\n**[Divinity Spa Katy](http://www.divinityspa-katy.com/?utm_source=openai)**  \n**Open now \u00b7 Facial spa \u00b7 4.9 (45 reviews)**  \n_511 S Mason Rd Suite # 122, Katy, TX 77450_  \nLed by Vilma Fernandez, a licensed master facialist with over 22 years of experience, providing expert skincare services.\n\n**[The Perfect Touch SPA](http://www.theperfecttouchspa.com/?utm_source=openai)**  \n**Open now \u00b7 Spa \u00b7 5.0 (20 reviews)**  \n_2027 N Mason Rd #304, Katy, TX 77449_  \nOffers customized facials tailored to individual skin types and beauty budgets, ensuring personalized care for each client.\n\n**[Aika Skin Care LLC](https://www.aikaskincarellc.com/book-online?utm_source=openai)**  \n**Open now \u00b7 Facial spa \u00b7 5.0 (44 reviews)**  \n_24551 Katy Fwy Spa#1, Katy, TX 77494_  \nProvides customized facials based on free skin analysis, addressing various skin types and concerns.\n\n**[City Glow](https://cityglowtx.com/?utm_source=openai)**  \n**Open now \u00b7 Day spa \u00b7 4.9 (602 reviews)**  \n_9006 S Fry Rd Suite G2, Katy, TX 77494_  \nSpecializes in a range of beauty treatments, including facials designed to rejuvenate and refresh your complexion.\n\n**[Ageless Med Spa](https://www.agelessmedspakaty.com/?utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 4.5 (117 reviews)**  \n_414 W Grand Pkwy S #115, Katy, TX 77494_  \nOffers a variety of facials, including traditional, IPL, HydraFacial, and chemical peels, tailored to individual skin needs.\n\nWhen selecting a spa, consider factors such as the specific facial treatments offered, the experience of the estheticians, the ambiance of the facility, and customer reviews to ensure the best experience for your skincare needs. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 310,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 454,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 764
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,336 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Here are some of the top-rated places for facials in Katy, TX, based on customer reviews and services offered:\n\n*   **SkinSpirit Katy** is a medical spa in the LaCenterra at Cinco Ranch shopping mall that offers custom and signature facials tailored to your skin's needs. They focus on providing quality experiences and results, with online scheduling for convenience.\n*   **Anita's Skin Care Clinic** offers a variety of customized facials and skincare services, taking a holistic approach to address individual skin concerns. They specialize in holistic skincare and beauty therapy treatments in Cinco Ranch.\n*   **Divinity Spa** provides customized facial treatments using techniques like radiofrequency, ultrasound, and illuminator.\n*   **Spavia Cinco Ranch** offers a luxurious spa experience with customized facials and resort-like amenities. They also offer specialized treatments like the Sculpt & Lift Facial and the Platinum Ice and Glow Facial.\n*   **MedSpa at Villagio** is a medical spa that offers a range of services, including facials, laser hair removal, and other treatments for skin rejuvenation. They have been awarded by Image Skincare as Medspa of the Year twice.\n*   **Katy Med Tech Spa** is known for its dedication to customer service and personalized treatments. They offer first-time customer deals on their Ageless Signature Facial and Body Treatments.\n*   **Katy Medi Spa** provides advanced skincare treatments, including facials, chemical peels, and skin resurfacing, in a comfortable spa environment.\n*   **Face to Face Spa** offers a variety of facials, including classic facials and Hydrafacials, with options for more specialized treatments like chemical peels and microneedling. They also have a premium medi-facial for first-time clients.\n*   **Luminous MediSpa Katy** combines the relaxation of a traditional spa with medical-grade treatments.\n*   **Luxe Medical Aesthetics** provides customized facials and has received positive feedback for their estheticians and the glowing results clients experience.\n*   **All Is Well Massage & Spa** offers a calming atmosphere and top-notch services, with a focus on wellness and relaxation.\n\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF14bkovyzxMp0pp1nmfsUdMbMSjEQfxX6WxKcpQ4eaOk0M0gb28kuCsXS-66Em4c3J9mgCb1WPOHIv8dosI9S7jsVaby2Af0cKe8JkRp81KOUmeVsbpi-ctX4OI52xTBBIY7hoLY6dvi2yjyCZxvKIZkcd7aMMPexbJPIU9XgHJBcx4pOHIoyVu0CZLTLN7RD0ADadJXDxGUU=\"\u003efacial spas in Katy TX\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSdmY99n2Dl3JDLsk0WbH6TqJqrE1ARVbFkxFC2lOkc9_aImhRyH79XVFMAGwaTfEkLKE00VKLnlSQt_5nUcuPJmf4eS2IeodSkSX9w7HWMklIWPzRw9L3tkATzQBzzw8HI1__HBSXWFuRM6TzTeKsH6ZVsLjhcW_ARWOBQ0UJQxsdKCsIIFCpx_0QjgrcIxRMQX-9NPXtXuewBvs=\"\u003etop rated facials Katy TX\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0gcwT1RU6EoGgklLyRC2XLAC8xv3B5qn0KPB0T_CJ_4w4ilA-ScZTb85FdAQP-SqesldYRWFBP5mAR-0Cfac6VHTM6aK6INCFDII_H5M9kRjvSomvGkTJ3tPv_6K6cN81zBOXlw9gWEigxzKL8R6UzJaq-JTtR7Z3VrXFFMfr05X60hRxo8RN45IoHhi392lGWOYcSRG38binEH2yX943-6uVZvFXqg==\"\u003ebest spa for facials Katy TX reviews\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLd8ksUrgA2R7HBlP-AFZMAbiKctSQxSCznYpYpkkwnrJpasOdUj41BqWwHIklsEv2rfsKY7gVkr2qclJPUSnqNEUXcIr-Jio4JITzilHzOhPusDjJyBKCyKpIYBp_EfU90iwJ",
+              "title": "skinspirit.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHl-fC-z-xyq4z1w0-t-n65ltKUWC57ODJCS1albAOxQZZivlHHRF2T8-NOci15D_7g-wCwYVgsb0smxv6HZVee-Ai_JvH3coBwxg7fo2hRU_u9KUu4_VAVgkv6Blv94-U=",
+              "title": "anitasskincareclinickaty.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHw2l59AnfaxPfsnLvvCoVjCmHbBIV21aBgXe89Dogzo-awCNRJKA3_MOBTGO-xj3KT9bS2CPwey_lZIa1oB7PkqX-exRFPmBoPLD7Y0jwJvelT2KOUdsjOUhuY_Q==",
+              "title": "divinityspa-katy.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqNrWAe82Mmn2TGHhWHbG6Yl1_h-H0pW05pzecE14gcMPbwJHHxTTIc-xQTRAFOgD9pmWgfNhO2535MJrpI5n3ssusgwdnGyKU0LYDVIMSrCBwF_kfjFn1lu0J7vl0TNhY",
+              "title": "spaviadayspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYEoNJZk5l-RFUKF6qKxPhh_BZ1FgL3D9XLIMMHRYInawADwTeX94hdSwy7x8Ep_VGXDZ_g7_hmDpEYSL29Z6HdBhon_Oqwft-UPobgmPTLzjOyaOVJBrL",
+              "title": "medspaatvillagio.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQCWXsWicJYmflg-IjcYBVFQz4c4VNCerUoVu5RhSEdmhW5k_md0Wbn7bV-nvv7twxI-ZFYqJzXGdpoRfHRp5fe-k1GAbwSepZ0Mg-9G_UWaW1OAqTTA==",
+              "title": "katymedtechspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjcca3BkFPIBoLzcyKVyM_YkBqOLBYuT5HX-cRbeYpzix6UVyr7xZ0gS5m-uW-qjMJEQOv7oz4FlC0LGy5qa5-av_PwrzrDxPgF8y037xg1Y_GA4diG5U=",
+              "title": "katymedispa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMhLwSQV5AviN4sCF3N0yeqUC5D5OkSKFEwE6ZOipeZDmmE7NcFm2prrIR6PcdQz7LOVJJ7UKNorVgTAk8vtV0cdFDeCnMkNgDXzUQXeUmXdgGiNUJoaPkRKVqSNXCxua6",
+              "title": "facetofacespa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEo6O3mzLt6XJDpEg9AUuvxOqdPc6rs4GLowZfN1FbyrO3lJNl9030dBI7DECd1h1uO-VLj6mTexDqlb_iqwxLlvB1FJmTo6LJwVHU_NrCB08rmnu6Zb_g=",
+              "title": "luminousmedispa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV5ZzfKNDuS5XQPtJGLK-lWdiZRNdSOFnQEoKIClq1dYyhD5io7HMZQ3D-zlKWHilYm4xo8AKbrSc5DZoBrRsI5sGBXi06fDfgtvt0KrAk1EQqRqGy",
+              "title": "theluxeeffect.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfZAugN2VFlYMfB4VnhY2RM5pirBjr_-3AMUssNbfbfapZYOXH_5PsT1RTVYd-XBbQt2Vs5K7EIRB914T5Lm0X1fuUxIvn2KDa3w7LQREW_lwdE_g=",
+              "title": "alliswellspa.com"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "startIndex": 112,
+              "endIndex": 270,
+              "text": "*   **SkinSpirit Katy** is a medical spa in the LaCenterra at Cinco Ranch shopping mall that offers custom and signature facials tailored to your skin's needs"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.8863255
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 272,
+              "endIndex": 367,
+              "text": "They focus on providing quality experiences and results, with online scheduling for convenience"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.7903365
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 369,
+              "endIndex": 526,
+              "text": "*   **Anita's Skin Care Clinic** offers a variety of customized facials and skincare services, taking a holistic approach to address individual skin concerns"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.8913911
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 528,
+              "endIndex": 609,
+              "text": "They specialize in holistic skincare and beauty therapy treatments in Cinco Ranch"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.7439287
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 611,
+              "endIndex": 735,
+              "text": "*   **Divinity Spa** provides customized facial treatments using techniques like radiofrequency, ultrasound, and illuminator"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.9350743
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 737,
+              "endIndex": 847,
+              "text": "*   **Spavia Cinco Ranch** offers a luxurious spa experience with customized facials and resort-like amenities"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.7032657
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 849,
+              "endIndex": 954,
+              "text": "They also offer specialized treatments like the Sculpt & Lift Facial and the Platinum Ice and Glow Facial"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.28046274
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 956,
+              "endIndex": 1114,
+              "text": "*   **MedSpa at Villagio** is a medical spa that offers a range of services, including facials, laser hair removal, and other treatments for skin rejuvenation"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.50788313
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1116,
+              "endIndex": 1184,
+              "text": "They have been awarded by Image Skincare as Medspa of the Year twice"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.95268667
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1186,
+              "endIndex": 1287,
+              "text": "*   **Katy Med Tech Spa** is known for its dedication to customer service and personalized treatments"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.7455049
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1289,
+              "endIndex": 1379,
+              "text": "They offer first-time customer deals on their Ageless Signature Facial and Body Treatments"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.94752955
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1381,
+              "endIndex": 1531,
+              "text": "*   **Katy Medi Spa** provides advanced skincare treatments, including facials, chemical peels, and skin resurfacing, in a comfortable spa environment"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.9002301
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1533,
+              "endIndex": 1713,
+              "text": "*   **Face to Face Spa** offers a variety of facials, including classic facials and Hydrafacials, with options for more specialized treatments like chemical peels and microneedling"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.053750075
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1715,
+              "endIndex": 1774,
+              "text": "They also have a premium medi-facial for first-time clients"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.005342445
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1776,
+              "endIndex": 1880,
+              "text": "*   **Luminous MediSpa Katy** combines the relaxation of a traditional spa with medical-grade treatments"
+            },
+            "groundingChunkIndices": [
+              8
+            ],
+            "confidenceScores": [
+              0.83902603
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1882,
+              "endIndex": 2042,
+              "text": "*   **Luxe Medical Aesthetics** provides customized facials and has received positive feedback for their estheticians and the glowing results clients experience"
+            },
+            "groundingChunkIndices": [
+              9
+            ],
+            "confidenceScores": [
+              0.79222476
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2044,
+              "endIndex": 2169,
+              "text": "*   **All Is Well Massage & Spa** offers a calming atmosphere and top-notch services, with a focus on wellness and relaxation"
+            },
+            "groundingChunkIndices": [
+              10
+            ],
+            "confidenceScores": [
+              0.9223947
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "top rated facials Katy TX",
+          "best spa for facials Katy TX reviews",
+          "facial spas in Katy TX"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 8,
+    "candidatesTokenCount": 450,
+    "totalTokenCount": 458,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 8
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 450
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "RzrRaa37DvLVz7IPlcqAsAE"
+}

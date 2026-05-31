@@ -1,0 +1,637 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Melasma is a common skin condition characterized by patches of hyperpigmentation, typically on the face. While it's not harmful, it can affect one's appearance and confidence.\n\nHere's a breakdown of melasma treatments available near Houston, TX:\n\n**1. Topical Medications:**\n\n*   **Commonly Prescribed:** Dermatologists often prescribe topical medications containing ingredients like hydroquinone, tretinoin, retinoids, azelaic acid, and kojic acid to lighten the skin.\n*   **Combination Therapy:** These can be used alone or in combination.\n*   **Prescription vs. Over-the-Counter:** Prescription-strength lightening products generally contain a higher concentration of active ingredients compared to over-the-counter options.\n\n**2. Chemical Peels:**\n\n*   **How They Work:** Medical-grade chemical peels are used to renew the skin, improving its texture and tone by addressing pigment issues.\n\n**3. Laser Therapy:**\n\n*   **Advanced Lasers:** Clinics utilize advanced lasers to target excess pigmentation.\n*   **Halo Laser:** Houston Skin mentions using Halo, a hybrid laser, which can be precisely targeted to remove dark spots and damaged skin and is suitable for all skin types.\n*   **Fraxel Laser:** DermSurgery Associates offers Fraxel laser skin resurfacing for more severe cases. Paul Friedman at Village Dermatology Houston uses Fraxel treatments.\n*   **Laser Selection is Key:**  Careful selection of the appropriate laser treatment is crucial to achieve the desired results, as some lasers can worsen melasma.\n*   **Multiple Sessions:** Up to 5 sessions may be necessary for optimal results, spaced one month apart.\n\n**4. Intense Pulsed Light (IPL):**\n\n*   **Broadband Light:** Houston Premier Dermatology offers IPL, which uses broadband light for a shorter recovery time compared to lasers.\n\n**5. Microneedling:**\n\n*   **Dermatology Treatment:** Houston Premier Dermatology offers microneedling as a treatment option.\n\n**Important Considerations:**\n\n*   **Sun Protection:**  Sun exposure can trigger melasma and darken existing patches, making them harder to treat. Consistent use of sunscreen with UVA/UVB protection is crucial.\n*   **Personalized Treatment Plans:**  The best approach involves a customized treatment plan based on the individual's skin type and the severity of the melasma.\n*   **Professional Diagnosis:**  It's important to get a professional diagnosis to ensure the correct treatment is applied, as incorrect remedies can sometimes worsen the condition. A dermatologist may use a Wood's light to determine how deeply the melasma penetrates the skin.\n*   **Maintenance:** Good sun protection and maintenance are essential for longer-lasting results.\n*   **Not a Cure:** There is currently no cure for melasma, but treatments can effectively reduce skin discoloration.\n\n**Some clinics in the Houston area that offer melasma treatments:**\n\n*   **Houston Skin:** Has multiple locations in Houston, Pearland, and Webster.\n*   **Houston Premier Dermatology:** Located in Houston, TX.\n*   **DermSurgery Associates:** Has multiple locations in the Greater Houston area.\n*   **Houston Laser Skin Center:**\n*   **West Houston Dermatology:** Located in Houston.\n*   **Elite Dermatology & Plastic Surgery:** Has locations in Pearland, Vintage Park, and River Oaks.\n*   **Village Dermatology Houston:** Serves patients in Katy and Houston.\n*   **Aviva Dermatology:** Located in Houston, Texas.\n*   **Advanced Dermatology:** Has multiple locations in the Greater Houston area, including Katy, League City, Pearland, and Sugar Land.\n\nIt is recommended to consult with a board-certified dermatologist in the Houston area to determine the most appropriate treatment for your specific condition.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJHjxKWjKgcWKDgzFMwKiFBQdiRVq3eglBxfbrCOznls85E1JWxzAtgSIyKA_b35o4RVD-FD_aLuubUgLbZNrhzNAlx94ipczj7XbK0XhFT4pnAEimXhFPL6lFk-jlfZuKLvjHFD3w2LnWIeVde4cc81R4IXsciWsRdDoDTKs_wRkwPpRx05BA6UlC-Hzam2Zy06G6eySAE1QxY3FsiKYiQRTO1w==\"\u003emelasma treatment reviews Houston\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9xgLdlV5TTVhjxx9CilAuqsxIgUYa6S0HeGTauyusroypD-F_ZFDi1tSV8tNhviUkVR41Bv3Z2NgHNKt2XPYm8OIzju-SaYNyARcQEqlpWJDhRDHVkXNuAEUI6CvijVzgr3EMF02KVQrv7SsuMkWrTHXnOruRYbAlY4Mn9RBc9Ybh97All2veAQ-4UKW_XnQEXlcJk5dFTqBvPgnQkwZFrUIcOA==\"\u003emelasma treatment options Houston\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGcLi4o4en_D_9vnLxp83zi-oq6gGOqGojPy1kA0wb9j89CstGivitXJ1tC66_P0EZiwaFZd2or9sKIbh640iOWLef1iFtDl6cAmXdwIMXXFYRkN6e_zfJJ35kLqLOWIN5zrAIl1he9MvB1M4cWII-3rNLCqLbFg9N-bDhoviHf1o7nNIjc8onHy0_qaMpUAGyDa4qym4IWfEBmvRNNDTZR3w7jMAlN\"\u003eBest dermatologists Houston melasma\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHoj9gAtor1YxDpcqmGgKZ60ydt5duSFefH0rks30F18gVGuiSZvn2VC54pRNzAgjkwNEFJGqsGoFys6o2k6aJOArz3NnG6708V7ungb0qaeudjjdiQjltJ7uYhIYljNYHL9i6s5s4ORfCPJ7NuLVhsZ1U=",
+              "title": "houstonskin.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy4Zy05ntQOlZvtiotihjc_2fS3v3DpJjZwYnkPXLjMokJSbVBw5-FFHdsD-YNiX-k-bH5ySKv-5dxSS_jLwCQ-fETnAYyiVLvajQYWD-Dz_afYfwA9MTAh3kRC6jItS9lZBVQucwow6dIXNIG3t_rl_sO5WavlE8vw6zxrzckLmotTqmFjNc=",
+              "title": "dermsurgery.org"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1zerp7AOmHvCqRVfcAY2q3273FlWHekmvtqLtiXlFIvykl6CapjPWPHOEvsvlvR05pLMENu8gMzo9tGlP1nBFTPjtKpUi3kEvBkF_jcIldb1RQ3Ge8YEJC2ALMiAGw-e9-LnDbUJ2JFG5J8GqYAPmDttXiT5AZy_81BCHRyA7Ez_DhgBViaNFXSAzME52rg6XfjJjdw==",
+              "title": "houstonpremierdermatology.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaK7srpU_oW7B7aBuMGfHMBmyWL18VFgmCEFxf-Uu1eDrG30cXtLdwftERl7VvBZGYxZv5_sXbCl8mwS986zpRxvBbR0jTFJRBy41JqxYUXrxLPeQcXWyM97cJendbkH4UUSRzbLg2-HULgw==",
+              "title": "whderm.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQXkI1veRdbiXKx4zardmXI38JszBw9YHJzf3GaYtFXKjMjQ9jWCLYKqSjyxeDLd13AxZ8ZtHmF1r_DYQ1MhQ_Pyae_ND25zAotS032Og-NEzFp5A68hV7FkeVl0U_IpXVFwwzbjdCMojP5pg6B1LKOUeRKzzQNdbDXaGof4k=",
+              "title": "houstonlasers.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEngM7eUmlv9yO31nNdIToenT8Tc3oeoI5yn7jpl0JhKcyfW54f5z4jRoAIx-mZ0MWkCjSFqEqc1hmQAre-I8DWGOkZ1TcYwr6lKpBqDkRUpyCNQLp5QsTD8Ai0mB-3KOdIFIXK1QSzBIc=",
+              "title": "dermlasersurgery.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbwLKj956h-AiJ95l9RawI7ZwkNXVNFGF2uvMosItxxRuNglUqC4iIGcWHrYpWZPG0JhbfHw1hsMa1EqBUkMED9kck6CStXNasCP7yGkSCmRyIcmx0huEQMO6_jw4rdHcWznNnroedV4rFG2J4lT9pt_NUvwTJAVyyHqXm3FhjZikplGPA_hfZ6SUxig==",
+              "title": "advanceddermatologymd.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4IHuAsiKZYgpk5R9TMj8HIBDdTDBOmFGPMT4rTJtc2z0c7EBBb0hop5HTURaYp6D70xW_aebNAg0PfUFixzEoqHAGrBExRUyuSwqgcNOsF5c9ffkWTXoiItNE61tzozxYhS9M9ZOB0eQA9G0a",
+              "title": "elitedermatology.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqcwFSGWvDpb37FJuQqsH6Qamix19xhfwiMGAuS0RJviEeeNolSYzajsZeh6shiuhZm7IBphZ0Q8vCFNwhoxG6olB0iEEKsVPwrR4WTtAMMqfP1ivrK8P6ucSwXWV62KaQCHWnHw==",
+              "title": "villagedermatologyhouston.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp80pLf8yD3cFNoD7EW9lz6XSPu3m3Y-AUu0TnvDW-Gtj8VTXHeW2hFO36m_vnrt6-YCuEfErC0QO55vtT2bqdYby8JsCxoZ90oeH_mTYVh1i8pZDZNAVfftTZJcU=",
+              "title": "avivaderm.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0TRR1uxk3C_KNJ9Yj-1-FnbQ8kCW05UT7WncV-0ZPeypoDXbTpe-tmbZC23f5-rOjKH61vDA0VMYCfoxW1MH9RB7RQSaDOkrIEN__N05d1LCTGoRAVUzr5slZqX-yDSmON043tO_bx_PNw8kd_mj5WsZefm-2rCzjSAgqou6lhw==",
+              "title": "advanceddermatologymd.com"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "endIndex": 103,
+              "text": "Melasma is a common skin condition characterized by patches of hyperpigmentation, typically on the face"
+            },
+            "groundingChunkIndices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "confidenceScores": [
+              0.74814755,
+              0.9361802,
+              0.1286187,
+              0.5062708
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 105,
+              "endIndex": 174,
+              "text": "While it's not harmful, it can affect one's appearance and confidence"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.059064068
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 276,
+              "endIndex": 468,
+              "text": "*   **Commonly Prescribed:** Dermatologists often prescribe topical medications containing ingredients like hydroquinone, tretinoin, retinoids, azelaic acid, and kojic acid to lighten the skin"
+            },
+            "groundingChunkIndices": [
+              1,
+              3
+            ],
+            "confidenceScores": [
+              0.13651828,
+              0.1325118
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 470,
+              "endIndex": 540,
+              "text": "*   **Combination Therapy:** These can be used alone or in combination"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.53926873
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 565,
+              "endIndex": 726,
+              "text": "Over-the-Counter:** Prescription-strength lightening products generally contain a higher concentration of active ingredients compared to over-the-counter options"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.008281522
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 753,
+              "endIndex": 892,
+              "text": "*   **How They Work:** Medical-grade chemical peels are used to renew the skin, improving its texture and tone by addressing pigment issues"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.19551618
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 918,
+              "endIndex": 1004,
+              "text": "*   **Advanced Lasers:** Clinics utilize advanced lasers to target excess pigmentation"
+            },
+            "groundingChunkIndices": [
+              0,
+              4
+            ],
+            "confidenceScores": [
+              0.06623304,
+              0.5225186
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1006,
+              "endIndex": 1180,
+              "text": "*   **Halo Laser:** Houston Skin mentions using Halo, a hybrid laser, which can be precisely targeted to remove dark spots and damaged skin and is suitable for all skin types"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.008047924
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1182,
+              "endIndex": 1285,
+              "text": "*   **Fraxel Laser:** DermSurgery Associates offers Fraxel laser skin resurfacing for more severe cases"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.93774027
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1287,
+              "endIndex": 1354,
+              "text": "Paul Friedman at Village Dermatology Houston uses Fraxel treatments"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.005209079
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1356,
+              "endIndex": 1518,
+              "text": "*   **Laser Selection is Key:**  Careful selection of the appropriate laser treatment is crucial to achieve the desired results, as some lasers can worsen melasma"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.058890093
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1520,
+              "endIndex": 1624,
+              "text": "*   **Multiple Sessions:** Up to 5 sessions may be necessary for optimal results, spaced one month apart"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.7079571
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1663,
+              "endIndex": 1801,
+              "text": "*   **Broadband Light:** Houston Premier Dermatology offers IPL, which uses broadband light for a shorter recovery time compared to lasers"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.9201229
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1827,
+              "endIndex": 1928,
+              "text": "*   **Dermatology Treatment:** Houston Premier Dermatology offers microneedling as a treatment option"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.91001457
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1962,
+              "endIndex": 2076,
+              "text": "*   **Sun Protection:**  Sun exposure can trigger melasma and darken existing patches, making them harder to treat"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.58592165
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2078,
+              "endIndex": 2140,
+              "text": "Consistent use of sunscreen with UVA/UVB protection is crucial"
+            },
+            "groundingChunkIndices": [
+              3,
+              1
+            ],
+            "confidenceScores": [
+              0.036412727,
+              0.12590975
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2142,
+              "endIndex": 2303,
+              "text": "*   **Personalized Treatment Plans:**  The best approach involves a customized treatment plan based on the individual's skin type and the severity of the melasma"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.15760995
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2305,
+              "endIndex": 2485,
+              "text": "*   **Professional Diagnosis:**  It's important to get a professional diagnosis to ensure the correct treatment is applied, as incorrect remedies can sometimes worsen the condition"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.04696667
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2487,
+              "endIndex": 2581,
+              "text": "A dermatologist may use a Wood's light to determine how deeply the melasma penetrates the skin"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.9637695
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2583,
+              "endIndex": 2680,
+              "text": "*   **Maintenance:** Good sun protection and maintenance are essential for longer-lasting results"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.69780207
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2682,
+              "endIndex": 2798,
+              "text": "*   **Not a Cure:** There is currently no cure for melasma, but treatments can effectively reduce skin discoloration"
+            },
+            "groundingChunkIndices": [
+              0,
+              6
+            ],
+            "confidenceScores": [
+              0.63714725,
+              0.52132267
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2870,
+              "endIndex": 2891,
+              "text": "*   **Houston Skin:**"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.095892005
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2892,
+              "endIndex": 2948,
+              "text": "Has multiple locations in Houston, Pearland, and Webster"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.009701341
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2950,
+              "endIndex": 2986,
+              "text": "*   **Houston Premier Dermatology:**"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.82261646
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2987,
+              "endIndex": 3009,
+              "text": "Located in Houston, TX"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.23837332
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3011,
+              "endIndex": 3042,
+              "text": "*   **DermSurgery Associates:**"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.041784592
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3043,
+              "endIndex": 3093,
+              "text": "Has multiple locations in the Greater Houston area"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.16372958
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3095,
+              "endIndex": 3129,
+              "text": "*   **Houston Laser Skin Center:**"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.8657204
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3130,
+              "endIndex": 3163,
+              "text": "*   **West Houston Dermatology:**"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.66699374
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3164,
+              "endIndex": 3182,
+              "text": "Located in Houston"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.82870394
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3184,
+              "endIndex": 3228,
+              "text": "*   **Elite Dermatology & Plastic Surgery:**"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.071668446
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3229,
+              "endIndex": 3284,
+              "text": "Has locations in Pearland, Vintage Park, and River Oaks"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.877302
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3286,
+              "endIndex": 3322,
+              "text": "*   **Village Dermatology Houston:**"
+            },
+            "groundingChunkIndices": [
+              8
+            ],
+            "confidenceScores": [
+              0.07145266
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3323,
+              "endIndex": 3358,
+              "text": "Serves patients in Katy and Houston"
+            },
+            "groundingChunkIndices": [
+              8
+            ],
+            "confidenceScores": [
+              0.9526746
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3360,
+              "endIndex": 3386,
+              "text": "*   **Aviva Dermatology:**"
+            },
+            "groundingChunkIndices": [
+              9
+            ],
+            "confidenceScores": [
+              0.7974209
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3387,
+              "endIndex": 3412,
+              "text": "Located in Houston, Texas"
+            },
+            "groundingChunkIndices": [
+              9
+            ],
+            "confidenceScores": [
+              0.81805587
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3414,
+              "endIndex": 3443,
+              "text": "*   **Advanced Dermatology:**"
+            },
+            "groundingChunkIndices": [
+              10,
+              6
+            ],
+            "confidenceScores": [
+              0.9616374,
+              0.8799425
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3444,
+              "endIndex": 3549,
+              "text": "Has multiple locations in the Greater Houston area, including Katy, League City, Pearland, and Sugar Land"
+            },
+            "groundingChunkIndices": [
+              10
+            ],
+            "confidenceScores": [
+              0.89290524
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3552,
+              "endIndex": 3709,
+              "text": "It is recommended to consult with a board-certified dermatologist in the Houston area to determine the most appropriate treatment for your specific condition"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.18756068
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "melasma treatment options Houston",
+          "Best dermatologists Houston melasma",
+          "melasma treatment reviews Houston"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 7,
+    "candidatesTokenCount": 786,
+    "totalTokenCount": 793,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 7
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 786
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "ljrRafWpM6rRz7IPwLOy4Qk"
+}

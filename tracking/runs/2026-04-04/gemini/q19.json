@@ -1,0 +1,749 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "It's great that you're looking for ways to reduce wrinkles without surgery in the Houston area! Here's a breakdown of options available to you:\n\n**1. Topical Treatments**\n\n*   **Retinoids:** These are vitamin A-based compounds that are considered one of the most effective treatments for fine lines and uneven skin tone. They boost collagen production and speed up cell turnover.\n    *   *Types*: Prescription-strength retinoids include tretinoin (Renova, Retin-A) and tazarotene (Tazorac, Avage). Over-the-counter options include retinol, retinaldehyde, retinyl esters, and adapalene (Differin).\n*   **Vitamin C:** This is an antioxidant that can improve skin tone and fade discoloration.\n*   **Niacinamide:** A form of vitamin B-3 that may reduce signs of aging and improve skin tone. It also calms the skin.\n*   **Alpha Hydroxy Acids (AHAs):** Gentle exfoliators like glycolic acid can smooth the skin and reduce the appearance of wrinkles by removing dead skin cells.\n*   **Peptides:** These can minimize fine lines and wrinkles while improving overall skin health.\n\n**Important:** Consistent sunscreen use is crucial to prevent sun damage and premature aging.\n\n**2. Non-Invasive Procedures**\n\n*   **Injectables:**\n    *   *Neuromodulators (like Botox, Dysport, Xeomin, Juveau):* These relax muscles that cause expression lines like frown lines and crow's feet.\n    *   *Dermal Fillers (like Juvéderm, Restylane):* These are injected to augment facial features, add volume, and fill in lines and wrinkles. They can also enhance lips and sculpt facial contours.\n*   **Laser Skin Resurfacing:** Lasers precisely remove areas of irregular or damaged skin, one layer at a time, to reduce wrinkles, lines, and scars. This also improves the appearance of sun-damaged skin and age spots.\n*   **Microneedling:** Tiny needles create micro-injuries in the skin's surface, stimulating collagen production. It can be combined with hyaluronic acid or platelet-rich plasma (PRP).\n*   **Microdermabrasion:** This exfoliates dead or damaged skin cells.\n*   **Chemical Peels:** Acids remove the top layer of damaged skin, revealing smoother skin.\n*   **Radiofrequency (RF) Treatments:**\n    *   *INFINI RF Microneedling:* Combines radiofrequency heat with microneedling to increase collagen production.\n    *   *ThermiTight:* A tiny probe delivers radiofrequency energy beneath the skin to tighten sagging skin.\n    *   *ThermiSmooth:* Radiofrequency treatment for lax skin on the face.\n    *   *Sofwave:* Uses Synchronous Ultrasound Parallel Beam (SUPERB) technology to stimulate collagen and elastin production, reducing fine lines and wrinkles.\n*   **Ultrasound Treatments:**\n    *   *Ultherapy:* This uses ultrasound energy to stimulate collagen production in deeper skin layers.\n*   **Emface:** A needle-free, non-invasive treatment that increases collagen and elastin, tightens skin, and tones facial muscles.\n*   **Non-Surgical Facelift:** Combines injectables, skin-tightening technologies, and collagen-boosting therapies.\n\n**3. Important Considerations**\n\n*   **Customized Treatment Plans:** Because everyone's skin and aging process is unique, it's important to find a provider who will tailor a treatment plan to your specific needs and goals.\n*   **Qualified Professionals:** Look for board-certified dermatologists or plastic surgeons with experience in non-surgical facial rejuvenation.\n*   **Natural-Looking Results:** Many providers focus on achieving subtle, balanced, and natural-looking results.\n*   **Minimal Downtime:** Non-surgical options generally offer minimal to zero downtime, allowing you to resume your normal activities quickly.\n\n**4. Providers in the Houston Area**\n\nHere are some providers in the Houston area who offer non-surgical wrinkle reduction treatments:\n\n*   **Nikko Cosmetic Surgery Center (Houston & Cypress):** Offers nonsurgical face rejuvenation using Lutronic INFINI technology.\n*   **Memorial Center for Cosmetic Surgery (Houston):** Provides non-invasive MedSpa treatments.\n*   **Dr. Rukmini Rednam (Houston & The Woodlands):** Offers non-surgical face and neck procedures like Botox, dermal fillers, and chemical peels.\n*   **Ciaravino Total Beauty (Houston):** Provides non-surgical facelift solutions.\n*   **Dr. Azita Madjidi (Houston):** Offers injectables like Botox and fillers, chemical peels, and non-invasive skin tightening treatments.\n*   **Bellaire Dermatology (Houston):** Offers injectables, laser skin resurfacing, microdermabrasion, and chemical peels.\n*    **Westlake Dermatology (River Oaks):** Offers Botox, dermal fillers, laser treatments, and chemical peels.\n*   **Houston Dermatology Specialists (Cypress & Magnolia):** Provides Botox, dermal fillers, laser skin treatments, microneedling, and chemical peels.\n*   **Dr. Shel Wellness & Aesthetic Center (Houston):** Offers non-invasive facelifts with injectables, facials, peels, laser treatments, and skin tightening.\n*   **Ovation Med Spa (Houston):** Offers Emface, a needle-free, non-invasive facelift.\n*   **Village Dermatology (Houston & Katy):** Offers Botox, Juvederm, Dysport, and other cosmetic procedures.\n*   **True Skin Aesthetics (Houston):** Specializes in treating skin of color and offers microdermabrasion, chemical peels, laser skin resurfacing, and SkinTyte for skin tightening.\n*    **River Oaks Galleria Med Spa (Houston):** Specializes in non-surgical facial rejuvenation with neuromodulators, dermal fillers, laser resurfacing, and microneedling.\n\nTo find the best option for you, I recommend scheduling consultations with a few different providers in the Houston area. This will allow you to discuss your specific concerns, learn about the different treatment options available, and choose a provider who you feel comfortable with.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRnziyefOij2BY8N7dsyH1kEh71gLB6kaEGY-M_O_WaCkGBoPBYLD2ZSU0884oFvXsXwqJ3vOQwVV2GanWw2lhiIMBc_g8VF2rvYa9fzOJ62urFyokefDFIQJiZugdfvB_HWTRqyrO2_Aj7tyZSMEH9IYvro5ovbJGGfeBFxsSx-vzaqvcHDI7F81GgwUXj9VPsm2VCUXBNlo_r2_7HAhu1-A=\"\u003etopical treatments for wrinkles\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEXxJnAn6qk4i9rh70v5Ds12DoZQM8uoNmZMa3-70n10_d6zsoPTXDYy1cfK1kBDNpS8vD3DFkp_x2xBnI7lk7z_DO6GrsYQAEsPfChpH3FWkGpDpZmpShH8eyU0hA9oPeotaeUC7mVQLhj--sGB8rMChzY_5y9q1xcBjmLDygfjDHB0TSwHHnoU6VMNDdEjk9E-K8qiI7SzyK029QvWjtZpTZwDC3YXMUtg==\"\u003enon-invasive wrinkle treatments Houston\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcUmaVFX8f-b0Oujzxx7XvdUtqddYSCL5NZ4Tcp0nEeV3AJSWQbJ77kDUZpf4NPBfcqYBFk7KBeVoL3QP8II_yUgxP5_Di_5--PePZUfeprfGnd7-l2XyKWBGCWTEaudwIl8zy7asPUdh7n6yLzc2PNEEGW6-Gn3KlFL2vKHNE2ZSRJjXyTrJgP9dGlUfa38SvK-d5XR3RdbMWuXU1A9rFGWn7nwBv5FWw\"\u003enon surgical wrinkle reduction Houston\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0D4wR68UhFPrRF7JM3F783EDxEJmnmL12k_erJpdZxirHaEpZ8Gn0wYybLVS-ay8vSxOlvobuZJprwAdb_yCygZSEPUxopWjNOZIEIVsO-iaMjfLBZb3XEllngL1oRPfiS4ll91XGXbr2kRJUFa3O1W2nh-XMVWfKVAKzEc0-kTcl9HGHWGwxyZzIQU8ctCPvXQVeVEPH4Avx4YG6h22gud2HoNUHujlTN0VaTDGXjwleuw==\"\u003ebest dermatologist for wrinkle reduction Houston\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe8m6BvoFABk6g00BjWVeLl4xO7WF4MifApC1Ydz2hJU-jsNKnf04Rs2JuDDqJdsrpZ5_XG9wgXMCfYbDeu9lfGUFuauT0AUHDRY2WXOrzIUY3t5Zbk3S622Ahq0LD-Q-AMhZ5V_9ldFQq0gHGqM8idrRnr82kz8a-9Y9GJQuCvQ7qVzNjvS1nLjgI1bzXwCIC_q0XhN6VMpSYld0sVoA2U_uzb2MLyg==",
+              "title": "goodrx.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYHwlEZkV5bMvcmUWqYS6wfVTJUcz0pyKnwUIfCYK3i8gzX9F0T76sMKMHLJmmfIVp7ZLtpXNuTrHFNUA6dVoUiszXDe6hGfdqqzAX6BjMZQ0sPSvTv9CxOrRV707rk-CcgxEfpU7dqe_RKN_e1J-jIncA5QmIQVjW0re3GKiCokp64LjVJaugMiGrDrBOsnYkIc9XAl51",
+              "title": "mayoclinic.org"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcoSbpNSr8khZlPoyRDZ4HvyPfKa3LEagWc5ODBgwxRIIRmtl8ASSp9zFwvcZe4CGeIEP0aBWyCs100y7xuOiXZsyn2yhxwpnRVr8Iau4RtxMGiA2hl_aW15qc_nlITzR2UGVx3CLA-3KOWYbcHPpG",
+              "title": "ppsclt.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFbKlW5qbGSlGbPOTiaTgTCdDOzmQhd9FG0_hwNa5JlORbK9vHILah6J4Q-i-7udRAUrlmpx9wrTHMgqjLSBnlv6aM-4XYdWrQDXwvZX0wgo1XqehcprrGMEVqtZy701wsrTRnTNw==",
+              "title": "txcosmetics.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY-8an-opA9_EtY0gML2YUhhGp5DEthDqvj8tS5GntCUfgYZPB8xPocMactnCgfgPA9aQwjCVZo3NoT3xKwAB5ZQNEFcjc2MY_0scNqWj2AnTIyqrT8SOmWYhPnRftfgLAomdeMJkXcCunVFHh--cNhCc=",
+              "title": "drazitamadjidi.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA0veWMLvvcnBZR6WCgQ6eFqEqMIrJpaxwIA4i_FtQ9LsisIOoGDZn5bSDNYrSexn6r9fU6VxNzuky67YvYAAA558_Ic5QIAo-zF_h04O0XaHxM-VmG2BqOsi1nNR-FbGE9FpvrwNumDcu5u703EppYJxmbGaIq9DH06CC-LYDmZDgGxD7446UgGwP2Zne",
+              "title": "clevelandclinic.org"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFVV3IO0qNcwymf9Wp-_PqN8B3JXL0khEdxiVVBGKWAudIARPyRj1r88XHqva9chxHOIhCPRUz9fYSepuNo5xxnJYYyr284LHhNX1QBUuajPN72QB6HYmcKg0uy9idFoid8mqpBTzem6w0=",
+              "title": "drrukminirednam.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHqwRo9L6EbK13IdQzHeht42loe7Wh_2wgYfPJjIJZLK_tWl22JjyajQm3CXqK615YoDSX7RSugmmR4mYbmjc_5UzhzgRwGvUBQjo1qitfI7vqwwFxrSgx6MqOup_hOYCyfh9avqWzajC7Go3lw5Nkz9BWiiVYrAc=",
+              "title": "drnikko.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFE69Y7GqHlcnoPduu7mQ8sER_4WywJsKBqSo55eQvrOoXvhyrUpdr-AqE91S-lxMhrLerXI1DXgwY9kU2KJnC1IXeq5dvMqTp5Qey7hxlRKS18EIWzROk0hZ5NCEZiBmUW_iZe4T-i0-RwERb3hR1oFZbJurrkEw==",
+              "title": "drazitamadjidi.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHA5tv6W4wMwVz0I8y4gFD2eR0on4lQ1l4sT-0RfM7dzWw-wCR_TaBmpPtF8JAAAPDLTAsOgtGJ2elr-o_cDpx1G3Zk0qG4mlytXcOLOEz2F6KHurt071tfFxL-JGA8HC9aV6hW5XpCMaEAvYWE93gHJxY3LS7rhWlVEhadnjtA02iq",
+              "title": "leblanccosmeticdentistry.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmpAQ3_hiqf6au91njn-fgIPwQZZo-X1bQO1OQpiW7lKcHdvgde9Yddap3vz6UY3KT5fi5xFhEGDFpcee4JKrem7RnKnzEtk10mF8BI_5VGO4aQxp4Qis6GQZAXuprVgSYVhVNDmEHrnE-Ppk3q1O2BRtMbJlpA930zZk=",
+              "title": "ovationmedspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqzTdelAoYATasTOaZKDubdbGKyOJmsLIctEcmxt9HI0eQGTRuLKO6cYVrqFMltOP6cshjoAsuo1w_03Ed9EWFKT1oBPPvg5FWoKlCxfBbPQhroJSgezTC0OO6mjvNnBGgPJGhJz-1Nw3CVI1gvx81Pxfx0kVYopE0BqkQ85psUDuaKkd58yY=",
+              "title": "thebodydoc.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYGMR9u8p_eUyVL2IWXeBT1oobxQh9txw-0c_Rxw7Z2OEYAbBfjXP_Ekh7KqE9O9TZV0vg84TL4W_wIB1WeAXA902DAHkhiWH7DaCcsioWmMzZR-m1UDtowsdVdpnDXy1ucQQSz_wUrnMUnQv21wuQInkKwnsn_SGg",
+              "title": "drshel.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF99p8PQdhZSnxyeV-Rp-BQb0skzzU0nePpVXD4y6rJHfAW-fexMBXEeKHysc1xvhJhufb6mTRJPqoESj8bI57Sx6_3BpokUdKPWY9MJV5BZ5OUg9cCkv5HIPQGX4Q8Fw==",
+              "title": "bellairedermatology.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElZlQlaZStOxiSkBaPOdQgWpnoIp8spEN3NnhxjaIfKZyOZnTh8aTToobiS_o1Ygar8iyNI0ANIrQG-uMLsCBuJShYi-lzA0GnfRY8MvvuJzB6At94CADCemmyz9H4Dq0NQLfotpC8bzmW8g4MOkegPiBhAS7oKcQ6012HHLrP",
+              "title": "westlakedermatology.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2fGkjmJ0Pw5sD2ZFtDpM68RaHPJo4J7_IhyBDZJsEjopxIHgesDkZDB5Tl9GOnhf9gIOIOZmdQEIcPkdECVY-QxwD_RsirA-PH0hJ5s5uphss6qBnC0uGp-MSgQfbf7QHghqAciLfAjUe3DDDf1xsx7YX-WPFM6S6vCHGEuw=",
+              "title": "houstondermatologyspecialists.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF451vVgl8OFi6pd-s7kdoS1Yuf3xOTy_U4OCRdvUtzpPgjlxGjsVFTj2GCKchsDXF2-zaZ73qTVc29XKTahKwL-REHzDt9buUC7KhTAzmFDZZi6GIEdUCqB1e-mJBTscYY8zKkGw==",
+              "title": "villagedermatologyhouston.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZmot0sTOCiexqcWyyQQC8pfO-xVlT6NrRodDUjepIfTvGTXWAi38v6U8QpGdZImXRhBYLrk55TkTI4t0qCf59IyKEEOjoBiMjt5SxkKaBa49FoUXGTz__iM2gQG71hdSCIPjqkH-1ekYdgqi6Il4QSVvN0M2CGFy90zq7FTMXAd5MmG4y",
+              "title": "chron.com"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "startIndex": 172,
+              "endIndex": 319,
+              "text": "*   **Retinoids:** These are vitamin A-based compounds that are considered one of the most effective treatments for fine lines and uneven skin tone"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.012897044
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 321,
+              "endIndex": 378,
+              "text": "They boost collagen production and speed up cell turnover"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.0041557206
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 384,
+              "endIndex": 496,
+              "text": "*   *Types*: Prescription-strength retinoids include tretinoin (Renova, Retin-A) and tazarotene (Tazorac, Avage)"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.016824063
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 498,
+              "endIndex": 595,
+              "text": "Over-the-counter options include retinol, retinaldehyde, retinyl esters, and adapalene (Differin)"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.003562741
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 597,
+              "endIndex": 688,
+              "text": "*   **Vitamin C:** This is an antioxidant that can improve skin tone and fade discoloration"
+            },
+            "groundingChunkIndices": [
+              1,
+              2
+            ],
+            "confidenceScores": [
+              0.10559674,
+              0.18221256
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 690,
+              "endIndex": 785,
+              "text": "*   **Niacinamide:** A form of vitamin B-3 that may reduce signs of aging and improve skin tone"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.96387315
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 787,
+              "endIndex": 809,
+              "text": "It also calms the skin"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.42152432
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 811,
+              "endIndex": 970,
+              "text": "*   **Alpha Hydroxy Acids (AHAs):** Gentle exfoliators like glycolic acid can smooth the skin and reduce the appearance of wrinkles by removing dead skin cells"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.0060920217
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 972,
+              "endIndex": 1068,
+              "text": "*   **Peptides:** These can minimize fine lines and wrinkles while improving overall skin health"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.85754055
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1071,
+              "endIndex": 1163,
+              "text": "**Important:** Consistent sunscreen use is crucial to prevent sun damage and premature aging"
+            },
+            "groundingChunkIndices": [
+              2,
+              0
+            ],
+            "confidenceScores": [
+              0.90470535,
+              0.53126407
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1198,
+              "endIndex": 1364,
+              "text": "*   **Injectables:**\n    *   *Neuromodulators (like Botox, Dysport, Xeomin, Juveau):* These relax muscles that cause expression lines like frown lines and crow's feet"
+            },
+            "groundingChunkIndices": [
+              3,
+              4,
+              0,
+              5
+            ],
+            "confidenceScores": [
+              0.05068152,
+              0.02251877,
+              0.015907422,
+              0.038972374
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1370,
+              "endIndex": 1509,
+              "text": "*   *Dermal Fillers (like Juvéderm, Restylane):* These are injected to augment facial features, add volume, and fill in lines and wrinkles"
+            },
+            "groundingChunkIndices": [
+              6,
+              4
+            ],
+            "confidenceScores": [
+              0.15994748,
+              0.286979
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1511,
+              "endIndex": 1564,
+              "text": "They can also enhance lips and sculpt facial contours"
+            },
+            "groundingChunkIndices": [
+              3,
+              6
+            ],
+            "confidenceScores": [
+              0.2499852,
+              0.18098831
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1566,
+              "endIndex": 1715,
+              "text": "*   **Laser Skin Resurfacing:** Lasers precisely remove areas of irregular or damaged skin, one layer at a time, to reduce wrinkles, lines, and scars"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.9120451
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1717,
+              "endIndex": 1784,
+              "text": "This also improves the appearance of sun-damaged skin and age spots"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.4188028
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1786,
+              "endIndex": 1898,
+              "text": "*   **Microneedling:** Tiny needles create micro-injuries in the skin's surface, stimulating collagen production"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.95327604
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1900,
+              "endIndex": 1969,
+              "text": "It can be combined with hyaluronic acid or platelet-rich plasma (PRP)"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.0047367285
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1971,
+              "endIndex": 2040,
+              "text": "*   **Microdermabrasion:** This exfoliates dead or damaged skin cells"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.93814015
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2042,
+              "endIndex": 2133,
+              "text": "*   **Chemical Peels:** Acids remove the top layer of damaged skin, revealing smoother skin"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.005271588
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2210,
+              "endIndex": 2289,
+              "text": "Combines radiofrequency heat with microneedling to increase collagen production"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.9138808
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2314,
+              "endIndex": 2398,
+              "text": "A tiny probe delivers radiofrequency energy beneath the skin to tighten sagging skin"
+            },
+            "groundingChunkIndices": [
+              8,
+              4
+            ],
+            "confidenceScores": [
+              0.9325641,
+              0.0054255123
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2424,
+              "endIndex": 2473,
+              "text": "Radiofrequency treatment for lax skin on the face"
+            },
+            "groundingChunkIndices": [
+              8,
+              4
+            ],
+            "confidenceScores": [
+              0.9400927,
+              0.00989398
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2494,
+              "endIndex": 2634,
+              "text": "Uses Synchronous Ultrasound Parallel Beam (SUPERB) technology to stimulate collagen and elastin production, reducing fine lines and wrinkles"
+            },
+            "groundingChunkIndices": [
+              9
+            ],
+            "confidenceScores": [
+              0.95463467
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2688,
+              "endIndex": 2770,
+              "text": "This uses ultrasound energy to stimulate collagen production in deeper skin layers"
+            },
+            "groundingChunkIndices": [
+              9
+            ],
+            "confidenceScores": [
+              0.7267566
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2772,
+              "endIndex": 2902,
+              "text": "*   **Emface:** A needle-free, non-invasive treatment that increases collagen and elastin, tightens skin, and tones facial muscles"
+            },
+            "groundingChunkIndices": [
+              10
+            ],
+            "confidenceScores": [
+              0.83730876
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2904,
+              "endIndex": 3018,
+              "text": "*   **Non-Surgical Facelift:** Combines injectables, skin-tightening technologies, and collagen-boosting therapies"
+            },
+            "groundingChunkIndices": [
+              11
+            ],
+            "confidenceScores": [
+              0.9238495
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3054,
+              "endIndex": 3242,
+              "text": "*   **Customized Treatment Plans:** Because everyone's skin and aging process is unique, it's important to find a provider who will tailor a treatment plan to your specific needs and goals"
+            },
+            "groundingChunkIndices": [
+              12,
+              3,
+              11
+            ],
+            "confidenceScores": [
+              0.2915884,
+              0.04729985,
+              0.42875218
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3244,
+              "endIndex": 3388,
+              "text": "*   **Qualified Professionals:** Look for board-certified dermatologists or plastic surgeons with experience in non-surgical facial rejuvenation"
+            },
+            "groundingChunkIndices": [
+              11,
+              3
+            ],
+            "confidenceScores": [
+              0.13115224,
+              0.02025452
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3390,
+              "endIndex": 3502,
+              "text": "*   **Natural-Looking Results:** Many providers focus on achieving subtle, balanced, and natural-looking results"
+            },
+            "groundingChunkIndices": [
+              11,
+              7
+            ],
+            "confidenceScores": [
+              0.16492645,
+              0.021833755
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3504,
+              "endIndex": 3646,
+              "text": "*   **Minimal Downtime:** Non-surgical options generally offer minimal to zero downtime, allowing you to resume your normal activities quickly"
+            },
+            "groundingChunkIndices": [
+              12,
+              11,
+              3
+            ],
+            "confidenceScores": [
+              0.063913375,
+              0.018164508,
+              0.011145705
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3785,
+              "endIndex": 3913,
+              "text": "*   **Nikko Cosmetic Surgery Center (Houston & Cypress):** Offers nonsurgical face rejuvenation using Lutronic INFINI technology"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.28023565
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3915,
+              "endIndex": 4010,
+              "text": "*   **Memorial Center for Cosmetic Surgery (Houston):** Provides non-invasive MedSpa treatments"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.07299076
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 4022,
+              "endIndex": 4157,
+              "text": "Rukmini Rednam (Houston & The Woodlands):** Offers non-surgical face and neck procedures like Botox, dermal fillers, and chemical peels"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.912854
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 4159,
+              "endIndex": 4241,
+              "text": "*   **Ciaravino Total Beauty (Houston):** Provides non-surgical facelift solutions"
+            },
+            "groundingChunkIndices": [
+              11
+            ],
+            "confidenceScores": [
+              0.9449346
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 4253,
+              "endIndex": 4382,
+              "text": "Azita Madjidi (Houston):** Offers injectables like Botox and fillers, chemical peels, and non-invasive skin tightening treatments"
+            },
+            "groundingChunkIndices": [
+              8,
+              4
+            ],
+            "confidenceScores": [
+              0.07680678,
+              0.050992668
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 4384,
+              "endIndex": 4505,
+              "text": "*   **Bellaire Dermatology (Houston):** Offers injectables, laser skin resurfacing, microdermabrasion, and chemical peels"
+            },
+            "groundingChunkIndices": [
+              13
+            ],
+            "confidenceScores": [
+              0.027509842
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 4507,
+              "endIndex": 4617,
+              "text": "*    **Westlake Dermatology (River Oaks):** Offers Botox, dermal fillers, laser treatments, and chemical peels"
+            },
+            "groundingChunkIndices": [
+              14
+            ],
+            "confidenceScores": [
+              0.7811448
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 4619,
+              "endIndex": 4769,
+              "text": "*   **Houston Dermatology Specialists (Cypress & Magnolia):** Provides Botox, dermal fillers, laser skin treatments, microneedling, and chemical peels"
+            },
+            "groundingChunkIndices": [
+              15
+            ],
+            "confidenceScores": [
+              0.91172206
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 4781,
+              "endIndex": 4928,
+              "text": "Shel Wellness & Aesthetic Center (Houston):** Offers non-invasive facelifts with injectables, facials, peels, laser treatments, and skin tightening"
+            },
+            "groundingChunkIndices": [
+              12
+            ],
+            "confidenceScores": [
+              0.8832405
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 4930,
+              "endIndex": 5016,
+              "text": "*   **Ovation Med Spa (Houston):** Offers Emface, a needle-free, non-invasive facelift"
+            },
+            "groundingChunkIndices": [
+              10
+            ],
+            "confidenceScores": [
+              0.62211674
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 5018,
+              "endIndex": 5126,
+              "text": "*   **Village Dermatology (Houston & Katy):** Offers Botox, Juvederm, Dysport, and other cosmetic procedures"
+            },
+            "groundingChunkIndices": [
+              16
+            ],
+            "confidenceScores": [
+              0.38232034
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 5128,
+              "endIndex": 5308,
+              "text": "*   **True Skin Aesthetics (Houston):** Specializes in treating skin of color and offers microdermabrasion, chemical peels, laser skin resurfacing, and SkinTyte for skin tightening"
+            },
+            "groundingChunkIndices": [
+              17
+            ],
+            "confidenceScores": [
+              0.9054415
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 5310,
+              "endIndex": 5480,
+              "text": "*    **River Oaks Galleria Med Spa (Houston):** Specializes in non-surgical facial rejuvenation with neuromodulators, dermal fillers, laser resurfacing, and microneedling"
+            },
+            "groundingChunkIndices": [
+              17
+            ],
+            "confidenceScores": [
+              0.9196128
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "non surgical wrinkle reduction Houston",
+          "non-invasive wrinkle treatments Houston",
+          "best dermatologist for wrinkle reduction Houston",
+          "topical treatments for wrinkles"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 8,
+    "candidatesTokenCount": 1310,
+    "totalTokenCount": 1318,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 8
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 1310
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "oDrRaZLsF9_rz7IPrJGWmAw"
+}

@@ -1,0 +1,152 @@
+{
+  "id": "resp_0ef04dd82ba4da0d0069d134406898819c926b7434eb463b4f",
+  "object": "response",
+  "created_at": 1775318080,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318084,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0ef04dd82ba4da0d0069d134407f40819ca53c73d26ae908e8",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "PRP facial treatment Katy Texas"
+        ],
+        "query": "PRP facial treatment Katy Texas"
+      }
+    },
+    {
+      "id": "msg_0ef04dd82ba4da0d0069d134415378819c9d34ecb0c8d1bdd5",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 397,
+              "start_index": 248,
+              "title": "Houston Dermatology and Plastic Surgery",
+              "url": "https://www.google.com/maps/search/Houston+Dermatology+and+Plastic+Surgery%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 629,
+              "start_index": 521,
+              "title": "Clear Dermatology",
+              "url": "https://www.google.com/maps/search/Clear+Dermatology%2C+Houston%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 875,
+              "start_index": 752,
+              "title": "Aesthetic Master Infusions",
+              "url": "https://www.google.com/maps/search/Aesthetic+Master+Infusions%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1086,
+              "start_index": 989,
+              "title": "Selah MediSpa",
+              "url": "https://www.google.com/maps/search/Selah+MediSpa%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1364,
+              "start_index": 1203,
+              "title": "4Ever Young Anti-aging Clinic and Medical Spa",
+              "url": "https://www.google.com/maps/search/4Ever+Young+Anti-aging+Clinic+and+Medical+Spa%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1569,
+              "start_index": 1470,
+              "title": "Ageless MedSpa",
+              "url": "https://www.google.com/maps/search/Ageless+MedSpa%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1787,
+              "start_index": 1682,
+              "title": "H-Town Aesthetics",
+              "url": "https://www.google.com/maps/search/H-Town+Aesthetics%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2002,
+              "start_index": 1883,
+              "title": "Integrative Primary Care",
+              "url": "https://www.google.com/maps/search/Integrative+Primary+Care%2C+Katy%2C+TX?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Platelet-Rich Plasma (PRP) facials are a popular non-surgical treatment designed to rejuvenate the skin by stimulating collagen production and promoting tissue regeneration. In Katy, Texas, several reputable clinics offer PRP facial treatments:\n\n**[Houston Dermatology and Plastic Surgery](https://www.google.com/maps/search/Houston+Dermatology+and+Plastic+Surgery%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nOffers PRP and PRF facials to rejuvenate and restore skin, utilizing the body's natural healing processes.\n\n**[Clear Dermatology](https://www.google.com/maps/search/Clear+Dermatology%2C+Houston%2C+TX?utm_source=openai)**\n_Houston, TX_\nProvides microneedling with PRP to enhance collagen production, resulting in smoother and firmer skin.\n\n**[Aesthetic Master Infusions](https://www.google.com/maps/search/Aesthetic+Master+Infusions%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nSpecializes in PRP therapy for facial rejuvenation, hair restoration, and joint pain management.\n\n**[Selah MediSpa](https://www.google.com/maps/search/Selah+MediSpa%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nOffers microneedling treatments with the option to combine with PRP for enhanced skin rejuvenation.\n\n**[4Ever Young Anti-aging Clinic and Medical Spa](https://www.google.com/maps/search/4Ever+Young+Anti-aging+Clinic+and+Medical+Spa%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nProvides PRP facials to stimulate collagen production and improve skin texture and tone.\n\n**[Ageless MedSpa](https://www.google.com/maps/search/Ageless+MedSpa%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nOffers traditional microneedling services, which can be combined with PRP for enhanced results.\n\n**[H-Town Aesthetics](https://www.google.com/maps/search/H-Town+Aesthetics%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nProvides PRP and PRF treatments to rejuvenate skin and address signs of aging.\n\n**[Integrative Primary Care](https://www.google.com/maps/search/Integrative+Primary+Care%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nUtilizes PRP therapy to address cosmetic concerns such as aging skin and hair loss.\n\nEach of these clinics offers unique approaches to PRP facials. It's advisable to contact them directly to discuss your specific needs, understand the procedures they offer, and determine which clinic aligns best with your aesthetic goals. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 306,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 614,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 920
+  },
+  "user": null,
+  "metadata": {}
+}

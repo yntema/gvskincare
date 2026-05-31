@@ -1,0 +1,138 @@
+{
+  "id": "resp_0c1b8d7738406fea0069d1343af97c81978f478f404653ef27",
+  "object": "response",
+  "created_at": 1775318075,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318079,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0c1b8d7738406fea0069d1343b1f608197a8bd26d235f4409b",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best microneedling treatment in Katy TX"
+        ],
+        "query": "Best microneedling treatment in Katy TX"
+      }
+    },
+    {
+      "id": "msg_0c1b8d7738406fea0069d1343be85481979ac105e0b2f8bb27",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 196,
+              "start_index": 133,
+              "title": "Selah MediSpa",
+              "url": "http://www.selahmedispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 595,
+              "start_index": 483,
+              "title": "Clear Dermatology",
+              "url": "https://cleardermatology.com/?utm_medium=organic&utm_campaign=gbp-listing&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 949,
+              "start_index": 878,
+              "title": "Ageless Med Spa",
+              "url": "https://www.agelessmedspakaty.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1310,
+              "start_index": 1213,
+              "title": "Katy Wellness Center & Family Physicians",
+              "url": "https://www.katywellnesscenter.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1696,
+              "start_index": 1593,
+              "title": "H-Town Aesthetics",
+              "url": "https://htownaesthetics.com/?utm_medium=organic&utm_campaign=gbp&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2029,
+              "start_index": 1969,
+              "title": "Lush RX Med Spa",
+              "url": "https://www.lushrx.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Katy, Texas, offers several reputable clinics specializing in microneedling treatments. Here are some options you might consider:\n\n**[Selah MediSpa](http://www.selahmedispa.com/?utm_source=openai)**  \n**Open now \u00b7 Medical clinic \u00b7 4.8 (421 reviews)**  \n_21715 Kingsland Blvd #100, Katy, TX 77450_  \nProvides microneedling services, including options combined with platelet-rich plasma (PRP) to enhance skin rejuvenation. They cater to various skin concerns with minimal downtime.\n\n**[Clear Dermatology](https://cleardermatology.com/?utm_medium=organic&utm_campaign=gbp-listing&utm_source=openai)**  \n**Closed \u00b7 Dermatologist \u00b7 4.8 (1598 reviews)**  \n_17756 Katy Fwy g1, Houston, TX 77094_  \nOffers microneedling procedures aimed at improving skin texture, reducing fine lines, and enhancing overall skin appearance. They recommend a series of treatments for optimal results.\n\n**[Ageless Med Spa](https://www.agelessmedspakaty.com/?utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 4.5 (117 reviews)**  \n_414 W Grand Pkwy S #115, Katy, TX 77494_  \nProvides traditional microneedling services, as well as enhanced treatments combining microneedling with PRP and radiofrequency (RF) for improved skin rejuvenation.\n\n**[Katy Wellness Center & Family Physicians](https://www.katywellnesscenter.com/?utm_source=openai)**  \n**Closed \u00b7 Medical clinic \u00b7 4.7 (146 reviews)**  \n_21406 Provincial Blvd, Katy, TX 77450_  \nOffers advanced microneedling treatments to rejuvenate skin, reduce scars, and improve complexion. They emphasize personalized care and use the latest technology for optimal results.\n\n**[H-Town Aesthetics](https://htownaesthetics.com/?utm_medium=organic&utm_campaign=gbp&utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 5.0 (128 reviews)**  \n_21003 Highland Knolls Dr Ste.300, Katy, TX 77450_  \nSpecializes in Secret RF Microneedling, combining microneedling with radiofrequency energy to target deep tissue layers, enhancing skin tone, texture, and firmness.\n\n**[Lush RX Med Spa](https://www.lushrx.com/?utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 5.0 (71 reviews)**  \n_4914 Bissonnet St Ste 100, Bellaire, TX 77401_  \nProvides RF Microneedling treatments that blend traditional microneedling with radiofrequency energy to stimulate collagen production and improve skin texture.\n\nWhen selecting a clinic, consider factors such as the specific microneedling techniques offered, the qualifications of the practitioners, patient reviews, and the clinic's proximity to your location. It's advisable to schedule consultations with a few clinics to discuss your skin concerns and determine the best treatment plan tailored to your needs. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 312,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 636,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 948
+  },
+  "user": null,
+  "metadata": {}
+}

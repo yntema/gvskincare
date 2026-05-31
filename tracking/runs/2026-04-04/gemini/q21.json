@@ -1,0 +1,327 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Several clinics in and around Katy, Texas, offer PRP therapy for hair loss. Here are a few options:\n\n*   **4Ever Young Anti-aging Clinic and Medical Spa**: They offer a combination treatment of PRP therapy with HydraFacial Keravive to stimulate hair growth and nourish the scalp.\n*   **Luminous MediSpa**: They offer PRP hair restoration treatments designed to rejuvenate and stimulate hair growth.\n*   **Integrative Primary Care**: Dr. Syed Farhat Zaidi uses PRP therapy to increase blood supply to hair follicles, promoting new hair growth and preventing further hair loss.\n*   **Ageless Med Spa**: They provide hair restoration treatments with PRP therapy.\n*   **The Nikko Cosmetic Surgery Center (Houston, TX)**: Dr. Anthony Nikko offers Eclipse PRP therapy for patients with thinning hair and minor bald spots and after hair restoration surgery.\n*   **CLS Health (Houston Galleria)**: Maysoon Hamed, MD, offers PRP treatments for hair restoration.\n\nThe cost of PRP for hair loss can vary. The average cost ranges from $1,500 to $3,500 for the initial 3-4 treatments. Maintenance sessions are recommended every 6-12 months and cost around $500 to $1000 per session. Skin N' Tox Aesthetics offers PRP hair treatment for $2,700 for the first 3 sessions. Village Dermatology in Houston offers PRP for hair loss for $3200 for 4 treatments, then $600 per maintenance treatment. Individual sessions for the scalp range from $400 to $1500.\n\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmh7bIEiLqKFK-W8Iysg92hlHZUX13mVWsmUGLJu6hbe9Eh44MwPzyvEEVb09yPOCSgMiDXirnc6fvrYG1QvvtuxwnEGuunVfsSkbTh2gG1SzYttOalTcD1Wkzkn94KhSxeEy1phRND3Kx9jIcWp7WNd3NIU8QPbAATeH-KuNjWwjSd92rZqwbemcEfUH2hklxOIeDY4Lalr3i15XyH1VzBAQ=\"\u003ePRP hair loss clinics Katy Texas\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFBT20cf58_6r8iZbl05FsD6Yctm8jBEfLhAhcVPI_kP_wxKmVL7kIl9UEB55FLTUbRAeKjvKs7hbC50cGWKRuS_945rLCmuPFUTIziw9rLMtv0afEn7o0da-w5YLjQpEdk5sJ-n9RVgvwZIXQWI4jn9dem6mH5ZGU-u2sWleogpCq7SeuVaUZ0vKWSFU32AZqfiu3eypkmfsEWiLV4mQVuhYGkQ==\"\u003ePRP hair treatment cost Katy Texas\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXHQWls3deHC1Whv9OveFZM3fSjfSpK8PooBSWTsZBmlbte72HI4wD13odmGb6G4DL14H7hQkD2BTPZ4_e3QSNV4SlcReKfkjsoiIWHAKzZ2jMFzq1mREuleXg4ffsn9_vAWnmnVvSplfQ1Di7fWP68axZ9CmH_XplgWc13Co7sF6UfUZqDDry0dfuAk6TWyA=",
+              "title": "4everyoungantiaging.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXSnGD_JPaOpso_ivO2SJa34ZsXmI87MYrswFk8ZqkHBXJVqA2mHoABkuKlsYCIPQAdCDZxprCmf7LtTZwjy6md0KUB0NLHK3HAiV4wDy3BmPkxQ7yUN43patGnve4Q4D1qw5uozSoAFjEXw==",
+              "title": "luminousmedispa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgC1CiYJjzvh7TTNWILFLCT1NuL1X9BsxLwVdnmBixrRJI7m3bgCZKuwzd5LBbxGmAdRihxUvc8bo-B1AN6-HilNrAf6DXvFRYYfedAd57pK7RbbJmPo3tGTtszqBPOls37roJprUU26EgHea6ISwN-_va",
+              "title": "integrativeprimarycare.net"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5Vx783z7Wmi7ma7nkft-01FshkHdYAe3bkh6GMVCvOR5jjrjEVTIeF1tnRzjY66vtX2aQ16_LByp9j7zUoqENWrZ7Wsv9RWDb7cE-Sui_xDLnXdXeKB76UNaz2y3MANt70wt0UR2cq0SzzoL1",
+              "title": "integrativeprimarycare.net"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGCEjLuf2ZiKGrHZ-SESYRulBurbSJIw1NPUG4SuZ9pCnii3_kqgUVkBJTcGLnx7Fq_h6YITx3-WRq-_kduI9esINnFwWROiruMSqdBRZ_P1CxCcqDy7tzcrcMXaX56s5BOvdx6Lz81B4=",
+              "title": "agelessmedspakaty.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEwJEJg6VVH68DF4sz8UUYV2erEtXuejKLWp-y-d61YQQKAJSAccaBWy-Bt5Ql7X9MmhOZiR02As230GLqmhh8IrXhUhSiGh03J7sg8o84V1TB761hp3DuZjTZ6tuW3mbq9PUVgloSrGPU",
+              "title": "drnikko.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAmKRhDcELDdQw2HWi8K2BbvF70tYmmo5YLkbilV3y1d3qc7PJwhnE8U2GB5lAttXi1PFFejb72er0CSU52JKlCosefylmNcAP8_kO6sr5bD-M5GP4Qa1_7i5YH43qK0lwoIBemQ==",
+              "title": "cls.health"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjvwCt9uvJedpfbam01B0avn1K8lCM3Px5he_ipkcBUWpUoSUNrqPnO4jOKR1TFkffQDtc0_w8wHe9W3b3r45lupR9LeQFmj1IgIDBZIUXgMEOFzP24pvVGwRENtBB988QHsoR4xHRUUp4Lx8bw7I0EhQuN2WhiD4cnftLVQmZV6lIEA==",
+              "title": "skinandtox.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHljr-4pL_dgBF-FWY09FAMKJ97DstHnb_i5IOJBTyJeevxRJTsYnVbYCv6Yb5fARg-0ICHVFj3TpA54MbvLwrc2HDe1OiHj9JD5_fV6iBYwuiBr-ZMmYx2_LDVA64heKiiPJkLPIqtQAe8g==",
+              "title": "villagedermatologyhouston.com"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "startIndex": 101,
+              "endIndex": 154,
+              "text": "*   **4Ever Young Anti-aging Clinic and Medical Spa**"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.019615268
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 154,
+              "endIndex": 278,
+              "text": ": They offer a combination treatment of PRP therapy with HydraFacial Keravive to stimulate hair growth and nourish the scalp"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.9525133
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 280,
+              "endIndex": 304,
+              "text": "*   **Luminous MediSpa**"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.72160095
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 304,
+              "endIndex": 397,
+              "text": ": They offer PRP hair restoration treatments designed to rejuvenate and stimulate hair growth"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.9614587
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 399,
+              "endIndex": 431,
+              "text": "*   **Integrative Primary Care**"
+            },
+            "groundingChunkIndices": [
+              2,
+              3
+            ],
+            "confidenceScores": [
+              0.73048806,
+              0.79426706
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 437,
+              "endIndex": 574,
+              "text": "Syed Farhat Zaidi uses PRP therapy to increase blood supply to hair follicles, promoting new hair growth and preventing further hair loss"
+            },
+            "groundingChunkIndices": [
+              2,
+              3
+            ],
+            "confidenceScores": [
+              0.19671685,
+              0.94476587
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 576,
+              "endIndex": 599,
+              "text": "*   **Ageless Med Spa**"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.791845
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 599,
+              "endIndex": 658,
+              "text": ": They provide hair restoration treatments with PRP therapy"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.95436186
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 660,
+              "endIndex": 715,
+              "text": "*   **The Nikko Cosmetic Surgery Center (Houston, TX)**"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.01740857
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 721,
+              "endIndex": 849,
+              "text": "Anthony Nikko offers Eclipse PRP therapy for patients with thinning hair and minor bald spots and after hair restoration surgery"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.958958
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 851,
+              "endIndex": 888,
+              "text": "*   **CLS Health (Houston Galleria)**"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.6092718
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 888,
+              "endIndex": 951,
+              "text": ": Maysoon Hamed, MD, offers PRP treatments for hair restoration"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.9628831
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 994,
+              "endIndex": 1070,
+              "text": "The average cost ranges from $1,500 to $3,500 for the initial 3-4 treatments"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.9717221
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1072,
+              "endIndex": 1168,
+              "text": "Maintenance sessions are recommended every 6-12 months and cost around $500 to $1000 per session"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.94100195
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1170,
+              "endIndex": 1254,
+              "text": "Skin N' Tox Aesthetics offers PRP hair treatment for $2,700 for the first 3 sessions"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.96171397
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1256,
+              "endIndex": 1375,
+              "text": "Village Dermatology in Houston offers PRP for hair loss for $3200 for 4 treatments, then $600 per maintenance treatment"
+            },
+            "groundingChunkIndices": [
+              8
+            ],
+            "confidenceScores": [
+              0.8522297
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1377,
+              "endIndex": 1435,
+              "text": "Individual sessions for the scalp range from $400 to $1500"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.7954522
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "PRP hair loss clinics Katy Texas",
+          "PRP hair treatment cost Katy Texas"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 9,
+    "candidatesTokenCount": 340,
+    "totalTokenCount": 349,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 9
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 340
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "tDrRae-sMeXrz7IPp7jpwQs"
+}

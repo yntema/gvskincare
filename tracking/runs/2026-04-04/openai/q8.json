@@ -1,0 +1,138 @@
+{
+  "id": "resp_0913ebf108aea30b0069d13433c59c81a3a7e6d2f31aa07caa",
+  "object": "response",
+  "created_at": 1775318067,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318073,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0913ebf108aea30b0069d13433d76881a3b81406d984de18f0",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best facial spa west Houston"
+        ],
+        "query": "Best facial spa west Houston"
+      }
+    },
+    {
+      "id": "msg_0913ebf108aea30b0069d13434d05481a396a63a657674e822",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 169,
+              "start_index": 102,
+              "title": "Spa Zoey Skin Care",
+              "url": "http://spazoeyskincare.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 578,
+              "start_index": 506,
+              "title": "Skin 101 Medical Spa",
+              "url": "http://www.skin101houston.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 958,
+              "start_index": 899,
+              "title": "Luxe Wellness Spa",
+              "url": "http://luxewspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1345,
+              "start_index": 1273,
+              "title": "Elevated Esthetics",
+              "url": "https://elevatedestheticstx.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1738,
+              "start_index": 1642,
+              "title": "Woodhouse Spa - Houston Galleria",
+              "url": "https://houstongalleria.woodhousespas.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2131,
+              "start_index": 2019,
+              "title": "Glow Medspa Houston",
+              "url": "https://glowmedspa.com/laser-treatments-med-spa-services-in-houston-tx/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "If you're seeking top-notch facial spas in West Houston, here are some highly recommended options:\n\n**[Spa Zoey Skin Care](http://spazoeyskincare.com/?utm_source=openai)**  \n**Open now \u00b7 Skin care clinic \u00b7 5.0 (31 reviews)**  \n_4545 Bissonnet St #113, Bellaire, TX 77401_  \nWith over a decade of experience, Spa Zoey offers advanced facial treatments, precision waxing, and holistic skincare solutions. Their services include the GREEN PEEL\u00ae Herbal Peel, LED Light Therapy, and Hollywood Oxygen Facial.\n\n**[Skin 101 Medical Spa](http://www.skin101houston.com/?utm_source=openai)**  \n**Open now \u00b7 Skin care clinic \u00b7 4.8 (178 reviews)**  \n_11300 Katy Fwy B625, Houston, TX 77043_  \nLocated on Katy Freeway, SKIN 101 provides a range of aesthetic treatments, including HydraFacial, injectables like Botox and Juvederm, and weight loss programs. They emphasize personalized care in a modern setting.\n\n**[Luxe Wellness Spa](http://luxewspa.com/?utm_source=openai)**  \n**Open now \u00b7 Spa \u00b7 5.0 (39 reviews)**  \n_1250 W Sam Houston Pkwy S, Houston, TX 77042_  \nSituated in the Westchase district, Luxe Wellness Spa offers a variety of facial treatments, body sculpting, and wellness services. They focus on restoring balance and enhancing natural beauty in a serene environment.\n\n**[Elevated Esthetics](https://elevatedestheticstx.com/?utm_source=openai)**  \n**Open now \u00b7 Facial spa \u00b7 4.9 (59 reviews)**  \n_12345 Jones Rd #265, Houston, TX 77070_  \nThis boutique spa specializes in custom facial treatments, acne clearing programs, and advanced skincare services. They prioritize a private and elevated spa experience tailored to individual needs.\n\n**[Woodhouse Spa - Houston Galleria](https://houstongalleria.woodhousespas.com/?utm_source=openai)**  \n**Open now \u00b7 Day spa \u00b7 4.7 (149 reviews)**  \n_5015 Westheimer Rd A3221, Houston, TX 77056_  \nLocated in the Galleria area, Woodhouse Spa offers a full range of luxury spa services, including facials, massages, and body treatments, all customized to individual preferences.\n\n**[Glow Medspa Houston](https://glowmedspa.com/laser-treatments-med-spa-services-in-houston-tx/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.7 (418 reviews)**  \n_19 Briar Hollow Ln #115, Houston, TX 77027_  \nGlow MedSpa provides various facial treatments, including the 6% Pure Retinol Peel and Microdermabrasion, aiming to improve skin appearance and reduce signs of aging.\n\nEach of these spas offers unique services and experiences. It's advisable to contact them directly to find the best fit for your skincare needs. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 304,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 631,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 935
+  },
+  "user": null,
+  "metadata": {}
+}

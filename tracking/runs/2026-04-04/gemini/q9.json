@@ -1,0 +1,375 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "To find the best microneedling treatment in Katy, TX, here's a breakdown of some highly-rated options and factors to consider:\n\n**Top Microneedling Providers in Katy, TX:**\n\n*   **Viata Aesthetics and Wellness:** They use advanced microneedling devices like the CosmoPen for precision and consistent results across all skin tones. They also offer microneedling with Platelet-Rich Fibrin (PRF), which can lead to faster recovery and more noticeable results.\n*   **About Face & Body Medical Spa:** This medical spa offers microneedling and PiXel8-RF microneedling, which combines radiofrequency with microneedling to stimulate collagen production in deeper layers of the skin. They have many positive reviews, with clients praising the warm staff, attentiveness, and amazing treatments.\n*   **Katy MediSpa:** They focus on personalized care and advanced technology, using medical-grade devices for precision and safety.\n*   **Glow Up MD:** This K-Beauty Aesthetics and Wellness Practice utilizes high-quality, medical-grade Korean skincare products and provides personalized K-Beauty treatment plans, including microneedling, tailored to your needs.\n*   **Le Chloé Med Spa:** They use the Candela Exceed™ device for microneedling, which can improve complexion, acne scars, and wrinkles.\n*   **H-Town Aesthetics:** They offer SkinPen® microneedling, an FDA-cleared treatment for skin rejuvenation.\n*   **Allay MedSpa:** Allay MedSpa also uses the FDA-cleared SkinPen® device for microneedling treatments.\n\n**What is Microneedling?**\n\n*   Microneedling is a minimally invasive procedure that creates tiny, controlled punctures in the skin, stimulating the body's natural healing process and boosting collagen and elastin production.\n*   It's effective for addressing concerns like acne scars, fine lines, wrinkles, uneven skin texture, enlarged pores, and hyperpigmentation.\n*   Microneedling is a safe, nonsurgical option for those seeking skin rejuvenation.\n\n**Microneedling with PRP/PRF or Exosomes:**\n\n*   Some clinics offer microneedling with PRP (Platelet-Rich Plasma) or PRF (Platelet-Rich Fibrin), which involves using your own blood's growth factors to enhance healing and collagen production.\n*   Exosome therapy is another option that delivers powerful skin-repairing signals to boost cell regeneration and tissue repair.\n\n**Important Considerations:**\n\n*   **Device Used:** Some clinics use derma-rollers, while others use more advanced devices like CosmoPen, Candela Exceed™ or SkinPen. Advanced devices often offer more precision and control.\n*   **Personalized Treatment:** The best microneedling experience involves a personalized treatment plan tailored to your specific skin concerns and goals.\n*   **Number of Sessions:** A series of treatments (typically 3 or more) spaced several weeks apart is usually recommended for optimal results.\n*   **Downtime:** You may experience some redness, sensitivity, or mild swelling for a few days after the procedure.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWghQv2zxG9BIV_jndMEKK_JH9xhC7GsNhhwbfSoUnKJ863QDxfN3tQiD9mc1btqm5ozzfKEFmYumCEp2EgBZe8y9wdZBnSO4uGnAoaELul8kvDpBTNMOWcXjfmH4tWnJLcYydaiGfuKep_w4Cr4z5cxHMSt63rdzSPNuGnKgNzgtmZlc3lW6xCjgfEZn5q8GDtENd97ICcIpphWK81AJUJHVJtoMJrnQj\"\u003emicroneedling Katy TX customer reviews\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEElkTPNB1R6KZC8o3O6TUJQm8dDUnQFEHmo9x5rMi_glVbqJsfn1N1Q0gWuzUoxmPNkk0uiOqa2d2dFx5_j2B6NEgjZ3POTTF_xY49PjPW_sDWTAAvRRHaypSoT1DlL0n9hMZOWr-5TGiMMsBuZ9GkOeKsmRMbLbu2OcsL2YNV7anhfd2L694etquLINLin08gGAWMI8lnHe2xqLX3UC4INjDlyw==\"\u003etop microneedling clinics Katy TX\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK3nD-YEXeoC164deEwjPPEhx1WMSyua6OXCuhKbGmksDqBAKuhOe7LXS2mdSyYVU1Uf7a7curEmwiS3ogKc9SCJbfPDB8xl4q0ZoskyOGrHghRDqas-_Lack3nvXAXo9FRtbVqaEsIM5sV8MY5DovZIQDgQ==",
+              "title": "viataaestheticsandwellness.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVaOoO4B9xoS01xRfU1g3lcg5PX8aJHZrBGns2LcsaZFuNkEpA9O7LpnFJtaD7gSlc2RUOrj-n8RIV0cqSdpTdwwNP1GDrxgQTXqGHoiNw9oPyYuR6KTOgUgVvcLKbble7wVhkqmnnTvZ_ajKnqL5QeyA2pthovpa50Zuh-oJSNBhAy0DgJNbWxrnUwDWaUle3qXaO",
+              "title": "aboutfaceandbodykaty.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZ-FfYfXTwepBdHb4TVKWM3eqPJlgH_0Iq3j__uzGPZavNrQNuMKqaa6-IPerd6fjJAmfbJjklX0uydjIlUbksnJc4K_-7iA5JRd6tiC86JpGQ446XO740VeaF4L9vOqkV4t-zm1Q9PjKSQdKtZKAvzHGMnlS6prOm8kCFrPKS5wcLneGGyiBG9q4=",
+              "title": "aboutfaceandbodykaty.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjMNyEp7o1nUEOYycNtX6VMEkwmtdxCIhpdF8cuwWtrlvru5dMW1IbLIJg32VbVcLHTJY6cylPQ2TJ5a1JXdSHKkolKLp-y_EE6ga-OGmGPkCTWatvyoXY4DQpZe3Fw2MKfSIMN0MY9FNWkNXUex61mQukxcrB-XTfBiU=",
+              "title": "aboutfaceandbodykaty.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeiLtr9ye6HJkfEDjB569UX67TTnCinfu3mg7-V1v0Xc70hK2TR_42TV6LlVQnaB69GFNVvIRVDmIZPrqJkuEEt3cPcl1_Ros3dvib3fcLpkVVjOrb0ynR8bA1Ux3JPg7A2_mlckGBbMs01ByjkidV7hVYyi3Kvi0D6xsBpdAn",
+              "title": "katymedispa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAp3YDBEIhSdFTTl_Mi1tHMM7JMTZuxOMi-tn8qwj5I9IHBLguCa4gceQXcHYRkUPmv5ALj8PoZr1gGnks2zRfjlXSfYhRxQGe-0Ggiz1kZy56bw==",
+              "title": "glowupmdspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZKXvaMrdZ-HP0QzD2xZh5VT4YTeLUdpBgENRwkcTThuHei4zeiCMFYtBoO6DWADgTJnqFsj8OYQS5FI5wQt4Ec5W71Q_KsArlpe1R-9wik1z3b6Q3BmN7OuLP0RgNljVmkYyKq_rcJ0tLujh7Ku5TRJ6P",
+              "title": "lechloemedspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEG2RqFmvH5EgcIu49D4IcmtMOjWB6sOka1tv4WLvzN8MZD_pfaxv7OCGc07xzCV23L3LHt4xP_wK2MxMOyBst8uz_1GFlLlI2w9y7VaLLRkHs78vxtaTzvnhrVzQm2jU-8GtQlb7rn3AGyx4RY1zLolPO9B1R-",
+              "title": "htownaesthetics.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEL0XMj2MayhRxhhv4ud4xUPTWPOseDtCz5DPVBXbXPhyVaieWh74p2rMXZ33cl5SCD59AuHzCxjYXP7pjG2SGTz727CQIObIZnBCCufro8d69DMM5Epc2GMzjrNGn5XjnpKpr6W2rIVJqZwryEG2TcdJJAYHWZXw==",
+              "title": "allaymedspa.com"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "startIndex": 174,
+              "endIndex": 329,
+              "text": "*   **Viata Aesthetics and Wellness:** They use advanced microneedling devices like the CosmoPen for precision and consistent results across all skin tones"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.953698
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 331,
+              "endIndex": 455,
+              "text": "They also offer microneedling with Platelet-Rich Fibrin (PRF), which can lead to faster recovery and more noticeable results"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.0037657537
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 457,
+              "endIndex": 673,
+              "text": "*   **About Face & Body Medical Spa:** This medical spa offers microneedling and PiXel8-RF microneedling, which combines radiofrequency with microneedling to stimulate collagen production in deeper layers of the skin"
+            },
+            "groundingChunkIndices": [
+              1,
+              2
+            ],
+            "confidenceScores": [
+              0.8601848,
+              0.028793933
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 675,
+              "endIndex": 783,
+              "text": "They have many positive reviews, with clients praising the warm staff, attentiveness, and amazing treatments"
+            },
+            "groundingChunkIndices": [
+              2,
+              1,
+              3
+            ],
+            "confidenceScores": [
+              0.5451376,
+              0.66994774,
+              0.57673454
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 785,
+              "endIndex": 916,
+              "text": "*   **Katy MediSpa:** They focus on personalized care and advanced technology, using medical-grade devices for precision and safety"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.70408916
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 918,
+              "endIndex": 1146,
+              "text": "*   **Glow Up MD:** This K-Beauty Aesthetics and Wellness Practice utilizes high-quality, medical-grade Korean skincare products and provides personalized K-Beauty treatment plans, including microneedling, tailored to your needs"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.8855908
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1148,
+              "endIndex": 1286,
+              "text": "*   **Le Chloé Med Spa:** They use the Candela Exceed™ device for microneedling, which can improve complexion, acne scars, and wrinkles"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.9647543
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1288,
+              "endIndex": 1397,
+              "text": "*   **H-Town Aesthetics:** They offer SkinPen® microneedling, an FDA-cleared treatment for skin rejuvenation"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.95298344
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1399,
+              "endIndex": 1505,
+              "text": "*   **Allay MedSpa:** Allay MedSpa also uses the FDA-cleared SkinPen® device for microneedling treatments"
+            },
+            "groundingChunkIndices": [
+              8
+            ],
+            "confidenceScores": [
+              0.92410576
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1536,
+              "endIndex": 1732,
+              "text": "*   Microneedling is a minimally invasive procedure that creates tiny, controlled punctures in the skin, stimulating the body's natural healing process and boosting collagen and elastin production"
+            },
+            "groundingChunkIndices": [
+              4,
+              0,
+              2
+            ],
+            "confidenceScores": [
+              0.94584036,
+              0.6475869,
+              0.057838798
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1734,
+              "endIndex": 1874,
+              "text": "*   It's effective for addressing concerns like acne scars, fine lines, wrinkles, uneven skin texture, enlarged pores, and hyperpigmentation"
+            },
+            "groundingChunkIndices": [
+              4,
+              0,
+              2,
+              8
+            ],
+            "confidenceScores": [
+              0.039225295,
+              0.12796758,
+              0.02611747,
+              0.72139776
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1876,
+              "endIndex": 1959,
+              "text": "*   Microneedling is a safe, nonsurgical option for those seeking skin rejuvenation"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.3346578
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2007,
+              "endIndex": 2202,
+              "text": "*   Some clinics offer microneedling with PRP (Platelet-Rich Plasma) or PRF (Platelet-Rich Fibrin), which involves using your own blood's growth factors to enhance healing and collagen production"
+            },
+            "groundingChunkIndices": [
+              0,
+              8
+            ],
+            "confidenceScores": [
+              0.016776355,
+              0.64240545
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2204,
+              "endIndex": 2332,
+              "text": "*   Exosome therapy is another option that delivers powerful skin-repairing signals to boost cell regeneration and tissue repair"
+            },
+            "groundingChunkIndices": [
+              8
+            ],
+            "confidenceScores": [
+              0.8786275
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2366,
+              "endIndex": 2501,
+              "text": "*   **Device Used:** Some clinics use derma-rollers, while others use more advanced devices like CosmoPen, Candela Exceed™ or SkinPen"
+            },
+            "groundingChunkIndices": [
+              0,
+              6,
+              8
+            ],
+            "confidenceScores": [
+              0.16012718,
+              0.024071066,
+              0.039646924
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2503,
+              "endIndex": 2558,
+              "text": "Advanced devices often offer more precision and control"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.061887477
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2560,
+              "endIndex": 2714,
+              "text": "*   **Personalized Treatment:** The best microneedling experience involves a personalized treatment plan tailored to your specific skin concerns and goals"
+            },
+            "groundingChunkIndices": [
+              0,
+              5
+            ],
+            "confidenceScores": [
+              0.9031359,
+              0.2864748
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2716,
+              "endIndex": 2858,
+              "text": "*   **Number of Sessions:** A series of treatments (typically 3 or more) spaced several weeks apart is usually recommended for optimal results"
+            },
+            "groundingChunkIndices": [
+              8,
+              1
+            ],
+            "confidenceScores": [
+              0.011452428,
+              0.0079291025
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2860,
+              "endIndex": 2975,
+              "text": "*   **Downtime:** You may experience some redness, sensitivity, or mild swelling for a few days after the procedure"
+            },
+            "groundingChunkIndices": [
+              8
+            ],
+            "confidenceScores": [
+              0.32264847
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "top microneedling clinics Katy TX",
+          "microneedling Katy TX customer reviews"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 9,
+    "candidatesTokenCount": 667,
+    "totalTokenCount": 676,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 9
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 667
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "WjrRabK2Cprfz7IP2uXWkQs"
+}

@@ -1,0 +1,444 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Several options are available in Katy, TX, to treat acne scars. These treatments range from topical therapies to laser resurfacing. Here’s a breakdown of some common treatments and where you can find them: \n\n **Professional Treatments:** \n\n *   **Microneedling:** This procedure stimulates collagen and elastin production by creating tiny, controlled micro-injuries in the skin. It is effective for various skin issues, including acne scars. Katy Wellness Center & Family Physicians and About Face & Body Medical Spa offer microneedling services. \n *   **Chemical Peels:** These peels help to brighten and refine the skin's surface, especially for superficial scars. They involve applying a chemical solution to the skin to remove the top layers. Hibiscus Aesthetics & Wellness and Cinco Ranch Dermatology are among the providers of chemical peels. \n *   **Laser Skin Resurfacing:**  This treatment smooths uneven texture and stimulates new collagen growth. About Face & Body Medical Spa and Cinco Ranch Dermatology offer laser skin resurfacing. \n *   **NeoClear by Aerolase®:** This laser treatment addresses the root causes of acne by reducing sebum, suppressing inflammation, and destroying acne-causing bacteria. Hibiscus Aesthetics & Wellness offers this treatment. \n *   **Dermal Fillers:**  Dermal fillers can be used to address acne scars. About Face & Body Medical Spa is a provider of this service. \n *   **Other Light Therapies:**  IPL (Intense Pulsed Light), Forever Young BBL (BroadBand Light) and Forever Clear BBL™ are available at About Face & Body Medical Spa. \n\n **Medical Spas and Dermatology Centers in Katy, TX:** \n\n *   **About Face & Body Medical Spa:** They offer treatments like microneedling, chemical peels, microdermabrasion, laser skin resurfacing, and more. \n *   **Cinco Ranch Dermatology:** They offer personalized treatment plans, including topical therapies, chemical peels, laser resurfacing, and microneedling. \n *   **Hibiscus Aesthetics & Wellness:** This center provides personalized acne and scar treatments, including AviClear™ Laser Treatment, chemical peels, and microneedling. \n *   **Katy Wellness Center:**  They offer advanced microneedling treatments. \n *   **The Hand & Plastic Surgery Center of Katy:**  Offers scar revision strategies. \n\n **Important Considerations:** \n\n *   **Personalized Treatment Plans:** Many clinics emphasize the importance of personalized treatment plans. A thorough skin analysis is essential to determine the most suitable treatment. \n *   **Expert Dermatologists:**  Dermatologists have a deep understanding of acne and its underlying causes, which is important for effective management and treatment of acne scars. \n *   **Multiple Sessions:** Depending on the severity of the scarring, multiple treatment sessions may be required. \n\n To determine the best course of action for your acne scars, it is recommended to consult with a dermatologist or skin care specialist in Katy, TX. They can assess your specific skin type, condition, and goals to create a tailored treatment plan.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDEWR_m47_6qXmhH1pIMFnsB6-rNV9vDaIRvAyvFNO1rNt0cJFlU_yPJYinr2INzqW8b9qndJZx0jwiWqFtchFnvmo_K7DrXyEwFbuvDAvm5K7iulhymNS5vpy6z6bSBd8zGR2LYR0C8s24K4JYxGHudb-X4-yRsLo_fKceJir_aMnUec-8Tk1B3zeTSmbzBtlFd9_JJXgNUQLo0t38rLtWg==\"\u003eacne scar treatment katy texas\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEC30wT8tubHg2EQWnjn2s9XfiCccDvsbWI-w2o_3qrb-QlPTkoZPW7FpNO4o_ijsXI3eQwr00ZuRLBpzkO0gP4nfYdEjMChLkHx0RhFacM43_YXIXc2VhEVdQsT_3NTPrtOjZdokWhIf_2OO6e8w6TbB1ASnr5-_h6xJFT2b2Pb9l7iVyUDhqXeriYJzxEK6A",
+              "title": "aboutfaceandbodykaty.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbfuGbKrM_CN6tjpNYDfxc2WopzBnFTl2nV00fU3M_t8_x_Rb1uF4SfjG20wNP_a3Ga7DygMSK4Rg_Xq43YqrhB16tasrIzjbHOgs9qzlZfxFfc0uMktAX7yAkYofZWP2G4_qDQMc2I4GH53EkFr027Xd_2jjyMdPggP06axiW6DMRixArL-BwVA==",
+              "title": "handandplasticskaty.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGDwVpuYZmH-CfS8AjzIohL-gSfzIh8D80_fDAstb82ui9F8Ob_pGAPt0MXQHLD7bbLRfO5xuPskE1AwXOzN66nqLRFvvcczR4ZPPoVqIvP97nfk_vmNoXv0vdZ0sAzC4N8IGvASpWUGSXf2Oc8ldaE47ap",
+              "title": "katywellnesscenter.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVoXI4oAufDq4GYMteji9LG8PMllv88cwgphFjJYCch8PGN-U2bMhJrdytWxKctqvJ4TnsOq2KhjfpaHBilTWqqdN_1FuhbcKgXmEFVrd_JqZ6gVqDa4R2jLTov1RfCio=",
+              "title": "cincoderm.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvaQOSPHKJ4zxrVDLaCG91Xmudvt8oKAHNNNatU1mkVcRcSUR-Juc9OQWvRMfjwTmfeNnikNH-rTg7QrUQ22pdvqbFXqLttOnAh3lKaCiVtF2iaA0VYNtj5naocDcEfJrtvUnmUlxj-qDtpACinNuQhmxyeNtFSoI=",
+              "title": "hibiscus.health"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "endIndex": 62,
+              "text": "Several options are available in Katy, TX, to treat acne scars"
+            },
+            "groundingChunkIndices": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "confidenceScores": [
+              0.92746454,
+              0.5935199,
+              0.6536353,
+              0.59346694
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 64,
+              "endIndex": 130,
+              "text": "These treatments range from topical therapies to laser resurfacing"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.74194956
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 243,
+              "endIndex": 379,
+              "text": "*   **Microneedling:** This procedure stimulates collagen and elastin production by creating tiny, controlled micro-injuries in the skin"
+            },
+            "groundingChunkIndices": [
+              2,
+              0
+            ],
+            "confidenceScores": [
+              0.90407014,
+              0.014271002
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 381,
+              "endIndex": 442,
+              "text": "It is effective for various skin issues, including acne scars"
+            },
+            "groundingChunkIndices": [
+              0,
+              2
+            ],
+            "confidenceScores": [
+              0.43617675,
+              0.61990654
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 444,
+              "endIndex": 547,
+              "text": "Katy Wellness Center & Family Physicians and About Face & Body Medical Spa offer microneedling services"
+            },
+            "groundingChunkIndices": [
+              2,
+              0
+            ],
+            "confidenceScores": [
+              0.009925804,
+              0.20380825
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 551,
+              "endIndex": 667,
+              "text": "*   **Chemical Peels:** These peels help to brighten and refine the skin's surface, especially for superficial scars"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.638966
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 669,
+              "endIndex": 747,
+              "text": "They involve applying a chemical solution to the skin to remove the top layers"
+            },
+            "groundingChunkIndices": [
+              3,
+              0
+            ],
+            "confidenceScores": [
+              0.019112796,
+              0.042960584
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 749,
+              "endIndex": 849,
+              "text": "Hibiscus Aesthetics & Wellness and Cinco Ranch Dermatology are among the providers of chemical peels"
+            },
+            "groundingChunkIndices": [
+              3,
+              4
+            ],
+            "confidenceScores": [
+              0.3397376,
+              0.02155988
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 853,
+              "endIndex": 958,
+              "text": "*   **Laser Skin Resurfacing:**  This treatment smooths uneven texture and stimulates new collagen growth"
+            },
+            "groundingChunkIndices": [
+              0,
+              3
+            ],
+            "confidenceScores": [
+              0.40903914,
+              0.006906526
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 960,
+              "endIndex": 1046,
+              "text": "About Face & Body Medical Spa and Cinco Ranch Dermatology offer laser skin resurfacing"
+            },
+            "groundingChunkIndices": [
+              0,
+              3
+            ],
+            "confidenceScores": [
+              0.18885262,
+              0.39530167
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1050,
+              "endIndex": 1218,
+              "text": "*   **NeoClear by Aerolase®:** This laser treatment addresses the root causes of acne by reducing sebum, suppressing inflammation, and destroying acne-causing bacteria"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.91637546
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1220,
+              "endIndex": 1272,
+              "text": "Hibiscus Aesthetics & Wellness offers this treatment"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.8241681
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1276,
+              "endIndex": 1349,
+              "text": "*   **Dermal Fillers:**  Dermal fillers can be used to address acne scars"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.90227425
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1351,
+              "endIndex": 1410,
+              "text": "About Face & Body Medical Spa is a provider of this service"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.6087029
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1414,
+              "endIndex": 1581,
+              "text": "*   **Other Light Therapies:**  IPL (Intense Pulsed Light), Forever Young BBL (BroadBand Light) and Forever Clear BBL™ are available at About Face & Body Medical Spa"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.25414947
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1643,
+              "endIndex": 1791,
+              "text": "*   **About Face & Body Medical Spa:** They offer treatments like microneedling, chemical peels, microdermabrasion, laser skin resurfacing, and more"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.8895324
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1795,
+              "endIndex": 1950,
+              "text": "*   **Cinco Ranch Dermatology:** They offer personalized treatment plans, including topical therapies, chemical peels, laser resurfacing, and microneedling"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.94633394
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1954,
+              "endIndex": 2126,
+              "text": "*   **Hibiscus Aesthetics & Wellness:** This center provides personalized acne and scar treatments, including AviClear™ Laser Treatment, chemical peels, and microneedling"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.90028346
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2130,
+              "endIndex": 2205,
+              "text": "*   **Katy Wellness Center:**  They offer advanced microneedling treatments"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.96366376
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2209,
+              "endIndex": 2292,
+              "text": "*   **The Hand & Plastic Surgery Center of Katy:**  Offers scar revision strategies"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.07271402
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2330,
+              "endIndex": 2437,
+              "text": "*   **Personalized Treatment Plans:** Many clinics emphasize the importance of personalized treatment plans"
+            },
+            "groundingChunkIndices": [
+              3,
+              4
+            ],
+            "confidenceScores": [
+              0.064129375,
+              0.028941127
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2439,
+              "endIndex": 2517,
+              "text": "A thorough skin analysis is essential to determine the most suitable treatment"
+            },
+            "groundingChunkIndices": [
+              3,
+              0
+            ],
+            "confidenceScores": [
+              0.25503084,
+              0.004680234
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2521,
+              "endIndex": 2700,
+              "text": "*   **Expert Dermatologists:**  Dermatologists have a deep understanding of acne and its underlying causes, which is important for effective management and treatment of acne scars"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.8953295
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2704,
+              "endIndex": 2817,
+              "text": "*   **Multiple Sessions:** Depending on the severity of the scarring, multiple treatment sessions may be required"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.17942421
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2822,
+              "endIndex": 2967,
+              "text": "To determine the best course of action for your acne scars, it is recommended to consult with a dermatologist or skin care specialist in Katy, TX"
+            },
+            "groundingChunkIndices": [
+              4,
+              3
+            ],
+            "confidenceScores": [
+              0.029308695,
+              0.29076737
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2969,
+              "endIndex": 3066,
+              "text": "They can assess your specific skin type, condition, and goals to create a tailored treatment plan"
+            },
+            "groundingChunkIndices": [
+              4,
+              0,
+              3
+            ],
+            "confidenceScores": [
+              0.58457094,
+              0.15523577,
+              0.56706214
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "acne scar treatment katy texas"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 8,
+    "candidatesTokenCount": 641,
+    "totalTokenCount": 649,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 8
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 641
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "jzrRacvwG67pz7IPjKyV-AQ"
+}

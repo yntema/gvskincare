@@ -1,0 +1,124 @@
+{
+  "id": "resp_044e0739132e33bb0069d134527340819da77c9ebef3defa0b",
+  "object": "response",
+  "created_at": 1775318098,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318104,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_044e0739132e33bb0069d1345289f4819d8084282beef0f36c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Aquagold facial treatment near Houston"
+        ],
+        "query": "Aquagold facial treatment near Houston"
+      }
+    },
+    {
+      "id": "msg_044e0739132e33bb0069d134534b7c819da6b241bec3dface4",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 210,
+              "start_index": 119,
+              "title": "Clariti Aesthetics & Wellness - Houston, TX",
+              "url": "https://claritimedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 526,
+              "start_index": 459,
+              "title": "Nia Aesthetics MD",
+              "url": "https://niaaestheticsmd.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 852,
+              "start_index": 782,
+              "title": "Queen Aesthetics",
+              "url": "https://www.queenaesthetics.net/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1236,
+              "start_index": 1126,
+              "title": "Galleria Aesthetics and Wellness",
+              "url": "https://galleriaesthetics.com/?mozlocalutm_source=google&utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "If you're seeking AquaGold facial treatments in the Houston area, here are several reputable providers to consider:\n\n**[Clariti Aesthetics & Wellness - Houston, TX](https://claritimedspa.com/?utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 4.8 (28 reviews)**  \n_12512 Memorial Dr # A, Houston, TX 77024_  \nOffers the AquaGold Fine Touch facial, delivering a personalized blend of skin-enhancing ingredients for a radiant, airbrushed look with no downtime.\n\n**[Nia Aesthetics MD](https://niaaestheticsmd.com/?utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 5.0 (220 reviews)**  \n_4203 Montrose Blvd # 440, Houston, TX 77006_  \nSpecializes in AquaGold treatments to improve skin texture and radiance, with personalized serums addressing fine lines, wrinkles, and uneven skin tone.\n\n**[Queen Aesthetics](https://www.queenaesthetics.net/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 5.0 (206 reviews)**  \n_333 W Loop N Fwy Suite# 440, Houston, TX 77024_  \nProvides AquaGold facials tailored to reduce pores, fine lines, and acne scarring, using a customized cocktail that may include Botox, hyaluronic acid, and vitamins.\n\n**[Galleria Aesthetics and Wellness](https://galleriaesthetics.com/?mozlocalutm_source=google&utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.8 (273 reviews)**  \n_5373 W Alabama St #120, Houston, TX 77056_  \nProvides AquaGold Fine Touch facials, delivering custom solutions into the skin to treat fine lines, wrinkles, and large pores with minimal downtime.\n\n**Houston, TX**  \n**Closed \u00b7 City**  \n_Texas_  \nOffers gold infusion microinfusion treatments using AQUAGOLD\u00ae Fine Touch to deeply hydrate, soften, and refine the skin.\n\nEach of these clinics offers personalized AquaGold treatments designed to enhance your skin's appearance and health. It's advisable to contact them directly to discuss your specific needs, treatment options, and to schedule a consultation. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 308,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 461,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 769
+  },
+  "user": null,
+  "metadata": {}
+}

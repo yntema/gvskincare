@@ -1,0 +1,95 @@
+{
+  "id": "resp_03f7a384d4e39aed0069d134923e9081a08ac5c61f6d0872c2",
+  "object": "response",
+  "created_at": 1775318162,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318167,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_03f7a384d4e39aed0069d134924bf081a0b573bb579a7baaf9",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "How to tighten sagging skin without surgery Houston"
+        ],
+        "query": "How to tighten sagging skin without surgery Houston"
+      }
+    },
+    {
+      "id": "msg_03f7a384d4e39aed0069d13493231c81a08a330281d39d139c",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [],
+          "logprobs": [],
+          "text": "If you're looking to tighten sagging skin without surgery in Houston, several non-invasive treatments are available that stimulate collagen production and improve skin elasticity. Here are some options to consider:\n\n**1. Ultherapy**\n\nUltherapy is an FDA-approved, non-invasive procedure that uses focused ultrasound energy to lift and tighten skin on the face, neck, and d\u00e9colletage. It targets deep layers of tissue, stimulating collagen production without affecting the skin's surface. Results typically develop over two to three months as new collagen forms.\n\n- **Providers in Houston:**\n  - [Dr. Paul Fortes](https://fortesmd.com/laser-treatments/ultherapy/)\n  - [Dermatology & Laser Surgery Center](https://www.dermlasersurgery.com/procedures/ultherapy/)\n  - [Aesthetic Center for Plastic Surgery & MedSpa](https://www.mybeautifulbody.com/procedure/ultherapy/)\n\n**2. Sofwave**\n\nSofwave utilizes Synchronous Ultrasound Parallel Beam Technology to stimulate collagen and elastin production, leading to firmer skin. This treatment is known for its safety across all skin types and minimal downtime.\n\n- **Provider in Houston:**\n  - [LeBlanc Cosmetic Dentistry](https://www.leblanccosmeticdentistry.com/anti-aging-treatments/sofwave/)\n\n**3. High-Intensity Focused Ultrasound (HIFU)**\n\nHIFU delivers focused ultrasound energy to the skin's deeper layers, promoting collagen production and resulting in a lifted appearance. It's often referred to as a \"non-surgical facelift\" due to its effectiveness in skin tightening.\n\n- **Provider in Houston:**\n  - [Lush RX Med Spa](https://www.lushrx.com/hifu-skin-tightening-houston-tx)\n\n**4. Radiofrequency (RF) Skin Tightening**\n\nRF treatments use energy waves to heat the deep layers of the skin, stimulating collagen and elastin production. This method is effective for tightening skin on various body areas.\n\n- **Provider in Houston:**\n  - [Dr. Derek Lou](https://www.louplasticsurgery.com/rf-skin-tightening)\n\n**5. Renuvion (J-Plasma) Skin Tightening**\n\nRenuvion combines helium plasma with radiofrequency energy to contract tissue and stimulate collagen production, offering significant skin tightening with minimal downtime.\n\n- **Provider in Houston:**\n  - [Dr. Abigail Rodriguez](https://www.drrodriguez.com/plastic-surgery-services/body/non-surgical/renuvion/)\n\n**Considerations:**\n\n- **Consultation:** It's essential to consult with a qualified practitioner to determine the most suitable treatment based on your skin condition and goals.\n- **Results:** Non-surgical treatments provide gradual improvements, with optimal results typically visible within a few months.\n- **Maintenance:** Periodic maintenance sessions may be necessary to sustain results.\n\nBy exploring these non-surgical options in Houston, you can achieve firmer, more youthful-looking skin without the need for invasive procedures. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 312,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 623,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 935
+  },
+  "user": null,
+  "metadata": {}
+}

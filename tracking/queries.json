@@ -1,0 +1,62 @@
+{
+  "_schema": {
+    "required": ["id", "category", "text"],
+    "optional": {
+      "status": "active|retired (missing = active). Retired queries are skipped by audit.sh and excluded from dashboard aggregates; their trend.csv history is preserved.",
+      "added_date": "YYYY-MM-DD when the query was added (recorded on additions going forward).",
+      "retired_date": "YYYY-MM-DD when the query was retired."
+    },
+    "categories": ["direct_discovery", "treatment_discovery", "problem_aware", "comparison", "thought_leadership", "spanish"],
+    "rules": [
+      "Never reuse a retired ID — pick the next unused integer.",
+      "Never edit the text of an existing ID. To change wording, retire the old ID and add a new one with a new ID."
+    ]
+  },
+  "queries": [
+    {"id": 1,  "category": "direct_discovery",    "text": "Best facial spa in Katy TX"},
+    {"id": 2,  "category": "direct_discovery",    "text": "Best HydraFacial in Katy Texas"},
+    {"id": 3,  "category": "direct_discovery",    "text": "Best facial spa near Houston TX"},
+    {"id": 4,  "category": "direct_discovery",    "text": "Best medspa in Katy TX"},
+    {"id": 5,  "category": "direct_discovery",    "text": "Top rated skincare spa Katy Texas"},
+    {"id": 6,  "category": "direct_discovery",    "text": "Best place for facials in Katy TX"},
+    {"id": 7,  "category": "direct_discovery",    "text": "Professional facial treatment Katy TX"},
+    {"id": 8,  "category": "direct_discovery",    "text": "Best facial spa west Houston"},
+
+    {"id": 9,  "category": "treatment_discovery",  "text": "Best microneedling treatment in Katy TX"},
+    {"id": 10, "category": "treatment_discovery",  "text": "PRP facial treatment Katy Texas"},
+    {"id": 11, "category": "treatment_discovery",  "text": "Best chemical peel facial Katy TX"},
+    {"id": 12, "category": "treatment_discovery",  "text": "Radiofrequency microneedling Katy TX"},
+    {"id": 13, "category": "treatment_discovery",  "text": "Aquagold facial treatment near Houston"},
+    {"id": 14, "category": "treatment_discovery",  "text": "Best acne facial treatment Katy Texas"},
+    {"id": 15, "category": "treatment_discovery",  "text": "Anti-aging facial treatments Katy TX"},
+    {"id": 16, "category": "treatment_discovery",  "text": "Dermaplaning facial Katy TX"},
+
+    {"id": 17, "category": "problem_aware",        "text": "How to treat acne scars in Katy TX"},
+    {"id": 18, "category": "problem_aware",        "text": "Best treatment for melasma near Houston"},
+    {"id": 19, "category": "problem_aware",        "text": "How to reduce wrinkles without surgery Houston area"},
+    {"id": 20, "category": "problem_aware",        "text": "Best treatment for hyperpigmentation Katy TX"},
+    {"id": 21, "category": "problem_aware",        "text": "Where to get PRP for hair loss Katy Texas"},
+    {"id": 22, "category": "problem_aware",        "text": "How to tighten sagging skin without surgery Houston"},
+    {"id": 23, "category": "problem_aware",        "text": "Best facial for dry dehydrated skin Katy TX"},
+    {"id": 24, "category": "problem_aware",        "text": "Teen acne treatment options Katy Texas"},
+
+    {"id": 25, "category": "comparison",           "text": "GV Skincare Katy TX reviews"},
+    {"id": 26, "category": "comparison",           "text": "Best spas in Katy TX comparison"},
+    {"id": 27, "category": "comparison",           "text": "Hand and Stone vs independent facial spa Katy"},
+    {"id": 28, "category": "comparison",           "text": "Woodhouse Spa alternatives Katy Houston"},
+    {"id": 29, "category": "comparison",           "text": "Best HydraFacial provider Houston Katy area"},
+    {"id": 30, "category": "comparison",           "text": "Milk and Honey spa alternatives west Houston"},
+
+    {"id": 31, "category": "thought_leadership",   "text": "Is HydraFacial worth it?"},
+    {"id": 32, "category": "thought_leadership",   "text": "PRP facial vs microneedling which is better"},
+    {"id": 33, "category": "thought_leadership",   "text": "How often should you get a facial?"},
+    {"id": 34, "category": "thought_leadership",   "text": "What is radiofrequency microneedling?"},
+    {"id": 35, "category": "thought_leadership",   "text": "Best anti-aging treatments 2026"},
+    {"id": 36, "category": "thought_leadership",   "text": "Chemical peel vs microneedling for acne scars"},
+
+    {"id": 37, "category": "spanish",              "text": "Mejor spa facial en Katy Texas"},
+    {"id": 38, "category": "spanish",              "text": "Tratamiento facial profesional en Katy TX"},
+    {"id": 39, "category": "spanish",              "text": "HydraFacial en Katy Texas"},
+    {"id": 40, "category": "spanish",              "text": "Mejor tratamiento para el acne en Katy TX"}
+  ]
+}

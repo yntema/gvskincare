@@ -1,0 +1,131 @@
+{
+  "id": "resp_03bc023a07f54ad90069d134f944a08195ace83c310a4a5e7a",
+  "object": "response",
+  "created_at": 1775318265,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318269,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_03bc023a07f54ad90069d134f96f0c8195ad7fabb62bc071ba",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Mejor spa facial en Katy Texas"
+        ],
+        "query": "Mejor spa facial en Katy Texas"
+      }
+    },
+    {
+      "id": "msg_03bc023a07f54ad90069d134fa35388195a592d5b6068898e2",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 252,
+              "start_index": 195,
+              "title": "Suimin Spa",
+              "url": "http://www.suiminspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 589,
+              "start_index": 518,
+              "title": "Divinity Spa Katy",
+              "url": "http://www.divinityspa-katy.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 926,
+              "start_index": 849,
+              "title": "The Perfect Touch SPA",
+              "url": "http://www.theperfecttouchspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1231,
+              "start_index": 1164,
+              "title": "GV SKINCARE CENTER",
+              "url": "https://www.gvskincare.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1525,
+              "start_index": 1476,
+              "title": "ELISS SPA",
+              "url": "https://eliss.spa/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "En Katy, Texas, hay varios spas faciales destacados que ofrecen una variedad de tratamientos para el cuidado de la piel. A continuaci\u00f3n, se presentan algunas opciones que podr\u00edan interesarle:\n\n**[Suimin Spa](http://www.suiminspa.com/?utm_source=openai)**  \n**Abierto ahora \u00b7 Spa \u00b7 5.0 (41 rese\u00f1as)**  \n_1830 S Mason Rd Suite 115, Katy, TX 77450_  \nOfrece una amplia gama de servicios, incluyendo tratamientos faciales personalizados, terapias de spa para la cabeza y masajes. Ubicado en 1830 S Mason Rd, Suite 115.\n\n**[Divinity Spa Katy](http://www.divinityspa-katy.com/?utm_source=openai)**  \n**Abierto ahora \u00b7 Facial spa \u00b7 4.9 (45 rese\u00f1as)**  \n_511 S Mason Rd Suite # 122, Katy, TX 77450_  \nCon m\u00e1s de 22 a\u00f1os de experiencia, ofrece faciales personalizados y servicios de depilaci\u00f3n en un ambiente acogedor. Ubicado en 511 Mason Rd Suite #122.\n\n**[The Perfect Touch SPA](http://www.theperfecttouchspa.com/?utm_source=openai)**  \n**Abierto ahora \u00b7 Spa \u00b7 5.0 (20 rese\u00f1as)**  \n_2027 N Mason Rd #304, Katy, TX 77449_  \nProporciona faciales, peelings y microneedling, adaptados a las necesidades individuales de cada cliente. Se encuentra en 2027 N Mason Rd #304.\n\n**[GV SKINCARE CENTER](https://www.gvskincare.com/?utm_source=openai)**  \n**Abierto ahora \u00b7 Facial spa \u00b7 4.8 (107 rese\u00f1as)**  \n_23410 Grand Reserve Dr Suite 302, Katy, TX 77494_  \nEspecializado en tratamientos profesionales para el cuidado de la piel y del cuerpo, brindando evaluaciones y consultas virtuales.\n\n**[ELISS SPA](https://eliss.spa/?utm_source=openai)**  \n**Abierto ahora \u00b7 Spa and health club \u00b7 5.0 (57 rese\u00f1as)**  \n_25145 Star Ln #603, Katy, TX 77494_  \nProporciona una red integral de belleza con tratamientos avanzados y productos de alta calidad. Ubicado en 25145 Star Lane unidad 603.\n\nSe recomienda contactar directamente con estos spas para obtener informaci\u00f3n detallada sobre sus servicios, horarios y disponibilidad, y as\u00ed elegir el que mejor se adapte a sus necesidades. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 308,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 518,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 826
+  },
+  "user": null,
+  "metadata": {}
+}

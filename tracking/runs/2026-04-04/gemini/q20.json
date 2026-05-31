@@ -1,0 +1,406 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "The best treatment for hyperpigmentation in Katy, TX, will depend on the type of hyperpigmentation, its severity, and your individual skin type and goals. Here are some common and effective treatments available:\n\n**Topical Treatments:**\n\n*   **Compounded Hydroquinone Cream:** This prescription-strength cream regulates melanin production and is effective for melasma, dark marks, age spots, and uneven skin tone.\n*   **Medical-Grade Skincare:** Customized regimens with ingredients like hydroquinone, vitamin C, kojic acid, and retinoids can help maintain results and prevent future pigmentation.\n\n**Chemical Peels:**\n\n*   **Complexion Peel (Cosmelan Peel):** This professional peel uses alpha hydroxy acids like glycolic and lactic acid to exfoliate, accelerate skin cell turnover, and penetrate deeply into damaged layers to reduce discoloration.\n*   **Other Chemical Peels:** Chemical peels exfoliate and remove the outermost layers of skin to reveal a brighter, more even complexion.\n\n**Laser and Light Therapies:**\n\n*   **Aerolase Neo:** This laser delivers 650-microsecond laser energy into the dermis and epidermis to break up melanin deposits while shutting down vasculature and inflammation. It is safe and effective for all skin types in clearing melasma and hyperpigmentation.\n*   **IPL (Intense Pulsed Light):** IPL improves the appearance of photoaged skin and removes age spots and other benign brown pigments.\n\n**Other Treatments:**\n\n*   **Microneedling with Brightening Serums:** This boosts collagen production while delivering pigmentation-fighting ingredients deep into the skin.\n*   **Depigmentation Therapy:** This therapy lightens and breaks up existing hyperpigmentation using advanced modalities and holistic therapies. It uses innovative technologies, acids, and exfoliating agents to remove the top layer of skin, revealing a more even complexion.\n\n**Where to Seek Treatment in Katy, TX:**\n\n*   **Nikko Dermatology:** Offers customized hyperpigmentation treatments, including compounded hydroquinone cream and the Complexion Peel.\n*   **Anita's Skin Care Clinic:** Provides depigmentation therapy using innovative technologies, acids, and exfoliating agents.\n*   **Hibiscus Aesthetics & Wellness:** Offers Aerolase Laser treatments for melasma and hyperpigmentation.\n*   **Allay Med Spa:** Provides skincare enhancement and treatment for hyperpigmentation.\n*   **Sapphira Prive Katy:** Offers customized solutions, including chemical peels, microneedling with brightening serums, laser treatments, and topical medical-grade skincare.\n*   **Houston Dermatology and Plastic Surgery:** Offers comprehensive skin tests and expert opinions on the best approach to your condition.\n*   **Cinco Ranch Dermatology:** Provides expert dermatology care with board-certified dermatologists.\n*   **Advanced Dermatology:** Offers specific skincare treatments after a consultation.\n*   **Dermatology Associates of Katy:** Offers treatment for various skin conditions.\n\n**Important Considerations:**\n\n*   A consultation with a dermatologist or skincare professional is essential to determine the best treatment plan for your specific needs.\n*   Some treatments, like hydroquinone, are not recommended for pregnant women.\n*   To maintain results, it's important to apply sunscreen daily and avoid excessive sun exposure.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEuWFZbMGve-7DyKUaa2vOhX1iyKikrz_K7I-oxWQZ_uJXjrZt9OsoBEKbSyThFIMeJD8SkxVvDnP_TlTzb6CJkzLw3BCcGK54wkqEO7iNHwTCUVukeTutVD_8DbltCd204TLn_NYPImEtXCpmD7FXMH14VZAm_xVm0LnnoXvcdCxchalYOYqpaCjBrrc_6Rr4KY611DGb_WkGAOFi5-hHNn-7Yqc=\"\u003ehyperpigmentation treatment Katy TX\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoKdHEiC-hjOKVhZIiWGpu8zszp3zDLhF3Hl5Wbdn14VoNKrZVD-TWMOofeUoJzozMvCrMw4erPGB6jRw7p8zMa9-Ec0d1w8YKLfHK5Sosx3BlevaYCx9-QH-QpujnDWh_p8Df4IjrArLk5XTh4E9lVFffNkauTxAMxBDecdtKi-b-NyOn_UWPhDMQkud0M20n7NmJQlrKnaVwAVcsfwR8k5olknIFuq-VFRbAQuk=\"\u003ebest dermatologist Katy TX hyperpigmentation\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgVYosHHg6WgJrfY_VqKLC7Eug0pj6d2eijwCqfwq8O8tEpSqrwjzhc2BnVFT6Op6akpLTATL7UxdhKbuA8Peuh2iVznjUF97cNs7A_0uvM2_X0T9Ztz_Z7Lv2DtwM0o3MjpwN11o=",
+              "title": "sapphiraprivemedspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGecZ2vSlVrDu8FYtxBNf_7W7UwkJXbX0IxxcDvV7tj_MZmMnmsCRjJFdm-uCuhAUzxjIKrs9mhWK_uH2gBmxzJZWcATWchNw5ScUyYPCms192HQza3thmPUL8cbfxjuj4FmS7CekkZxwQXgD96ny8Ktti2QBbjBE0N3pPXPcJUmxDYCmUgslXMhl2wcpWXyTTrk28=",
+              "title": "drnikko.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3E3gToacJmJ3XdwwQ8l4aqlQLJiXxeXKyCF0D-s4g9zyk6SSjQYddHsx3f9Bpiuk3rU4HUQcRx_ZbfqFYwXDyjOmbMwbbUW6ZXQaP6Gx3Pp3hlxO56IpWGySGI4zT2sRmOC1lpQ==",
+              "title": "hibiscus.health"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKKAxDSzFqe2MDJ7xYucrRxCIOO6FiG7EGQa_2lV03S9BqG66hM17jccC5c9VP7l5W42GcNwP48cVI8zM16kLNrLVjtgvz8-9xfWeeJ76R1NCzQH9aHnUMDVkAA7EAEVFzw06rPrTZJGLpjKKJxAVkGp1rd48kME9eaTbU4Xmu2J3ThYYazj-8Hg==",
+              "title": "anitasskincareclinickaty.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuYM4YsR71JDb5pxbhNFLRYQUHde7tZEJ6cof11sh9Nr2OWrxn893y0SGs17uFJJJEux7gom7CRZEskj7COWgi2VRiY-nTgsED1T3eSTWo-UpFa2Ic9_CTBiUWFsWr8Mimbc6G43c8bKw2PdHOzQFU7wDuMGF_sqlcBxpjyg==",
+              "title": "allaymedspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt9aemSDaZfru5Ql7cF3esG9zoMU61zxeh0L3VLFvSJldSdGqFKrEbeCycg07vaygTsUWuc0el3mFFhgcuFkaoDjU2EqriiHnB9hshKVg79Hkwi007CFuMTa2zCSS3F0VSNHyEKvXswR0SFA99ucsiL9iF",
+              "title": "beautybecomesyou.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvJzSoC1RTz1TJ9NWVyVDFsJ2NnKvplOH1z3SJkvmX99T1fBlnY3DWpIV9b_OPFlTiWAAzMp11ny54hxyildb-rCVeD8adghgBaIryS7Airw==",
+              "title": "cincoderm.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF27542pgkoRFCpczuC0iQpRWH2eT82i_LWZBeYVTphiDNcOnH-fLgVdy0o4V2SYfTmPLoj1_P0TBeCqUZX_Bkhwi9UbbxC5mYZCuTNvr5iDE15d08XUfTnweHaYFbwX6TmNGT3I9ys",
+              "title": "advanceddermatologymd.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyKHBKoT7FFGFcknQ5e3i4uFTXn-41jprR1MEMASulE0r-R8EOkkHEAYGI98jVTmpQfCQffSY8-Rg8NU7Vpx8qjrOLhp-6pc3AiYeirlpi_iEEnJCb",
+              "title": "dermofkaty.com"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "endIndex": 153,
+              "text": "The best treatment for hyperpigmentation in Katy, TX, will depend on the type of hyperpigmentation, its severity, and your individual skin type and goals"
+            },
+            "groundingChunkIndices": [
+              0,
+              1
+            ],
+            "confidenceScores": [
+              0.29392448,
+              0.2978286
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 238,
+              "endIndex": 412,
+              "text": "*   **Compounded Hydroquinone Cream:** This prescription-strength cream regulates melanin production and is effective for melasma, dark marks, age spots, and uneven skin tone"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.9377158
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 414,
+              "endIndex": 596,
+              "text": "*   **Medical-Grade Skincare:** Customized regimens with ingredients like hydroquinone, vitamin C, kojic acid, and retinoids can help maintain results and prevent future pigmentation"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.019830778
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 620,
+              "endIndex": 848,
+              "text": "*   **Complexion Peel (Cosmelan Peel):** This professional peel uses alpha hydroxy acids like glycolic and lactic acid to exfoliate, accelerate skin cell turnover, and penetrate deeply into damaged layers to reduce discoloration"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.95405036
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 850,
+              "endIndex": 987,
+              "text": "*   **Other Chemical Peels:** Chemical peels exfoliate and remove the outermost layers of skin to reveal a brighter, more even complexion"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.32424444
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1022,
+              "endIndex": 1200,
+              "text": "*   **Aerolase Neo:** This laser delivers 650-microsecond laser energy into the dermis and epidermis to break up melanin deposits while shutting down vasculature and inflammation"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.9405793
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1202,
+              "endIndex": 1287,
+              "text": "It is safe and effective for all skin types in clearing melasma and hyperpigmentation"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.7651015
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1289,
+              "endIndex": 1424,
+              "text": "*   **IPL (Intense Pulsed Light):** IPL improves the appearance of photoaged skin and removes age spots and other benign brown pigments"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.011825512
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1450,
+              "endIndex": 1598,
+              "text": "*   **Microneedling with Brightening Serums:** This boosts collagen production while delivering pigmentation-fighting ingredients deep into the skin"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.91565186
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1600,
+              "endIndex": 1743,
+              "text": "*   **Depigmentation Therapy:** This therapy lightens and breaks up existing hyperpigmentation using advanced modalities and holistic therapies"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.9606557
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1745,
+              "endIndex": 1873,
+              "text": "It uses innovative technologies, acids, and exfoliating agents to remove the top layer of skin, revealing a more even complexion"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.9332846
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1918,
+              "endIndex": 2056,
+              "text": "*   **Nikko Dermatology:** Offers customized hyperpigmentation treatments, including compounded hydroquinone cream and the Complexion Peel"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.9553583
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2058,
+              "endIndex": 2184,
+              "text": "*   **Anita's Skin Care Clinic:** Provides depigmentation therapy using innovative technologies, acids, and exfoliating agents"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.34489733
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2186,
+              "endIndex": 2292,
+              "text": "*   **Hibiscus Aesthetics & Wellness:** Offers Aerolase Laser treatments for melasma and hyperpigmentation"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.5877405
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2294,
+              "endIndex": 2382,
+              "text": "*   **Allay Med Spa:** Provides skincare enhancement and treatment for hyperpigmentation"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.9391161
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2384,
+              "endIndex": 2559,
+              "text": "*   **Sapphira Prive Katy:** Offers customized solutions, including chemical peels, microneedling with brightening serums, laser treatments, and topical medical-grade skincare"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.6201385
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2561,
+              "endIndex": 2700,
+              "text": "*   **Houston Dermatology and Plastic Surgery:** Offers comprehensive skin tests and expert opinions on the best approach to your condition"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.9411167
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2702,
+              "endIndex": 2803,
+              "text": "*   **Cinco Ranch Dermatology:** Provides expert dermatology care with board-certified dermatologists"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.82464695
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2805,
+              "endIndex": 2891,
+              "text": "*   **Advanced Dermatology:** Offers specific skincare treatments after a consultation"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.93306845
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2893,
+              "endIndex": 2977,
+              "text": "*   **Dermatology Associates of Katy:** Offers treatment for various skin conditions"
+            },
+            "groundingChunkIndices": [
+              8
+            ],
+            "confidenceScores": [
+              0.84120744
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3011,
+              "endIndex": 3149,
+              "text": "*   A consultation with a dermatologist or skincare professional is essential to determine the best treatment plan for your specific needs"
+            },
+            "groundingChunkIndices": [
+              7,
+              3,
+              5
+            ],
+            "confidenceScores": [
+              0.22133349,
+              0.1448773,
+              0.059789132
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3151,
+              "endIndex": 3229,
+              "text": "*   Some treatments, like hydroquinone, are not recommended for pregnant women"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.030438071
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3231,
+              "endIndex": 3328,
+              "text": "*   To maintain results, it's important to apply sunscreen daily and avoid excessive sun exposure"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.8152816
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "hyperpigmentation treatment Katy TX",
+          "best dermatologist Katy TX hyperpigmentation"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 8,
+    "candidatesTokenCount": 672,
+    "totalTokenCount": 680,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 8
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 672
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "rTrRaezsDu-hz7IPy5bckAs"
+}

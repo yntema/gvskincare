@@ -1,0 +1,152 @@
+{
+  "id": "resp_0128b88e9714cb720069d134610f9c819090a1c1c6d7f95a94",
+  "object": "response",
+  "created_at": 1775318113,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318118,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0128b88e9714cb720069d13461308c8190a389569e89629438",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Anti-aging facial treatments Katy TX"
+        ],
+        "query": "Anti-aging facial treatments Katy TX"
+      }
+    },
+    {
+      "id": "msg_0128b88e9714cb720069d134627e0481909a63911ff3c0e277",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 226,
+              "start_index": 111,
+              "title": "Restore Hyper Wellness",
+              "url": "https://www.google.com/maps/search/Restore+Hyper+Wellness%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 582,
+              "start_index": 477,
+              "title": "Katy Med Tech Spa",
+              "url": "https://www.google.com/maps/search/Katy+Med+Tech+Spa%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 851,
+              "start_index": 724,
+              "title": "Progressive Women\u2019s Care",
+              "url": "https://www.google.com/maps/search/Progressive+Women%E2%80%99s+Care%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1155,
+              "start_index": 1047,
+              "title": "Le Chlo\u00e9 Med Spa",
+              "url": "https://www.google.com/maps/search/Le+Chlo%C3%A9+Med+Spa%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1470,
+              "start_index": 1355,
+              "title": "Elite Glow Skin Clinic",
+              "url": "https://www.google.com/maps/search/Elite+Glow+Skin+Clinic%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1785,
+              "start_index": 1672,
+              "title": "The Renewal Institute",
+              "url": "https://www.google.com/maps/search/The+Renewal+Institute%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2139,
+              "start_index": 1978,
+              "title": "4Ever Young Anti-Aging Clinic and Medical Spa",
+              "url": "https://www.google.com/maps/search/4Ever+Young+Anti-Aging+Clinic+and+Medical+Spa%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2469,
+              "start_index": 2324,
+              "title": "Serendipity Lifestyle & Wellness Spa",
+              "url": "https://www.google.com/maps/search/Serendipity+Lifestyle+%26+Wellness+Spa%2C+Katy%2C+TX?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "If you're seeking anti-aging facial treatments in Katy, TX, here are several reputable options to consider:\n\n**[Restore Hyper Wellness](https://www.google.com/maps/search/Restore+Hyper+Wellness%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nOffers the HydroPeptide Custom Facial, personalized to smooth complexion, enhance product penetration, and effectively purge impurities. Benefits include decreased fine facial hair, improved signs of aging, and a smoother complexion.\n\n**[Katy Med Tech Spa](https://www.google.com/maps/search/Katy+Med+Tech+Spa%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nProvides an Anti-Aging Facial targeting wrinkles and sagging skin, aiming to leave clients feeling rejuvenated and youthful.\n\n**[Progressive Women\u2019s Care](https://www.google.com/maps/search/Progressive+Women%E2%80%99s+Care%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nOffers facial rejuvenation services including Botox, PDO threads, Forma, and Morpheus8, designed to reduce fine lines, improve skin elasticity, and promote a youthful appearance.\n\n**[Le Chlo\u00e9 Med Spa](https://www.google.com/maps/search/Le+Chlo%C3%A9+Med+Spa%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nSpecializes in non-surgical anti-aging treatments like PDO threads, neck tightening, brow lifts, and hand rejuvenation, aiming to restore a youthful glow without surgery or downtime.\n\n**[Elite Glow Skin Clinic](https://www.google.com/maps/search/Elite+Glow+Skin+Clinic%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nOffers a Signature Anti-Aging Treatment designed to reduce fine lines, smooth wrinkles, and lift sagging areas using advanced techniques that stimulate collagen and elastin production.\n\n**[The Renewal Institute](https://www.google.com/maps/search/The+Renewal+Institute%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nProvides a comprehensive approach to facial rejuvenation with services like chemical peels, Botox, dermal fillers, and personalized skincare plans, all in a luxurious setting.\n\n**[4Ever Young Anti-Aging Clinic and Medical Spa](https://www.google.com/maps/search/4Ever+Young+Anti-Aging+Clinic+and+Medical+Spa%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nOffers Hydrafacial treatments that cleanse, exfoliate, extract, and hydrate the skin, targeting multiple skin concerns such as fine lines, dullness, and clogged pores.\n\n**[Serendipity Lifestyle & Wellness Spa](https://www.google.com/maps/search/Serendipity+Lifestyle+%26+Wellness+Spa%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nFeatures the Serendipity VIP Facial, a medical-grade exfoliation treatment using anti-aging serums enriched with antioxidants, customized to individual skin needs.\n\nEach of these establishments offers unique treatments tailored to combat signs of aging and enhance skin vitality. It's advisable to contact them directly to discuss your specific needs and determine the most suitable treatment for you. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 306,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 715,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1021
+  },
+  "user": null,
+  "metadata": {}
+}

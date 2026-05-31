@@ -1,0 +1,324 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Here are some options for acne facial treatments in Katy, Texas:\n\n*   **AcneFix:** They offer personalized acne treatments combining expert care with proven methods. Their services include acne consultation, acne consultation and treatment, and acne treatment sessions with extractions, high-frequency treatment, and LED light therapy. They focus on identifying your acne type, skin tolerance, and triggers to create a customized plan.\n*   **Luminous MediSpa:** They offer specialized acne facials designed to combat acne, improve skin health, and boost confidence. Their acne facials include a comprehensive evaluation, deep cleansing, exfoliation, extractions, acne-fighting products, and hydration.\n*   **Spavia Cinco Ranch:** They offer a purifying acne facial rich in Mangosteen extract, providing antioxidant, antibacterial, and anti-inflammatory actions. The facial helps heal and reduce blackheads and blemishes. It includes extractions, a blend of white and green clays, and a relaxing massage.\n*   **Face to Face Spa:** This med spa offers facials designed to address a range of concerns, including acne reduction. Options include classic facials and Hydrafacials, with more specialized treatments like chemical peels, microneedling, microdermabrasion, and dermaplaning. New clients can enjoy a 60-minute premium medi-facial with a choice of chemical peel or microdermabrasion at a discounted rate.\n*   **Le Chloé Med Spa:** They offer various facial treatments, and their aesthetic experts can recommend a facial that is perfect for your skin concerns and type. They offer an Acne Light Facial, chemical peels, microdermabrasion, and microneedling.\n*   **Hibiscus Aesthetics & Wellness:** They offer personalized acne and acne scar treatments, including AviClear™ Laser Treatment, chemical peels, and microneedling. They also offer NEOCLEAR BY AEROLASE® ACNE TREATMENT, which targets excess sebum production, inflammation, and the p. acnes bacteria.\n*   **Massage Envy - Katy:** They offer results-driven facials and skin care services designed to focus on your specific goals. They offer a Clarifying Acne Chemical Exfoliation. More advanced treatments such as Microderm Infusion, Chemical Peel/Exfoliation, and Dermaplaning are also available.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF71SyP40iF_AJ6JJWQ1XppJdL6hwL5OFtXvJkcnvVDy-KdQypfc7-k3AVCAnMvO_oflmG49ZLhFznn-g_ejrgOcKda3J1bWWosecFGYR0Eo1n_DBoRrdJAPQqMMfrgYqpOrz-9vfjMNz6kZs4DcSpNEiNwY26nDM9nkHBioNEzidgbv5s5z479n3EyGX1ubARP_EI3P_TDoXZy0QWzxrZW3y62RfCB5jw=\"\u003etop acne facial treatments Katy Texas\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-LYpUAT4BYWBBmoDmxGqvtoBjyOQz1aYeF3-8wrwE5rzc65oGXIgj3_6kWHf83PT36-B0BVc35ejUeIzKLylPsiVW2k8pAzSRjVf_k37RjrCbDd9c-byraB5FSb4cjM-gxrQJyeq545yNMmGU4OeoIModkRXC5dL7oN9GIUcbRO9MMJ75-OX5tSgswqOKF52qk_ZGUVqwVFQ=\"\u003eacne facial Katy Texas\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXDsjc7Apd4pW-SvkZRQo-jN334qaYis5V6E2cX1ETLihFVzIGfR3BevDNuMCaxiYyGBQqarD4fTg1WSKf_1Z-UqMzDUrNGwlZoY8Vhduq_QRWnNR-4kyo6ocz2S_oCsvc",
+              "title": "acnefix.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWq2bDHz88hAKvUXvQcGgSw1Ofsrr3ec83E47zLNmhJTuI4pBmYx1MGhXN7gtmxIipTWG3imZ_eF3_SxzOECuOmhr7Hx6expW6dBUuORR8oWTIhfAGcODO6XFgL1xOvgjxn1k=",
+              "title": "luminousmedispa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFI9kiRNoZlUdM4avzUSaYYeBH465TksfV7FGA0uQ_aDCkV0Wczs8jCtx3bxkVDoHfJDPb-v497Uv8bPfnxAZvasPdbuotyfG7xT0KBFOff3xEje4V2xtyIVgsOZcway0FdR_xiycOXeaTZ",
+              "title": "spaviadayspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHV8nE-3J0s-S8g-s_MK6JLpgO0K39ktYYbnki-9OTubrzI1_icbsItvNprMTTXs9dxBaNJY6s2bWjN6A8DBISdy830nCzy9iycVxvFdsap2DW5EmEFIwKZ4JHql9WTPMvX",
+              "title": "facetofacespa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5Wz3APiAcMe7o85CLccGHFqyeB0VAd4lDkqeehg4s2oOMBGYAPnmLdrpP3CHdf9GTsRkZx40pxifZW-R6yW181YYCgF0Uz3mCTM03YRXHtaPj0bogereViFe8hAl09EcfQoN6_AFgmh1K3iThQ8m3734M5rLGzQ==",
+              "title": "lechloemedspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ6gkttKzWEXGHgoV33EEd8sKvd1I29XcvhC2QwVUv6P9DJhrmDVzewl217Dw62HTTc3_GIOrXoi7oUDl4ifrjqYm9U9PX0SOApckXnCfODbicMX6MqwbqL-T1SSYPTMutTOetiBqEhr8E-bBcL2fliwovRyVya7Q=",
+              "title": "hibiscus.health"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGweQ8okMwuqR1QclVAKXf8q_T134CRFWo9cKq749T-mtKM4oXuF5zdgw_CISXNU9ixWvHpoYcB2EyXiKN-wFXFBBbf9DbswbcJO4c3VQl6Hu56QYnKvoLwWUp6g9NiHTgUfeDcTeECp-Ca9w-W9fFi-Jrxwv-CuiBcHXhA5x8LFXsPF2GVCEUG_nA=",
+              "title": "massageenvy.com"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "startIndex": 66,
+              "endIndex": 164,
+              "text": "*   **AcneFix:** They offer personalized acne treatments combining expert care with proven methods"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.91827244
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 166,
+              "endIndex": 334,
+              "text": "Their services include acne consultation, acne consultation and treatment, and acne treatment sessions with extractions, high-frequency treatment, and LED light therapy"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.8298846
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 336,
+              "endIndex": 434,
+              "text": "They focus on identifying your acne type, skin tolerance, and triggers to create a customized plan"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.79411614
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 436,
+              "endIndex": 564,
+              "text": "*   **Luminous MediSpa:** They offer specialized acne facials designed to combat acne, improve skin health, and boost confidence"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.9165788
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 566,
+              "endIndex": 700,
+              "text": "Their acne facials include a comprehensive evaluation, deep cleansing, exfoliation, extractions, acne-fighting products, and hydration"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.12728445
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 702,
+              "endIndex": 860,
+              "text": "*   **Spavia Cinco Ranch:** They offer a purifying acne facial rich in Mangosteen extract, providing antioxidant, antibacterial, and anti-inflammatory actions"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.9491058
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 862,
+              "endIndex": 919,
+              "text": "The facial helps heal and reduce blackheads and blemishes"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.9188091
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 921,
+              "endIndex": 1002,
+              "text": "It includes extractions, a blend of white and green clays, and a relaxing massage"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.938286
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1004,
+              "endIndex": 1123,
+              "text": "*   **Face to Face Spa:** This med spa offers facials designed to address a range of concerns, including acne reduction"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.94385546
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1125,
+              "endIndex": 1279,
+              "text": "Options include classic facials and Hydrafacials, with more specialized treatments like chemical peels, microneedling, microdermabrasion, and dermaplaning"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.8704663
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1281,
+              "endIndex": 1407,
+              "text": "New clients can enjoy a 60-minute premium medi-facial with a choice of chemical peel or microdermabrasion at a discounted rate"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.92463756
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1409,
+              "endIndex": 1572,
+              "text": "*   **Le Chloé Med Spa:** They offer various facial treatments, and their aesthetic experts can recommend a facial that is perfect for your skin concerns and type"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.9521384
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1574,
+              "endIndex": 1659,
+              "text": "They offer an Acne Light Facial, chemical peels, microdermabrasion, and microneedling"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.79431933
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1661,
+              "endIndex": 1828,
+              "text": "*   **Hibiscus Aesthetics & Wellness:** They offer personalized acne and acne scar treatments, including AviClear™ Laser Treatment, chemical peels, and microneedling"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.3227096
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1949,
+              "endIndex": 1963,
+              "text": "acnes bacteria"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.4378095
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1965,
+              "endIndex": 2091,
+              "text": "*   **Massage Envy - Katy:** They offer results-driven facials and skin care services designed to focus on your specific goals"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.09893787
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2093,
+              "endIndex": 2142,
+              "text": "They offer a Clarifying Acne Chemical Exfoliation"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.9253868
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2144,
+              "endIndex": 2259,
+              "text": "More advanced treatments such as Microderm Infusion, Chemical Peel/Exfoliation, and Dermaplaning are also available"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.96256745
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "top acne facial treatments Katy Texas",
+          "acne facial Katy Texas"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 6,
+    "candidatesTokenCount": 475,
+    "totalTokenCount": 481,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 6
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 475
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "fTrRafHAG5Toz7IPurqc-Qs"
+}

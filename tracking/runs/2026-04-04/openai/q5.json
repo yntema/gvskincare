@@ -1,0 +1,152 @@
+{
+  "id": "resp_09d9a0bdc88d420d0069d1341cb24881a2b9740d93c5fb241b",
+  "object": "response",
+  "created_at": 1775318044,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318051,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_09d9a0bdc88d420d0069d1341cc2dc81a2beb5aadc67139e8f",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Top rated skincare spa Katy Texas"
+        ],
+        "query": "Top rated skincare spa Katy Texas"
+      }
+    },
+    {
+      "id": "msg_09d9a0bdc88d420d0069d1341e31ac81a2bd4a9938bdf300a3",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 128,
+              "start_index": 57,
+              "title": "Divinity Spa Katy",
+              "url": "http://www.divinityspa-katy.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 428,
+              "start_index": 361,
+              "title": "GV SKINCARE CENTER",
+              "url": "https://www.gvskincare.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 759,
+              "start_index": 690,
+              "title": "Luminous MediSpa",
+              "url": "http://www.luminousmedispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1122,
+              "start_index": 1012,
+              "title": "Face to Face Spa at Cinco Ranch",
+              "url": "https://facetofacespa.com/cinco-ranch/?utm_medium=organic&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1453,
+              "start_index": 1350,
+              "title": "H-Town Aesthetics",
+              "url": "https://htownaesthetics.com/?utm_medium=organic&utm_campaign=gbp&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1826,
+              "start_index": 1737,
+              "title": "Viata Aesthetics and Wellness",
+              "url": "http://viataaestheticsandwellness.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2143,
+              "start_index": 2072,
+              "title": "LUXE Medical Aesthetics",
+              "url": "https://theluxeeffect.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2448,
+              "start_index": 2369,
+              "title": "SkinSpirit Katy",
+              "url": "https://www.skinspirit.com/locations/katy/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Here are some top-rated skincare spas in Katy, Texas:\n\n**[Divinity Spa Katy](http://www.divinityspa-katy.com/?utm_source=openai)**  \n**Open now \u00b7 Facial spa \u00b7 4.9 (45 reviews)**  \n_511 S Mason Rd Suite # 122, Katy, TX 77450_  \nProvides facials, skincare, waxing, and body contouring services in a comfortable environment. Located at 511 Mason Rd Suite #122.\n\n**[GV SKINCARE CENTER](https://www.gvskincare.com/?utm_source=openai)**  \n**Open now \u00b7 Facial spa \u00b7 4.8 (107 reviews)**  \n_23410 Grand Reserve Dr Suite 302, Katy, TX 77494_  \nOffers professional skincare treatments, including facial and body services, with a focus on healthy skin. Located at 23410 Grand Reserve Dr. Suite 302.\n\n**[Luminous MediSpa](http://www.luminousmedispa.com/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 5.0 (134 reviews)**  \n_410 W Grand Pkwy S #310, Katy, TX 77494_  \nOffers a range of med spa treatments such as HydraFacial, laser hair removal, microneedling, and injectables. Located at 410 W Grand Pkwy S #Suite 310.\n\n**[Face to Face Spa at Cinco Ranch](https://facetofacespa.com/cinco-ranch/?utm_medium=organic&utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.9 (353 reviews)**  \n_27131 Cinco Ranch Blvd Suite 750, Katy, TX 77494_  \nProvides medi-facials, lash stylings, and skin rejuvenation treatments. Located at 27131 Cinco Ranch Blvd, Suite 750.\n\n**[H-Town Aesthetics](https://htownaesthetics.com/?utm_medium=organic&utm_campaign=gbp&utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 5.0 (128 reviews)**  \n_21003 Highland Knolls Dr Ste.300, Katy, TX 77450_  \nOffers personalized skincare and beauty enhancements, including injectables, hair restoration, and skin rejuvenation. Located at 21003 Highland Knolls Dr Ste. 300 (Suite 103).\n\n**[Viata Aesthetics and Wellness](http://viataaestheticsandwellness.com/?utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 5.0 (125 reviews)**  \n_26077 Nelson Way #802, Katy, TX 77494_  \nOffers personalized treatments including Botox, dermal fillers, medical weight loss, and microneedling. Located at 27110 Cinco Ranch Blvd Suite 600.\n\n**[LUXE Medical Aesthetics](https://theluxeeffect.com/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.9 (76 reviews)**  \n_21770 Kingsland Blvd, Katy, TX 77450_  \nProvides advanced, non-surgical aesthetic treatments as part of Mason Park Medical Clinic. Located at 21770 Kingsland Blvd #102.\n\n**[SkinSpirit Katy](https://www.skinspirit.com/locations/katy/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.9 (161 reviews)**  \n_23501 Cinco Ranch Blvd Suite J110, Katy, TX 77494_  \nProvides a range of med spa services, including Botox, fillers, and facials. Located at 2717 Commercial Center Blvd Suite E200.\n\nEach of these spas offers a variety of skincare treatments tailored to different needs. It's advisable to contact them directly or visit their websites for more detailed information on services, pricing, and to schedule appointments. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 306,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 781,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1087
+  },
+  "user": null,
+  "metadata": {}
+}

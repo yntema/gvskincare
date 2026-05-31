@@ -1,0 +1,145 @@
+{
+  "id": "resp_0179261d3151705a0069d1341475008191837144d0d0456bd7",
+  "object": "response",
+  "created_at": 1775318036,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318042,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0179261d3151705a0069d134148cf08191bc5f09ffa7079bc3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best medspa in Katy TX"
+        ],
+        "query": "Best medspa in Katy TX"
+      }
+    },
+    {
+      "id": "msg_0179261d3151705a0069d1341588dc8191989065118ee0be84",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 232,
+              "start_index": 157,
+              "title": "4Ever Glow Salon & MedSpa",
+              "url": "https://4everglowmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 580,
+              "start_index": 506,
+              "title": "Rich & Rooted Medspa",
+              "url": "https://richandrootedmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 953,
+              "start_index": 865,
+              "title": "Aesthetic Master Infusions LLC",
+              "url": "http://aestheticmasterinfusions.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1352,
+              "start_index": 1230,
+              "title": "Amerejuve MedSpa, Katy TX - Laser Hair Removal, CoolSculpting & Botox Katy",
+              "url": "https://www.amerejuve.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1706,
+              "start_index": 1647,
+              "title": "Katy Medi Spa",
+              "url": "https://katymedispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2058,
+              "start_index": 1972,
+              "title": "Beauty RX Aesthetics Houston",
+              "url": "http://www.beauty-rx-aesthetics.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2438,
+              "start_index": 2335,
+              "title": "H-Town Aesthetics",
+              "url": "https://htownaesthetics.com/?utm_medium=organic&utm_campaign=gbp&utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Katy, Texas, offers a variety of reputable medical spas (medspas) that provide a range of aesthetic and wellness services. Here are some notable options:\n\n**[4Ever Glow Salon & MedSpa](https://4everglowmedspa.com/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.9 (110 reviews)**  \n_722 Katy Fort Bend Rd #500, Katy, TX 77494_  \nOffers services including laser hair removal, microneedling, Hydrafacial, IPL treatments, and tattoo removal, with a focus on personalized beauty and wellness solutions.\n\n**[Rich & Rooted Medspa](https://richandrootedmedspa.com/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.8 (17 reviews)**  \n_24022 Cinco Village Center Blvd Suite 120 2A, Park Row, TX 77494_  \nSpecializes in non-surgical aesthetic treatments like Botox, dermal fillers, IV hydration therapy, and weight loss programs in a tranquil, upscale environment.\n\n**[Aesthetic Master Infusions LLC](http://aestheticmasterinfusions.com/?utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 5.0 (51 reviews)**  \n_5231 E 5th St, Katy, TX 77493_  \nProvides advanced treatments such as CO2 Carboxy Facial, CoolJet Cold Plasma Facial, IV infusion therapy, and weight loss programs, emphasizing personalized care and FDA-approved products.\n\n**[Amerejuve MedSpa, Katy TX - Laser Hair Removal, CoolSculpting & Botox Katy](https://www.amerejuve.com/?utm_source=openai)**  \n**Open now \u00b7 Laser hair removal service \u00b7 4.7 (197 reviews)**  \n_2717 Commercial Center Blvd SuiteE170, Katy, TX 77494_  \nOffers a wide range of services including laser hair removal, Botox, dermal fillers, CoolSculpting, and Hydrafacial, with multiple locations in Houston and Atlanta.\n\n**[Katy Medi Spa](https://katymedispa.com/?utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 4.5 (84 reviews)**  \n_21238 Kingsland Blvd Ste. 1B, Katy, TX 77450_  \nPhysician-led medspa offering advanced aesthetic, wellness, and medical treatments such as facials, chemical peels, Botox, hormone therapy, and weight management.\n\n**[Beauty RX Aesthetics Houston](http://www.beauty-rx-aesthetics.com/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 5.0 (16 reviews)**  \n_25722 Kingsland Blvd Suite 201-E, Katy, TX 77494_  \nSpecializes in personalized aesthetic treatments including Botox, dermal fillers, microneedling, HydraFacial, and body sculpting, focusing on enhancing natural beauty.\n\n**[H-Town Aesthetics](https://htownaesthetics.com/?utm_medium=organic&utm_campaign=gbp&utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 5.0 (128 reviews)**  \n_21003 Highland Knolls Dr Ste.300, Katy, TX 77450_  \nProvides a range of services including Botox, dermal fillers, PRP treatments, hair restoration, and laser hair removal, focusing on personalized care and natural-looking results.\n\nWhen selecting a medspa, consider factors such as the range of services offered, the qualifications of the staff, the quality of customer service, and the overall ambiance. It's advisable to schedule consultations with a few medspas to discuss your specific needs and determine which facility aligns best with your aesthetic and wellness goals. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 306,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 767,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1073
+  },
+  "user": null,
+  "metadata": {}
+}

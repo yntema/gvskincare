@@ -1,0 +1,110 @@
+{
+  "id": "resp_0f96c78022bd67770069d1350d3194819fa4445a98ccd311aa",
+  "object": "response",
+  "created_at": 1775318285,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318290,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0f96c78022bd67770069d1350d4898819f8d50d0640e10de73",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Mejor tratamiento para el acne en Katy TX"
+        ],
+        "query": "Mejor tratamiento para el acne en Katy TX"
+      }
+    },
+    {
+      "id": "msg_0f96c78022bd67770069d1350e5f34819f893ddfc6b1aed477",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 245,
+              "start_index": 166,
+              "title": "Dermatology Associates of Katy",
+              "url": "https://www.dermofkaty.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 713,
+              "start_index": 602,
+              "title": "Aesthetica MD Med Spa",
+              "url": "https://aestheticamdcypress.com/?utm_medium=organic&utm_campaign=gbp&utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "En Katy, Texas, existen varias cl\u00ednicas y especialistas que ofrecen tratamientos efectivos para el acn\u00e9. A continuaci\u00f3n, se presentan algunas opciones destacadas:\n\n**[Dermatology Associates of Katy](https://www.dermofkaty.com/?utm_source=openai)**  \n**Abierto ahora \u00b7 Dermatologist \u00b7 4.8 (282 rese\u00f1as)**  \n_23510 Kingsland Blvd #110, Katy, TX 77494_  \nDirigida por la Dra. Uyen Ngoc Mui, esta cl\u00ednica ofrece tratamientos personalizados para el acn\u00e9, incluyendo antibi\u00f3ticos t\u00f3picos y orales, productos con per\u00f3xido de benzoilo, medicamentos como tretino\u00edna, terapia l\u00e1ser y extracci\u00f3n de comedones.\n\n**[Aesthetica MD Med Spa](https://aestheticamdcypress.com/?utm_medium=organic&utm_campaign=gbp&utm_source=openai)**  \n**Abierto ahora \u00b7 Medical spa \u00b7 4.9 (179 rese\u00f1as)**  \n_8118 Fry Rd #1304, Cypress, TX 77433_  \nOfrece tratamientos avanzados para el acn\u00e9, incluyendo terapia l\u00e1ser como Laser Genesis\u2122, peelings qu\u00edmicos y tratamientos faciales de grado m\u00e9dico, dise\u00f1ados para reducir la inflamaci\u00f3n y mejorar la textura de la piel.\n\n**Dr. Sana Zahiruddin, MD, FAAD Dermatologist**  \n**Cerrado \u00b7 Dermatologist \u00b7 3.1 (7 rese\u00f1as)**  \n_24612 Kingsland Blvd, Katy, TX 77494_  \nDermat\u00f3loga certificada que ofrece una amplia gama de servicios dermatol\u00f3gicos para pacientes de todas las edades, incluyendo tratamientos para el acn\u00e9, eczema, c\u00e1ncer de piel y procedimientos est\u00e9ticos.\n\nEs recomendable programar una consulta con alguno de estos especialistas para determinar el tratamiento m\u00e1s adecuado seg\u00fan las necesidades espec\u00edficas de su piel. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 312,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 374,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 686
+  },
+  "user": null,
+  "metadata": {}
+}

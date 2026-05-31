@@ -1,0 +1,124 @@
+{
+  "id": "resp_01afa331927030180069d134c505148192870e17315a79a458",
+  "object": "response",
+  "created_at": 1775318213,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318217,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_01afa331927030180069d134c51c248192bf924471813b48ee",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Milk and Honey spa alternatives west Houston"
+        ],
+        "query": "Milk and Honey spa alternatives west Houston"
+      }
+    },
+    {
+      "id": "msg_01afa331927030180069d134c5eac48192a8579f1a17ca9aed",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 168,
+              "start_index": 109,
+              "title": "Luxe Wellness Spa",
+              "url": "http://luxewspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 519,
+              "start_index": 423,
+              "title": "The Spa at The Post Oak Hotel",
+              "url": "https://www.thepostoakhotel.com/wellness/spa/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 820,
+              "start_index": 761,
+              "title": "Urban Day Spa",
+              "url": "https://urbandayspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1177,
+              "start_index": 1115,
+              "title": "Sanctuary Spa",
+              "url": "http://www.besanctuary.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "If you're seeking spa alternatives to Milk + Honey in West Houston, here are several options to consider:\n\n**[Luxe Wellness Spa](http://luxewspa.com/?utm_source=openai)**  \n**Open now \u00b7 Spa \u00b7 5.0 (39 reviews)**  \n_1250 W Sam Houston Pkwy S, Houston, TX 77042_  \nSituated in the Westchase district, Luxe Wellness Spa provides various spa treatments in a serene environment, focusing on personalized wellness experiences.\n\n**[The Spa at The Post Oak Hotel](https://www.thepostoakhotel.com/wellness/spa/?utm_source=openai)**  \n**Open now \u00b7 Spa \u00b7 4.1 (162 reviews)**  \n_1600 W Loop S 5th Floor, Houston, TX 77027_  \nAs Texas's only Forbes Five-Star spa, this 20,000-square-foot facility offers luxurious treatments inspired by international wellness traditions.\n\n**[Urban Day Spa](https://urbandayspa.com/?utm_source=openai)**  \n**Open now \u00b7 Day spa \u00b7 4.6 (390 reviews)**  \n_7014 Hwy 6 N Ste D, Houston, TX 77095_  \nLocated in the Copperfield area, Urban Day Spa offers a range of services including Swedish, deep tissue, sports, pre-natal, and hot stone massages, along with couples massages and full spa packages.\n\n**[Sanctuary Spa](http://www.besanctuary.com/?utm_source=openai)**  \n**Open now \u00b7 Day spa \u00b7 4.8 (284 reviews)**  \n_1701 S Shepherd Dr suite c, Houston, TX 77019_  \nEstablished in 1984, Sanctuary Spa offers holistic and aromatic spa services, including facials, massages, and body treatments, in a tranquil environment.\n\nEach of these spas offers a unique experience, so consider your specific preferences and desired treatments when making a selection. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 308,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 392,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 700
+  },
+  "user": null,
+  "metadata": {}
+}

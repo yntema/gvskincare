@@ -1,0 +1,131 @@
+{
+  "id": "resp_0553fa36fc8dc6ac0069d1350580ec81a3a7c21a434c14efed",
+  "object": "response",
+  "created_at": 1775318277,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318283,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0553fa36fc8dc6ac0069d13505974c81a3887a6f610dcc1793",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "HydraFacial en Katy Texas"
+        ],
+        "query": "HydraFacial en Katy Texas"
+      }
+    },
+    {
+      "id": "msg_0553fa36fc8dc6ac0069d135068adc81a3afdb6b5102f0450f",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 181,
+              "start_index": 106,
+              "title": "4Ever Glow Salon & MedSpa",
+              "url": "https://4everglowmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 576,
+              "start_index": 513,
+              "title": "Selah MediSpa",
+              "url": "http://www.selahmedispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 996,
+              "start_index": 927,
+              "title": "Katy Med Tech Spa",
+              "url": "http://www.katymedtechspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1354,
+              "start_index": 1285,
+              "title": "Luminous MediSpa",
+              "url": "http://www.luminousmedispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1920,
+              "start_index": 1759,
+              "title": "Restore Hyper Wellness",
+              "url": "https://www.restore.com/locations/tx-katy-tx014?utm_medium=Yext&y_source=1_MzE2Mjk5MzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D&utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Si est\u00e1s buscando tratamientos de HydraFacial en Katy, Texas, aqu\u00ed tienes algunas opciones destacadas:\n\n**[4Ever Glow Salon & MedSpa](https://4everglowmedspa.com/?utm_source=openai)**  \n**Abierto ahora \u00b7 Medical spa \u00b7 4.9 (110 rese\u00f1as)**  \n_722 Katy Fort Bend Rd #500, Katy, TX 77494_  \nOfrece tratamientos de HydraFacial que combinan limpieza, exfoliaci\u00f3n, extracci\u00f3n, hidrataci\u00f3n y protecci\u00f3n antioxidante. Ubicados en 722 Katy Fort Bend Road, #500. Horario: Lunes a s\u00e1bado de 10 AM a 7 PM; domingo cerrado.\n\n**[Selah MediSpa](http://www.selahmedispa.com/?utm_source=openai)**  \n**Abierto ahora \u00b7 Medical clinic \u00b7 4.8 (421 rese\u00f1as)**  \n_21715 Kingsland Blvd #100, Katy, TX 77450_  \nProporciona HydraFacials personalizados para mejorar la apariencia de l\u00edneas finas, arrugas, tono desigual y m\u00e1s. Ubicados en 21707 Kingsland Blvd, Suite 100. Horario: Lunes a viernes de 9 AM a 6 PM; s\u00e1bado de 9 AM a 3 PM; domingo cerrado.\n\n**[Katy Med Tech Spa](http://www.katymedtechspa.com/?utm_source=openai)**  \n**Abierto ahora \u00b7 Facial spa \u00b7 4.9 (1292 rese\u00f1as)**  \n_25145 Star Ln #1002, Katy, TX 77494_  \nOfrece el popular tratamiento de HydraFacial, conocido por su capacidad para iluminar y reafirmar la piel. Ubicados en 25145 Star Ln Suite 1002. Horario: Domingo a s\u00e1bado de 8 AM a 8 PM.\n\n**[Luminous MediSpa](http://www.luminousmedispa.com/?utm_source=openai)**  \n**Abierto ahora \u00b7 Medical spa \u00b7 5.0 (134 rese\u00f1as)**  \n_410 W Grand Pkwy S #310, Katy, TX 77494_  \nEspecializados en HydraFacial, un procedimiento de cuidado de la piel dise\u00f1ado para revitalizar y rejuvenecer. Ubicados en 410 W Grand Pkwy S # Suite 310. Horario: Martes y jueves de 10 AM a 6 PM; mi\u00e9rcoles de 10 AM a 7 PM; viernes de 10 AM a 4 PM; s\u00e1bado de 10 AM a 2 PM; lunes y domingo cerrados.\n\n**[Restore Hyper Wellness](https://www.restore.com/locations/tx-katy-tx014?utm_medium=Yext&y_source=1_MzE2Mjk5MzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D&utm_source=openai)**  \n**Abierto ahora \u00b7 Medical spa \u00b7 4.9 (281 rese\u00f1as)**  \n_23116 Cinco Ranch Blvd, Katy, TX 77494_  \nOfrece el tratamiento HydraFacial Keravive para el cuero cabelludo, dise\u00f1ado para limpiar profundamente los fol\u00edculos pilosos y apoyar el crecimiento natural del cabello. Ubicados en 23116 Cinco Ranch Boulevard. Horario: Lunes a jueves de 10 AM a 7 PM; viernes y s\u00e1bado de 9 AM a 5 PM; domingo de 12 PM a 5 PM.\n\nTe recomiendo contactar directamente con estas cl\u00ednicas para obtener m\u00e1s detalles sobre los tratamientos, precios y disponibilidad de citas. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 308,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 735,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1043
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,355 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Here's some information about radiofrequency (RF) microneedling in Katy, TX:\n\n**What is RF Microneedling?**\n\n*   RF microneedling combines traditional microneedling with radiofrequency energy to rejuvenate the skin.\n*   Microneedling creates micro-injuries in the skin, stimulating the body's natural healing response and the production of new collagen and elastin.\n*   The added radiofrequency energy delivers heat deep into the dermis, further stimulating collagen production and tightening existing collagen fibers.\n\n**Benefits of RF Microneedling:**\n\n*   **Skin Tightening:** It can effectively address lax skin on the face, neck, and body, creating a lifting effect.\n*   **Wrinkle and Fine Line Reduction:** It smooths the skin's texture, minimizing the appearance of wrinkles and fine lines.\n*   **Acne Scar and Texture Improvement:** It can remodel deep acne scars and improve rough or uneven skin texture.\n*   **Pore Size Reduction:** It helps to tighten and reduce the appearance of enlarged pores.\n*   **Improved Skin Tone and Texture:** RF microneedling enhances overall skin texture and tone, promoting a smoother and more even complexion.\n*   **Enhanced Skin Firmness and Elasticity:** The collagen-inducing effects contribute to improved skin elasticity, reducing sagging and promoting a youthful firmness.\n*   **Treats Sun Damage and Hyperpigmentation**\n\n**Clinics Offering RF Microneedling in Katy, TX:**\n\n*   **Remedy Aesthetics & Weight Loss Solutions**\n*   **Ageless MedSpa**\n*   **H-Town Aesthetics**\n*   **Glow Up MD Spa**\n*   **About Face & Body Medical Spa**\n\n**What to Expect:**\n\n*   Minimal downtime, allowing you to resume normal activities shortly after the procedure.\n*   You may experience mild redness, swelling, and a warm sensation in the treated area, which typically subsides within a few hours to a couple of days.\n*   Some people may experience light peeling or a rough texture for a few days as the skin heals.\n*   Results develop gradually over the following weeks as the skin repairs itself.\n*   Multiple sessions (3-4) spaced 4-6 weeks apart are standard for long-term skin rejuvenation.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj9qlD3Vyu0lj3SPCSD3u9tHwQMZ2XjuS2XkAIUPb8yVk9LC72XMTjXP_OFi1kQU6daiPW11h7TW1FQKHaALIpx0ygcGcf8l0uJeGXW70ywexfTktuTaBBKHLjZjqduB11JnHH9yV5iPwUg8_KZEiLsAdUXRenbbukYZAfUP5CcKI8YAP9WRipnfZyzoaKonxuBSaOWG3lJF55O6tOs6aiOgo-uA8iaQ==\"\u003eradiofrequency microneedling Katy TX\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF76SvZqpndr5u0zifSx9RUJVFt4KGo214Ombsj-ny2Dj19aLxZwbCwf2p5O6X_E7QdfdeKEP7dM3Q1fx2ZJKp1WyzJz-GFP4QXy55j7MauUW0TLMMCjh0B61L4gvivw0y6unK7fBw-T_Q2u6pw3pI1xzwBiN0HvFN15coDhRSYah1BcK4PwHsoWVRKvylg",
+              "title": "remedyivhydration.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET5qLXaRhaslBs90NXQ6__fhde8w3bUGyihJcSJd-SCb_fj7uQJVuPQHezsX6kfMmGnwTAYWr3YGKJmRS-3hLhXvV_y3JCuSEv1zu2yz359FDZSnU7eY9v8nBNPmmyxUa1uYe7Jbk695IGpGWS64uQYlN3Fxkjl24=",
+              "title": "htownaesthetics.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_ul74pSk2GPIpDBMSV7ooRkoKZmEHv73pgZvzBRt8Fv2RbL5D9K4m2-HBSDJoeq-F0O4Cdw9tVi34l4X-Fgb6Pwxc60Q1SpR2r7KIICcf_CHTViljMYVcFZexyG4Utfo9rvfL52hikmeUK1Cj",
+              "title": "glowupmdspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgFDpym2Ixw4Dm2WwNHLAK_Hn3PLGawlV84yVg3qJkJRVnA8c1owLCvzZ8TC6JuoJ4grfazEcmbXTobty4ZYm5jIolGIQcJ7jYXWk_OG1iWiaE0jlnLwaJsEKMKKIkwLPTy90ijYTcACiW",
+              "title": "agelessmedspakaty.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBtx7NYuLGJru39nojfwMPGoTOWm8dzzvj4I2q3WLeN29uu4U5ew27lhgaZj-0bIUZxCV20sEbCiWYlOSRJeNA4T3znKP9oPgknV8pFkFcLqRGqVUZGLMgDY4hU20t3Ql_ivr38rlH2iHfuHELUNSeXSfhtnxmSAIFNBS66zxHP2TKxVZVwhnrYEkvYwJRYUsB69Qi",
+              "title": "aboutfaceandbodykaty.com"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "startIndex": 109,
+              "endIndex": 214,
+              "text": "*   RF microneedling combines traditional microneedling with radiofrequency energy to rejuvenate the skin"
+            },
+            "groundingChunkIndices": [
+              0,
+              1
+            ],
+            "confidenceScores": [
+              0.912471,
+              0.35255486
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 216,
+              "endIndex": 364,
+              "text": "*   Microneedling creates micro-injuries in the skin, stimulating the body's natural healing response and the production of new collagen and elastin"
+            },
+            "groundingChunkIndices": [
+              0,
+              2
+            ],
+            "confidenceScores": [
+              0.9569212,
+              0.9385705
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 366,
+              "endIndex": 517,
+              "text": "*   The added radiofrequency energy delivers heat deep into the dermis, further stimulating collagen production and tightening existing collagen fibers"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.86489975
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 555,
+              "endIndex": 670,
+              "text": "*   **Skin Tightening:** It can effectively address lax skin on the face, neck, and body, creating a lifting effect"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.945479
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 672,
+              "endIndex": 796,
+              "text": "*   **Wrinkle and Fine Line Reduction:** It smooths the skin's texture, minimizing the appearance of wrinkles and fine lines"
+            },
+            "groundingChunkIndices": [
+              0,
+              1
+            ],
+            "confidenceScores": [
+              0.92911124,
+              0.6060973
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 798,
+              "endIndex": 912,
+              "text": "*   **Acne Scar and Texture Improvement:** It can remodel deep acne scars and improve rough or uneven skin texture"
+            },
+            "groundingChunkIndices": [
+              0,
+              1,
+              2
+            ],
+            "confidenceScores": [
+              0.9515259,
+              0.13198282,
+              0.11956356
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 914,
+              "endIndex": 1006,
+              "text": "*   **Pore Size Reduction:** It helps to tighten and reduce the appearance of enlarged pores"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.92670554
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1008,
+              "endIndex": 1150,
+              "text": "*   **Improved Skin Tone and Texture:** RF microneedling enhances overall skin texture and tone, promoting a smoother and more even complexion"
+            },
+            "groundingChunkIndices": [
+              3,
+              1,
+              4
+            ],
+            "confidenceScores": [
+              0.9448289,
+              0.74455535,
+              0.40117717
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1152,
+              "endIndex": 1319,
+              "text": "*   **Enhanced Skin Firmness and Elasticity:** The collagen-inducing effects contribute to improved skin elasticity, reducing sagging and promoting a youthful firmness"
+            },
+            "groundingChunkIndices": [
+              3,
+              1
+            ],
+            "confidenceScores": [
+              0.955903,
+              0.5322153
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1321,
+              "endIndex": 1368,
+              "text": "*   **Treats Sun Damage and Hyperpigmentation**"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.6948917
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1422,
+              "endIndex": 1471,
+              "text": "*   **Remedy Aesthetics & Weight Loss Solutions**"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.69869006
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1472,
+              "endIndex": 1494,
+              "text": "*   **Ageless MedSpa**"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.850112
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1495,
+              "endIndex": 1520,
+              "text": "*   **H-Town Aesthetics**"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.63996845
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1521,
+              "endIndex": 1543,
+              "text": "*   **Glow Up MD Spa**"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.15909156
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1544,
+              "endIndex": 1581,
+              "text": "*   **About Face & Body Medical Spa**"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.83059
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1604,
+              "endIndex": 1694,
+              "text": "*   Minimal downtime, allowing you to resume normal activities shortly after the procedure"
+            },
+            "groundingChunkIndices": [
+              3,
+              1
+            ],
+            "confidenceScores": [
+              0.89666176,
+              0.04489
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1696,
+              "endIndex": 1848,
+              "text": "*   You may experience mild redness, swelling, and a warm sensation in the treated area, which typically subsides within a few hours to a couple of days"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.006434974
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1850,
+              "endIndex": 1946,
+              "text": "*   Some people may experience light peeling or a rough texture for a few days as the skin heals"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.0055661546
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1948,
+              "endIndex": 2029,
+              "text": "*   Results develop gradually over the following weeks as the skin repairs itself"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.0052571404
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2031,
+              "endIndex": 2126,
+              "text": "*   Multiple sessions (3-4) spaced 4-6 weeks apart are standard for long-term skin rejuvenation"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.8821955
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "radiofrequency microneedling Katy TX"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 8,
+    "candidatesTokenCount": 489,
+    "totalTokenCount": 497,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 8
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 489
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "cTrRadDVEprgz7IPhqfU-Qk"
+}

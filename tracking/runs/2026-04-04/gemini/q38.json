@@ -1,0 +1,239 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Aquí hay algunos lugares en Katy, TX donde puedes obtener tratamientos faciales profesionales:\n\n*   **Anita's Skin Care Clinic:** Ofrece una variedad de servicios que incluyen tratamientos faciales personalizados, depilación con hilo, dermaplaning, exfoliaciones químicas, depilación con cera europea dura o blanda, lifting de pestañas, tinte de cejas, tinte de pestañas y otros servicios de spa de día.\n*   **Le Chloé Med Spa:** Ofrece una variedad de tratamientos faciales que incluyen tratamientos faciales con luz para el acné, exfoliaciones químicas, microdermoabrasión, microagujas, dermaplaning, Botox y rellenos. También ofrecen tratamientos faciales especiales como el facial \"Vampire\", faciales para hombres y tratamientos faciales para la espalda.\n*   **Spavia Cinco Ranch:** Ofrece masajes, tratamientos faciales, tratamientos corporales y depilación con cera en un spa de lujo.\n*   **Hibiscus Aesthetics & Wellness:** Ofrece una variedad de tratamientos faciales que incluyen Hydrafacial, tratamientos faciales para el acné, tratamientos faciales brillantes y exfoliaciones químicas. También ofrecen microagujas SkinPen.\n*   **Face to Face Spa:** Ofrece tratamientos faciales personalizados diseñados para dejar tu piel radiante, tersa y saludable. Ofrecen una variedad de paquetes faciales que incluyen servicios de cuidado de la piel de vanguardia y servicios adicionales para rejuvenecer la mente y el cuerpo.\n*   **Katy Med Tech Spa:** Ofrece una variedad de tratamientos faciales adaptados a las necesidades individuales de sus clientes.\n*   **Amerejuve Medspa:** Ofrece una variedad de servicios de medspa que incluyen tratamientos faciales.\n*   **Divinity Spa:** Ofrece tratamientos faciales personalizados para rejuvenecer y mejorar tu piel.\n\nAl elegir un tratamiento facial profesional, es importante considerar tu tipo de piel, tus preocupaciones y tus objetivos. También es una buena idea leer reseñas y comparar precios antes de reservar una cita."
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZ3RjMN-fJXshaD1ZhuTs8SRoFeU2zqNWHVFgFNJ-wrWTHkUcThOXajhuHPsBNyLHNoeOOH5HcMparOSOkaEmVP04BpBTA_3wuSn9Q4kZcLFRWo9Ye9XYQI-xeXmpyqQBXH_m8i2kklBgWf2nqlHI3G1fYc37yhch9Xo7wRSGjxKGseQyPfa8IUkxn9YXwJmZZq1_EG7Hue-gIV8crcrYF\"\u003emejores spas faciales Katy TX\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHloako6wTZHPa1gqBAHk0S9jl2490gu0zPzWA5uu7cKvqfrbH87_wotJPPCpTnsYsEge-xfyzWdU8cNc1s-cZqqgT9fz6_0KDCQdDnqjyMolkGR9y2bj9HLlkp99ODGKUe1amBk19m__9esPnZ9jo6rKkrb2YQHj_1AWQ423qnUiIzu4TkERM6n_0REMNlo1JkGtJx9Kl_ifsP4PDVs9VoUa2leuziGHmTLZVRggw=\"\u003etratamientos faciales profesionales Katy TX\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu8PyfN9uMdUYYiumwGAgQ-08jfKPQPPOmsGVPRPAT0EL58z7tmuCv8-8z_SVGn53v3x1JarX1jjwK1C0rSfGgdKQHM3VTF7YZsCDXpYbtSlpiJ7R0-8G1AwpouLEmMow=",
+              "title": "anitasskincareclinickaty.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1IB4zy7IuQCs4wQvuk5TDjxA0Wxlfy4m6NDuirUDIJtYt3tOp-1l7XSaIGXN2WtvLUY3OIOARAlqe-eDPE328393BMwBrlx8LfUkyFoF32iR2JVwEABtIwzIvUacu_-yXBWjVmAiq0GhqtrNjFpiHwiXCD4tkRw==",
+              "title": "lechloemedspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoivxjeGqTYhi3IG5okgUf_gheZfJp_vgUWAlArsSdFSrofc_-I1Ixn8v_uUDWtmQzuA9EEbUkyKJ2sJQtVSnSjRCPuOE4Pr4revYAeyBgIu7w88eJG-jHUNYpvx06O1Dv",
+              "title": "spaviadayspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF17CuJr0BiIkUNuxXcaCssxmnl2oY99XRLPtHKfsaumWPFx4ksNMCMf4drHLtcrk4mFw5a5IyxBxwFOUMTGwC6MKmpaySG0APZrG_c7s1rtk3OccvxvEliqrb5O9COjqf6KZ9cDe8dwHHbzehM6Geujw==",
+              "title": "hibiscus.health"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq_8E55BiKwmUOBbVLnn67YZ57tXKmlmaBjx1wfoj1CTI_0WhHSUGkJvgqIUdMX_Ukf2i2_qxPN1rrijgR6sudO7-YM4Pe9zx1tpzCa2zOCBZeVYzzUwOQB1uh3ALfu9-pBL7ax3JHa8w=",
+              "title": "facetofacespa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjJ7hKacq04xbh7KGoJY5zrbNE-di4IZiM5VDHtmtJ6xcC78pfabPWmHRRF4A9KpggnVXwGCvHmsCr3k5dfvDVo3fz2sbWyeoN_c4GsiuteGdNdUyHlA==",
+              "title": "katymedtechspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUL3_CJbPwc_SJl0a_YYiUlftzoiSMsrjFWmERbWbL050Vq2a97YWQKOauOYNgWoXxW-sOSytxIpDKOA45lE05lq94pX9h3KqPbVRM6GRIPl__G8EfaqyBdtJdk0v8Dd-WbB7IhfA4",
+              "title": "amerejuve.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE50MXAzje_CcPtlS0gtXJydK847rWsZ6_tnUlX8HDvRHtfI5oj94hO3jfeUOR7ZQCLN2YeZ0-UJB9vKlNVSDJfoSKl1xFZxyPGpWemzRs1GYFgUkiz4v2TxD67FQ==",
+              "title": "divinityspa-katy.com"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "startIndex": 97,
+              "endIndex": 409,
+              "text": "*   **Anita's Skin Care Clinic:** Ofrece una variedad de servicios que incluyen tratamientos faciales personalizados, depilación con hilo, dermaplaning, exfoliaciones químicas, depilación con cera europea dura o blanda, lifting de pestañas, tinte de cejas, tinte de pestañas y otros servicios de spa de día"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.93303823
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 411,
+              "endIndex": 630,
+              "text": "*   **Le Chloé Med Spa:** Ofrece una variedad de tratamientos faciales que incluyen tratamientos faciales con luz para el acné, exfoliaciones químicas, microdermoabrasión, microagujas, dermaplaning, Botox y rellenos"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.859536
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 632,
+              "endIndex": 769,
+              "text": "También ofrecen tratamientos faciales especiales como el facial \"Vampire\", faciales para hombres y tratamientos faciales para la espalda"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.019031577
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 771,
+              "endIndex": 902,
+              "text": "*   **Spavia Cinco Ranch:** Ofrece masajes, tratamientos faciales, tratamientos corporales y depilación con cera en un spa de lujo"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.9441119
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 904,
+              "endIndex": 1110,
+              "text": "*   **Hibiscus Aesthetics & Wellness:** Ofrece una variedad de tratamientos faciales que incluyen Hydrafacial, tratamientos faciales para el acné, tratamientos faciales brillantes y exfoliaciones químicas"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.8908653
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1112,
+              "endIndex": 1148,
+              "text": "También ofrecen microagujas SkinPen"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.010101734
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1150,
+              "endIndex": 1277,
+              "text": "*   **Face to Face Spa:** Ofrece tratamientos faciales personalizados diseñados para dejar tu piel radiante, tersa y saludable"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.93702847
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1279,
+              "endIndex": 1441,
+              "text": "Ofrecen una variedad de paquetes faciales que incluyen servicios de cuidado de la piel de vanguardia y servicios adicionales para rejuvenecer la mente y el cuerpo"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.21735296
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1443,
+              "endIndex": 1571,
+              "text": "*   **Katy Med Tech Spa:** Ofrece una variedad de tratamientos faciales adaptados a las necesidades individuales de sus clientes"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.39124808
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1573,
+              "endIndex": 1676,
+              "text": "*   **Amerejuve Medspa:** Ofrece una variedad de servicios de medspa que incluyen tratamientos faciales"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.80307525
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1678,
+              "endIndex": 1778,
+              "text": "*   **Divinity Spa:** Ofrece tratamientos faciales personalizados para rejuvenecer y mejorar tu piel"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.9216225
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "tratamientos faciales profesionales Katy TX",
+          "mejores spas faciales Katy TX"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 8,
+    "candidatesTokenCount": 425,
+    "totalTokenCount": 433,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 8
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 425
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "ITvRaYSYM-iHz7IPx4OY-Qs"
+}

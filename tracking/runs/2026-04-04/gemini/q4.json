@@ -1,0 +1,321 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Determining the \"best\" medspa is subjective and depends on individual needs and preferences. However, several medspas in Katy, TX, are highly regarded. Here are a few options to consider:\n\n*   **Katy Medi Spa:** This medspa is physician-led and offers a range of aesthetic, wellness, and medical treatments. They focus on safety, natural results, and long-term health. Services include injectables, skin rejuvenation, hormone therapy, and weight management.\n\n*   **Luminous MediSpa Katy:** Luminous MediSpa combines the relaxing aspects of a traditional spa with medical-grade treatments. They offer various health and beauty services and procedures designed to meet individual needs and deliver effective results.\n\n*   **MedSpa at Villagio:** MedSpa at Villagio offers medical spa treatments along with traditional salon and day spa services. They have board-certified physicians and licensed beauty professionals. They were also awarded Medspa of The Year twice by Image Skincare.\n\n*   **Luxe Medical Aesthetics:** Luxe Medical Aesthetics combines cutting-edge techniques, professional care, and high-quality products. They offer a carefully selected skincare collection.\n\n*   **Viata Aesthetics and Wellness:** Viata Aesthetics and Wellness offers aesthetic services such as Botox, fillers, and laser hair removal. They prioritize patient satisfaction and provide tailored treatment plans.\n\n*   **Le Chloé Med Spa:** Le Chloé Med Spa focuses on providing a personalized patient experience with advanced treatments and state-of-the-art technology.\n\n*   **Medcomplete Clinic & MedSpa:** Medcomplete Clinic & MedSpa offers various services, including primary care, to improve the quality of life.\n\n*   **Hibiscus Aesthetics & Wellness:** Hibiscus Aesthetics & Wellness specializes in aesthetics, medical weight loss, and hormone care for midlife women. They offer physician-led care in person and virtually.\n\nWhen choosing a medspa, consider factors such as the services offered, the qualifications and experience of the staff, the quality of products used, and patient reviews.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFtkJ4__d7NmXDnhDniLsd3-qCC8_a_z8H1BEonXN4of1Jws1-BqDcg_LI1_rBcj5dOigO-2gemuiSrp_7QKeQoyE0wVtBSP8BXxcBb_q7x1nPe_TlpNKF9lbHKs6A6rqffcEE9Mx-GthBOlxDBeU5Q9jZCv6YHjOab9Rjd91m0_P5AnzOku9YfjHoqzwtZTQImCqytxZLx_eg=\"\u003ebest medspa katy texas\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFmjhnOJ0sZdGB-EJEL6sy9OEusXlZAs--5Ue4R1xgBpkjK6ltd0c034wsfJT-3_OEMWOir5UUMlpJs2DXPiNu-MmIRmGOuHVaV9XddQ614t7X5H2YcmJHtskPbNkK7kbniEv0uP2GDq7tgP7ohI_P-sdPplReeBJ-_dfCqqUa-tl93fpODZJKchZjAfdC9_saCe4AvWOCwnBTwww==\"\u003etop rated medspa katy tx\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjj92Ppw3aOMvtGv5MPIAmQKtjVmmaXBBxcUNkyJ5oJKX0ZJayHqwywYlVL-scHoOABuNLXXVxrRFfltoisOYvdd31u-cXWBu1aYy1lqhJQbPozjajT1H8",
+              "title": "medspaatvillagio.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEwkDBDjwKgOIbukIlqKqn4giKi2ygjnB7jjmNwy277wNvWHCtlGPTQy1H1ojiWvIscvcOi-BHOZKCoHgFynJm05spTmpHkH8Hzi5W6Ny4J_m2mcpdmL_U=",
+              "title": "luminousmedispa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGN-8i-Lxk3IWWLfDLKTUNTiFC030yRugyuv17t41POEx4FBntrIMNuwPMjNPL-BKz0MdkvPEbu6HjJGWqT4I3LfGrqGIwaxdxuCkTEm_g-Ao960nrJniB1pxSGUA_NH41jHvPSzLVNwg==",
+              "title": "lechloemedspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFX6ndjFZrR0NGMLU2DR8XqwNBysX_PWqkabRtwvnlWOeQT9NIOBDHA-l1lfcyVKmnmnkfp8S3U47SpSQy7E0Dl5bo-x1FWE7t73jnTe3rAn1GVL83fZfw=",
+              "title": "katymedispa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkVqQoYpeF_ALXGgNj0ZQjJhVm8XN0mnFx4cuRnNTJ3p6jeKxRwKIT1HblK9aMMEz8oWp0cxNm1y9Z_w3wLreFV6VVfRjUJurJ6jDl6s60MPfW6VCl",
+              "title": "theluxeeffect.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEFkYpXkEm4zTqkhZn3fkCmiylaveMrmmTHXo55x_jJpl4agPHzBAkxKDPhxbYgsXVvxmCq2D3b-NxE1Nf4Ofq4OUgcy94PUkBoJu8C_-oDjJ3dSLNdGa8t3-CouXqcktOq5WKAgn0=",
+              "title": "viataaestheticsandwellness.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS--XskjbwRAZuItGyy9sPSYRSN97PecE_EnSplXo50Nh9J_bY7KiyD9nNHMDeXg3rSIPMF9JRPS9bvfZuc4dkJIRwONNePpA14gxkqCumJMp1QA==",
+              "title": "medcomplete.org"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_5R1PAJdiYYr7ygWP8nEu9v4nO0WD1YWjgoL0EYygjgmh_b8uA3QJeWTHuIa_HtqrcTQCmFY7lrMUJXcMx3Mo0DEvWmog-XioZJrWxwCvPCszq6XPj1o=",
+              "title": "hibiscus.health"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "startIndex": 93,
+              "endIndex": 150,
+              "text": "However, several medspas in Katy, TX, are highly regarded"
+            },
+            "groundingChunkIndices": [
+              0,
+              1,
+              2
+            ],
+            "confidenceScores": [
+              0.06546861,
+              0.35189742,
+              0.06867064
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 189,
+              "endIndex": 306,
+              "text": "*   **Katy Medi Spa:** This medspa is physician-led and offers a range of aesthetic, wellness, and medical treatments"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.9586411
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 308,
+              "endIndex": 367,
+              "text": "They focus on safety, natural results, and long-term health"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.8659202
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 369,
+              "endIndex": 456,
+              "text": "Services include injectables, skin rejuvenation, hormone therapy, and weight management"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.9179039
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 459,
+              "endIndex": 587,
+              "text": "*   **Luminous MediSpa Katy:** Luminous MediSpa combines the relaxing aspects of a traditional spa with medical-grade treatments"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.8383251
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 589,
+              "endIndex": 713,
+              "text": "They offer various health and beauty services and procedures designed to meet individual needs and deliver effective results"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.92479587
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 716,
+              "endIndex": 842,
+              "text": "*   **MedSpa at Villagio:** MedSpa at Villagio offers medical spa treatments along with traditional salon and day spa services"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.92733866
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 844,
+              "endIndex": 914,
+              "text": "They have board-certified physicians and licensed beauty professionals"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.9381795
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 916,
+              "endIndex": 981,
+              "text": "They were also awarded Medspa of The Year twice by Image Skincare"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.93201
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 984,
+              "endIndex": 1119,
+              "text": "*   **Luxe Medical Aesthetics:** Luxe Medical Aesthetics combines cutting-edge techniques, professional care, and high-quality products"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.915001
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1121,
+              "endIndex": 1172,
+              "text": "They offer a carefully selected skincare collection"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.72114277
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1175,
+              "endIndex": 1316,
+              "text": "*   **Viata Aesthetics and Wellness:** Viata Aesthetics and Wellness offers aesthetic services such as Botox, fillers, and laser hair removal"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.92284584
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1318,
+              "endIndex": 1391,
+              "text": "They prioritize patient satisfaction and provide tailored treatment plans"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.94695014
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1394,
+              "endIndex": 1550,
+              "text": "*   **Le Chloé Med Spa:** Le Chloé Med Spa focuses on providing a personalized patient experience with advanced treatments and state-of-the-art technology"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.9242587
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1553,
+              "endIndex": 1697,
+              "text": "*   **Medcomplete Clinic & MedSpa:** Medcomplete Clinic & MedSpa offers various services, including primary care, to improve the quality of life"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.9491149
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1700,
+              "endIndex": 1853,
+              "text": "*   **Hibiscus Aesthetics & Wellness:** Hibiscus Aesthetics & Wellness specializes in aesthetics, medical weight loss, and hormone care for midlife women"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.93740994
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1855,
+              "endIndex": 1908,
+              "text": "They offer physician-led care in person and virtually"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.96931624
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "top rated medspa katy tx",
+          "best medspa katy texas"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 6,
+    "candidatesTokenCount": 417,
+    "totalTokenCount": 423,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 6
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 417
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "PDrRadGmLcjjz7IPstWJ2QU"
+}

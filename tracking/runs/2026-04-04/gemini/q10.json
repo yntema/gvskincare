@@ -1,0 +1,693 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "A PRP (platelet-rich plasma) facial is a cosmetic procedure that uses your own blood to rejuvenate your skin. Here's what you should know about PRP facials in Katy, Texas: \n\n **1. How it Works:** \n\n *   A small amount of blood is drawn from your arm. \n *   The blood is processed to isolate the platelet-rich plasma (PRP). \n *   The PRP, which contains growth factors, is then applied to your face. \n *   This can be done by injecting it or by applying it topically, often in conjunction with microneedling. Microneedling involves creating tiny punctures in the skin to allow the PRP to penetrate deeper. \n\n **2. Benefits:** \n\n *   **Rejuvenation:** PRP stimulates cellular regeneration and collagen production. \n *   **Improved Skin Texture and Tone:** It can address uneven skin tone and hyperpigmentation, leading to a smoother complexion. \n *   **Reduces Signs of Aging:** PRP can diminish fine lines and wrinkles. It may also improve skin elasticity and firmness. \n *   **Acne Scarring:** PRP can help improve the appearance of acne scars. \n *   **Brighter Skin:** PRP facials can brighten your skin. \n *   **Skin Tightening**: It can make the skin tighter, smoother, and more youthful. \n *   **Hair Restoration**: PRP can stimulate hair follicles to combat hair loss. \n\n **3. Clinics in Katy, TX, Offering PRP Facials:** \n\n *   **H-Town Aesthetics** \n *   **4Ever Young Anti-aging Clinic and Medical Spa** \n *   **Houston Dermatology and Plastic Surgery** (Sugar Land and Katy) \n *   **Luxe Medical Aesthetics** \n *   **SkinSpirit Med Spa** \n *   **Bluebonnet Health and Wellness**\n *   **Elite Dermatology**\n *   **Tala Medical Aesthetics**\n\n **4. Cost:** \n\n *   The cost of PRP facials can vary. \n *   **H-Town Aesthetics:** Offers PRP/PRF treatments for the full face at $500. Targeted areas like tear troughs, cheeks, or lips cost $399. \n *   **Tala Medical Aesthetics:**  PRP facial is $600 for one treatment or $1500 for three (includes aftercare cream). PRP facial with PRP injections is $800 for one treatment or $2100 for three (includes aftercare cream).\n *   **Bluebonnet Health and Wellness:** PRP Injection starts at $550. Micro Needling + PRP is $650 for the face.\n *   It's best to consult with the specific clinic for detailed pricing and to determine the appropriate treatment plan for your needs. \n\n **5. What to Expect:** \n\n *   **Consultation:** Your provider will assess your skin concerns and goals. \n *   **Preparation:** A small amount of blood will be drawn. \n *   **Treatment:** The PRP will be injected or applied to the targeted areas. Sessions typically take 45-60 minutes. \n *   **Aftercare:** There's generally little downtime, but you may experience mild swelling or redness that fades quickly. \n\n **6. Important Considerations:** \n\n *   Multiple sessions may be recommended for best results. An initial series of 3-5 sessions at 4-week intervals is common. \n *   Results can last for several months, with improvements seen in skin tone and texture. \n *   Consult with a board-certified plastic surgeon or dermatologist to discuss the benefits and risks.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFe7kLNscIN0YXb85ivh10ff_cBMJZVlmZya8mOpPb-rHwaCzS_gjUxhdF12Y6HFaVcB6Uccr13i9oiDs4sY_yvLnzSfuKt5pOmTheXMrlshuzp1ZG1isPk_axMz5MNkekTly_dRNdbqZn44nckeDDWOEC3QGJDt0f0S5F_ACt2nUUiHnriMmryjbAMOp0h5WDPh0OF34s=\"\u003ePRP facial benefits\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEw_mb0RkGqrdxUahx8ogv4zZDUJM_u1qrDSIEYTNPBoBg_2KANsgpy_b1k3dbDgkkcg-qbgWQsQTz88k5NsDdMzivaTW3vzFrL0vLMIZzI6YTHXIvtemfyVZ77B-8aKN2-r_EGZIKxDLk4BDigia751dlyRDkyDOYTWrSfagnsPtJtApTc0jxIRLi9RNFX1M5lNhjFFdYHnNKgywgE4FW8-FA=\"\u003ePRP facial treatment Katy Texas\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExk32qglyVVvUn0XbCIR1Y69NeDEeqvok0q0dT9SZLRSRjIzx0_3Qz38wTG2sR6OvA90YragUdPfnM8O6dpbDdy3aqRHhkpewfgOEzfy_4eFS0XpDpeHqE2peWwGsjblAJMVFVInvPlFxk_FqsvJx4v5tRagJwOa_VhJhjccryI65PxZrXeVgzTY8exzKeva1rrMEb5EN15gRSvCvRQkaz\"\u003ecost of PRP facial Katy Texas\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG68FiyvgQUKKwepRHY6WJYUb93JxtGxmw_zot3Njk3GYwQRAk9yYnElrwZm-bqd7xBBtQA3k_esQSR2PHzMlzipEbtOUCAEbX_epxeuIDUT0a-2QaRLgQjL18B_wdSSGGIEFQ-1md80J0-irAAamw=",
+              "title": "drtplasticsurgery.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-h8p9GYy5LovKviuXh0zlKQxW3HqgF1P-UdkP1q_S5cQw2SeZjdhmlWM11mZUMOewM_eM6hyhRnoYW4MYiJI4NbGtxOWDYHEePFaDC81bpghh08HiKyCylKjWud_PLSR_rMffmdN9lM4RpX5EaGwNN0BpkQi6bgElEGwB2tdikB-jwg==",
+              "title": "4everyoungantiaging.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFC_dp72ZtgvqHRKj96aKM1GDeUpHhdI2pm90XRu1h5s5Qx-2Qex3u9nw3guj_26RlbdnUwRZuhGJ2aFiUp_7L9Puh5ecVxRA6jibGBno2fU22h83zJVcRVoBv7cbHBiPZZ9juEtWuV6TUHP-qKmvrtfBhLmu6cyg==",
+              "title": "htownaesthetics.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbMMeLHPApvaMdWfSQmqQ8X7CMJD_78Z7kt0RbES3mC80pgS5hJNvyrqJwA0VrXZgQiZIci2eaQ4LoNJPnnTFGEyOxOi4lBGxCmgWMad0UHJeK783aelXCo9cYBWb1ctJnhDalxB8=",
+              "title": "theluxeeffect.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfZUlOddlQ9_1MNRqP_5eGjCg9JcGmV7dfHWVGMUvwd3YRP4aKWhKXChKkOTfrUVxIxTykbqbQgbS_EOqLuL7hyoXzikB7MaQqvrBsvVEXhfoh9oKHDzurtcQp5LVcIEMq5VDscjQfsK-_rDfWZ53VYHrKhdaG4CLhxmqVrVt36g==",
+              "title": "beautybecomesyou.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKX8YSHtOBQhrLwmuyuA7I1kk26LcT0h8eMR0gUINXppU-t-kFhV8xOFKPuRq0MAWQvbKeCDH3Z-ULlFtyJYFVKGU3zncO86zqP1ka4i5r7cDrDwIQKlSv9zMgBQgzj2u-sA5P68E5lXVJtMmivcqa",
+              "title": "elitedermatology.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEya-kevwemQCeOO4p65Iv9CEIJygtgS_icUmG2gLBT3AKFqnzP_abFTFTojG778V4RdIxkOmPwkSnu-HRDK1hYehf_gC6En0FNJOxw6f_a6MpUjSK0X2fVmXlw61SUnaBKyPqT__l5CuuJ50UOrVjyauoMmHtYMH3fVaSinq1kYHdIGeC4kpSd",
+              "title": "drfloralevin.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEt4-g_Hi1JFUPjuFO1ci9MbZKpf_i3SCdXfq59Kuwa2gjQP16eRq3TqL5c7TSnSOEFB7aZXhdP3_xKb9FMcWfdyoKkmct2iosTWUTbdqvSzf-_q7BYGua5NOpD116JErPkiDCbgd_V0fxaKXf_3t0Iy6UXkXn9henvYS1RvcaRyDIe850pFXQg2Huli-ZRTQgamDU=",
+              "title": "painandspinespecialists.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_3t070beHebyDoXirY_IYDjhdpFPIGUwcYBGSAW9wACpB3dZUCztg62j0sI5SvhBwJVJ7eZ5QoW-cl0paNnRf3FHWYFcIHntzS4BOET9Y0rC3PXEFDRw3GRaXv1cRiwJeU4LOBE34PMeEr6nkjnPXc3U2R6LlMOD_9Sp9j9riibwilmjNZdqrmwStzI8_XB6Nlq0hz6VFTnaCHgAmuhQ7Gnb445RAZwdGu3xG9m5ehRA=",
+              "title": "muhealth.org"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwpUyv-fFElR6fsHGslkbX46-gGd2u9txxyvTMpMdZYK6DHgbDs80EktOFnSYLPFAG6IgXxb6KQ_kulSM5EWEKwCLS3Yk2b-1wLeluHDyrivvnSEdujldESxHtiIuQkMWqWTdejKqaI0hFv1-VAepFkYfpIzJD6aZW1-MV",
+              "title": "clevelandclinic.org"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgKr43P3LLomH7R-qfHYR-fXO8IC0KtF4v3MncEnCyf7Y_lp9qr0Fx3vbzokps_OJ0uv-Qqy6Sv9KCfQpjRbmWP62dCTGzLPSsBQuQAfaFqk9BWnGi_yL623cZjLFVejtssf7s",
+              "title": "skinspirit.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF62YMuiPWzNOofnGHif9qq13zRmI0Cg-k-chUpHbJUccxPPwXEOy-VWQmbgwJBSHYSeUHmiMYops-A4PS9vIKe80ion9XI-Kjs_7UNiFGKZH_znXUio-X5dNwIjeEbN5N_N_L6VdvXrtTiPdkv-9vm",
+              "title": "bluebonnethealthandwellness.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcYXcCZfcwp6Yp-zIYUeCGq4xaQpaP9FTzW7e0kOf2TahD9tC8S5tdOmmFrxzPfVUUNH5nGLXkdSQuIEeFOBw_kcBxINwWFaHRCE8K8THrPFYSXLGWH74JLxOsfzZIRTOHLre9iWNMC8hGGPegzIHatpaBuAxZ",
+              "title": "talamedaesthetics.com"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "endIndex": 108,
+              "text": "A PRP (platelet-rich plasma) facial is a cosmetic procedure that uses your own blood to rejuvenate your skin"
+            },
+            "groundingChunkIndices": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "confidenceScores": [
+              0.6549135,
+              0.46305352,
+              0.87215376,
+              0.88282275,
+              0.03370349
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 199,
+              "endIndex": 249,
+              "text": "*   A small amount of blood is drawn from your arm"
+            },
+            "groundingChunkIndices": [
+              2,
+              5
+            ],
+            "confidenceScores": [
+              0.008032068,
+              0.03635511
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 253,
+              "endIndex": 321,
+              "text": "*   The blood is processed to isolate the platelet-rich plasma (PRP)"
+            },
+            "groundingChunkIndices": [
+              0,
+              4,
+              2,
+              1
+            ],
+            "confidenceScores": [
+              0.9005219,
+              0.011236293,
+              0.21610461,
+              0.039946515
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 325,
+              "endIndex": 397,
+              "text": "*   The PRP, which contains growth factors, is then applied to your face"
+            },
+            "groundingChunkIndices": [
+              1,
+              2,
+              4,
+              0
+            ],
+            "confidenceScores": [
+              0.24874784,
+              0.70757306,
+              0.01687162,
+              0.91518754
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 401,
+              "endIndex": 506,
+              "text": "*   This can be done by injecting it or by applying it topically, often in conjunction with microneedling"
+            },
+            "groundingChunkIndices": [
+              4,
+              0
+            ],
+            "confidenceScores": [
+              0.008705527,
+              0.15728326
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 508,
+              "endIndex": 603,
+              "text": "Microneedling involves creating tiny punctures in the skin to allow the PRP to penetrate deeper"
+            },
+            "groundingChunkIndices": [
+              0,
+              5
+            ],
+            "confidenceScores": [
+              0.9014464,
+              0.1251074
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 628,
+              "endIndex": 710,
+              "text": "*   **Rejuvenation:** PRP stimulates cellular regeneration and collagen production"
+            },
+            "groundingChunkIndices": [
+              6,
+              0,
+              1,
+              7,
+              3
+            ],
+            "confidenceScores": [
+              0.52172595,
+              0.050009444,
+              0.7630548,
+              0.9018276,
+              0.37624735
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 714,
+              "endIndex": 841,
+              "text": "*   **Improved Skin Texture and Tone:** It can address uneven skin tone and hyperpigmentation, leading to a smoother complexion"
+            },
+            "groundingChunkIndices": [
+              6,
+              7,
+              1,
+              0
+            ],
+            "confidenceScores": [
+              0.8661778,
+              0.900683,
+              0.16302831,
+              0.1542175
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 845,
+              "endIndex": 917,
+              "text": "*   **Reduces Signs of Aging:** PRP can diminish fine lines and wrinkles"
+            },
+            "groundingChunkIndices": [
+              0,
+              8,
+              7,
+              9
+            ],
+            "confidenceScores": [
+              0.3336063,
+              0.94147563,
+              0.9593218,
+              0.033720244
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 919,
+              "endIndex": 967,
+              "text": "It may also improve skin elasticity and firmness"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.47925532
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 971,
+              "endIndex": 1043,
+              "text": "*   **Acne Scarring:** PRP can help improve the appearance of acne scars"
+            },
+            "groundingChunkIndices": [
+              0,
+              8,
+              3,
+              9
+            ],
+            "confidenceScores": [
+              0.8508115,
+              0.030004488,
+              0.010815132,
+              0.382702
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1047,
+              "endIndex": 1104,
+              "text": "*   **Brighter Skin:** PRP facials can brighten your skin"
+            },
+            "groundingChunkIndices": [
+              9
+            ],
+            "confidenceScores": [
+              0.8630534
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1108,
+              "endIndex": 1190,
+              "text": "*   **Skin Tightening**: It can make the skin tighter, smoother, and more youthful"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.5195227
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1194,
+              "endIndex": 1272,
+              "text": "*   **Hair Restoration**: PRP can stimulate hair follicles to combat hair loss"
+            },
+            "groundingChunkIndices": [
+              8,
+              3
+            ],
+            "confidenceScores": [
+              0.4470381,
+              0.2788201
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1330,
+              "endIndex": 1355,
+              "text": "*   **H-Town Aesthetics**"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.6344478
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1358,
+              "endIndex": 1411,
+              "text": "*   **4Ever Young Anti-aging Clinic and Medical Spa**"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.059794564
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1414,
+              "endIndex": 1483,
+              "text": "*   **Houston Dermatology and Plastic Surgery** (Sugar Land and Katy)"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.84055716
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1486,
+              "endIndex": 1517,
+              "text": "*   **Luxe Medical Aesthetics**"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.8272542
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1520,
+              "endIndex": 1546,
+              "text": "*   **SkinSpirit Med Spa**"
+            },
+            "groundingChunkIndices": [
+              10
+            ],
+            "confidenceScores": [
+              0.7828057
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1549,
+              "endIndex": 1587,
+              "text": "*   **Bluebonnet Health and Wellness**"
+            },
+            "groundingChunkIndices": [
+              11
+            ],
+            "confidenceScores": [
+              0.8289196
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1589,
+              "endIndex": 1614,
+              "text": "*   **Elite Dermatology**"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.7467319
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1616,
+              "endIndex": 1647,
+              "text": "*   **Tala Medical Aesthetics**"
+            },
+            "groundingChunkIndices": [
+              12
+            ],
+            "confidenceScores": [
+              0.022443805
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1666,
+              "endIndex": 1702,
+              "text": "*   The cost of PRP facials can vary"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.82096606
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1706,
+              "endIndex": 1784,
+              "text": "*   **H-Town Aesthetics:** Offers PRP/PRF treatments for the full face at $500"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.9471002
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1786,
+              "endIndex": 1845,
+              "text": "Targeted areas like tear troughs, cheeks, or lips cost $399"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.7847742
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1849,
+              "endIndex": 1965,
+              "text": "*   **Tala Medical Aesthetics:**  PRP facial is $600 for one treatment or $1500 for three (includes aftercare cream)"
+            },
+            "groundingChunkIndices": [
+              12
+            ],
+            "confidenceScores": [
+              0.7858269
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1967,
+              "endIndex": 2069,
+              "text": "PRP facial with PRP injections is $800 for one treatment or $2100 for three (includes aftercare cream)"
+            },
+            "groundingChunkIndices": [
+              12
+            ],
+            "confidenceScores": [
+              0.586197
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2072,
+              "endIndex": 2140,
+              "text": "*   **Bluebonnet Health and Wellness:** PRP Injection starts at $550"
+            },
+            "groundingChunkIndices": [
+              11
+            ],
+            "confidenceScores": [
+              0.96682346
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2142,
+              "endIndex": 2183,
+              "text": "Micro Needling + PRP is $650 for the face"
+            },
+            "groundingChunkIndices": [
+              11
+            ],
+            "confidenceScores": [
+              0.9196232
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2186,
+              "endIndex": 2319,
+              "text": "*   It's best to consult with the specific clinic for detailed pricing and to determine the appropriate treatment plan for your needs"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.16076146
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2350,
+              "endIndex": 2426,
+              "text": "*   **Consultation:** Your provider will assess your skin concerns and goals"
+            },
+            "groundingChunkIndices": [
+              2,
+              1
+            ],
+            "confidenceScores": [
+              0.059437845,
+              0.11088109
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2430,
+              "endIndex": 2488,
+              "text": "*   **Preparation:** A small amount of blood will be drawn"
+            },
+            "groundingChunkIndices": [
+              5,
+              2
+            ],
+            "confidenceScores": [
+              0.12174706,
+              0.0111248605
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2492,
+              "endIndex": 2568,
+              "text": "*   **Treatment:** The PRP will be injected or applied to the targeted areas"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.34277454
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2570,
+              "endIndex": 2607,
+              "text": "Sessions typically take 45-60 minutes"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.0044242516
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2611,
+              "endIndex": 2731,
+              "text": "*   **Aftercare:** There's generally little downtime, but you may experience mild swelling or redness that fades quickly"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.0059612887
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2772,
+              "endIndex": 2829,
+              "text": "*   Multiple sessions may be recommended for best results"
+            },
+            "groundingChunkIndices": [
+              12,
+              5
+            ],
+            "confidenceScores": [
+              0.0097840335,
+              0.12232875
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2831,
+              "endIndex": 2894,
+              "text": "An initial series of 3-5 sessions at 4-week intervals is common"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.9238104
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2898,
+              "endIndex": 2986,
+              "text": "*   Results can last for several months, with improvements seen in skin tone and texture"
+            },
+            "groundingChunkIndices": [
+              12
+            ],
+            "confidenceScores": [
+              0.007538792
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2990,
+              "endIndex": 3091,
+              "text": "*   Consult with a board-certified plastic surgeon or dermatologist to discuss the benefits and risks"
+            },
+            "groundingChunkIndices": [
+              9
+            ],
+            "confidenceScores": [
+              0.9396578
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "PRP facial treatment Katy Texas",
+          "PRP facial benefits",
+          "cost of PRP facial Katy Texas"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 6,
+    "candidatesTokenCount": 777,
+    "totalTokenCount": 783,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 6
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 777
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "YTrRaZHBKNqJz7IPyuPyuAo"
+}

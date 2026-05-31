@@ -1,0 +1,8 @@
+{
+  "_comment": "Variant spelling (lowercase) -> canonical name. Used by analyze.py to fold near-duplicates onto a single competitor so 'Hand and Stone' and 'Hand & Stone' don't count as two.",
+  "map": {
+    "hand and stone": "Hand & Stone",
+    "woodhouse": "Woodhouse Spa",
+    "milk and honey": "Milk + Honey"
+  }
+}

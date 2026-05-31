@@ -1,0 +1,708 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "It appears you're asking about the differences between a PRP facial and microneedling, and which is the better option. Here's a breakdown to help you decide:\n\n**1. What They Are:**\n\n*   **Microneedling:** A minimally invasive procedure using fine needles to create tiny punctures in the skin. This triggers the body's natural healing process, stimulating collagen and elastin production.\n*   **PRP Facial:** Also known as a \"vampire facial,\" it combines microneedling with the application of platelet-rich plasma (PRP). PRP is derived from your own blood and contains growth factors that promote healing and regeneration. The PRP can be applied topically after microneedling, or injected directly into the skin.\n\n**2. How They Work**\n\n*   **Microneedling:** The micro-injuries stimulate your body to produce more collagen and elastin. This can improve skin texture and tone, reduce fine lines and wrinkles, minimize acne scars, and shrink enlarged pores. It also enhances the absorption of topical treatments.\n*   **PRP Facial:** Microneedling creates micro-channels that allow the PRP to penetrate deeper into the skin. The growth factors in PRP then stimulate collagen production, accelerate healing, and improve skin texture and tone.\n\n**3. Benefits**\n\n*   **Microneedling:**\n    *   Improves skin texture and tone.\n    *   Reduces fine lines and wrinkles.\n    *   Minimizes acne scars.\n    *   Shrinks enlarged pores.\n    *   Can eradicate sun damage.\n*   **PRP Facial:**\n    *   Stimulates collagen production.\n    *   Improves skin texture and tone.\n    *   Reduces fine lines and wrinkles.\n    *   Reduces acne scars.\n    *   Brightens skin.\n    *   Can help with hyperpigmentation.\n    *   May improve skin elasticity and firmness.\n\n**4. Key Differences & Considerations**\n\n*   **Intensity and Results:** Microneedling is a good starting point for those new to skin care, or wanting to improve texture, tone, and mild signs of aging. PRP facials offer more support with growth factors that may speed up healing and improve results, especially for acne scars or early skin laxity.\n*   **PRP Advantages:** PRP injections can be particularly effective for treating delicate areas like under the eyes. PRP can also stimulate hair regrowth, which microneedling alone cannot do.\n*   **Topical vs. Injection:** PRP injections often give better results because the treatment is injected directly into the skin, whereas microneedling is more of a topical application.\n*   **Healing and Downtime:** PRP in microneedling enhances the effectiveness and healing time of the micro-injuries. Microneedling with PRP may offer faster recovery compared to microneedling alone.\n*   **Cost:** Microneedling alone is generally more affordable.\n*   **Allergies:** Microneedling with PRP may reduce the risk of allergic reactions compared to standard microneedling treatments that use serums.\n*   **Longevity:** Results from microneedling may last 1-3 months, while PRP results may last 12-18 months.\n* **Concerns**: Microneedling alone excels for acne scars and general texture improvement. PRP is better for pigmentation issues and dark circles.\n\n**5. Which is Better?**\n\n*   **It depends on your individual needs and concerns**.\n*   **For comprehensive skin rejuvenation, a combination approach may deliver the most impressive results**.\n*   **PRP microneedling delivers significantly better outcomes than microneedling alone**, with patients experiencing faster healing and more dramatic improvements in skin quality and appearance.\n*   Many providers recommend microneedling with PRP over microneedling on its own, as it can lead to more effective results and a faster recovery.\n\n**Important Note:** Those with active skin conditions like acne or eczema, or blood conditions/disorders may not be suitable candidates for microneedling with PRP.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEp4_XTT0hP9dv6QbZimFMzFjnn_2AJHhO5O_dL8X4lPjx-m9sj57gmwXMbm8_88Bw63eqcChm3a3Yq2czjpMDTzWH0QZCHiem1YUeKlhambHHjaFEAz-TBdI_55EfBoDrvOXoZ6HjnaOzUoAVtBvKeLeFaKlcBFNyaRwOlt6FChC915zy6atGbwBwuhBfyVmzxL37cBy3KbAg=\"\u003emicroneedling benefits\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4dae9xbNxYOYCiifkBIXVxXz64e3t6wWEKWqqO16D-w9Q0WsHDzyGeYkmF5iLZ6GvY4hxRts0m-xjmy4d84uvnfghhA5wz6hG8KX_aZGOnvHXx3F7hFDP_WbtCzBV14Qj6cDz_FptaFf21UwiEGS3mchhoBetYAli107oTQKfi2yFTTlFlBGl1l5yvrXxJWAfp1BOXyXKS78-UNiLeRmPl8ZGEVyX8dpc8ral9iM=\"\u003ePRP facial vs microneedling which is better\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdVB6kYRliyXDw_murLFFY0W72GASGiEv7mShzhhOeUplGUdx3_o1vx_mzNxbwvJX7qXGDcNciR1Q7bJgOeHo7QetuqqZjqZbUKBQ6u-juTIg9H1w6k3Sa-SyrctkD1MmGIS2LZwO8-0rD6KUnANvmbuWJiqBZWwY6171_VlA73jmLonZt5KhwYoH02-K5ACRdrPO1xz0=\"\u003ePRP facial benefits\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAw1E0LSVopzoyeZp2LQYayL9-J7x1v6npFL58__2vMObScEmvcvp0ZaBBBvQ4qj1e5yHbgo6opFXuQWcsYKwF0hv8TFxJrTutKzNjRwWoHgVRaqg_tdXbgscYxHy2l7epf6qt4QUbOKPcUOdtqsPMF2HtnoQG",
+              "title": "reformedermatology.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHX05Qlm5Bt_sCOtcC13TDgJo-bmg-5mpc6VASzDO9f19WvvvvcJZDTNGGcgoXJFR3Q7ia1v5UUdwtACCcYuHCX73g9tRXka-9ZULsatrjn-14ClsyvnX56avvXObxrtEOz_reBrG8BlP6odtL4czQD2QsVxPCducCEQ9i717w=",
+              "title": "drdianeduncan.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHxbzaZTY2i__OhTpnsFOd5-yF6MNUTk5wRcy0AWwRoYCwZ1tTc_QWAXcRaJ6IjicHM5rOu1wp7dkIwoiHrYXHycV7FBXm1q6cKStIOmseTXIWhcsz4hvGPx9XiE8RsOLeuhlTqNpo3FICrW_E1m3hLbZquEmYJsJ4cKnPPXnX9W0FdqJ47Qo=",
+              "title": "doctorsapadin.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwHw4E6_Ep-nYI6XvCiX1faLksR5WNCsn2jNGN79Oe1aqmJZ7aZ0m9fouOEQ6DiRQBt4JEk5EgCQO9qpy9IKVALtqLL0Zaga21EJXbrAPt3-qy4zqxKScD30yUwI0Zmdq9-V6fFzxqUTE_3ROk",
+              "title": "nih.gov"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk85MuSdAc4H4DetUL3N2yhrRR5QRjC4wYSOj5sLS_yi8yjJZU3rwGAFe9YT3bnoiHwV_8d2mm0BpgfEQeEw8j3Q9x6b_PdXsUMBPgJxMzJ6wCI-buvQ9KHFI7Q-mNUvjuFq4WEVE7LegkdGpqsv5cEVCT34kD-zMdaFUvM-A-pkA3XTlU0sTLSe03Ydu1aTXIwL12VA45d1S9QqGRKlf9Ii9phj_g",
+              "title": "clevelandcosmeticsurgery.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCKKk4pLt7_eLaKRkNWWXM245T5aiEw35MYB1wDXQDlVRTviLMkYGo5x2aM1r1P4Izkzm-umGrjl4oF1xsCo3lo-hTnU7t3g3eo5D9GTWskM1VlIfeO_IT8FqPgVs99veDnG8iEuVo6QaoBqfLLxY=",
+              "title": "drtplasticsurgery.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHZFN00DHfpTLav__33bycjbTS61xjVeX1ntP71rv4LdKHC4uM_8fjXU4Hj7k0TgqqkJ7V8ZLxD3spLeXVJc6ALyMXIZtc7AcaDqVtbjlU9fTMrj_c3bcwLTM-ASqWmMf-rt2YVAF_TXfXjLr8wl0VLYFeB0NvTE35Izn7piYnrwd549eQzxO5BLOIIjuMzfKbdmeM=",
+              "title": "painandspinespecialists.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2LT6tZd0xGxxnjXiaQ07FpZkvBz6kj1TltXZ4eevCeomPbprnUFe-hROZdIqb9_wvWWSaLRaEanqK_eSg-02q4pXxEgeu-g6GxUeIBY7C4j7xDYWtnzZ0sYmouaLXDawSEo8uI_guHT6Po3X6IDSNzg5Wu824wkBDnS3_9rgTSV9sAc9RTWLB",
+              "title": "drfloralevin.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH08taM-_a82CZQpGunTq1aQPkm-ZgC91Pftj1amsI7oNjjF7NudqmaQiATCAVtn5wfHI7DP-y2Ap7qSft3cNrbPU4sga5Pwva5G_1YaAGjbeEj602A0Hxr4_KZqxwBYzP7Peac6lsIBgz92t9BVZ-qKBW3MCdQYxqEk1E=",
+              "title": "beautifulorlando.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGswZwPKXFA84y-vVIS6eHk4FTvR0JOEEna4giqW4Ax1tfgZ1_4euxUe8CtquNlHJItQarMWgbwHGaNLgJcPd9W34GYgD3bfG1UiHFYryatH32Xb38cN3nbeBNhZRm9jw46guIfOlALv08baVcOXSDDoKZug6VKdLz2WXxtODPOWg==",
+              "title": "goodrx.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFc0yIUpLiTrnzmAZKIU5j8tu4kNezJVP2kRx0cZro6ELGhIH5TFPOqzHP8aN_2Ag5JCcRghwU2CBK1xSAv3CJdTvClXvpU8jRVbAc_MZuifVsRxANSesy9EgNea3z2VQ8BIqdCg3zo7Zz1W0aDzOqvuRVYAxhZkQiwj103n4yowoBH7N2015oOnqG0zNNKDywI5TbC5Mz1mrE8P637OlkTlDoFpQ3u0_vI7JLh9UzJgH0=",
+              "title": "muhealth.org"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCb-FX2oCQ2rY_N_cBFofZQjOHsQVRCQDQrdHeQYo-F6qhtM3I2SmxbjbVgN_FUI5e-yIn_NVIjqEvXrVjZCUxcDwnulHXrSkJ3JE1z6dWBWMjd7gtFhlbD5HXprxTFAEgqhg1vLIyDcaoir9GzBc7lkbofGUyH3t9vOCi",
+              "title": "clevelandclinic.org"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZEH0nM2OmFF2RRgn9TxT8MHZAZKXoFXLksQgFakQ6Bbr5O29ZO_9MPppooUkcQwViex1EvyUk0XtfO3eiSY4Hlao50u2PA-37oJIL90srXnP4pq4vKMXtK5wLD4pTzMhn3OqN0Eg8cIn1WN7e--g3ZemPZ0Uq6ZaEwNcUkeGhaTmnlZbpSAMWkwWFShflDcAr",
+              "title": "enhancedwellnessderby.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKWQFR9-Xk53EG8P6_4gHol7WmcrXe-hJrxWeSsd84ZVZoG83it9Pcno01Mz4jZZX7szdLdcFHN6pup1wNwTRUVW8coK-qeXOI6RNLNh_-jOHLgRGtrb0GyBC87A_ipZMNfiMgVghz59LS5Kd4ZBhR47pe8hFG2AoNmu90CkltnYS0JrUCJAwNK-ZBFhn6oymTb6ixmDalINaqEoSxWikkmA==",
+              "title": "metropolitanskinclinic.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEqKVBwaDkzpMFyzn5PRKvs8wOhFK0o2LZUhZrL4OFc75f15Gz59MFg66SqyySAK_sRmopS2nNqYxDEvIsC8N0Os2xq6Rb-o42gNtE4yTmRmjcgl-VjtWkZZtxacCmPPw1QTvGcEFLY6U2av__qlg-HzLm7Vm9Bnyou6lqZJBYgBh939g==",
+              "title": "myexosthetics.com"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "startIndex": 182,
+              "endIndex": 291,
+              "text": "*   **Microneedling:** A minimally invasive procedure using fine needles to create tiny punctures in the skin"
+            },
+            "groundingChunkIndices": [
+              0,
+              1,
+              2
+            ],
+            "confidenceScores": [
+              0.841389,
+              0.9481313,
+              0.37981457
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 293,
+              "endIndex": 386,
+              "text": "This triggers the body's natural healing process, stimulating collagen and elastin production"
+            },
+            "groundingChunkIndices": [
+              0,
+              1,
+              3
+            ],
+            "confidenceScores": [
+              0.78610134,
+              0.8911421,
+              0.10275371
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 388,
+              "endIndex": 518,
+              "text": "*   **PRP Facial:** Also known as a \"vampire facial,\" it combines microneedling with the application of platelet-rich plasma (PRP)"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.8756145
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 520,
+              "endIndex": 620,
+              "text": "PRP is derived from your own blood and contains growth factors that promote healing and regeneration"
+            },
+            "groundingChunkIndices": [
+              5,
+              6,
+              7
+            ],
+            "confidenceScores": [
+              0.15054327,
+              0.09455361,
+              0.376404
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 622,
+              "endIndex": 710,
+              "text": "The PRP can be applied topically after microneedling, or injected directly into the skin"
+            },
+            "groundingChunkIndices": [
+              8,
+              5
+            ],
+            "confidenceScores": [
+              0.44578964,
+              0.65553254
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 735,
+              "endIndex": 833,
+              "text": "*   **Microneedling:** The micro-injuries stimulate your body to produce more collagen and elastin"
+            },
+            "groundingChunkIndices": [
+              0,
+              1
+            ],
+            "confidenceScores": [
+              0.69788694,
+              0.88632625
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 835,
+              "endIndex": 953,
+              "text": "This can improve skin texture and tone, reduce fine lines and wrinkles, minimize acne scars, and shrink enlarged pores"
+            },
+            "groundingChunkIndices": [
+              0,
+              1
+            ],
+            "confidenceScores": [
+              0.14322162,
+              0.89676595
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 955,
+              "endIndex": 1008,
+              "text": "It also enhances the absorption of topical treatments"
+            },
+            "groundingChunkIndices": [
+              0,
+              1
+            ],
+            "confidenceScores": [
+              0.7819209,
+              0.13318664
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1010,
+              "endIndex": 1119,
+              "text": "*   **PRP Facial:** Microneedling creates micro-channels that allow the PRP to penetrate deeper into the skin"
+            },
+            "groundingChunkIndices": [
+              4
+            ],
+            "confidenceScores": [
+              0.4502782
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1121,
+              "endIndex": 1236,
+              "text": "The growth factors in PRP then stimulate collagen production, accelerate healing, and improve skin texture and tone"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.84240943
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1256,
+              "endIndex": 1317,
+              "text": "*   **Microneedling:**\n    *   Improves skin texture and tone"
+            },
+            "groundingChunkIndices": [
+              1,
+              0
+            ],
+            "confidenceScores": [
+              0.92911464,
+              0.7942412
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1323,
+              "endIndex": 1358,
+              "text": "*   Reduces fine lines and wrinkles"
+            },
+            "groundingChunkIndices": [
+              1,
+              2,
+              0,
+              3
+            ],
+            "confidenceScores": [
+              0.9446704,
+              0.15758851,
+              0.76718014,
+              0.7815145
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1364,
+              "endIndex": 1388,
+              "text": "*   Minimizes acne scars"
+            },
+            "groundingChunkIndices": [
+              1,
+              2,
+              9,
+              0
+            ],
+            "confidenceScores": [
+              0.9662711,
+              0.61901075,
+              0.24168627,
+              0.74535924
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1394,
+              "endIndex": 1420,
+              "text": "*   Shrinks enlarged pores"
+            },
+            "groundingChunkIndices": [
+              1,
+              0
+            ],
+            "confidenceScores": [
+              0.94692236,
+              0.010916492
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1426,
+              "endIndex": 1454,
+              "text": "*   Can eradicate sun damage"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.7768585
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1456,
+              "endIndex": 1514,
+              "text": "*   **PRP Facial:**\n    *   Stimulates collagen production"
+            },
+            "groundingChunkIndices": [
+              7,
+              5
+            ],
+            "confidenceScores": [
+              0.8076401,
+              0.7206664
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1520,
+              "endIndex": 1554,
+              "text": "*   Improves skin texture and tone"
+            },
+            "groundingChunkIndices": [
+              6,
+              7,
+              5
+            ],
+            "confidenceScores": [
+              0.9269677,
+              0.90463656,
+              0.78295195
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1560,
+              "endIndex": 1595,
+              "text": "*   Reduces fine lines and wrinkles"
+            },
+            "groundingChunkIndices": [
+              10,
+              5,
+              8,
+              11
+            ],
+            "confidenceScores": [
+              0.936869,
+              0.93399316,
+              0.78695935,
+              0.26726294
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1601,
+              "endIndex": 1623,
+              "text": "*   Reduces acne scars"
+            },
+            "groundingChunkIndices": [
+              5,
+              10,
+              11
+            ],
+            "confidenceScores": [
+              0.7951206,
+              0.0064610834,
+              0.89835304
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1629,
+              "endIndex": 1647,
+              "text": "*   Brightens skin"
+            },
+            "groundingChunkIndices": [
+              11
+            ],
+            "confidenceScores": [
+              0.7682058
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1653,
+              "endIndex": 1688,
+              "text": "*   Can help with hyperpigmentation"
+            },
+            "groundingChunkIndices": [
+              6,
+              5,
+              2
+            ],
+            "confidenceScores": [
+              0.7517931,
+              0.6724684,
+              0.84822845
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1694,
+              "endIndex": 1738,
+              "text": "*   May improve skin elasticity and firmness"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.51487166
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1782,
+              "endIndex": 1940,
+              "text": "*   **Intensity and Results:** Microneedling is a good starting point for those new to skin care, or wanting to improve texture, tone, and mild signs of aging"
+            },
+            "groundingChunkIndices": [
+              12
+            ],
+            "confidenceScores": [
+              0.9640663
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1942,
+              "endIndex": 2086,
+              "text": "PRP facials offer more support with growth factors that may speed up healing and improve results, especially for acne scars or early skin laxity"
+            },
+            "groundingChunkIndices": [
+              12
+            ],
+            "confidenceScores": [
+              0.96087295
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2088,
+              "endIndex": 2204,
+              "text": "*   **PRP Advantages:** PRP injections can be particularly effective for treating delicate areas like under the eyes"
+            },
+            "groundingChunkIndices": [
+              8
+            ],
+            "confidenceScores": [
+              0.8623671
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2206,
+              "endIndex": 2279,
+              "text": "PRP can also stimulate hair regrowth, which microneedling alone cannot do"
+            },
+            "groundingChunkIndices": [
+              10,
+              8
+            ],
+            "confidenceScores": [
+              0.023965448,
+              0.9677774
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2299,
+              "endIndex": 2465,
+              "text": "Injection:** PRP injections often give better results because the treatment is injected directly into the skin, whereas microneedling is more of a topical application"
+            },
+            "groundingChunkIndices": [
+              8
+            ],
+            "confidenceScores": [
+              0.8951104
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2467,
+              "endIndex": 2583,
+              "text": "*   **Healing and Downtime:** PRP in microneedling enhances the effectiveness and healing time of the micro-injuries"
+            },
+            "groundingChunkIndices": [
+              13
+            ],
+            "confidenceScores": [
+              0.38568944
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2585,
+              "endIndex": 2665,
+              "text": "Microneedling with PRP may offer faster recovery compared to microneedling alone"
+            },
+            "groundingChunkIndices": [
+              4,
+              13
+            ],
+            "confidenceScores": [
+              0.14540301,
+              0.92801267
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2667,
+              "endIndex": 2729,
+              "text": "*   **Cost:** Microneedling alone is generally more affordable"
+            },
+            "groundingChunkIndices": [
+              13
+            ],
+            "confidenceScores": [
+              0.11535335
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2731,
+              "endIndex": 2876,
+              "text": "*   **Allergies:** Microneedling with PRP may reduce the risk of allergic reactions compared to standard microneedling treatments that use serums"
+            },
+            "groundingChunkIndices": [
+              13
+            ],
+            "confidenceScores": [
+              0.004224031
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2878,
+              "endIndex": 2984,
+              "text": "*   **Longevity:** Results from microneedling may last 1-3 months, while PRP results may last 12-18 months"
+            },
+            "groundingChunkIndices": [
+              8
+            ],
+            "confidenceScores": [
+              0.005566157
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2986,
+              "endIndex": 3075,
+              "text": "* **Concerns**: Microneedling alone excels for acne scars and general texture improvement"
+            },
+            "groundingChunkIndices": [
+              14
+            ],
+            "confidenceScores": [
+              0.90020865
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3077,
+              "endIndex": 3131,
+              "text": "PRP is better for pigmentation issues and dark circles"
+            },
+            "groundingChunkIndices": [
+              14
+            ],
+            "confidenceScores": [
+              0.85188526
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3159,
+              "endIndex": 3215,
+              "text": "*   **It depends on your individual needs and concerns**"
+            },
+            "groundingChunkIndices": [
+              12,
+              14
+            ],
+            "confidenceScores": [
+              0.62054104,
+              0.6860243
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3217,
+              "endIndex": 3324,
+              "text": "*   **For comprehensive skin rejuvenation, a combination approach may deliver the most impressive results**"
+            },
+            "groundingChunkIndices": [
+              14
+            ],
+            "confidenceScores": [
+              0.8378871
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3326,
+              "endIndex": 3520,
+              "text": "*   **PRP microneedling delivers significantly better outcomes than microneedling alone**, with patients experiencing faster healing and more dramatic improvements in skin quality and appearance"
+            },
+            "groundingChunkIndices": [
+              14
+            ],
+            "confidenceScores": [
+              0.9283712
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3522,
+              "endIndex": 3667,
+              "text": "*   Many providers recommend microneedling with PRP over microneedling on its own, as it can lead to more effective results and a faster recovery"
+            },
+            "groundingChunkIndices": [
+              13
+            ],
+            "confidenceScores": [
+              0.9623022
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 3670,
+              "endIndex": 3832,
+              "text": "**Important Note:** Those with active skin conditions like acne or eczema, or blood conditions/disorders may not be suitable candidates for microneedling with PRP"
+            },
+            "groundingChunkIndices": [
+              13
+            ],
+            "confidenceScores": [
+              0.007708588
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "PRP facial vs microneedling which is better",
+          "PRP facial benefits",
+          "microneedling benefits"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 11,
+    "candidatesTokenCount": 870,
+    "totalTokenCount": 881,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 11
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 870
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "-TrRabTdIaDUz7IPvsiOiAg"
+}

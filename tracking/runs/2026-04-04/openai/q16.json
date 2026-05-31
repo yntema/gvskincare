@@ -1,0 +1,138 @@
+{
+  "id": "resp_0479a9a0a43827300069d13468b8fc8196839301db85162d4f",
+  "object": "response",
+  "created_at": 1775318120,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318125,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0479a9a0a43827300069d13468da08819687e58956a2770024",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Dermaplaning facial Katy TX"
+        ],
+        "query": "Dermaplaning facial Katy TX"
+      }
+    },
+    {
+      "id": "msg_0479a9a0a43827300069d13469b028819682e4151f9951f513",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 388,
+              "start_index": 227,
+              "title": "Restore Hyper Wellness",
+              "url": "https://www.restore.com/locations/tx-katy-tx014?utm_medium=Yext&y_source=1_MzE2Mjk5MzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 759,
+              "start_index": 647,
+              "title": "Clear Dermatology",
+              "url": "https://cleardermatology.com/?utm_medium=organic&utm_campaign=gbp-listing&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1102,
+              "start_index": 1027,
+              "title": "4Ever Glow Salon & MedSpa",
+              "url": "https://4everglowmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1442,
+              "start_index": 1332,
+              "title": "Face to Face Spa at Cinco Ranch",
+              "url": "https://facetofacespa.com/cinco-ranch/?utm_medium=organic&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1753,
+              "start_index": 1695,
+              "title": "Allay Med Spa",
+              "url": "http://allaymedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2057,
+              "start_index": 1988,
+              "title": "Luminous MediSpa",
+              "url": "http://www.luminousmedispa.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Dermaplaning is a non-invasive exfoliation treatment that removes dead skin cells and fine facial hair, resulting in smoother, more radiant skin. In Katy, Texas, several reputable establishments offer dermaplaning services:\n\n**[Restore Hyper Wellness](https://www.restore.com/locations/tx-katy-tx014?utm_medium=Yext&y_source=1_MzE2Mjk5MzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D&utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.9 (281 reviews)**  \n_23116 Cinco Ranch Blvd, Katy, TX 77494_  \nOffers DERMAFLASH LUXE+ Sonic Dermaplaning to remove peach fuzz and dead skin cells, revealing smoother, glowing skin. Located at 23116 Cinco Ranch Boulevard.\n\n**[Clear Dermatology](https://cleardermatology.com/?utm_medium=organic&utm_campaign=gbp-listing&utm_source=openai)**  \n**Closed \u00b7 Dermatologist \u00b7 4.8 (1598 reviews)**  \n_17756 Katy Fwy g1, Houston, TX 77094_  \nProvides dermaplaning treatments to exfoliate the top layer of dead skin cells and fine hair, enhancing skin texture and tone. Located at 17756 Katy Freeway, Suite G-1.\n\n**[4Ever Glow Salon & MedSpa](https://4everglowmedspa.com/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.9 (110 reviews)**  \n_722 Katy Fort Bend Rd #500, Katy, TX 77494_  \nSpecializes in esthetician services including dermaplaning, facials, and laser hair removal. Located at 24646 Kingsland Blvd.\n\n**[Face to Face Spa at Cinco Ranch](https://facetofacespa.com/cinco-ranch/?utm_medium=organic&utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.9 (353 reviews)**  \n_27131 Cinco Ranch Blvd Suite 750, Katy, TX 77494_  \nOffers professional dermaplaning to improve skin texture and luster, providing a brighter complexion with no downtime. Located in Cinco Ranch.\n\n**[Allay Med Spa](http://allaymedspa.com/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 4.9 (36 reviews)**  \n_24510 Kingsland Blvd, Katy, TX 77494_  \nProvides dermaplaning to remove dead skin cells and hair, aiming for smooth, radiant, and youthful skin. Located at 24510 Kingsland Blvd.\n\n**[Luminous MediSpa](http://www.luminousmedispa.com/?utm_source=openai)**  \n**Open now \u00b7 Medical spa \u00b7 5.0 (134 reviews)**  \n_410 W Grand Pkwy S #310, Katy, TX 77494_  \nOffers dermaplaning to exfoliate dead skin cells and fine facial hair, enhancing skincare product absorption. Located at 410 W Grand Pkwy S, Suite 310.\n\nBefore scheduling a dermaplaning session, it's advisable to consult with the provider to ensure the treatment aligns with your skin type and goals. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 308,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 674,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 982
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GV Skincare AEO Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>
+  :root {
+    --bg: #faf5f2; --card: #ffffff; --border: #e0d0c8; --border-light: #e8e0db;
+    --text: #2d1f14; --text-body: #6b5a50; --muted: #8a7868;
+    --rose: #b44d6e; --rose-hover: #9c3d5c; --rose-light: #d4728e; --rose-bright: #e89ab2;
+    --green: #38a169; --green-bg: #f0fdf4; --red: #c53030; --red-bg: #fff8f8;
+    --amber: #d97706; --amber-bg: #fdf2e3; --blue: #4a7dfc; --blue-bg: #eef2ff;
+    --rose-tint: #fdf2f5; --card-hover: #fdf8f6;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11'; -webkit-font-smoothing: antialiased; background: var(--bg); color: var(--text-body); padding: 24px; max-width: 1400px; margin: 0 auto; }
+  h1 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 28px; font-weight: 800; letter-spacing: -0.022em; color: var(--text); margin-bottom: 4px; }
+  .subtitle { color: var(--muted); font-size: 14px; margin-bottom: 24px; }
+  .eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--muted); font-weight: 500; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px; }
+  .card:hover { background: var(--card-hover); }
+  .card-label { font-family: 'JetBrains Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--muted); margin-bottom: 8px; font-weight: 500; }
+  .card-value { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 32px; font-weight: 700; color: var(--text); }
+  .card-detail { font-size: 13px; color: var(--muted); margin-top: 4px; }
+  .card-value.green { color: var(--green); }
+  .card-value.red { color: var(--red); }
+  .card-value.amber { color: var(--amber); }
+  .card-value.rose { color: var(--rose); }
+  .section { margin-bottom: 32px; }
+  .section-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 16px; letter-spacing: -0.01em; }
+  .chart-row { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 32px; }
+  .chart-box { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px; }
+  .chart-box h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 4px; letter-spacing: -0.01em; }
+  .chart-box .chart-subtitle { font-size: 12px; color: var(--muted); margin-bottom: 12px; }
+  .chart-box canvas { width: 100% !important; }
+  .heatmap { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .heatmap th { text-align: left; padding: 8px 12px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; color: var(--text); border-bottom: 2px solid var(--border); white-space: nowrap; }
+  .heatmap td { padding: 8px 12px; border-bottom: 1px solid var(--border-light); }
+  .heatmap tr:hover { background: var(--card-hover); }
+  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: middle; }
+  .dot.yes-accurate { background: var(--green); }
+  .dot.yes-inaccurate { background: var(--amber); }
+  .dot.no { background: #d5dce5; }
+  .dot.dismissed { background: var(--red); }
+  .dot.untested { background: transparent; border: 1px dashed var(--border); }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 9999px; font-size: 11px; font-weight: 500; }
+  .badge.branded { background: var(--blue-bg); color: var(--blue); }
+  .badge.organic { background: var(--rose-tint); color: var(--rose); }
+  .legend { display: flex; gap: 16px; margin-bottom: 12px; font-size: 12px; align-items: center; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 4px; }
+  .query-text { max-width: 350px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; cursor: pointer; color: var(--rose); }
+  .query-text:hover { text-decoration: underline; color: var(--rose-hover); }
+  .source-list { max-height: 520px; overflow-y: auto; }
+  .dot-wrap { position: relative; cursor: pointer; display: inline-block; }
+  .popover { display: none; position: absolute; z-index: 100; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%); background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; width: 320px; box-shadow: 0 4px 16px rgba(0,0,0,0.08); font-size: 12px; color: var(--text-body); line-height: 1.5; pointer-events: none; }
+  .popover::after { content: ''; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); border: 6px solid transparent; border-top-color: var(--border); }
+  .dot-wrap:hover .popover { display: block; }
+  .popover-status { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 13px; margin-bottom: 6px; }
+  .popover-status.accurate { color: var(--green); }
+  .popover-status.inaccurate { color: var(--amber); }
+  .popover-status.dismissed { color: var(--red); }
+  .popover-status.not-mentioned { color: var(--muted); }
+  .popover-desc { margin-bottom: 8px; color: var(--text); }
+  .popover-meta { font-size: 11px; color: var(--muted); }
+  .popover-meta span { display: inline-block; margin-right: 12px; }
+  .popover-comps { margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--border-light); font-size: 11px; color: var(--muted); }
+  .response-tabs { display: flex; gap: 0; border-bottom: 2px solid var(--border); margin-bottom: 0; }
+  .response-tab { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13px; font-weight: 600; padding: 8px 16px; cursor: pointer; color: var(--muted); border: 1px solid transparent; border-bottom: none; border-radius: 8px 8px 0 0; background: none; transition: all 0.15s; }
+  .response-tab:hover { color: var(--text); background: var(--rose-tint); }
+  .response-tab.active { color: var(--rose); background: var(--card); border-color: var(--border); margin-bottom: -2px; border-bottom: 2px solid var(--card); }
+  .response-tab.no-data { opacity: 0.4; cursor: default; }
+  .response-body { background: var(--card); border: 1px solid var(--border); border-top: none; border-radius: 0 0 12px 12px; padding: 20px; max-height: 600px; overflow-y: auto; }
+  .response-text { font-family: 'Inter', sans-serif; font-size: 13px; line-height: 1.5; color: var(--text-body); white-space: normal; word-wrap: break-word; }
+  .response-text strong, .response-text b { color: var(--text); }
+  .response-text h1, .response-text h2, .response-text h3, .response-text h4 { color: var(--text); font-family: 'Plus Jakarta Sans', sans-serif; margin: 10px 0 4px; }
+  .response-text p { margin: 4px 0; }
+  .response-text h3 { font-size: 15px; }
+  .response-text h4 { font-size: 13px; }
+  .response-text table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 12px; }
+  .response-text table th, .response-text table td { padding: 6px 10px; border: 1px solid var(--border-light); text-align: left; }
+  .response-text table th { background: var(--rose-tint); font-weight: 600; color: var(--text); }
+  .response-text .brand-hl { background: #fce4ec; padding: 1px 3px; border-radius: 3px; font-weight: 600; }
+  .response-empty { color: var(--muted); font-style: italic; font-size: 13px; }
+  .rank-num { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--muted); min-width: 20px; display: inline-block; }
+  .rank-name { font-size: 13px; }
+  .rank-name.brand { font-weight: 700; color: var(--rose); }
+  .rank-cell { padding: 4px 12px !important; }
+  .rank-header { font-size: 12px; }
+  #rankTable td { vertical-align: top; }
+  #rankTable tr:first-child td { padding-top: 8px; }
+  .filter-btn { font-family: 'Inter', sans-serif; font-size: 11px; font-weight: 500; padding: 4px 10px; border: 1px solid var(--border); border-radius: 9999px; background: var(--card); color: var(--muted); cursor: pointer; transition: all 0.15s; }
+  .filter-btn:hover { border-color: var(--rose); color: var(--rose); }
+  .filter-btn.active { background: var(--rose); color: white; border-color: var(--rose); }
+  /* Citation table + Visibility Score table */
+  .cite-panel { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px 24px; }
+  .cite-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; margin-bottom: 14px; flex-wrap: wrap; }
+  .cite-head h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 4px; letter-spacing: -0.01em; }
+  .cite-head .cite-sub { font-size: 13px; color: var(--muted); }
+  .cite-search { display: flex; align-items: center; gap: 7px; border: 1px solid var(--border); border-radius: 9999px; padding: 7px 14px; background: var(--card); min-width: 230px; height: fit-content; }
+  .cite-search:focus-within { border-color: var(--rose); }
+  .cite-search svg { flex-shrink: 0; color: var(--muted); }
+  .cite-search input { border: none; outline: none; font-family: 'Inter', sans-serif; font-size: 13px; color: var(--text); background: transparent; width: 100%; }
+  .cite-filters { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+  .cite-filters .filter-btn { display: inline-flex; align-items: center; }
+  .cite-filters .filter-n { margin-left: 5px; opacity: 0.65; font-variant-numeric: tabular-nums; }
+  .cite-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
+  .cite-dot.owned { background: var(--green); }
+  .cite-dot.competitor { background: var(--amber); }
+  .cite-dot.other { background: var(--muted); }
+  .cite-scroll { max-height: 360px; overflow-y: auto; }
+  .cite-table { width: 100%; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
+  .cite-table thead th { text-align: left; padding: 9px 12px; font-family: 'Inter', sans-serif; font-weight: 500; font-size: 12px; color: var(--muted); white-space: nowrap; position: sticky; top: 0; z-index: 2; background: var(--card); box-shadow: inset 0 -1px 0 var(--border); }
+  .cite-table th.num, .cite-table td.num { text-align: right; }
+  .cite-table td { padding: 11px 12px; border-bottom: 1px solid var(--border-light); vertical-align: middle; }
+  .cite-table tbody tr:last-child td { border-bottom: none; }
+  .cite-table tbody tr:hover { background: var(--card-hover); }
+  .cite-rank { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .cite-name { display: flex; align-items: center; gap: 10px; min-width: 0; }
+  .cite-name img { width: 18px; height: 18px; border-radius: 4px; flex-shrink: 0; background: var(--border-light); }
+  .cite-name a { color: var(--text); text-decoration: none; font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .cite-name a:hover { color: var(--rose); text-decoration: underline; }
+  .cite-cat { display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px; border-radius: 9999px; font-size: 12px; font-weight: 500; white-space: nowrap; }
+  .cite-cat svg { width: 12px; height: 12px; }
+  .cite-cat.owned { background: var(--green-bg); color: var(--green); }
+  .cite-cat.competitor { background: var(--amber-bg); color: var(--amber); }
+  .cite-cat.other { background: var(--border-light); color: var(--muted); }
+  .cite-share-val { font-weight: 600; color: var(--text); }
+  .cite-delta { font-size: 12px; font-weight: 500; margin-left: 10px; }
+  .cite-delta.up { color: var(--green); }
+  .cite-delta.down { color: var(--red); }
+  .cite-foot { display: flex; justify-content: flex-end; align-items: center; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border-light); }
+  .cite-count { font-size: 13px; color: var(--muted); }
+  .cite-empty { padding: 28px 12px; color: var(--muted); font-size: 13px; text-align: center; }
+  @media (max-width: 768px) { .chart-row { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<h1>GV Skincare AEO Dashboard</h1>
+<div class="subtitle" id="subtitle"></div>
+
+<div class="cards" id="summary-cards"></div>
+
+<div class="chart-row">
+  <div class="chart-box">
+    <h3>Visibility Trend by Platform</h3>
+    <div class="chart-subtitle">% of non-branded queries where GV Skincare appears &middot; shown when &ge; 5 queries tested on that platform</div>
+    <div style="height:300px;"><canvas id="trendChart"></canvas></div>
+  </div>
+  <div class="cite-panel">
+    <div class="cite-head">
+      <div>
+        <h3>Visibility Score Rank</h3>
+        <div class="cite-sub">% of organic queries where each spa appears, averaged across platforms</div>
+      </div>
+    </div>
+    <div class="cite-filters" id="visFilters"></div>
+    <div class="cite-scroll">
+      <table class="cite-table">
+        <thead><tr>
+          <th style="width:52px;">Rank</th>
+          <th>Spa / Brand</th>
+          <th style="width:110px;">Category</th>
+          <th class="num" style="width:130px;">Visibility Score</th>
+        </tr></thead>
+        <tbody id="visBody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="chart-row">
+  <div class="chart-box">
+    <h3>GV Skincare Citation Share Trend</h3>
+    <div class="chart-subtitle">% of organic citations in AI answers that point to gvskincare.com &middot; pooled across all platforms, per audit run</div>
+    <div style="height:300px;"><canvas id="citationShareTrendChart"></canvas></div>
+  </div>
+  <div class="cite-panel">
+    <div class="cite-head">
+      <div>
+        <h3>Top Citation Domains</h3>
+        <div class="cite-sub">Which websites AI assistants cite most for these queries &mdash; target these for listings/mentions</div>
+        <div class="cite-sub" id="citeDomainsRun" style="margin-top:3px;"></div>
+      </div>
+      <div class="cite-search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" id="citeDomainsSearch" placeholder="Search for a domain" autocomplete="off">
+      </div>
+    </div>
+    <div class="cite-filters" id="citeDomainsFilters"></div>
+    <div class="cite-scroll">
+      <table class="cite-table">
+        <thead><tr>
+          <th style="width:56px;">Rank</th>
+          <th>Domain</th>
+          <th style="width:150px;">Category</th>
+          <th class="num" style="width:150px;">Share</th>
+        </tr></thead>
+        <tbody id="citeDomainsBody"></tbody>
+      </table>
+    </div>
+    <div class="cite-foot">
+      <div class="cite-count" id="citeDomainsCount"></div>
+    </div>
+  </div>
+</div>
+
+<div class="chart-row">
+  <div class="chart-box">
+    <h3>Accuracy: When Mentioned, Is It Right?</h3>
+    <div class="chart-subtitle">Of all mentions, what % are accurate vs dismissed/misidentified</div>
+    <div style="height:300px;"><canvas id="accuracyChart"></canvas></div>
+  </div>
+  <div class="chart-box">
+    <h3>Mentions by Query Category</h3>
+    <div class="chart-subtitle">Latest audit: which types of queries surface GV Skincare?</div>
+    <div style="height:300px;"><canvas id="categoryChart"></canvas></div>
+  </div>
+</div>
+
+<div class="section">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+    <div class="section-title" style="margin-bottom:0;">Visibility by Query &amp; Platform (Latest Audit)</div>
+    <div style="display:flex;gap:4px;">
+      <button class="filter-btn active" id="heatmapOrganic">Organic only</button>
+      <button class="filter-btn" id="heatmapAll">All queries</button>
+    </div>
+  </div>
+  <div class="legend">
+    <div class="legend-item"><span class="dot yes-accurate"></span> Mentioned accurately</div>
+    <div class="legend-item"><span class="dot yes-inaccurate"></span> Mentioned inaccurately</div>
+    <div class="legend-item"><span class="dot dismissed"></span> Dismissed / misidentified</div>
+    <div class="legend-item"><span class="dot no"></span> Not mentioned</div>
+    <div class="legend-item"><span class="dot untested"></span> Not tested</div>
+    <div class="legend-item" style="margin-left:8px;color:var(--muted);font-size:11px;">#N = GV Skincare's rank in response</div>
+  </div>
+  <div style="overflow-x:auto;max-height:560px;overflow-y:auto;">
+    <table class="heatmap" id="heatmapTable"></table>
+  </div>
+</div>
+
+<div class="section" id="rankSection">
+  <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:8px;">
+    <div class="section-title" style="margin-bottom:0;">Competitor Rankings by Query</div>
+    <div style="display:flex;gap:4px;flex-wrap:wrap;">
+      <button class="filter-btn active" data-rank-filter="all">All</button>
+      <button class="filter-btn" data-rank-filter="local">Local</button>
+      <button class="filter-btn" data-rank-filter="chain">Chains</button>
+      <button class="filter-btn" data-rank-filter="other">Other</button>
+    </div>
+  </div>
+  <div style="margin-bottom: 12px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+    <select id="rankQuerySelect" style="font-family: 'Inter', sans-serif; font-size: 13px; padding: 8px 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--card); color: var(--text); min-width: 360px; cursor: pointer;">
+    </select>
+    <select id="rankDateSelect" style="font-family: 'Inter', sans-serif; font-size: 13px; padding: 8px 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--card); color: var(--text); min-width: 140px; cursor: pointer;">
+    </select>
+  </div>
+  <div style="overflow-x:auto;">
+    <table class="heatmap" id="rankTable"></table>
+  </div>
+  <div id="rankNote" style="font-size: 12px; color: var(--muted); margin-top: 8px;"></div>
+  <div id="responseViewer" style="margin-top: 16px; display: none;">
+    <div class="response-tabs" id="responseTabs"></div>
+    <div class="response-body" id="responseBody"></div>
+  </div>
+</div>
+
+<script>
+const DATA = __DATA_PLACEHOLDER__;
+const BRAND = 'GV Skincare';
+
+const PLATFORM_COLORS = {
+  perplexity: '#b44d6e', openai: '#e89ab2',
+  gemini: '#d4728e', anthropic: '#d97706',
+  grok: '#2d1f14'
+};
+const PLATFORM_LABELS = {
+  perplexity: 'Perplexity', openai: 'ChatGPT',
+  gemini: 'Gemini', anthropic: 'Claude',
+  grok: 'Grok'
+};
+const CATEGORY_LABELS = {
+  direct_discovery: 'Local Discovery', treatment_discovery: 'Treatment Discovery',
+  problem_aware: 'Problem Aware', comparison: 'Comparison',
+  thought_leadership: 'Thought Leadership', spanish: 'Spanish'
+};
+const CATEGORY_ORDER = ['direct_discovery', 'treatment_discovery', 'problem_aware', 'comparison', 'thought_leadership', 'spanish'];
+
+// Competitor categorization — local independent spas (GV's nearest rivals), national
+// chains, and other (aggregators / retail brands). Sourced from competitors.json,
+// passed in via DATA.competitorCategories. Drives the color coding + rank filters.
+const COMPETITOR_CATEGORY = DATA.competitorCategories || {};
+const categoryOf = (name) => name === BRAND ? 'brand' : (COMPETITOR_CATEGORY[name] || 'other');
+const CATEGORY_COMP_LABEL = { brand: 'GV Skincare', local: 'Local', chain: 'Chain', other: 'Other' };
+// Brand rose; local rivals in clay; chains in steel blue; other in warm stone.
+const CATEGORY_COMP_COLOR = {
+  brand: { bar: '#b44d6e', text: '#b44d6e', tint: '#fdf2f5' },
+  local: { bar: '#c4655c', text: '#8d4239', tint: '#faf2f0' },
+  chain: { bar: '#5b7fa8', text: '#3a567f', tint: '#eef2f7' },
+  other: { bar: '#a8a29e', text: '#57534e', tint: '#f5f5f4' },
+};
+
+const unique = (arr) => [...new Set(arr)];
+
+// Response text is inlined into DATA.responses (keyed "date|platform|qid") so the
+// dashboard works as a local file. Helpers mirror the lazy-loading shape used by
+// the larger gotomarket dashboard, but read synchronously here.
+const RESPONSES = DATA.responses || {};
+const hasResponse = (key) => key in RESPONSES;
+
+const dates = unique(DATA.rows.map(r => r.date)).sort();
+const platforms = unique(DATA.rows.map(r => r.platform)).sort();
+const latestDate = dates[dates.length - 1];
+const latestRows = DATA.rows.filter(r => r.date === latestDate);
+
+// Visibility Score = % of organic queries where a brand appears, scored per
+// platform then averaged across platforms (a presence rate, not zero-sum).
+// Shared by the Visibility Rank card and the Visibility Score Rank panel so the
+// two never disagree.
+const organicRows = DATA.rows.filter(r => !r.branded);
+function visScoresByDate(date) {
+  const byPlat = {};
+  organicRows.forEach(r => {
+    if (r.date !== date) return;
+    const p = r.platform;
+    (byPlat[p] = byPlat[p] || { total: 0, counts: {} }).total++;
+    const brands = new Set((r.competitors ? r.competitors.split('; ') : []).map(c => c.trim()).filter(Boolean));
+    if (r.mentioned) brands.add(BRAND);
+    brands.forEach(b => { byPlat[p].counts[b] = (byPlat[p].counts[b] || 0) + 1; });
+  });
+  const plats = Object.keys(byPlat).filter(p => byPlat[p].total > 0);
+  const brands = new Set();
+  plats.forEach(p => Object.keys(byPlat[p].counts).forEach(b => brands.add(b)));
+  const out = {};
+  brands.forEach(b => {
+    out[b] = 100 * plats.reduce((s, p) => s + (byPlat[p].counts[b] || 0) / byPlat[p].total, 0) / plats.length;
+  });
+  return out;
+}
+// GV Skincare's rank (1 = most visible) among brands on a given audit date.
+function brandVisRank(date) {
+  const ranked = Object.entries(visScoresByDate(date)).sort((a, b) => b[1] - a[1]);
+  const idx = ranked.findIndex(([n]) => n === BRAND);
+  return { rank: idx >= 0 ? idx + 1 : null, total: ranked.length };
+}
+
+// --- Summary Cards ---
+(function renderCards() {
+  const latest = latestRows;
+  const organicMentioned = latest.filter(r => r.mentioned && !r.branded).length;
+  const organicTested = latest.filter(r => !r.branded).length;
+  const organicRate = organicTested ? Math.round(organicMentioned / organicTested * 100) : 0;
+  const totalMentioned = latest.filter(r => r.mentioned).length;
+  const accurateMentioned = latest.filter(r => r.mentioned && r.accurate).length;
+  const accuracyRate = totalMentioned ? Math.round(accurateMentioned / totalMentioned * 100) : 0;
+
+  // Visibility change vs the PREVIOUS audit (not the all-time baseline).
+  const prevDate = dates.length > 1 ? dates[dates.length - 2] : null;
+  const prevOrganic = prevDate ? DATA.rows.filter(r => r.date === prevDate && !r.branded) : [];
+  const prevRate = prevOrganic.length
+    ? Math.round(prevOrganic.filter(r => r.mentioned).length / prevOrganic.length * 100) : null;
+  const visDelta = prevRate === null ? null : organicRate - prevRate;
+
+  // Citation share = % of organic citations that point to gvskincare.com, per audit.
+  const cs = DATA.citationShareByDate || [];
+  const csLatest = cs.length ? cs[cs.length - 1] : null;
+  const csPrev = cs.length > 1 ? cs[cs.length - 2] : null;
+  const citShare = csLatest && csLatest.total ? Math.round(csLatest.brand / csLatest.total * 100) : 0;
+  const csPrevShare = csPrev && csPrev.total ? Math.round(csPrev.brand / csPrev.total * 100) : null;
+  const csDelta = csPrevShare === null ? null : citShare - csPrevShare;
+
+  document.getElementById('subtitle').textContent =
+    `${dates.length} audit${dates.length > 1 ? 's' : ''} from ${dates[0]} to ${latestDate} · ${DATA.queries.length} queries · ${platforms.length} platforms`;
+
+  // Signed, color-coded change pill: green up, red down, muted flat.
+  const deltaTag = (d) => {
+    if (d === null) return '<span style="color:var(--muted);">no prior audit</span>';
+    const color = d > 0 ? 'var(--green)' : d < 0 ? 'var(--red)' : 'var(--muted)';
+    return `<span style="color:${color};font-weight:600;">${d >= 0 ? '+' : ''}${d}pp</span> vs previous`;
+  };
+  // Rank movement: a lower rank number is better, so climbing is green up.
+  const rankDeltaTag = (d) => {
+    if (d === null) return '<span style="color:var(--muted);">no prior audit</span>';
+    if (d === 0) return '<span style="color:var(--muted);font-weight:600;">no change</span> vs previous';
+    const up = d > 0;
+    return `<span style="color:${up ? 'var(--green)' : 'var(--red)'};font-weight:600;">${up ? '▲' : '▼'}${Math.abs(d)}</span> vs previous`;
+  };
+
+  const visR = brandVisRank(latestDate);
+  const visRankPrev = prevDate ? brandVisRank(prevDate).rank : null;
+  const visRankDelta = (visR.rank && visRankPrev) ? visRankPrev - visR.rank : null;
+
+  const cards = [
+    { label: 'Visibility (Latest)', value: organicRate + '%', cls: organicRate > 0 ? 'rose' : 'red',
+      detail: `${organicMentioned}/${organicTested} non-branded queries · ${deltaTag(visDelta)}` },
+    { label: 'Visibility Rank', value: visR.rank ? '#' + visR.rank : '–', cls: 'rose',
+      detail: visR.rank ? `of ${visR.total} spas · ${rankDeltaTag(visRankDelta)}` : 'Not ranked yet' },
+    { label: 'Citation Share', value: citShare + '%', cls: citShare > 0 ? 'rose' : 'red',
+      detail: csLatest ? `${csLatest.brand}/${csLatest.total} organic citations · ${deltaTag(csDelta)}` : 'No citation data yet' },
+    { label: 'Accuracy (Latest)', value: accuracyRate + '%', cls: accuracyRate > 50 ? 'green' : 'amber',
+      detail: `${accurateMentioned}/${totalMentioned} mentions are correct` },
+  ];
+
+  document.getElementById('summary-cards').innerHTML = cards.map(c => `
+    <div class="card">
+      <div class="card-label">${c.label}</div>
+      <div class="card-value ${c.cls}">${c.value}</div>
+      <div class="card-detail">${c.detail}</div>
+    </div>
+  `).join('');
+})();
+
+// --- Visibility Trend by Platform (organic only) ---
+(function renderTrend() {
+  const datasets = platforms.map(p => {
+    const points = dates.map(d => {
+      const rows = DATA.rows.filter(r => r.date === d && r.platform === p && !r.branded);
+      if (rows.length < DATA.minSample) return null;
+      return Math.round(rows.filter(r => r.mentioned).length / rows.length * 100);
+    });
+    return {
+      label: PLATFORM_LABELS[p] || p,
+      data: points,
+      borderColor: PLATFORM_COLORS[p] || '#888',
+      backgroundColor: PLATFORM_COLORS[p] || '#888',
+      tension: 0.3, pointRadius: 5, pointHoverRadius: 7, spanGaps: false
+    };
+  }).filter(ds => ds.data.some(v => v !== null));
+
+  new Chart(document.getElementById('trendChart'), {
+    type: 'line',
+    data: { labels: dates, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { position: 'bottom' },
+        tooltip: { callbacks: { afterLabel: function(ctx) {
+          const p = platforms.find(p2 => (PLATFORM_LABELS[p2]||p2) === ctx.dataset.label);
+          const d = dates[ctx.dataIndex];
+          const rows = DATA.rows.filter(r => r.date === d && r.platform === p && !r.branded);
+          return `(${rows.filter(r=>r.mentioned).length}/${rows.length} organic queries)`;
+        }}}
+      },
+      scales: { y: { min: 0, max: 100, ticks: { callback: v => v + '%' } } }
+    }
+  });
+})();
+
+// --- Visibility Score Rank (ranked spas by presence rate) ---
+(function renderVisibilityScore() {
+  const body = document.getElementById('visBody');
+  if (!body) return;
+  const odates = [...new Set(organicRows.map(r => r.date))].sort();
+  if (!odates.length) return;
+  const latest = odates[odates.length - 1], prev = odates[odates.length - 2];
+
+  const visLatest = visScoresByDate(latest);
+  const visPrev = prev ? visScoresByDate(prev) : {};
+  const ranked = Object.entries(visLatest).sort((a, b) => b[1] - a[1]);
+
+  const COMP_DOMAINS = DATA.competitorDomains || {};
+  const compDomain = name => name === BRAND ? 'gvskincare.com'
+    : (COMP_DOMAINS[name] || name.toLowerCase().replace(/[^a-z0-9]+/g, '') + '.com');
+  const fav = name => `https://www.google.com/s2/favicons?sz=64&domain=${encodeURIComponent(compDomain(name))}`;
+  const pct = v => { const s = v.toFixed(1); return (s.endsWith('.0') ? s.slice(0, -2) : s) + '%'; };
+  const deltaHtml = d => {
+    if (d === null) return '';
+    const up = d >= 0;
+    return `<span class="cite-delta ${up ? 'up' : 'down'}">${up ? '+' : ''}${pct(d)}</span>`;
+  };
+
+  const CAT_LABEL = { brand: 'GV Skincare', local: 'Local', chain: 'Chain', other: 'Other' };
+  const CAT_ORDER = ['brand', 'local', 'chain', 'other'];
+  const catBadge = (cat) => {
+    const c = CATEGORY_COMP_COLOR[cat] || CATEGORY_COMP_COLOR.other;
+    return `<span class="cite-cat" style="background:${c.tint};color:${c.text};">` +
+      `<span class="cite-dot" style="background:${c.bar};margin-right:0;"></span>${CAT_LABEL[cat]}</span>`;
+  };
+
+  const rows = ranked.map(([name, score], i) => ({
+    name, score, rank: i + 1, cat: categoryOf(name),
+    delta: (name in visPrev) ? score - visPrev[name] : null,
+  }));
+
+  const rowHtml = (r) => {
+    const nameStyle = r.name === BRAND ? 'font-weight:700;color:var(--rose);' : '';
+    return `<tr>
+      <td class="cite-rank">${r.rank}.</td>
+      <td><div class="cite-name"><img src="${fav(r.name)}" loading="lazy" alt=""><a href="https://${compDomain(r.name)}" target="_blank" rel="noopener" style="${nameStyle}">${r.name}</a></div></td>
+      <td>${catBadge(r.cat)}</td>
+      <td class="num"><span class="cite-share-val">${pct(r.score)}</span>${deltaHtml(r.delta)}</td>
+    </tr>`;
+  };
+
+  let activeCat = 'all';
+  function draw() {
+    const list = activeCat === 'all' ? rows : rows.filter(r => r.cat === activeCat || r.name === BRAND);
+    body.innerHTML = list.length
+      ? list.map(rowHtml).join('')
+      : '<tr><td colspan="4" class="cite-empty">No spas in this category.</td></tr>';
+  }
+
+  const filtersEl = document.getElementById('visFilters');
+  if (filtersEl) {
+    const counts = {};
+    rows.forEach(r => { counts[r.cat] = (counts[r.cat] || 0) + 1; });
+    const present = CAT_ORDER.filter(c => counts[c]);
+    const pill = (cat, label, count, color) =>
+      `<button class="filter-btn${cat === activeCat ? ' active' : ''}" data-cat="${cat}">` +
+      (color ? `<span class="cite-dot" style="background:${color};"></span>` : '') +
+      `${label}<span class="filter-n">${count}</span></button>`;
+    filtersEl.innerHTML = pill('all', 'All', rows.length, '') +
+      present.map(c => pill(c, CAT_LABEL[c], counts[c], (CATEGORY_COMP_COLOR[c] || CATEGORY_COMP_COLOR.other).bar)).join('');
+    filtersEl.addEventListener('click', e => {
+      const btn = e.target.closest('[data-cat]');
+      if (!btn) return;
+      activeCat = btn.dataset.cat;
+      filtersEl.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b === btn));
+      draw();
+    });
+  }
+  draw();
+})();
+
+// --- Citation Share Trend (% organic citations pointing to gvskincare.com) ---
+(function renderCitationShare() {
+  const cs = (DATA.citationShareByDate || []).filter(d => d.total > 0);
+  const canvas = document.getElementById('citationShareTrendChart');
+  if (!canvas) return;
+  if (!cs.length) {
+    canvas.parentElement.innerHTML += '<div style="color:var(--muted);font-size:13px;padding:20px 0;">No citation data yet.</div>';
+    return;
+  }
+  const labels = cs.map(d => d.date);
+  const round1 = v => Math.round(v * 10) / 10;
+  new Chart(canvas, {
+    type: 'line',
+    data: { labels, datasets: [{
+      label: 'gvskincare.com share',
+      data: cs.map(row => round1(row.brand / row.total * 100)),
+      borderColor: '#b44d6e', backgroundColor: '#b44d6e',
+      tension: 0.3, pointRadius: 5, pointHoverRadius: 7, spanGaps: false,
+    }] },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false },
+        tooltip: { callbacks: { afterLabel: ctx => `(${cs[ctx.dataIndex].brand}/${cs[ctx.dataIndex].total} organic citations)` } } },
+      scales: { y: { beginAtZero: true, ticks: { callback: v => v + '%' } } },
+    },
+  });
+})();
+
+// --- Top Citation Domains (latest run, by citation share) ---
+(function renderCitationDomains() {
+  const fmtPct = v => {
+    const s = Number(v).toFixed(2).replace(/\.?0+$/, '');
+    return (s === '' || s === '-0') ? '0' : s;
+  };
+  const favicon = domain => `https://www.google.com/s2/favicons?sz=64&domain=${encodeURIComponent(domain)}`;
+  const deltaHtml = d => {
+    const up = d >= 0;
+    return `<span class="cite-delta ${up ? 'up' : 'down'}">${up ? '+' : ''}${fmtPct(d)}%</span>`;
+  };
+  const CAT = {
+    'Owned':      { cls: 'owned',      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>' },
+    'Competitor': { cls: 'competitor', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>' },
+    'Other':      { cls: 'other',      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>' },
+  };
+  const CAT_ORDER = ['Owned', 'Competitor', 'Other'];
+  const catBadge = c => { const m = CAT[c] || CAT['Other']; return `<span class="cite-cat ${m.cls}">${m.icon}${c}</span>`; };
+
+  const rows = (DATA.citationDomains || []).map(d => ({ ...d, _search: d.domain.toLowerCase() }));
+  const total = DATA.citationDomainsTotal || rows.length;
+  const body = document.getElementById('citeDomainsBody');
+  const countEl = document.getElementById('citeDomainsCount');
+  const searchEl = document.getElementById('citeDomainsSearch');
+  const runEl = document.getElementById('citeDomainsRun');
+  const filtersEl = document.getElementById('citeDomainsFilters');
+  let activeCat = 'All';
+
+  if (runEl && DATA.citationLatestDate) {
+    runEl.textContent = `Latest run ${DATA.citationLatestDate} · organic queries · ${DATA.citationLatestTotal} citations` +
+      (DATA.citationPrevDate ? ` · Δ vs ${DATA.citationPrevDate}` : '');
+  }
+
+  if (filtersEl) {
+    const counts = {};
+    rows.forEach(r => { counts[r.category] = (counts[r.category] || 0) + 1; });
+    const present = CAT_ORDER.filter(c => counts[c]);
+    const pill = (cat, count, cls) =>
+      `<button class="filter-btn${cat === activeCat ? ' active' : ''}" data-cat="${cat}">` +
+      (cls ? `<span class="cite-dot ${cls}"></span>` : '') +
+      `${cat}<span class="filter-n">${count}</span></button>`;
+    filtersEl.innerHTML = pill('All', total, '') +
+      present.map(c => pill(c, counts[c], (CAT[c] || CAT['Other']).cls)).join('');
+    filtersEl.addEventListener('click', e => {
+      const btn = e.target.closest('[data-cat]');
+      if (!btn) return;
+      activeCat = btn.dataset.cat;
+      filtersEl.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b === btn));
+      draw();
+    });
+  }
+
+  function draw() {
+    const q = (searchEl && searchEl.value || '').trim().toLowerCase();
+    let list = activeCat === 'All' ? rows : rows.filter(r => r.category === activeCat);
+    if (q) list = list.filter(r => r._search.includes(q));
+    body.innerHTML = list.length
+      ? list.map((r, i) => `
+        <tr>
+          <td class="cite-rank">${i + 1}.</td>
+          <td><div class="cite-name"><img src="${favicon(r.domain)}" loading="lazy" alt=""><a href="https://${r.domain}" target="_blank" rel="noopener">${r.domain}</a></div></td>
+          <td>${catBadge(r.category)}</td>
+          <td class="num" title="${r.count} citation${r.count === 1 ? '' : 's'} this run"><span class="cite-share-val">${fmtPct(r.share)}%</span>${deltaHtml(r.delta)}</td>
+        </tr>`).join('')
+      : '<tr><td colspan="4" class="cite-empty">No matches.</td></tr>';
+    const filtered = activeCat !== 'All' || q;
+    countEl.textContent = filtered ? `${list.length} of ${total} domains` : `${total} domains`;
+  }
+  if (searchEl) searchEl.addEventListener('input', draw);
+  draw();
+})();
+
+// --- Accuracy Chart ---
+(function renderAccuracy() {
+  const accurateData = dates.map(d => {
+    const mentioned = DATA.rows.filter(r => r.date === d && r.mentioned);
+    return mentioned.length ? Math.round(mentioned.filter(r => r.accurate).length / mentioned.length * 100) : null;
+  });
+  const inaccurateData = dates.map(d => {
+    const mentioned = DATA.rows.filter(r => r.date === d && r.mentioned);
+    return mentioned.length ? Math.round(mentioned.filter(r => !r.accurate).length / mentioned.length * 100) : null;
+  });
+
+  new Chart(document.getElementById('accuracyChart'), {
+    type: 'bar',
+    data: {
+      labels: dates,
+      datasets: [
+        { label: 'Accurate', data: accurateData, backgroundColor: '#38a169' },
+        { label: 'Inaccurate / Dismissed', data: inaccurateData, backgroundColor: '#c53030' },
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } },
+      scales: { y: { min: 0, max: 100, stacked: true, ticks: { callback: v => v + '%' } }, x: { stacked: true } }
+    }
+  });
+})();
+
+// --- Category Chart ---
+(function renderCategory() {
+  const cats = CATEGORY_ORDER.filter(c => latestRows.some(r => r.category === c));
+  const mentioned = cats.map(c => {
+    const rows = latestRows.filter(r => r.category === c);
+    return rows.length ? Math.round(rows.filter(r => r.mentioned).length / rows.length * 100) : 0;
+  });
+  const accurate = cats.map(c => {
+    const rows = latestRows.filter(r => r.category === c);
+    return rows.length ? Math.round(rows.filter(r => r.accurate).length / rows.length * 100) : 0;
+  });
+
+  new Chart(document.getElementById('categoryChart'), {
+    type: 'bar',
+    data: {
+      labels: cats.map(c => CATEGORY_LABELS[c] || c),
+      datasets: [
+        { label: 'Mentioned', data: mentioned, backgroundColor: '#e89ab2' },
+        { label: 'Accurate', data: accurate, backgroundColor: '#b44d6e' },
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false, indexAxis: 'y',
+      plugins: { legend: { position: 'bottom' } },
+      scales: { x: { min: 0, max: 100, ticks: { callback: v => v + '%' } } }
+    }
+  });
+})();
+
+// --- Competitor Rankings Table ---
+(function renderRankings() {
+  const querySelect = document.getElementById('rankQuerySelect');
+  const dateSelect = document.getElementById('rankDateSelect');
+  const table = document.getElementById('rankTable');
+  const note = document.getElementById('rankNote');
+  const rankFilterBtns = document.querySelectorAll('[data-rank-filter]');
+  let currentRankFilter = 'all';
+
+  let prevCat = '';
+  let optgroup;
+  DATA.queries.forEach(q => {
+    if (q.category !== prevCat) {
+      prevCat = q.category;
+      optgroup = document.createElement('optgroup');
+      optgroup.label = CATEGORY_LABELS[q.category] || q.category;
+      querySelect.appendChild(optgroup);
+    }
+    const opt = document.createElement('option');
+    opt.value = q.id;
+    opt.textContent = `Q${q.id}: ${q.text}`;
+    optgroup.appendChild(opt);
+  });
+
+  const datesDesc = [...dates].reverse();
+  datesDesc.forEach(d => {
+    const opt = document.createElement('option');
+    opt.value = d;
+    opt.textContent = d;
+    dateSelect.appendChild(opt);
+  });
+
+  function parseRanks(rankStr) {
+    if (!rankStr) return [];
+    return rankStr.split('; ').map(entry => {
+      const m = entry.match(/^(\d+):(.+)$/);
+      return m ? { rank: parseInt(m[1]), name: m[2].trim() } : null;
+    }).filter(Boolean);
+  }
+
+  function render() {
+    const qid = parseInt(querySelect.value);
+    const selectedDate = dateSelect.value;
+
+    const rows = DATA.rows.filter(r => r.query_id === qid && r.date === selectedDate);
+    const activePlatforms = platforms.filter(p => rows.some(r => r.platform === p));
+
+    if (!activePlatforms.length) {
+      table.innerHTML = '<tr><td style="padding:16px;color:var(--muted);">No data for this query on this date.</td></tr>';
+      note.textContent = '';
+      return;
+    }
+
+    const platformRanks = {};
+    let maxRanks = 0;
+    activePlatforms.forEach(p => {
+      const r = rows.find(r2 => r2.platform === p);
+      const ranks = r ? parseRanks(r.competitor_ranks) : [];
+      platformRanks[p] = ranks;
+      maxRanks = Math.max(maxRanks, ranks.length);
+    });
+
+    if (maxRanks === 0) {
+      activePlatforms.forEach(p => {
+        const r = rows.find(r2 => r2.platform === p);
+        if (r && r.competitors) {
+          platformRanks[p] = r.competitors.split('; ').map((name, i) => ({ rank: i + 1, name: name.trim() }));
+          maxRanks = Math.max(maxRanks, platformRanks[p].length);
+        }
+      });
+      note.textContent = maxRanks > 0 ? 'Rank order is approximate.' : '';
+    } else {
+      note.textContent = 'Rank = order of first mention in the LLM response (first mentioned = rank 1).';
+    }
+
+    // Insert GV Skincare into rank lists based on brand_rank / position.
+    activePlatforms.forEach(p => {
+      const r = rows.find(r2 => r2.platform === p);
+      if (!r || !r.mentioned) return;
+      let statusSuffix = '';
+      if (r.position === 'dismissed' || r.position === 'misidentified') statusSuffix = ` (${r.position})`;
+      else if (!r.accurate) statusSuffix = ' (inaccurate)';
+      const brandEntry = { rank: 0, name: BRAND + statusSuffix, isBrand: true };
+      if (r.brand_rank) {
+        platformRanks[p].splice(r.brand_rank - 1, 0, brandEntry);
+      } else if (r.position === 'top' || r.position === 'featured') {
+        platformRanks[p].unshift(brandEntry);
+      } else if (r.position === 'bottom') {
+        platformRanks[p].push(brandEntry);
+      } else {
+        platformRanks[p].splice(Math.floor(platformRanks[p].length / 2), 0, brandEntry);
+      }
+      maxRanks = Math.max(maxRanks, platformRanks[p].length);
+    });
+
+    activePlatforms.forEach(p => { platformRanks[p].forEach((e, i) => { e.rank = i + 1; }); });
+
+    // Apply category filter — keep GV Skincare + matching companies, then renumber.
+    if (currentRankFilter !== 'all') {
+      activePlatforms.forEach(p => {
+        platformRanks[p] = platformRanks[p]
+          .map(e => ({ ...e, fullRank: e.rank }))
+          .filter(e => e.isBrand || categoryOf(e.name) === currentRankFilter);
+        platformRanks[p].forEach((e, i) => { e.rank = i + 1; });
+      });
+      maxRanks = Math.max(0, ...activePlatforms.map(p => platformRanks[p].length));
+    }
+
+    let html = '<thead><tr><th class="rank-header" style="width:40px;">#</th>';
+    activePlatforms.forEach(p => { html += `<th class="rank-header">${PLATFORM_LABELS[p] || p}</th>`; });
+    html += '</tr></thead><tbody>';
+
+    if (maxRanks === 0) {
+      html += `<tr><td colspan="${activePlatforms.length + 1}" style="padding:16px;color:var(--muted);">No ${CATEGORY_COMP_LABEL[currentRankFilter] || currentRankFilter} competitors mentioned in this query response.</td></tr>`;
+    }
+
+    for (let i = 0; i < maxRanks; i++) {
+      const hasBrand = activePlatforms.some(p => platformRanks[p][i]?.isBrand);
+      html += hasBrand ? '<tr style="background:var(--rose-tint);">' : '<tr>';
+      html += `<td class="rank-cell"><span class="rank-num">${i + 1}</span></td>`;
+      activePlatforms.forEach(p => {
+        const entry = platformRanks[p][i];
+        if (entry) {
+          const cat = entry.isBrand ? 'brand' : categoryOf(entry.name.replace(/ \(.*\)$/, ''));
+          const colors = CATEGORY_COMP_COLOR[cat] || CATEGORY_COMP_COLOR.other;
+          const fullRankNote = entry.fullRank && entry.fullRank !== entry.rank
+            ? `<span style="color:var(--muted);font-size:10px;font-weight:normal;"> (#${entry.fullRank} overall)</span>` : '';
+          html += `<td class="rank-cell"><span class="rank-name${entry.isBrand ? ' brand' : ''}" style="color:${colors.text};">${entry.name}${fullRankNote}</span></td>`;
+        } else {
+          html += '<td class="rank-cell" style="color:var(--border);">&mdash;</td>';
+        }
+      });
+      html += '</tr>';
+    }
+
+    html += '</tbody>';
+    table.innerHTML = html;
+
+    // --- Response Viewer ---
+    const viewer = document.getElementById('responseViewer');
+    const tabsEl = document.getElementById('responseTabs');
+    const bodyEl = document.getElementById('responseBody');
+    const platformsWithData = activePlatforms.filter(p => hasResponse(`${selectedDate}|${p}|${qid}`));
+
+    if (!activePlatforms.length) { viewer.style.display = 'none'; return; }
+    viewer.style.display = 'block';
+
+    tabsEl.innerHTML = activePlatforms.map(p => {
+      const hasData = hasResponse(`${selectedDate}|${p}|${qid}`);
+      return `<div class="response-tab${hasData ? '' : ' no-data'}" data-platform="${p}">${PLATFORM_LABELS[p] || p}${hasData ? '' : ' (no data)'}</div>`;
+    }).join('');
+
+    function renderMarkdown(text) {
+      text = text.replace(/\n{3,}/g, '\n\n');
+      let html = text
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/^#### (.+)$/gm, '<h4>$1</h4>')
+        .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+        .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+        .replace(/^# (.+)$/gm, '<h1>$1</h1>')
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/^- (.+)$/gm, '<li>$1</li>')
+        .replace(/\b(gv\s*skin\s*care|gvskincare(?:\.com)?)\b/gi, '<span class="brand-hl">$1</span>');
+      html = html.replace(/((?:<li>.*<\/li>\n?)+)/g, '<ul>$1</ul>');
+
+      const lines = html.split('\n');
+      let inTable = false;
+      const out = [];
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        if (line.trim().startsWith('|') && line.trim().endsWith('|')) {
+          const cells = line.split('|').slice(1, -1).map(c => c.trim());
+          if (cells.every(c => /^[-:\s]+$/.test(c))) continue;
+          if (!inTable) { out.push('<table>'); inTable = true; }
+          const isHeader = i + 1 < lines.length && lines[i+1].trim().startsWith('|') &&
+            lines[i+1].split('|').slice(1,-1).every(c => /^[-:\s]+$/.test(c.trim()));
+          const tag = isHeader ? 'th' : 'td';
+          out.push('<tr>' + cells.map(c => `<${tag}>${c}</${tag}>`).join('') + '</tr>');
+        } else {
+          if (inTable) { out.push('</table>'); inTable = false; }
+          const trimmed = line.trim();
+          if (trimmed && !trimmed.startsWith('<')) out.push(`<p>${trimmed}</p>`);
+          else out.push(line);
+        }
+      }
+      if (inTable) out.push('</table>');
+      return out.join('');
+    }
+
+    function showPlatform(platform) {
+      tabsEl.querySelectorAll('.response-tab').forEach(t => {
+        t.classList.toggle('active', t.dataset.platform === platform);
+      });
+      const raw = RESPONSES[`${selectedDate}|${platform}|${qid}`];
+      bodyEl.innerHTML = raw
+        ? `<div class="response-text">${renderMarkdown(raw)}</div>`
+        : `<div class="response-empty">No raw API response stored for ${PLATFORM_LABELS[platform] || platform} on ${selectedDate}.</div>`;
+    }
+
+    tabsEl.querySelectorAll('.response-tab').forEach(tab => {
+      tab.addEventListener('click', () => showPlatform(tab.dataset.platform));
+    });
+    const defaultPlatform = platformsWithData[0] || activePlatforms[0];
+    if (defaultPlatform) showPlatform(defaultPlatform);
+  }
+
+  querySelect.addEventListener('change', render);
+  dateSelect.addEventListener('change', render);
+  rankFilterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      rankFilterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentRankFilter = btn.dataset.rankFilter;
+      render();
+    });
+  });
+  render();
+})();
+
+// --- Heatmap Table ---
+(function renderHeatmap() {
+  const allPlatforms = unique(DATA.rows.map(r => r.platform)).sort();
+
+  function getBrandRank(r) {
+    if (!r || !r.mentioned) return null;
+    if (r.brand_rank) return r.brand_rank;
+    const numCompetitors = r.competitor_ranks
+      ? r.competitor_ranks.split('; ').length
+      : (r.competitors ? r.competitors.split('; ').length : 0);
+    if (r.position === 'top' || r.position === 'featured') return 1;
+    if (r.position === 'bottom') return numCompetitors + 1;
+    return null;
+  }
+
+  function render(organicOnly) {
+    const queries = organicOnly ? DATA.queries.filter(q => !q.branded) : DATA.queries;
+
+    let html = '<thead><tr><th>Query</th><th>Type</th>';
+    allPlatforms.forEach(p => { html += `<th>${PLATFORM_LABELS[p] || p}</th>`; });
+    html += '</tr></thead><tbody>';
+
+    let prevCategory = '';
+    queries.forEach(q => {
+      if (q.category !== prevCategory) {
+        prevCategory = q.category;
+        html += `<tr><td colspan="${allPlatforms.length + 2}" style="padding:12px 12px 4px;font-weight:600;font-size:12px;text-transform:uppercase;color:var(--muted);border:none;">${CATEGORY_LABELS[q.category] || q.category}</td></tr>`;
+      }
+
+      html += '<tr>';
+      html += `<td class="query-text" title="Click to view rankings" data-qid="${q.id}">${q.text}</td>`;
+      html += `<td><span class="badge ${q.branded ? 'branded' : 'organic'}">${q.branded ? 'branded' : 'organic'}</span></td>`;
+
+      allPlatforms.forEach(p => {
+        const r = latestRows.find(r => r.query_id === q.id && r.platform === p);
+        if (!r) { html += '<td><span class="dot untested"></span></td>'; return; }
+
+        let dotClass = 'no', statusText = 'Not mentioned', statusClass = 'not-mentioned';
+        if (r.mentioned && r.accurate) {
+          dotClass = 'yes-accurate'; statusText = 'Mentioned accurately'; statusClass = 'accurate';
+        } else if (r.mentioned && (r.position === 'dismissed' || r.position === 'misidentified')) {
+          dotClass = 'dismissed'; statusText = r.position.charAt(0).toUpperCase() + r.position.slice(1); statusClass = 'dismissed';
+        } else if (r.mentioned) {
+          dotClass = 'yes-inaccurate'; statusText = 'Mentioned (inaccurate)'; statusClass = 'inaccurate';
+        }
+
+        const rank = getBrandRank(r);
+        const rankLabel = rank ? `<span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);margin-left:3px;">#${rank}</span>` : '';
+        const desc = r.description ? `<div class="popover-desc">${r.description.replace(/</g,'&lt;').replace(/"/g,'&quot;')}</div>` : '';
+        const cited = r.brand_cited ? 'gvskincare.com cited' : 'gvskincare.com not cited';
+        const pos = r.position ? r.position : '&mdash;';
+        let compsHtml = '';
+        if (r.competitor_ranks) {
+          const ranked = r.competitor_ranks.split('; ').map(e => { const m = e.match(/^(\d+):(.+)$/); return m ? `<span class="rank-num">${m[1]}.</span> ${m[2]}` : e; }).join('<br>');
+          compsHtml = `<div class="popover-comps"><strong>Competitors (ranked):</strong><br>${ranked}</div>`;
+        } else if (r.competitors) {
+          compsHtml = `<div class="popover-comps"><strong>Competitors:</strong> ${r.competitors.replace(/;/g, ',')}</div>`;
+        }
+
+        html += `<td><span class="dot-wrap"><span class="dot ${dotClass}"></span>${rankLabel}<div class="popover"><div class="popover-status ${statusClass}">${statusText}</div>${desc}<div class="popover-meta"><span>Position: ${pos}</span><span>${cited}</span></div>${compsHtml}</div></span></td>`;
+      });
+
+      html += '</tr>';
+    });
+
+    html += '</tbody>';
+    document.getElementById('heatmapTable').innerHTML = html;
+  }
+
+  document.getElementById('heatmapTable').addEventListener('click', (e) => {
+    const td = e.target.closest('.query-text');
+    if (!td || !td.dataset.qid) return;
+    const select = document.getElementById('rankQuerySelect');
+    select.value = td.dataset.qid;
+    select.dispatchEvent(new Event('change'));
+    document.getElementById('rankSection').scrollIntoView({ behavior: 'smooth' });
+  });
+
+  const btnOrganic = document.getElementById('heatmapOrganic');
+  const btnAll = document.getElementById('heatmapAll');
+  btnOrganic.addEventListener('click', () => { btnOrganic.classList.add('active'); btnAll.classList.remove('active'); render(true); });
+  btnAll.addEventListener('click', () => { btnAll.classList.add('active'); btnOrganic.classList.remove('active'); render(false); });
+  render(true);
+})();
+</script>
+</body>
+</html>

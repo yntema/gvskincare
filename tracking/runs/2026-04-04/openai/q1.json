@@ -1,0 +1,152 @@
+{
+  "id": "resp_0a1aa2ca80de6be50069d13401aec8819685a03cc10562c153",
+  "object": "response",
+  "created_at": 1775318017,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318021,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0a1aa2ca80de6be50069d13401e83c81968e6bca230eb96dd6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best facial spa in Katy TX"
+        ],
+        "query": "Best facial spa in Katy TX"
+      }
+    },
+    {
+      "id": "msg_0a1aa2ca80de6be50069d13402825c8196b2107367aa392388",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 228,
+              "start_index": 115,
+              "title": "The Perfect Touch Spa",
+              "url": "https://www.google.com/maps/search/The+Perfect+Touch+Spa%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 445,
+              "start_index": 354,
+              "title": "Suimin Spa",
+              "url": "https://www.google.com/maps/search/Suimin+Spa%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 674,
+              "start_index": 579,
+              "title": "Divinity Spa",
+              "url": "https://www.google.com/maps/search/Divinity+Spa%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 896,
+              "start_index": 803,
+              "title": "GV Skincare",
+              "url": "https://www.google.com/maps/search/GV+Skincare%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1157,
+              "start_index": 1040,
+              "title": "Jade Lady Beauty Center",
+              "url": "https://www.google.com/maps/search/Jade+Lady+Beauty+Center%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1372,
+              "start_index": 1265,
+              "title": "Spavia Cinco Ranch",
+              "url": "https://www.google.com/maps/search/Spavia+Cinco+Ranch%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1586,
+              "start_index": 1487,
+              "title": "Aika Skin Care",
+              "url": "https://www.google.com/maps/search/Aika+Skin+Care%2C+Katy%2C+TX?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1840,
+              "start_index": 1739,
+              "title": "Ageless Med Spa",
+              "url": "https://www.google.com/maps/search/Ageless+Med+Spa%2C+Katy%2C+TX?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Katy, Texas, offers a variety of facial spas catering to diverse skincare needs. Here are some notable options:\n\n**[The Perfect Touch Spa](https://www.google.com/maps/search/The+Perfect+Touch+Spa%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nOffers customized facials, peels, microneedling, and body sculpting treatments tailored to individual needs.\n\n**[Suimin Spa](https://www.google.com/maps/search/Suimin+Spa%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nProvides head spa treatments, facials, massages, laser hair removal, and eyelash extensions in a serene environment.\n\n**[Divinity Spa](https://www.google.com/maps/search/Divinity+Spa%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nLed by an esthetician with over 22 years of experience, offering facials, waxing, and body contouring services.\n\n**[GV Skincare](https://www.google.com/maps/search/GV+Skincare%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nSpecializes in professional skincare treatments, including evaluations, facial and body treatments, and virtual consultations.\n\n**[Jade Lady Beauty Center](https://www.google.com/maps/search/Jade+Lady+Beauty+Center%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nProvides customized facial treatments and microblading services to enhance natural beauty.\n\n**[Spavia Cinco Ranch](https://www.google.com/maps/search/Spavia+Cinco+Ranch%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nOffers a resort-like spa experience with facials, massages, body treatments, and beauty services.\n\n**[Aika Skin Care](https://www.google.com/maps/search/Aika+Skin+Care%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nProvides customized facials tailored to specific skin types and needs, with additional services like microdermabrasion and LED therapy.\n\n**[Ageless Med Spa](https://www.google.com/maps/search/Ageless+Med+Spa%2C+Katy%2C+TX?utm_source=openai)**\n_Katy, TX_\nOffers a variety of facials designed to address specific skin concerns, performed by a team of experts.\n\nWhen selecting a facial spa, consider factors such as the specific treatments offered, the experience of the estheticians, the ambiance of the spa, and customer reviews to ensure it aligns with your skincare goals and preferences. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 306,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 582,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 888
+  },
+  "user": null,
+  "metadata": {}
+}

@@ -1,0 +1,131 @@
+{
+  "id": "resp_0a807b8112d9c9080069d1344b9ae4819eb9a81b65f72c0559",
+  "object": "response",
+  "created_at": 1775318091,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318096,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_0a807b8112d9c9080069d1344bb034819ea2215ef96b00e9ee",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Radiofrequency microneedling Katy TX"
+        ],
+        "query": "Radiofrequency microneedling Katy TX"
+      }
+    },
+    {
+      "id": "msg_0a807b8112d9c9080069d1344ca7e8819eb1f634fc84e81107",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 526,
+              "start_index": 455,
+              "title": "Ageless Med Spa",
+              "url": "https://www.agelessmedspakaty.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 883,
+              "start_index": 808,
+              "title": "Glow Up MD: Angie Kim, MD",
+              "url": "https://www.glowupmdspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1238,
+              "start_index": 1135,
+              "title": "H-Town Aesthetics",
+              "url": "https://htownaesthetics.com/?utm_medium=organic&utm_campaign=gbp&utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1559,
+              "start_index": 1499,
+              "title": "Lush RX Med Spa",
+              "url": "https://www.lushrx.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1914,
+              "start_index": 1826,
+              "title": "Aesthetic Master Infusions LLC",
+              "url": "http://aestheticmasterinfusions.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Radiofrequency (RF) microneedling is a minimally invasive cosmetic procedure that combines traditional microneedling with radiofrequency energy to stimulate collagen production, resulting in firmer, smoother, and more youthful-looking skin. This treatment is effective for addressing various skin concerns, including fine lines, wrinkles, acne scars, and uneven skin texture.\n\nIn Katy, Texas, several reputable clinics offer RF microneedling services:\n\n**[Ageless Med Spa](https://www.agelessmedspakaty.com/?utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 4.5 (117 reviews)**  \n_414 W Grand Pkwy S #115, Katy, TX 77494_  \nOffers RF microneedling to improve skin texture, tone, and elasticity, reducing fine lines, wrinkles, and acne scars. Known for experienced practitioners and a personalized approach.\n\n**[Glow Up MD: Angie Kim, MD](https://www.glowupmdspa.com/?utm_source=openai)**  \n**Open now \u00b7 Skin care clinic \u00b7 5.0 (40 reviews)**  \n_1227 Grand W Blvd B210, Katy, TX 77449_  \nProvides RF microneedling treatments targeting acne scars, fine lines, and hyperpigmentation, with a focus on minimal downtime and maximum results.\n\n**[H-Town Aesthetics](https://htownaesthetics.com/?utm_medium=organic&utm_campaign=gbp&utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 5.0 (128 reviews)**  \n_21003 Highland Knolls Dr Ste.300, Katy, TX 77450_  \nSpecializes in Secret RF Microneedling, combining microneedling with RF energy to enhance skin tone, texture, and firmness, suitable for all skin types.\n\n**[Lush RX Med Spa](https://www.lushrx.com/?utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 5.0 (71 reviews)**  \n_4914 Bissonnet St Ste 100, Bellaire, TX 77401_  \nOffers RF microneedling to stimulate collagen production, improving skin texture and reducing signs of aging, with personalized care tailored to individual needs.\n\n**[Aesthetic Master Infusions LLC](http://aestheticmasterinfusions.com/?utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 5.0 (51 reviews)**  \n_5231 E 5th St, Katy, TX 77493_  \nOffers RF microneedling to boost collagen and elastin production, smoothing fine lines and wrinkles with minimal downtime.\n\nWhen considering RF microneedling, it's essential to consult with a qualified practitioner to determine the most appropriate treatment plan for your skin type and concerns. Each of these clinics offers personalized consultations to help you achieve your aesthetic goals. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 310,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 577,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 887
+  },
+  "user": null,
+  "metadata": {}
+}

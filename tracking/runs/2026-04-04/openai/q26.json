@@ -1,0 +1,124 @@
+{
+  "id": "resp_09687b356e0ddd470069d134adad1c81a38ce3118e50273da7",
+  "object": "response",
+  "created_at": 1775318189,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1775318193,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4o-2024-08-06",
+  "output": [
+    {
+      "id": "ws_09687b356e0ddd470069d134adbec481a3842b45df2db3214d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best spas in Katy TX comparison"
+        ],
+        "query": "Best spas in Katy TX comparison"
+      }
+    },
+    {
+      "id": "msg_09687b356e0ddd470069d134ae2be881a3957c7a18389e336b",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 219,
+              "start_index": 148,
+              "title": "Divinity Spa Katy",
+              "url": "http://www.divinityspa-katy.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 537,
+              "start_index": 470,
+              "title": "KT WELLNESS SPA",
+              "url": "https://www.ktwellnessspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 857,
+              "start_index": 799,
+              "title": "FLOATspa",
+              "url": "http://www.floatspakaty.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1154,
+              "start_index": 1095,
+              "title": "Katy Medi Spa",
+              "url": "https://katymedispa.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Katy, Texas, offers a variety of spas catering to diverse wellness and relaxation needs. Here's a comparison of some top-rated spas in the area:\n\n**[Divinity Spa Katy](http://www.divinityspa-katy.com/?utm_source=openai)**  \n**Open now \u00b7 Facial spa \u00b7 4.9 (45 reviews)**  \n_511 S Mason Rd Suite # 122, Katy, TX 77450_  \nLed by esthetician Vilma Fernandez with over 22 years of experience, focusing on skincare treatments including facials, waxing, and body contouring.\n\n**[KT WELLNESS SPA](https://www.ktwellnessspa.com/?utm_source=openai)**  \n**Open now \u00b7 Massage therapist \u00b7 5.0 (71 reviews)**  \n_1820 Snake River Rd STE C, Katy, TX 77449_  \nProvides a range of services such as Swedish, deep tissue, hot stone, and sports massages, along with personalized facial treatments and waxing services.\n\n**[FLOATspa](http://www.floatspakaty.com/?utm_source=openai)**  \n**Closed \u00b7 Spa \u00b7 4.9 (194 reviews)**  \n_21733 Provincial Blvd #810, Katy, TX 77450_  \nSpecializes in flotation therapy to reduce stress and enhance healing, also offering hydro massage, infrared sauna, and cryotherapy treatments.\n\n**[Katy Medi Spa](https://katymedispa.com/?utm_source=openai)**  \n**Closed \u00b7 Medical spa \u00b7 4.5 (84 reviews)**  \n_21238 Kingsland Blvd Ste. 1B, Katy, TX 77450_  \nFocuses on medical spa services with treatments like Dysport injections, aiming to enhance appearance and boost confidence.\n\nWhen choosing a spa, consider the specific services you desire, the expertise of the staff, and the overall ambiance to ensure a relaxing and rejuvenating experience. "
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": null,
+  "reasoning": {
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search_preview",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 306,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 385,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 691
+  },
+  "user": null,
+  "metadata": {}
+}

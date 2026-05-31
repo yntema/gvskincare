@@ -1,0 +1,526 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "For dry, dehydrated skin in Katy, TX, here are some of the best facial options and spas to consider:\n\n**Facial Treatments for Hydration:**\n\n*   **HydroPeptide Moisture Infusion Ultra-Hydrating Facial:** This facial uses a blend of triple-weight hyaluronic acid to deeply hydrate multiple layers of the skin, strengthen the skin barrier, and improve radiance. It enhances moisture retention and balance. Restore Hyper Wellness in Katy, TX offers this service.\n*   **HydraFacial:** This non-invasive treatment cleanses, exfoliates, extracts impurities, and hydrates the skin. It infuses hydrating serums with antioxidants, peptides, and hyaluronic acid. Ageless MedSpa Katy offers HydraFacial treatments.\n*   **Custom Facial:** Many spas offer custom facials tailored to your skin's specific needs. These facials can be designed to address dryness and dehydration by infusing moisture and restoring the skin's balance. SkinSpirit Katy and Anita's Skin Care Clinic are among the places that offer custom facials.\n*   **Signature Classic Refresh Facial:** This facial is designed to hydrate, soften, and smooth the skin. It includes a cleanse, exfoliation with Mandelic acid and Mangosteen extracts, and the use of Goji Berry antioxidants, hyaluronic acid, and natural plant extracts. Spavia Cinco Ranch offers this facial.\n*   **Age Defense Facial:** This facial hydrates, brightens, and tightens the skin with Vitamin C and hyaluronic acid to nourish and plump the skin. It is available at Spavia Cinco Ranch.\n*   **Brightening Blossom Facial:** This facial targets dryness and fine lines while gently exfoliating the skin. Spavia Cinco Ranch offers this service for spring renewal.\n\n**Spas and Med Spas in Katy, TX:**\n\n*   **Restore Hyper Wellness:** Offers the HydroPeptide Moisture Infusion Ultra-Hydrating Facial.\n    *   Address: 23116 Cinco Ranch Boulevard, Katy, TX 77494\n*   **Face to Face Spa:** This beauty med spa offers classic facials and Hydrafacials. They focus on understanding your goals to personalize your experience.\n*   **Spavia Cinco Ranch:** Provides result-driven skincare with a variety of choices, including clean clinical active ingredients, natural skincare ingredients, organic ingredients, and vegan skincare.\n*   **SkinSpirit:** Offers custom facials tailored to your skin's needs.\n    *   Phone: (281) 769-8644\n*   **Ageless MedSpa Katy:** Offers HydraFacial treatments.\n*   **Katy Med Tech Spa:** Offers personalized treatments and Ageless Signature Facials.\n*    **Anita's Skin Care Clinic:** Specializes in holistic skincare and customizes treatments to address unique skin concerns.\n*   **Luminous MediSpa Katy:** Offers a wide range of services, including RF micro-needling and hydro facials.\n*   **LUXE Medical Aesthetics:** Offers facials that deliver results, customizing every treatment to meet your unique needs.\n    *   Address: 21770 Kingsland Blvd., Katy, TX 77450\n    *   Phone: 833.998.LUXE (5893)\n*   **The Only Facial:** Specializes in one signature facial customized to individual skin types and concerns.\n\nWhen booking, consider asking for a consultation to discuss your specific skin concerns and determine the best facial for your needs.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "groundingMetadata": {
+        "searchEntryPoint": {
+          "renderedContent": "\u003cstyle\u003e\n.container {\n  align-items: center;\n  border-radius: 8px;\n  display: flex;\n  font-family: Google Sans, Roboto, sans-serif;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 8px 12px;\n}\n.chip {\n  display: inline-block;\n  border: solid 1px;\n  border-radius: 16px;\n  min-width: 14px;\n  padding: 5px 16px;\n  text-align: center;\n  user-select: none;\n  margin: 0 8px;\n  -webkit-tap-highlight-color: transparent;\n}\n.carousel {\n  overflow: auto;\n  scrollbar-width: none;\n  white-space: nowrap;\n  margin-right: -12px;\n}\n.headline {\n  display: flex;\n  margin-right: 4px;\n}\n.gradient-container {\n  position: relative;\n}\n.gradient {\n  position: absolute;\n  transform: translate(3px, -9px);\n  height: 36px;\n  width: 9px;\n}\n@media (prefers-color-scheme: light) {\n  .container {\n    background-color: #fafafa;\n    box-shadow: 0 0 0 1px #0000000f;\n  }\n  .headline-label {\n    color: #1f1f1f;\n  }\n  .chip {\n    background-color: #ffffff;\n    border-color: #d2d2d2;\n    color: #5e5e5e;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #f2f2f2;\n  }\n  .chip:focus {\n    background-color: #f2f2f2;\n  }\n  .chip:active {\n    background-color: #d8d8d8;\n    border-color: #b6b6b6;\n  }\n  .logo-dark {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%);\n  }\n}\n@media (prefers-color-scheme: dark) {\n  .container {\n    background-color: #1f1f1f;\n    box-shadow: 0 0 0 1px #ffffff26;\n  }\n  .headline-label {\n    color: #fff;\n  }\n  .chip {\n    background-color: #2c2c2c;\n    border-color: #3c4043;\n    color: #fff;\n    text-decoration: none;\n  }\n  .chip:hover {\n    background-color: #353536;\n  }\n  .chip:focus {\n    background-color: #353536;\n  }\n  .chip:active {\n    background-color: #464849;\n    border-color: #53575b;\n  }\n  .logo-light {\n    display: none;\n  }\n  .gradient {\n    background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%);\n  }\n}\n\u003c/style\u003e\n\u003cdiv class=\"container\"\u003e\n  \u003cdiv class=\"headline\"\u003e\n    \u003csvg class=\"logo-light\" width=\"18\" height=\"18\" viewBox=\"9 9 35 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003csvg class=\"logo-dark\" width=\"18\" height=\"18\" viewBox=\"0 0 48 48\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\n      \u003ccircle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"/\u003e\n      \u003cpath d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"/\u003e\n      \u003cpath d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"/\u003e\n      \u003cpath d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"/\u003e\n      \u003cpath d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"/\u003e\n    \u003c/svg\u003e\n    \u003cdiv class=\"gradient-container\"\u003e\u003cdiv class=\"gradient\"\u003e\u003c/div\u003e\u003c/div\u003e\n  \u003c/div\u003e\n  \u003cdiv class=\"carousel\"\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkFEL1vUTdjuo-8wDPdMr3VAxYIRM1xCFNNcJjzyh0pqgcEa0kgBB6mkgZpoA1D9yRTOANJZ8pvYQ_inrYUo_4oEZn3zyztC-8lALiIGZKBYAkghUB3EntpzX6kZEGuS3NlEAVJEbYZjXnjmd__mscWTj91OqeabjXgAx4EmTN8oNspxgDhpl3l239lgTyjhU38C7bvkBC2P4fwrSIpNZr\"\u003etop rated facial spas Katy TX\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1I59Lmz4N9g22GpIcHmz_0PSqfQ365T-Y41jn-C8i_NIlr7NiZE3y7xYP66iC-aeMS-cNNjcrv1ngSX5hIPXoCDVllDvV8FeakYe_vN-a2uA4zcyNqpLRani-fLdJ1AwqjovZNIpXzBslKZMWMKmBS8y53mQKH7RyxkO4Y3Cz-61LFW5RiRxk5eK-3o3Qt6qs_dlGISA_VvZM5qyf8nQ0KqeGr82X-d8-Tw==\"\u003ebest facial dry dehydrated skin Katy TX\u003c/a\u003e\n    \u003ca class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6akBSKOqQYBAx8LibRjx14Bhl-nolB2c0pCQANBNiotyHdpFzqh0TVQI3P0Osur5Us7gP-5AK3r11bDSxtiz6FjCY9zsNYrFDqxd6XztUuXB4JUimWW2n0d72CgynGC8S-nhUxlVUkkvIGY66FGEKZ0Z8Ilk9Av-N1FHUmqtDMfTqH-P0gNbBuhN5qcyTCQnVTEKHitynRo-Frz0tpPXGBIYL-WpC\"\u003efacial hydration treatments Katy TX\u003c/a\u003e\n  \u003c/div\u003e\n\u003c/div\u003e\n"
+        },
+        "groundingChunks": [
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqJ7j7y-HsbdhslvTZN4qtsvPyZmpG6EDRpMfSlmmADyZkM1QqjYn7BTvD6_q6_2l6aBy9XSPZdvFgbPXDzLZ_YPTz9SRvmeRgSyKQNh6I9YIOzQGazAoS-R0W2eCTFRKHQDxN72ptdnTTKweI6U3AlYDaXZYdtS57nuhnvw==",
+              "title": "restore.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-nXvmcJDOjMQEQvTqthKbwr2sKZGn0fS5vxCQalfNWI9Z4ebaXiPBLgV_toWnn6bvx7dkgxc8JG8qXZizKNoA2dpXJ25GbxWF3qI9xOrDHAldC9RSaXegYV4pgcX-RCODAf8SYw==",
+              "title": "agelessmedspakaty.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF928eLO3gY9azTxuIG55I8nXPAHtZII6-6QqN9Sy_Apt47cmTLH-Lht9i7Mf6TXcTjXaQdKxOfg7eSKGNF8ucbXXq9gQDbRsGpCBy_6SLkGEs407xDZAHXpUKgGupvBB4=",
+              "title": "anitasskincareclinickaty.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHiXlE4SIFINKmKlNuiCDCBu1ym7z68BrVNEQY4zpe2b08K_3kKkfzuioVARUcYW5sg_d1MdpF2dKxQhB97eqqEFkeExg3cSI-kNFo_Ni0NLI5qd24vaz-br7t1yDgzbZfBWYru",
+              "title": "skinspirit.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkeIWz03KvKhkwNunVxxhkMWCyGS8QhNP973njL6aCLCbRGSLa4XBIxD5ZaIWNXZO0Ne36mETH4AnDmpth-4VZQYWzKC2ruqlnSUeJIzsY_6BH-vRIwhE8Uf6I5AY6V057wKSJh3ayp0Uk",
+              "title": "theluxeeffect.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtUgNp_IS9oK1hGVsyNPz-dF8GdLUj0IghjGL-HPEAXOEBEesuMXgrGDaL2sqebAJ0w-SCT0s8k7JT756dmyPn7oVdh7GR5bYdXpW3J1nLMzhyu1A_INT8wZVMCgag9EBoRQEhWRa9-MUG",
+              "title": "spaviadayspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuCwO35OcKfhIyhdsCh3gxboqpSIgxBPTLNP2UUiK3rm51WBfYvDt0J_VKH-25yItmatJl0BML4KRwNlqhicTq-aWPO7FN28YS1d7SE15wKOClXyRW7S49YTNNQ3lLJp95",
+              "title": "facetofacespa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEV3gM6XkZaVOkLdXXwh7zORViL_2QfwA-IBi8g2Ikh4OjQJuTdCZyjX6x3wwVeX3_V16lLXUbWDELjTqOirS9Xuu-BEulbDU67-I2Z8Lqc9VH0piZLsA==",
+              "title": "katymedtechspa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6INze-FW3v998h-HXPE5Go6RWaN50kRmTFffIvEvSkzOgGYectKe4Mg2RyONonuGn-U3CArJ3PXh3iOLEpKTDS1yiMci4m87fJuU2Jt9J2-sNNzxrkI4=",
+              "title": "luminousmedispa.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGOgChJ7S2_CD_RBRl3oLw47NHsbx1J87p7W4ydcQn35dxsHEwqBug_oPiYzdQNOKDYwaCKi_HVz_lGB5x34bUE12k8Tb_A3uQ5Gf2zDcZBtTpZ-8t",
+              "title": "theluxeeffect.com"
+            }
+          },
+          {
+            "web": {
+              "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHag4FfHwYGZM3T8rOnJpJXvIfvuTE0H_FdlAGszaqcfi3ROXSOQh8wzax1FB4uYKZK72loHXDsMZ0myCBsX3P1UVgYULjmIflSxJZx9q7ALBJKey2_BwbJBAPsidTgn1ARmSW04lQgNA==",
+              "title": "theonlyfacial.com"
+            }
+          }
+        ],
+        "groundingSupports": [
+          {
+            "segment": {
+              "startIndex": 140,
+              "endIndex": 357,
+              "text": "*   **HydroPeptide Moisture Infusion Ultra-Hydrating Facial:** This facial uses a blend of triple-weight hyaluronic acid to deeply hydrate multiple layers of the skin, strengthen the skin barrier, and improve radiance"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.95105666
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 403,
+              "endIndex": 457,
+              "text": "Restore Hyper Wellness in Katy, TX offers this service"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.9072831
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 459,
+              "endIndex": 572,
+              "text": "*   **HydraFacial:** This non-invasive treatment cleanses, exfoliates, extracts impurities, and hydrates the skin"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.9648153
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 574,
+              "endIndex": 650,
+              "text": "It infuses hydrating serums with antioxidants, peptides, and hyaluronic acid"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.89668715
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 652,
+              "endIndex": 701,
+              "text": "Ageless MedSpa Katy offers HydraFacial treatments"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.11167401
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 703,
+              "endIndex": 795,
+              "text": "*   **Custom Facial:** Many spas offer custom facials tailored to your skin's specific needs"
+            },
+            "groundingChunkIndices": [
+              2,
+              3,
+              4
+            ],
+            "confidenceScores": [
+              0.08930705,
+              0.41369483,
+              0.19500814
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 797,
+              "endIndex": 915,
+              "text": "These facials can be designed to address dryness and dehydration by infusing moisture and restoring the skin's balance"
+            },
+            "groundingChunkIndices": [
+              4,
+              3
+            ],
+            "confidenceScores": [
+              0.14642905,
+              0.06081987
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 917,
+              "endIndex": 932,
+              "text": "SkinSpirit Katy"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.8332505
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 933,
+              "endIndex": 961,
+              "text": "and Anita's Skin Care Clinic"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.6350574
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1010,
+              "endIndex": 1115,
+              "text": "*   **Signature Classic Refresh Facial:** This facial is designed to hydrate, soften, and smooth the skin"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.9023073
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1117,
+              "endIndex": 1279,
+              "text": "It includes a cleanse, exfoliation with Mandelic acid and Mangosteen extracts, and the use of Goji Berry antioxidants, hyaluronic acid, and natural plant extracts"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.9436565
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1281,
+              "endIndex": 1318,
+              "text": "Spavia Cinco Ranch offers this facial"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.92446375
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1320,
+              "endIndex": 1467,
+              "text": "*   **Age Defense Facial:** This facial hydrates, brightens, and tightens the skin with Vitamin C and hyaluronic acid to nourish and plump the skin"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.94472766
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1469,
+              "endIndex": 1506,
+              "text": "It is available at Spavia Cinco Ranch"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.7286354
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1508,
+              "endIndex": 1620,
+              "text": "*   **Brightening Blossom Facial:** This facial targets dryness and fine lines while gently exfoliating the skin"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.9372008
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1622,
+              "endIndex": 1679,
+              "text": "Spavia Cinco Ranch offers this service for spring renewal"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.8832307
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1718,
+              "endIndex": 1814,
+              "text": "*   **Restore Hyper Wellness:** Offers the HydroPeptide Moisture Infusion Ultra-Hydrating Facial"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.93548006
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1820,
+              "endIndex": 1876,
+              "text": "*   Address: 23116 Cinco Ranch Boulevard, Katy, TX 77494"
+            },
+            "groundingChunkIndices": [
+              0
+            ],
+            "confidenceScores": [
+              0.0062567247
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1877,
+              "endIndex": 1962,
+              "text": "*   **Face to Face Spa:** This beauty med spa offers classic facials and Hydrafacials"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.94961923
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 1964,
+              "endIndex": 2033,
+              "text": "They focus on understanding your goals to personalize your experience"
+            },
+            "groundingChunkIndices": [
+              6
+            ],
+            "confidenceScores": [
+              0.93072253
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2035,
+              "endIndex": 2236,
+              "text": "*   **Spavia Cinco Ranch:** Provides result-driven skincare with a variety of choices, including clean clinical active ingredients, natural skincare ingredients, organic ingredients, and vegan skincare"
+            },
+            "groundingChunkIndices": [
+              5
+            ],
+            "confidenceScores": [
+              0.043176904
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2238,
+              "endIndex": 2309,
+              "text": "*   **SkinSpirit:** Offers custom facials tailored to your skin's needs"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.8898398
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2315,
+              "endIndex": 2340,
+              "text": "*   Phone: (281) 769-8644"
+            },
+            "groundingChunkIndices": [
+              3
+            ],
+            "confidenceScores": [
+              0.5729682
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2341,
+              "endIndex": 2399,
+              "text": "*   **Ageless MedSpa Katy:** Offers HydraFacial treatments"
+            },
+            "groundingChunkIndices": [
+              1
+            ],
+            "confidenceScores": [
+              0.329553
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2401,
+              "endIndex": 2488,
+              "text": "*   **Katy Med Tech Spa:** Offers personalized treatments and Ageless Signature Facials"
+            },
+            "groundingChunkIndices": [
+              7
+            ],
+            "confidenceScores": [
+              0.83040786
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2490,
+              "endIndex": 2615,
+              "text": "*    **Anita's Skin Care Clinic:** Specializes in holistic skincare and customizes treatments to address unique skin concerns"
+            },
+            "groundingChunkIndices": [
+              2
+            ],
+            "confidenceScores": [
+              0.87276864
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2617,
+              "endIndex": 2726,
+              "text": "*   **Luminous MediSpa Katy:** Offers a wide range of services, including RF micro-needling and hydro facials"
+            },
+            "groundingChunkIndices": [
+              8
+            ],
+            "confidenceScores": [
+              0.7091968
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2728,
+              "endIndex": 2851,
+              "text": "*   **LUXE Medical Aesthetics:** Offers facials that deliver results, customizing every treatment to meet your unique needs"
+            },
+            "groundingChunkIndices": [
+              4,
+              9
+            ],
+            "confidenceScores": [
+              0.9521235,
+              0.15652348
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2857,
+              "endIndex": 2907,
+              "text": "*   Address: 21770 Kingsland Blvd., Katy, TX 77450"
+            },
+            "groundingChunkIndices": [
+              9
+            ],
+            "confidenceScores": [
+              0.87944806
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2931,
+              "endIndex": 2942,
+              "text": "LUXE (5893)"
+            },
+            "groundingChunkIndices": [
+              9
+            ],
+            "confidenceScores": [
+              0.7550651
+            ]
+          },
+          {
+            "segment": {
+              "startIndex": 2943,
+              "endIndex": 3052,
+              "text": "*   **The Only Facial:** Specializes in one signature facial customized to individual skin types and concerns"
+            },
+            "groundingChunkIndices": [
+              10
+            ],
+            "confidenceScores": [
+              0.94745505
+            ]
+          }
+        ],
+        "retrievalMetadata": {},
+        "webSearchQueries": [
+          "best facial dry dehydrated skin Katy TX",
+          "top rated facial spas Katy TX",
+          "facial hydration treatments Katy TX"
+        ]
+      }
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 8,
+    "candidatesTokenCount": 733,
+    "totalTokenCount": 741,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 8
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 733
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "wjrRaYPdMIbhz7IPhKTkyAQ"
+}
