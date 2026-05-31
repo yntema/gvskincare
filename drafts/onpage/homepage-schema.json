@@ -1,0 +1,166 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.gvskincare.com/#website",
+      "url": "https://www.gvskincare.com/",
+      "name": "GV Skincare Center",
+      "publisher": { "@id": "https://www.gvskincare.com/#business" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.gvskincare.com/search?q={search_term}"
+        },
+        "query-input": "required name=search_term"
+      }
+    },
+    {
+      "@type": ["DaySpa", "HealthAndBeautyBusiness"],
+      "@id": "https://www.gvskincare.com/#business",
+      "name": "GV Skincare Center",
+      "alternateName": "GV Skincare",
+      "url": "https://www.gvskincare.com/",
+      "image": "https://static.wixstatic.com/media/00328f_dc904ee0913c4a038941c64d405fb7ac~mv2.png",
+      "logo": "https://static.wixstatic.com/media/00328f_dc904ee0913c4a038941c64d405fb7ac~mv2.png",
+      "telephone": "+1-346-257-4149",
+      "email": "info@gvskincare.com",
+      "priceRange": "$$",
+      "currenciesAccepted": "USD",
+      "description": "GV Skincare Center is a facial and body spa in Katy, TX offering HydraFacial, dermaplaning, microneedling, RF microneedling, chemical peels, PRP, acne and anti-aging facials, body contouring, and lymphatic drainage massage. Bilingual (English/Spanish), by appointment.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "23410 Grand Reserve Dr, Suite 302",
+        "addressLocality": "Katy",
+        "addressRegion": "TX",
+        "postalCode": "77494",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 29.7688438,
+        "longitude": -95.7788145
+      },
+      "hasMap": "https://www.google.com/maps/place/GV+SKINCARE+CENTER/@29.7688438,-95.7788145,17z/data=!3m1!4b1!4m6!3m5!1s0x864127435996a735:0x1ffaaa3b65fcd714!8m2!3d29.7688438!4d-95.7788145!16s%2Fg%2F11qgl525h7",
+      "knowsLanguage": ["en", "es"],
+      "areaServed": [
+        { "@type": "City", "name": "Katy" },
+        { "@type": "City", "name": "Cinco Ranch" },
+        { "@type": "City", "name": "Fulshear" },
+        { "@type": "City", "name": "Richmond" },
+        { "@type": "City", "name": "Houston" }
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/gvskincarecenter/",
+        "https://www.facebook.com/gvskincarecenter/",
+        "https://www.yelp.com/biz/gv-skincare-center-katy",
+        "https://www.google.com/maps/place/GV+SKINCARE+CENTER/@29.7688438,-95.7788145,17z/data=!3m1!4b1!4m6!3m5!1s0x864127435996a735:0x1ffaaa3b65fcd714!8m2!3d29.7688438!4d-95.7788145!16s%2Fg%2F11qgl525h7"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Facial & Body Treatments",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "HydraFacial" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dermaplaning" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Microdermabrasion" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chemical Peel" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "RF Microneedling" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Microneedling" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "PRP Therapy" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Acne Facial" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Anti-Aging Facial" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Back Facial" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Body Contouring" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ultrasonic Cavitation" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Lymphatic Drainage Massage" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Body Wrap & Whitening" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bridal Package" } }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "856",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "author": { "@type": "Person", "name": "Brandon" },
+          "reviewBody": "I recommend coming here, they'll treat you with amazing care and results for reasonable prices."
+        },
+        {
+          "@type": "Review",
+          "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+          "author": { "@type": "Person", "name": "Mariangela" },
+          "reviewBody": "Me encanto la atencion y el buen cuidado a mi piel. Profesional y sabe atender muy bien; mi rostro quedo radiante. 100% recomendada."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.gvskincare.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where is GV Skincare Center located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GV Skincare Center is at 23410 Grand Reserve Dr, Suite 302, Katy, TX 77494, in the Cinco Ranch area of Katy. We serve Katy, Cinco Ranch, Fulshear, Richmond, and west Houston, and we see clients by appointment Tuesday through Saturday."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What treatments does GV Skincare Center offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We offer facial and body treatments including HydraFacial, dermaplaning, microdermabrasion, chemical peels, RF microneedling, microneedling, PRP, acne and anti-aging facials, back facials, body contouring, ultrasonic cavitation, lymphatic drainage massage, body wraps, and bridal packages."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need an appointment, and what are your hours?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, GV Skincare Center is by appointment only. Our hours are Tuesday through Saturday, 9:00 a.m. to 5:00 p.m., and we are closed Sunday and Monday. You can book online through our website or call (346) 257-4149."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I book an appointment at GV Skincare Center?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Book online through our website or call or text (346) 257-4149. If you are not sure which treatment is right for you, start with an in-person evaluation or a virtual consultation and we will recommend a plan for your skin."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does GV Skincare Center offer payment plans?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. GV Skincare Center offers payment plan options so you can spread the cost of treatments and packages. Ask about current payment plans when you book, or see the Payment Plans page on our website for details."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hablan espanol en GV Skincare Center?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Si. En GV Skincare Center atendemos en espanol e ingles. Gaby y el equipo te asesoran sobre el mejor tratamiento facial o corporal para tu piel. Llama o escribe al (346) 257-4149 para agendar tu cita."
+          }
+        }
+      ]
+    }
+  ]
+}
