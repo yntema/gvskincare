@@ -47,6 +47,8 @@ python3 analyze.py --compare
 
 ## Dashboard
 
+Published via GitHub Pages: **https://yntema.github.io/gvskincare/**
+
 ```bash
 cd tracking
 
@@ -54,25 +56,14 @@ cd tracking
 python3 dashboard.py --open
 ```
 
-`docs/index.html` is a self-contained file (data + raw responses inlined) — open
-it directly in a browser. It shows visibility rate + rank among local spas,
-citation domains (with Owned/Competitor/Other categories), per-query/platform
-heatmap, competitor rankings, and the raw LLM responses behind each answer.
+`docs/index.html` is a self-contained file (data + raw responses inlined) — it's
+the GitHub Pages surface and also opens directly in a browser. It shows
+visibility rate + rank among local spas, citation domains (with
+Owned/Competitor/Other categories), per-query/platform heatmap, competitor
+rankings, and the raw LLM responses behind each answer.
 
-### Publishing to GitHub Pages (optional)
-
-The repo is **private**, and GitHub's free plan doesn't serve Pages from private
-repos — so the dashboard isn't published yet. The output already lives in `docs/`
-(the Pages convention) so it's one step away. To publish later, either make the
-repo public **or** upgrade to GitHub Pro, then enable Pages from `main` `/docs`:
-
-```bash
-echo '{"source":{"branch":"main","path":"/docs"}}' \
-  | gh api -X POST repos/yntema/gvskincare/pages --input -
-# → https://yntema.github.io/gvskincare/
-```
-
-Re-running `dashboard.py` rewrites `docs/index.html`; commit and push to republish.
+GitHub Pages serves `main` from `/docs`. Re-running `dashboard.py` rewrites
+`docs/index.html`; commit and push to republish.
 
 Citation/response parsing lives in `extractors.py` so the audit pipeline and the
 dashboard can never drift. The competitor watchlist + categories live in
