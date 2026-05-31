@@ -43,6 +43,18 @@ def is_branded(query_text):
     return bool(BRAND_PATTERN.search(query_text))
 
 
+def _retired_qids():
+    """Query IDs marked retired in queries.json.
+
+    Retired queries keep their trend.csv history on disk but are excluded from
+    every dashboard data source (trend rows, citations, responses) so they drop
+    out of all aggregates — matching the contract documented in queries.json.
+    """
+    with open(QUERIES_FILE) as f:
+        defined = json.load(f)["queries"]
+    return {q["id"] for q in defined if q.get("status", "active") == "retired"}
+
+
 def load_data():
     with open(TREND_FILE) as f:
         rows = list(csv.DictReader(f))
@@ -53,7 +65,8 @@ def load_data():
         r["mentioned_bool"] = r["mentioned"] == "yes"
         r["accurate_bool"] = r["accurate"] == "yes"
 
-    return rows
+    retired = _retired_qids()
+    return [r for r in rows if r["query_id"] not in retired]
 
 
 def scan_runs():
@@ -68,6 +81,7 @@ def scan_runs():
     if not RUNS_DIR.exists():
         return citations, responses
 
+    retired = _retired_qids()
     import re
     for date_dir in sorted(RUNS_DIR.iterdir()):
         if not date_dir.is_dir():
@@ -84,6 +98,8 @@ def scan_runs():
                 if not m:
                     continue
                 qid = int(m.group(1))
+                if qid in retired:
+                    continue
                 try:
                     with open(result_file) as f:
                         data = json.load(f)

@@ -143,6 +143,7 @@
 
 <h1>GV Skincare AEO Dashboard</h1>
 <div class="subtitle" id="subtitle"></div>
+<a href="./action-plan.html" style="display:inline-flex;align-items:center;gap:8px;margin-bottom:24px;padding:10px 16px;background:var(--rose-tint);border:1px solid var(--border);border-left:4px solid var(--rose);border-radius:10px;color:var(--rose-hover);font-weight:600;font-size:13px;text-decoration:none;">📋&nbsp; View the AEO Action Plan &rarr;</a>
 
 <div class="cards" id="summary-cards"></div>
 
@@ -374,6 +375,11 @@ function brandVisRank(date) {
   const csPrevShare = csPrev && csPrev.total ? Math.round(csPrev.brand / csPrev.total * 100) : null;
   const csDelta = csPrevShare === null ? null : citShare - csPrevShare;
 
+  // GV Skincare's rank among all cited domains by share (latest vs previous run).
+  const citeRank = DATA.brandCiteRank;
+  const citeRankPrev = DATA.brandCiteRankPrev;
+  const citeRankDelta = (citeRank && citeRankPrev) ? citeRankPrev - citeRank : null;
+
   document.getElementById('subtitle').textContent =
     `${dates.length} audit${dates.length > 1 ? 's' : ''} from ${dates[0]} to ${latestDate} · ${DATA.queries.length} queries · ${platforms.length} platforms`;
 
@@ -402,8 +408,8 @@ function brandVisRank(date) {
       detail: visR.rank ? `of ${visR.total} spas · ${rankDeltaTag(visRankDelta)}` : 'Not ranked yet' },
     { label: 'Citation Share', value: citShare + '%', cls: citShare > 0 ? 'rose' : 'red',
       detail: csLatest ? `${csLatest.brand}/${csLatest.total} organic citations · ${deltaTag(csDelta)}` : 'No citation data yet' },
-    { label: 'Accuracy (Latest)', value: accuracyRate + '%', cls: accuracyRate > 50 ? 'green' : 'amber',
-      detail: `${accurateMentioned}/${totalMentioned} mentions are correct` },
+    { label: 'Citation Share Rank', value: citeRank ? '#' + citeRank : '–', cls: 'rose',
+      detail: citeRank ? `of ${DATA.citationDomainsTotal} cited domains · ${rankDeltaTag(citeRankDelta)}` : 'Not cited yet' },
   ];
 
   document.getElementById('summary-cards').innerHTML = cards.map(c => `
