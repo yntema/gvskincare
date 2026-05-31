@@ -211,16 +211,34 @@
   </div>
 </div>
 
-<div class="chart-row">
-  <div class="chart-box">
-    <h3>Accuracy: When Mentioned, Is It Right?</h3>
-    <div class="chart-subtitle">Of all mentions, what % are accurate vs dismissed/misidentified</div>
-    <div style="height:300px;"><canvas id="accuracyChart"></canvas></div>
-  </div>
-  <div class="chart-box">
-    <h3>Mentions by Query Category</h3>
-    <div class="chart-subtitle">Latest audit: which types of queries surface GV Skincare?</div>
-    <div style="height:300px;"><canvas id="categoryChart"></canvas></div>
+<div class="chart-row" style="grid-template-columns:1fr;">
+  <div class="cite-panel">
+    <div class="cite-head">
+      <div>
+        <h3>Top Citation Pages</h3>
+        <div class="cite-sub">The exact pages AI assistants cite most for these queries &mdash; the specific URLs to target or earn placements on</div>
+        <div class="cite-sub" id="citePagesRun" style="margin-top:3px;"></div>
+      </div>
+      <div class="cite-search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" id="citePagesSearch" placeholder="Search for a page" autocomplete="off">
+      </div>
+    </div>
+    <div class="cite-filters" id="citePagesFilters"></div>
+    <div class="cite-scroll">
+      <table class="cite-table">
+        <thead><tr>
+          <th style="width:56px;">Rank</th>
+          <th>Page</th>
+          <th style="width:150px;">Category</th>
+          <th class="num" style="width:150px;">Share</th>
+        </tr></thead>
+        <tbody id="citePagesBody"></tbody>
+      </table>
+    </div>
+    <div class="cite-foot">
+      <div class="cite-count" id="citePagesCount"></div>
+    </div>
   </div>
 </div>
 
@@ -632,60 +650,76 @@ function brandVisRank(date) {
   draw();
 })();
 
-// --- Accuracy Chart ---
-(function renderAccuracy() {
-  const accurateData = dates.map(d => {
-    const mentioned = DATA.rows.filter(r => r.date === d && r.mentioned);
-    return mentioned.length ? Math.round(mentioned.filter(r => r.accurate).length / mentioned.length * 100) : null;
-  });
-  const inaccurateData = dates.map(d => {
-    const mentioned = DATA.rows.filter(r => r.date === d && r.mentioned);
-    return mentioned.length ? Math.round(mentioned.filter(r => !r.accurate).length / mentioned.length * 100) : null;
-  });
+// --- Top Citation Pages (latest run, by citation share) ---
+(function renderCitationPages() {
+  const fmtPct = v => {
+    const s = Number(v).toFixed(2).replace(/\.?0+$/, '');
+    return (s === '' || s === '-0') ? '0' : s;
+  };
+  const favicon = domain => `https://www.google.com/s2/favicons?sz=64&domain=${encodeURIComponent(domain)}`;
+  const deltaHtml = d => {
+    const up = d >= 0;
+    return `<span class="cite-delta ${up ? 'up' : 'down'}">${up ? '+' : ''}${fmtPct(d)}%</span>`;
+  };
+  const CAT = {
+    'Owned':      { cls: 'owned',      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></svg>' },
+    'Competitor': { cls: 'competitor', icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>' },
+    'Other':      { cls: 'other',      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>' },
+  };
+  const CAT_ORDER = ['Owned', 'Competitor', 'Other'];
+  const catBadge = c => { const m = CAT[c] || CAT['Other']; return `<span class="cite-cat ${m.cls}">${m.icon}${c}</span>`; };
 
-  new Chart(document.getElementById('accuracyChart'), {
-    type: 'bar',
-    data: {
-      labels: dates,
-      datasets: [
-        { label: 'Accurate', data: accurateData, backgroundColor: '#38a169' },
-        { label: 'Inaccurate / Dismissed', data: inaccurateData, backgroundColor: '#c53030' },
-      ]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } },
-      scales: { y: { min: 0, max: 100, stacked: true, ticks: { callback: v => v + '%' } }, x: { stacked: true } }
-    }
-  });
-})();
+  const rows = (DATA.citationPages || []).map(d => ({ ...d, _search: d.page.toLowerCase() }));
+  const total = DATA.citationPagesTotal || rows.length;
+  const body = document.getElementById('citePagesBody');
+  const countEl = document.getElementById('citePagesCount');
+  const searchEl = document.getElementById('citePagesSearch');
+  const runEl = document.getElementById('citePagesRun');
+  const filtersEl = document.getElementById('citePagesFilters');
+  let activeCat = 'All';
 
-// --- Category Chart ---
-(function renderCategory() {
-  const cats = CATEGORY_ORDER.filter(c => latestRows.some(r => r.category === c));
-  const mentioned = cats.map(c => {
-    const rows = latestRows.filter(r => r.category === c);
-    return rows.length ? Math.round(rows.filter(r => r.mentioned).length / rows.length * 100) : 0;
-  });
-  const accurate = cats.map(c => {
-    const rows = latestRows.filter(r => r.category === c);
-    return rows.length ? Math.round(rows.filter(r => r.accurate).length / rows.length * 100) : 0;
-  });
+  if (runEl && DATA.citationLatestDate) {
+    runEl.textContent = `Latest run ${DATA.citationLatestDate} · organic queries · ${DATA.citationLatestTotal} citations` +
+      (DATA.citationPrevDate ? ` · Δ vs ${DATA.citationPrevDate}` : '');
+  }
 
-  new Chart(document.getElementById('categoryChart'), {
-    type: 'bar',
-    data: {
-      labels: cats.map(c => CATEGORY_LABELS[c] || c),
-      datasets: [
-        { label: 'Mentioned', data: mentioned, backgroundColor: '#e89ab2' },
-        { label: 'Accurate', data: accurate, backgroundColor: '#b44d6e' },
-      ]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false, indexAxis: 'y',
-      plugins: { legend: { position: 'bottom' } },
-      scales: { x: { min: 0, max: 100, ticks: { callback: v => v + '%' } } }
-    }
-  });
+  if (filtersEl) {
+    const counts = {};
+    rows.forEach(r => { counts[r.category] = (counts[r.category] || 0) + 1; });
+    const present = CAT_ORDER.filter(c => counts[c]);
+    const pill = (cat, count, cls) =>
+      `<button class="filter-btn${cat === activeCat ? ' active' : ''}" data-cat="${cat}">` +
+      (cls ? `<span class="cite-dot ${cls}"></span>` : '') +
+      `${cat}<span class="filter-n">${count}</span></button>`;
+    filtersEl.innerHTML = pill('All', total, '') +
+      present.map(c => pill(c, counts[c], (CAT[c] || CAT['Other']).cls)).join('');
+    filtersEl.addEventListener('click', e => {
+      const btn = e.target.closest('[data-cat]');
+      if (!btn) return;
+      activeCat = btn.dataset.cat;
+      filtersEl.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b === btn));
+      draw();
+    });
+  }
+
+  function draw() {
+    const q = (searchEl && searchEl.value || '').trim().toLowerCase();
+    let list = activeCat === 'All' ? rows : rows.filter(r => r.category === activeCat);
+    if (q) list = list.filter(r => r._search.includes(q));
+    body.innerHTML = list.length
+      ? list.map((r, i) => `
+        <tr>
+          <td class="cite-rank">${i + 1}.</td>
+          <td><div class="cite-name"><img src="${favicon(r.domain)}" loading="lazy" alt=""><a href="https://${r.page}" target="_blank" rel="noopener" title="${r.page}">${r.page}</a></div></td>
+          <td>${catBadge(r.category)}</td>
+          <td class="num" title="${r.count} citation${r.count === 1 ? '' : 's'} this run"><span class="cite-share-val">${fmtPct(r.share)}%</span>${deltaHtml(r.delta)}</td>
+        </tr>`).join('')
+      : '<tr><td colspan="4" class="cite-empty">No matches.</td></tr>';
+    const filtered = activeCat !== 'All' || q;
+    countEl.textContent = filtered ? `${list.length} of ${total} pages` : `${total} pages`;
+  }
+  if (searchEl) searchEl.addEventListener('input', draw);
+  draw();
 })();
 
 // --- Competitor Rankings Table ---

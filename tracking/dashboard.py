@@ -159,23 +159,42 @@ def _categorize_domain(domain, competitor_domains):
     return "Other"
 
 
-def _share_rows(latest, prev, limit=None):
-    """Rank domains by citation share in the latest run, with change vs prev.
+def _page_key(url):
+    """Normalize a citation URL to a page identity: host + path, no protocol,
+    query, fragment, www., or trailing slash. So the same article cited with
+    different tracking params aggregates into one row."""
+    try:
+        p = urlparse(url if "//" in url else "//" + url)
+    except ValueError:
+        return url
+    host = (p.netloc or "").lower().lstrip("www.")
+    path = p.path.rstrip("/")
+    return host + path if path else host
 
-    share = a domain's citations / all citations in that run (0-100). delta =
-    latest share - previous-run share (pp); a domain absent from the previous
-    run surfaces as +full-share. Returns (rows, total_unique_domains).
+
+def _domain_of_page(page):
+    """The registrable host portion of a _page_key value."""
+    return page.split("/")[0] if page else ""
+
+
+def _share_rows(latest, prev, key, limit=None):
+    """Rank items by citation share in the latest run, with change vs prev.
+
+    share = an item's citations / all citations in that run (0-100). delta =
+    latest share - previous-run share (pp); an item absent from the previous
+    run surfaces as +full-share. ``key`` selects the grouping field (domain or
+    page/url). Returns (rows, total_unique_items).
     """
     total_l = len(latest)
     total_p = len(prev)
-    cl = Counter(c["domain"] for c in latest if c["domain"])
-    cp = Counter(c["domain"] for c in prev if c["domain"])
+    cl = Counter(c[key] for c in latest if c[key])
+    cp = Counter(c[key] for c in prev if c[key])
     rows = []
-    for d, c in cl.most_common(limit):
+    for item, c in cl.most_common(limit):
         share = c / total_l * 100 if total_l else 0.0
-        prev_share = (cp.get(d, 0) / total_p * 100) if total_p else 0.0
+        prev_share = (cp.get(item, 0) / total_p * 100) if total_p else 0.0
         rows.append({
-            "domain": d,
+            key: item,
             "count": c,
             "share": round(share, 2),
             "delta": round(share - prev_share, 2),
@@ -200,8 +219,17 @@ def build_dashboard_data(rows, citations, responses, competitor_domains, competi
     prev_cite_date = cite_dates[-2] if len(cite_dates) >= 2 else None
     latest_organic = [c for c in organic_citations if c["date"] == latest_cite_date] if latest_cite_date else []
     prev_organic = [c for c in organic_citations if c["date"] == prev_cite_date] if prev_cite_date else []
-    domain_rows, domain_total = _share_rows(latest_organic, prev_organic)
+    domain_rows, domain_total = _share_rows(latest_organic, prev_organic, "domain")
     for r in domain_rows:
+        r["category"] = _categorize_domain(r["domain"], competitor_domain_set)
+
+    # Top Citation Pages — same latest-run share ranking, but grouped by the
+    # individual URL (normalized) so you can see exactly which pages get pulled.
+    for c in organic_citations:
+        c["page"] = _page_key(c["url"])
+    page_rows, page_total = _share_rows(latest_organic, prev_organic, "page", limit=25)
+    for r in page_rows:
+        r["domain"] = _domain_of_page(r["page"])
         r["category"] = _categorize_domain(r["domain"], competitor_domain_set)
 
     # GV Skincare's rank among cited domains by share, latest + previous run.
@@ -258,6 +286,8 @@ def build_dashboard_data(rows, citations, responses, competitor_domains, competi
         "queries": _derive_queries(),
         "citationDomains": domain_rows,
         "citationDomainsTotal": domain_total,
+        "citationPages": page_rows,
+        "citationPagesTotal": page_total,
         "citationLatestDate": latest_cite_date,
         "citationPrevDate": prev_cite_date,
         "citationLatestTotal": len(latest_organic),
