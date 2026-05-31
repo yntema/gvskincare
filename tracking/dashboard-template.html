@@ -38,6 +38,10 @@
   .chart-box h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 4px; letter-spacing: -0.01em; }
   .chart-box .chart-subtitle { font-size: 12px; color: var(--muted); margin-bottom: 12px; }
   .chart-box canvas { width: 100% !important; }
+  .chart-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
+  .chart-head h3 { margin-bottom: 4px; }
+  .chart-head .chart-subtitle { margin-bottom: 0; }
+  .chart-toggle { display: inline-flex; gap: 4px; flex-shrink: 0; }
   .heatmap { width: 100%; border-collapse: collapse; font-size: 13px; }
   .heatmap th { text-align: left; padding: 8px 12px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; color: var(--text); border-bottom: 2px solid var(--border); white-space: nowrap; }
   .heatmap td { padding: 8px 12px; border-bottom: 1px solid var(--border-light); }
@@ -149,8 +153,16 @@
 
 <div class="chart-row">
   <div class="chart-box">
-    <h3>Visibility Trend by Platform</h3>
-    <div class="chart-subtitle">% of non-branded queries where GV Skincare appears &middot; shown when &ge; 5 queries tested on that platform</div>
+    <div class="chart-head">
+      <div>
+        <h3>Visibility Trend</h3>
+        <div class="chart-subtitle">% of non-branded queries where GV Skincare appears &middot; shown when &ge; 5 queries tested</div>
+      </div>
+      <div class="chart-toggle" id="trendToggle">
+        <button class="filter-btn active" data-mode="combined">All platforms</button>
+        <button class="filter-btn" data-mode="platform">By platform</button>
+      </div>
+    </div>
     <div style="height:300px;"><canvas id="trendChart"></canvas></div>
   </div>
   <div class="cite-panel">
@@ -177,8 +189,16 @@
 
 <div class="chart-row">
   <div class="chart-box">
-    <h3>GV Skincare Citation Share Trend</h3>
-    <div class="chart-subtitle">% of organic citations in AI answers that point to gvskincare.com &middot; pooled across all platforms, per audit run</div>
+    <div class="chart-head">
+      <div>
+        <h3>GV Skincare Citation Share Trend</h3>
+        <div class="chart-subtitle">% of organic citations in AI answers that point to gvskincare.com &middot; per audit run</div>
+      </div>
+      <div class="chart-toggle" id="citationShareToggle">
+        <button class="filter-btn active" data-mode="combined">All platforms</button>
+        <button class="filter-btn" data-mode="platform">By platform</button>
+      </div>
+    </div>
     <div style="height:300px;"><canvas id="citationShareTrendChart"></canvas></div>
   </div>
   <div class="cite-panel">
@@ -439,39 +459,67 @@ function brandVisRank(date) {
   `).join('');
 })();
 
-// --- Visibility Trend by Platform (organic only) ---
+// --- Visibility Trend (organic only) — toggle: all platforms pooled vs per-platform ---
 (function renderTrend() {
-  const datasets = platforms.map(p => {
-    const points = dates.map(d => {
-      const rows = DATA.rows.filter(r => r.date === d && r.platform === p && !r.branded);
-      if (rows.length < DATA.minSample) return null;
-      return Math.round(rows.filter(r => r.mentioned).length / rows.length * 100);
-    });
-    return {
-      label: PLATFORM_LABELS[p] || p,
-      data: points,
+  const canvas = document.getElementById('trendChart');
+  const toggle = document.getElementById('trendToggle');
+  let chart = null;
+  let mode = 'combined'; // 'combined' | 'platform'
+
+  const visRate = rows => rows.length < DATA.minSample
+    ? null : Math.round(rows.filter(r => r.mentioned).length / rows.length * 100);
+
+  // One pooled line: organic visibility across all platforms per date.
+  function combinedDatasets() {
+    return [{
+      label: 'All platforms',
+      data: dates.map(d => visRate(DATA.rows.filter(r => r.date === d && !r.branded))),
+      borderColor: '#b44d6e', backgroundColor: '#b44d6e',
+      tension: 0.3, pointRadius: 5, pointHoverRadius: 7, spanGaps: false,
+    }];
+  }
+
+  // One line per platform.
+  function platformDatasets() {
+    return platforms.map(p => ({
+      label: PLATFORM_LABELS[p] || p, _platform: p,
+      data: dates.map(d => visRate(DATA.rows.filter(r => r.date === d && r.platform === p && !r.branded))),
       borderColor: PLATFORM_COLORS[p] || '#888',
       backgroundColor: PLATFORM_COLORS[p] || '#888',
-      tension: 0.3, pointRadius: 5, pointHoverRadius: 7, spanGaps: false
-    };
-  }).filter(ds => ds.data.some(v => v !== null));
+      tension: 0.3, pointRadius: 5, pointHoverRadius: 7, spanGaps: false,
+    })).filter(ds => ds.data.some(v => v !== null));
+  }
 
-  new Chart(document.getElementById('trendChart'), {
-    type: 'line',
-    data: { labels: dates, datasets },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { position: 'bottom' },
-        tooltip: { callbacks: { afterLabel: function(ctx) {
-          const p = platforms.find(p2 => (PLATFORM_LABELS[p2]||p2) === ctx.dataset.label);
-          const d = dates[ctx.dataIndex];
-          const rows = DATA.rows.filter(r => r.date === d && r.platform === p && !r.branded);
-          return `(${rows.filter(r=>r.mentioned).length}/${rows.length} organic queries)`;
-        }}}
-      },
-      scales: { y: { min: 0, max: 100, ticks: { callback: v => v + '%' } } }
-    }
+  function draw() {
+    const datasets = mode === 'combined' ? combinedDatasets() : platformDatasets();
+    if (chart) chart.destroy();
+    chart = new Chart(canvas, {
+      type: 'line',
+      data: { labels: dates, datasets },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'bottom', display: mode === 'platform' },
+          tooltip: { callbacks: { afterLabel: function(ctx) {
+            const d = dates[ctx.dataIndex];
+            const p = ctx.dataset._platform;
+            const rows = DATA.rows.filter(r => r.date === d && !r.branded && (!p || r.platform === p));
+            return `(${rows.filter(r => r.mentioned).length}/${rows.length} organic queries)`;
+          }}}
+        },
+        scales: { y: { min: 0, max: 100, ticks: { callback: v => v + '%' } } }
+      }
+    });
+  }
+
+  if (toggle) toggle.addEventListener('click', e => {
+    const btn = e.target.closest('[data-mode]');
+    if (!btn) return;
+    mode = btn.dataset.mode;
+    toggle.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b === btn));
+    draw();
   });
+  draw();
 })();
 
 // --- Visibility Score Rank (ranked spas by presence rate) ---
@@ -551,31 +599,78 @@ function brandVisRank(date) {
 })();
 
 // --- Citation Share Trend (% organic citations pointing to gvskincare.com) ---
+//     toggle: all platforms pooled vs per-platform ---
 (function renderCitationShare() {
   const cs = (DATA.citationShareByDate || []).filter(d => d.total > 0);
   const canvas = document.getElementById('citationShareTrendChart');
+  const toggle = document.getElementById('citationShareToggle');
   if (!canvas) return;
   if (!cs.length) {
     canvas.parentElement.innerHTML += '<div style="color:var(--muted);font-size:13px;padding:20px 0;">No citation data yet.</div>';
+    if (toggle) toggle.style.display = 'none';
     return;
   }
   const labels = cs.map(d => d.date);
   const round1 = v => Math.round(v * 10) / 10;
-  new Chart(canvas, {
-    type: 'line',
-    data: { labels, datasets: [{
+  let chart = null;
+  let mode = 'combined'; // 'combined' | 'platform'
+
+  // One pooled line: brand share of all organic citations per run.
+  function combinedDatasets() {
+    return [{
       label: 'gvskincare.com share',
       data: cs.map(row => round1(row.brand / row.total * 100)),
       borderColor: '#b44d6e', backgroundColor: '#b44d6e',
       tension: 0.3, pointRadius: 5, pointHoverRadius: 7, spanGaps: false,
-    }] },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { display: false },
-        tooltip: { callbacks: { afterLabel: ctx => `(${cs[ctx.dataIndex].brand}/${cs[ctx.dataIndex].total} organic citations)` } } },
-      scales: { y: { beginAtZero: true, ticks: { callback: v => v + '%' } } },
-    },
+    }];
+  }
+
+  // One line per platform: brand share within that platform's citations per run
+  // (null where the platform produced no citations that run).
+  function platformDatasets() {
+    const plats = unique(cs.flatMap(d => Object.keys(d.platforms || {}))).sort();
+    return plats.map(p => ({
+      label: PLATFORM_LABELS[p] || p, _platform: p,
+      data: cs.map(row => {
+        const pp = (row.platforms || {})[p];
+        return pp && pp.total ? round1(pp.brand / pp.total * 100) : null;
+      }),
+      borderColor: PLATFORM_COLORS[p] || '#888',
+      backgroundColor: PLATFORM_COLORS[p] || '#888',
+      tension: 0.3, pointRadius: 5, pointHoverRadius: 7, spanGaps: false,
+    })).filter(ds => ds.data.some(v => v !== null));
+  }
+
+  function draw() {
+    const datasets = mode === 'combined' ? combinedDatasets() : platformDatasets();
+    if (chart) chart.destroy();
+    chart = new Chart(canvas, {
+      type: 'line',
+      data: { labels, datasets },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: {
+          legend: { display: mode === 'platform', position: 'bottom' },
+          tooltip: { callbacks: { afterLabel: ctx => {
+            const row = cs[ctx.dataIndex];
+            const p = ctx.dataset._platform;
+            const cell = p ? (row.platforms || {})[p] : row;
+            return cell ? `(${cell.brand}/${cell.total} organic citations)` : '';
+          } } },
+        },
+        scales: { y: { beginAtZero: true, ticks: { callback: v => v + '%' } } },
+      },
+    });
+  }
+
+  if (toggle) toggle.addEventListener('click', e => {
+    const btn = e.target.closest('[data-mode]');
+    if (!btn) return;
+    mode = btn.dataset.mode;
+    toggle.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('active', b === btn));
+    draw();
   });
+  draw();
 })();
 
 // --- Top Citation Domains (latest run, by citation share) ---
