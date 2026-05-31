@@ -1,0 +1,162 @@
+{
+  "id": "resp_0dd78c7ea27ba93b006a1ca43230a08196b0aa7ef38941b919",
+  "object": "response",
+  "created_at": 1780261938,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780261943,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0dd78c7ea27ba93b006a1ca43257e481968b36da196678e96c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best HydraFacial provider Houston Katy area"
+        ],
+        "query": "Best HydraFacial provider Houston Katy area"
+      }
+    },
+    {
+      "id": "msg_0dd78c7ea27ba93b006a1ca433ba548196a6db38e67fbfcf9d",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 571,
+              "start_index": 453,
+              "title": "4Ever Glow Salon & MedSpa - Katy, TX | Medical Spa Locator",
+              "url": "https://www.medicalspalocator.com/med-spa/4ever-glow-salon-medspa-katy-tx?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 967,
+              "start_index": 848,
+              "title": "Hibiscus Aesthetics and Wellness - 127 Reviews - Wellness in Katy, TX - Birdeye",
+              "url": "https://reviews.birdeye.com/hibiscus-aesthetics-and-wellness-176986078954476?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1290,
+              "start_index": 1206,
+              "title": "HydraFacial | Soo Med Spa Katy TX",
+              "url": "https://soomedspa.com/services/hydrafacial.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1720,
+              "start_index": 1597,
+              "title": "Advanced Dermatology Reviews \u2013 Houston, TX",
+              "url": "https://advanceddermatologymd.com/reviews/cosmetic-dermatology/hydrafacial?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2105,
+              "start_index": 2007,
+              "title": "Beautiful Plus Belleza Integral - From $120 - Katy | Groupon",
+              "url": "https://www.groupon.com/deals/beautiful-plus-belleza-integral-9?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2747,
+              "start_index": 2612,
+              "title": "Best HydraFacial in Houston, TX: What to Know in 2026 | Medical Spa Locator",
+              "url": "https://www.medicalspalocator.com/blog/best-hydrafacial-in-houston-tx-what-to-know-in-2026?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2985,
+              "start_index": 2850,
+              "title": "Best HydraFacial in Houston, TX: What to Know in 2026 | Medical Spa Locator",
+              "url": "https://www.medicalspalocator.com/blog/best-hydrafacial-in-houston-tx-what-to-know-in-2026?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3230,
+              "start_index": 3095,
+              "title": "Best HydraFacial in Houston, TX: What to Know in 2026 | Medical Spa Locator",
+              "url": "https://www.medicalspalocator.com/blog/best-hydrafacial-in-houston-tx-what-to-know-in-2026?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3517,
+              "start_index": 3382,
+              "title": "Best HydraFacial in Houston, TX: What to Know in 2026 | Medical Spa Locator",
+              "url": "https://www.medicalspalocator.com/blog/best-hydrafacial-in-houston-tx-what-to-know-in-2026?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "If you're looking for top-rated HydraFacial providers in the Houston\u2013Katy area, here are several highly recommended options, along with key details to help you choose the one that best suits your needs:\n\n\u2022 **4Ever Glow Salon & MedSpa (Katy, TX)**  \nLocated at 722 Katy Fort Bend Rd #500, this med spa offers HydraFacial treatments and stands out with a stellar 4.9 rating from 110 Google reviews, marking it as one of the highest-rated in the Katy area ([medicalspalocator.com](https://www.medicalspalocator.com/med-spa/4ever-glow-salon-medspa-katy-tx?utm_source=openai)).\n\n\u2022 **Hibiscus Aesthetics and Wellness (Katy, TX)**  \nLocated at 26622 Cook Fld Rd Suite 300, this spa boasts a perfect 5.0 rating based on 127 reviews. Customers frequently describe their HydraFacial experiences as \u201cincredible,\u201d \u201crelaxing,\u201d and note radiant, glowing results ([reviews.birdeye.com](https://reviews.birdeye.com/hibiscus-aesthetics-and-wellness-176986078954476?utm_source=openai)).\n\n\u2022 **Soo Med Spa (Katy, TX)**  \nThis local spa emphasizes personalized HydraFacial treatments with booster serums tailored to concerns like anti\u2011aging, brightening, acne control, and hydrating \u2014 delivering instant glow and zero downtime ([soomedspa.com](https://soomedspa.com/services/hydrafacial.html?utm_source=openai)).\n\n\u2022 **Advanced Dermatology (Katy, TX branch)**  \nPart of a well-known dermatology group with multiple Greater Houston locations, their staff includes board-certified dermatologists and physician assistants. They offer HydraFacial services in a clinical setting, providing expert, medically supervised care ([advanceddermatologymd.com](https://advanceddermatologymd.com/reviews/cosmetic-dermatology/hydrafacial?utm_source=openai)).\n\n\u2022 **Beautiful Plus Belleza Integral (Katy, TX)**  \nThis clinic actively promotes HydraFacial treatments via Groupon deals (with discounts up to 50%), offering bundles and packages that can make the service more affordable while still delivering the exfoliate-extract-hydrate protocol ([groupon.com](https://www.groupon.com/deals/beautiful-plus-belleza-integral-9?utm_source=openai)).\n\n**Summary Table:**\n\n- 4Ever Glow Salon & MedSpa \u2014 4.9/110 reviews  \n- Hibiscus Aesthetics and Wellness \u2014 5.0/127 reviews  \n- Soo Med Spa \u2014 Customized boosters; instant glow, zero downtime  \n- Advanced Dermatology (Katy location) \u2014 Board-certified clinicians, medical oversight  \n- Beautiful Plus Belleza Integral \u2014 Groupon deals, budget-conscious option\n\n**Tips to Choose the Right Provider:**\n\n1. Review provider credentials to ensure the staff performing HydraFacial are properly trained and certified ([medicalspalocator.com](https://www.medicalspalocator.com/blog/best-hydrafacial-in-houston-tx-what-to-know-in-2026?utm_source=openai)).  \n2. Verify equipment authenticity \u2014 legitimate HydraFacial devices versus unauthorized alternatives ([medicalspalocator.com](https://www.medicalspalocator.com/blog/best-hydrafacial-in-houston-tx-what-to-know-in-2026?utm_source=openai)).  \n3. Reading customer reviews can offer insight into cleanliness, staff professionalism, and actual results ([medicalspalocator.com](https://www.medicalspalocator.com/blog/best-hydrafacial-in-houston-tx-what-to-know-in-2026?utm_source=openai)).  \n4. During consultation, ask how treatments are customized for your skin type, what aftercare is recommended, and realistic expectations for results ([medicalspalocator.com](https://www.medicalspalocator.com/blog/best-hydrafacial-in-houston-tx-what-to-know-in-2026?utm_source=openai)).\n\n**Final Recommendation:**\n\nFor a blend of rave reviews and personalized care, **Hibiscus Aesthetics and Wellness** and **4Ever Glow Salon & MedSpa** are excellent starting points. If you prefer a medically supervised experience, **Advanced Dermatology\u2019s Katy office** is a solid choice. **Soo Med Spa** is appealing if you want targeted boosters. And if you're looking to save, **Beautiful Plus Belleza Integral** offers attractive discounts.\n\nLet me know if you'd like help comparing pricing, booking consultations, or narrowing down based on your skin concerns!"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17152,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 771,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 17923
+  },
+  "user": null,
+  "metadata": {}
+}

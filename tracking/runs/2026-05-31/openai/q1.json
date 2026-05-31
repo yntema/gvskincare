@@ -1,0 +1,155 @@
+{
+  "id": "resp_05b8c85ea327ce6f006a1ca32614ac8195bbaf06e215121181",
+  "object": "response",
+  "created_at": 1780261670,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780261676,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_05b8c85ea327ce6f006a1ca3264bb881959baf11f6a44221ea",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best facial spa in Katy TX"
+        ],
+        "query": "Best facial spa in Katy TX"
+      }
+    },
+    {
+      "id": "msg_05b8c85ea327ce6f006a1ca32796c48195993d1937e5e72a1a",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 547,
+              "start_index": 490,
+              "title": "TSUKI Facial & Spa | Head Spa & Facials in Katy, TX",
+              "url": "https://tsukispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 919,
+              "start_index": 860,
+              "title": "Soo Med Spa | Premium Aesthetic Treatments | Katy, TX",
+              "url": "https://soomedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1323,
+              "start_index": 1222,
+              "title": "Revitalize Infusion & Aesthetics | IV Therapy & Med Spa in Katy, TX",
+              "url": "https://www.revitalizeinfusionaesthetics.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1672,
+              "start_index": 1605,
+              "title": "Best Medical Spa in Katy Texas - Katy Medi Spa",
+              "url": "https://www.katymedispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1985,
+              "start_index": 1920,
+              "title": "Med Spa in Katy, TX | Selah MediSpa",
+              "url": "https://selahmedispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2299,
+              "start_index": 2236,
+              "title": "Suimin Spa Katy TX \u2013 Head Spa, Facial, Massage, Lashes & Wellness",
+              "url": "https://www.suiminspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2605,
+              "start_index": 2512,
+              "title": "Appointments | Oasis laser medspa",
+              "url": "https://oasis-laser-medspa.square.site/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2956,
+              "start_index": 2889,
+              "title": "Legacy Med Spa in Katy, TX - Wellness & Aesthetics",
+              "url": "https://legacyspakaty.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Here are some of the top-rated facial spas and medspas in Katy, TX, offering a range of services\u2014from luxurious relaxation to medically advanced skin treatments:\n\n\u2022 **TSUKI Facial & Spa** \u2013 A serene, appointment-only boutique focusing on personalized facials and head spa rituals. Their \u201cLuxury without excess\u201d approach creates a calming, minimalist environment. Popular options include a 90-minute customized facial (~$75), a head spa, and combination treatments up to 150 minutes (~$135) ([tsukispa.com](https://tsukispa.com/?utm_source=openai)).\n\n\u2022 **Soo Med Spa** \u2013 A newer premium medspa in the area offering medical-grade facials such as signature treatments, HydraFacials, chemical peels, microneedling, RF microneedling (Morpheus8), plus injectables like Botox and fillers. They emphasize tailored, science-backed care delivered in a luxurious setting ([soomedspa.com](https://soomedspa.com/?utm_source=openai)).\n\n\u2022 **Revitalize Infusion & Aesthetics** \u2013 A well-reviewed (5-star) medspa supervised by certified nurse practitioners. They offer a broad selection of advanced facial treatments\u2014HydroFacial, PRP, Oxygen, microneedling, VI Peel, and Salmon DNA facials\u2014alongside spa-day packages and in-house financing ([revitalizeinfusionaesthetics.com](https://www.revitalizeinfusionaesthetics.com/?utm_source=openai)).\n\n\u2022 **Katy Medi Spa** \u2013 A physician-led spa providing a comprehensive suite of medically oriented skin treatments. Services include facials, microdermabrasion, dermaplaning, chemical peels, IPL photofacials, microneedling, and more\u2014all delivered in a relaxed, intimate environment ([katymedispa.com](https://www.katymedispa.com/?utm_source=openai)).\n\n\u2022 **Selah MediSpa** \u2013 Offers a broad spectrum of aesthetic services, including HydraFacials, skin tightening, microneedling, body contouring, and injectables (e.g., Botox, fillers). Their tagline, \u201cLuxury Made Affordable,\u201d captures their appeal ([selahmedispa.com](https://selahmedispa.com/?utm_source=openai)).\n\n\u2022 **Suimin Spa** \u2013 A serene spa blending traditional Eastern healing and modern techniques. Offers highly customized facials\u2014such as hydrating, collagen-boosting, brightening, and express glow options\u2014within a relaxing, wellness-focused atmosphere ([suiminspa.com](https://www.suiminspa.com/?utm_source=openai)).\n\n\u2022 **Oasis Laser MedSpa** \u2013 Offers accessible and targeted treatments, including HydroFacials ($120), acne-focused facials ($150), microneedling, chemical peels, and IPL therapies for acne and hyperpigmentation ([oasis-laser-medspa.square.site](https://oasis-laser-medspa.square.site/?utm_source=openai)).\n\n\u2022 **Legacy Med Spa Katy** \u2013 A newer medspa dedicated to refined, evidence-based aesthetics. Services include custom facials, microneedling, injectables, IV hydration, and medical weight loss. They have received glowing local feedback and maintain a 5.0 average from client reviews ([legacyspakaty.com](https://legacyspakaty.com/?utm_source=openai)).\n\n---\n\n**What\u2019s Best for You?**\n\nConsider the following when choosing your facial spa:\n\n- **Experience or Comfort**: TSUKI, Suimin Spa, and Oasis offer soothing, spa-like environments focused on relaxation.  \n- **Advanced Medical Treatments**: Soo Med Spa, Revitalize, Katy Medi Spa, Selah, and Legacy provide medical-grade facials and aesthetic services backed by medical professionals.  \n- **Affordability**: Selah emphasizes accessible pricing, while Oasis has straightforward, value-conscious pricing.  \n- **Customization & Approach**: TSUKI, Suimin, and Soo focus on personalized, tailored experiences.\n\n---\n\n**Next Steps**  \n1. **Review services and pricing** through each spa\u2019s site or contact them directly.  \n2. **Check availability**\u2014some like TSUKI may require deposits or scheduled appointments ahead of time.  \n3. **Read recent reviews** (Google, Yelp) for feedback on quality and service.  \n4. **Book a consultation** or **start with a single facial** to experience the environment, providers\u2019 skills, and comfort level firsthand.\n\nLet me know if you\u2019d like deeper details on any of these spas, help narrowing choices based on your skin concerns (e.g., acne, hydration, anti-aging), or assistance with booking or preparing for your spa visit!"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17112,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 918,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18030
+  },
+  "user": null,
+  "metadata": {}
+}

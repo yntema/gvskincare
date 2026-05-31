@@ -1,0 +1,155 @@
+{
+  "id": "resp_058a0bf25306b7ce006a1ca336d6548197b702eb955628bbf7",
+  "object": "response",
+  "created_at": 1780261686,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780261693,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_058a0bf25306b7ce006a1ca337023c8197a2eb3b70c9496776",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best facial spa near Houston TX"
+        ],
+        "query": "Best facial spa near Houston TX"
+      }
+    },
+    {
+      "id": "msg_058a0bf25306b7ce006a1ca338a72c819780d5fe71be84450f",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 671,
+              "start_index": 604,
+              "title": "Sanctuary Spa | Houston's First Day Spa - Facials, Skin Care & Massage",
+              "url": "https://www.besanctuary.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1095,
+              "start_index": 972,
+              "title": "Montrose Skin Club Reviews - Facial spa in Houston, United States | Top-Rated.Online",
+              "url": "https://www.top-rated.online/cities/Houston/place/p/14116978/Montrose%2BSkin%2BClub?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1540,
+              "start_index": 1469,
+              "title": "Holistic Facial, Face Lifting & Buccal Massage Spa | Houston, TX | Vera Pelle European Skin Spa",
+              "url": "https://www.verapelleskin.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2023,
+              "start_index": 1944,
+              "title": "Organic Spa Houston | Voted Best Facials + Brows + Lashes",
+              "url": "https://www.organicspahouston.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2453,
+              "start_index": 2372,
+              "title": "Pearl Glow Aesthetic Spa & Salon | Facials Near Houston Galleria",
+              "url": "https://www.pearlglowaesthetic.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2842,
+              "start_index": 2773,
+              "title": "MedSpa & Aesthetic Treatments in Houston - Tu Es Belle Spa",
+              "url": "https://www.tuesbellespa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3191,
+              "start_index": 3117,
+              "title": "Glo2Facial - Exfoliate, Oxygenate, Infuse - Alira Med-Spa",
+              "url": "https://aliramedspa.com/glo2facial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3693,
+              "start_index": 3562,
+              "title": "These Skincare Treatments Give You the Glow of a Hollywood Star",
+              "url": "https://www.thedailybeast.com/skincare-treatments-hollywood-stars-use-to-get-glowing-skin/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Here are some highly recommended facial spas in Houston, Texas\u2014based on recent expert features, client reviews, and reputable rankings. Each offers distinct styles and specialties, helping you choose depending on your preferences and location:\n\n\u2022 **Sanctuary Spa (River Oaks / Montrose area)**  \n For decades, Sanctuary Spa has been recognized for its luxurious, holistic facials blending aromatherapy, seaweed, essential oils, and herbs. Their services include personalized Signature and advanced treatments like the Minkyti\u00ae and Oxygen Infusion facials\u2014meant to soothe, detoxify, and nourish your skin.([besanctuary.com](https://www.besanctuary.com/?utm_source=openai))\n\n\u2022 **Montrose Skin Club (Montrose area)**  \n Consistently rated among the best in Houston, Montrose Skin Club holds a 4.9 \u2b50 average from over 130 reviews. Clients rave about esthetician Maysha\u2019s careful, personalized, and calming approach, making first-time visitors often return and become regulars.([top-rated.online](https://www.top-rated.online/cities/Houston/place/p/14116978/Montrose%2BSkin%2BClub?utm_source=openai))\n\n\u2022 **Vera Pelle European Skin Spa (Sawyer Yards / East Heights)**  \n This spa brings European-style holistic facials and buccal (inside-the-cheek) massages to Houston. Their treatments cover a broad spectrum\u2014from hydradermabrasion and micro-currents to chemical peels and radio frequency lifting\u2014designed to address skin concerns like pigmentation, dryness, acne, or aging.([verapelleskin.com](https://www.verapelleskin.com/?utm_source=openai))\n\n\u2022 **Organic Spa Houston (Museum District)**  \n Known for combining clean beauty with clinical-grade techniques, this spa uses organic, vegan, and cruelty-free ingredients alongside advanced treatments\u2014HydraFacials\u00ae, chemical peels, microneedling, IPL and more. Their accolades include consistent features in *Houstonia* magazine (Best Skincare and Beauty Services since 2015) and other regional awards.([organicspahouston.com](https://www.organicspahouston.com/?utm_source=openai))\n\n\u2022 **Pearl Glow Aesthetic Spa & Salon (Galleria area)**  \n If you're near the Galleria, Pearl Glow offers customized, results-driven facials with a focus on deep cleansing, hydration, and visible \u201cglow\u201d effects after just one session. Clients highlight the welcoming vibe, thorough care from estheticians like Linda, and no high-pressure upselling.([pearlglowaesthetic.com](https://www.pearlglowaesthetic.com/?utm_source=openai))\n\n\u2022 **Tu Es Belle Spa (Various locations)**  \n Led by a medical esthetician with over 18 years of experience, this med spa specializes in personalized facials and advanced treatments such as HydraFacial with cupping, chemical peels, microneedling, and photo facials targeting acne, pigmentation, rosacea, and fine lines.([tuesbellespa.com](https://www.tuesbellespa.com/?utm_source=openai))\n\n\u2022 **Alira Med Spa (Montrose / West Alabama area)**  \n Home to the Glo2Facial\u2122\u2014a high-tech 3-in-1 facial (exfoliation, ultrasound amplification, and lymphatic detox)\u2014this spa offers a futuristic approach to facial treatment, perfect for those who want cutting-edge skincare.([aliramedspa.com](https://aliramedspa.com/glo2facial/?utm_source=openai))\n\n\u2022 **The Spa at The Post Oak Hotel (River Oaks)**  \n For an ultra-luxury, \u201cbiohacking\u201d facial experience, this Forbes five\u2011star hotel spa in Houston features the exclusive six-in-one \u201cIn\u2011Skin\u201d facial machine\u2014merging multiple advanced non-invasive modalities into a single, high-performance session. It\u2019s widely regarded as one of the most innovative facials in the city.([thedailybeast.com](https://www.thedailybeast.com/skincare-treatments-hollywood-stars-use-to-get-glowing-skin/?utm_source=openai))\n\n---\n\nTips to help you choose:\n\n\u2022 **Location matters** \u2014 Select a spa convenient for you: River Oaks has Sanctuary and The Post Oak, Montrose offers Montrose Skin Club and Alira, Galleria area has Pearl Glow, Museum District features Organic Spa, and Sawyer Yards hosts Vera Pelle.\n\n\u2022 **Treatment goals** \u2014  \n  - Seek relaxation and holistic care? Try ***Sanctuary Spa*** or ***Montrose Skin Club***.  \n  - Interested in cutting-edge, results-oriented treatments? Consider ***Organic Spa Houston***, ***Alira Med Spa***, or ***Vera Pelle***.  \n  - Want luxurious, high-tech exclusivity? Go for ***The Spa at The Post Oak Hotel***.  \n  - Need targeted medical esthetic services? ***Tu Es Belle Spa*** is a solid choice.\n\n\u2022 **Reviews vs. ambiance** \u2014 ***Montrose Skin Club*** shines with glowing client reviews and personal service. ***Pearl Glow*** is praised for its clean, personalized care. ***Organic Spa Houston*** offers a trusted \u201cclean beauty\u201d reputation with solid clinical techniques.\n\n---\n\nLet me know if you'd like help narrowing options by neighborhood, budget, or specific skin concerns like acne, anti-aging, or hydration."
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17310,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 1051,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18361
+  },
+  "user": null,
+  "metadata": {}
+}

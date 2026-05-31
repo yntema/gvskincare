@@ -1,0 +1,225 @@
+{
+  "id": "resp_0b76af9f46952b1a006a1ca3cd15808195b2a816999f3c5cfa",
+  "object": "response",
+  "created_at": 1780261837,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780261845,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0b76af9f46952b1a006a1ca3cd37a08195a50ff7a77c12dc97",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "How to reduce wrinkles without surgery Houston area"
+        ],
+        "query": "How to reduce wrinkles without surgery Houston area"
+      }
+    },
+    {
+      "id": "msg_0b76af9f46952b1a006a1ca3ceb2608195bca9d6151db93c0c",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 927,
+              "start_index": 819,
+              "title": "Botox, Dysport & Daxxify in Houston, TX | Elite Dermatology",
+              "url": "https://www.elitedermatology.com/services/botox-dysport-daxxify/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1288,
+              "start_index": 1180,
+              "title": "Botox, Dysport & Daxxify in Houston, TX | Elite Dermatology",
+              "url": "https://www.elitedermatology.com/services/botox-dysport-daxxify/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1660,
+              "start_index": 1591,
+              "title": "Montrose Medspa | Luxury Aesthetic & Wellness Treatments in Houston, TX",
+              "url": "https://montrosemedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2154,
+              "start_index": 2066,
+              "title": "Morpheus8 Houston | Skin Resurfacing | Body by Ravi",
+              "url": "https://www.bodybyravi.com/non-surgical/morpheus8/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2593,
+              "start_index": 2465,
+              "title": "Ellacor\u00ae for Wrinkle Treatment in Houston, TX | Premier Derm Center",
+              "url": "https://premierdermcenter.com/services/ellacor-for-wrinkle-treatment-in-houston-tx/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2879,
+              "start_index": 2822,
+              "title": "Med Spa Houston, TX | Cosmetic Services | Lush RX",
+              "url": "https://www.lushrx.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3173,
+              "start_index": 3104,
+              "title": "Montrose Medspa | Luxury Aesthetic & Wellness Treatments in Houston, TX",
+              "url": "https://montrosemedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3489,
+              "start_index": 3418,
+              "title": "Ovation Med Spa \u2013 Med Spa in Houston, Texas",
+              "url": "https://www.ovationmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3905,
+              "start_index": 3838,
+              "title": "Amy's Skincare & Med Spa - The Best Medical Spa in Houston",
+              "url": "https://www.amyshouston.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4209,
+              "start_index": 4131,
+              "title": "Medspa Houston | Non-Surgical Treatments | Mark Schusterman, MD, FACS Aesthetic Surgery",
+              "url": "https://www.drschusterman.com/medspa/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4834,
+              "start_index": 4726,
+              "title": "Botox, Dysport & Daxxify in Houston, TX | Elite Dermatology",
+              "url": "https://www.elitedermatology.com/services/botox-dysport-daxxify/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5042,
+              "start_index": 4973,
+              "title": "Montrose Medspa | Luxury Aesthetic & Wellness Treatments in Houston, TX",
+              "url": "https://montrosemedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5274,
+              "start_index": 5186,
+              "title": "Morpheus8 Houston | Skin Resurfacing | Body by Ravi",
+              "url": "https://www.bodybyravi.com/non-surgical/morpheus8/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5517,
+              "start_index": 5389,
+              "title": "Ellacor\u00ae for Wrinkle Treatment in Houston, TX | Premier Derm Center",
+              "url": "https://premierdermcenter.com/services/ellacor-for-wrinkle-treatment-in-houston-tx/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5724,
+              "start_index": 5655,
+              "title": "Montrose Medspa | Luxury Aesthetic & Wellness Treatments in Houston, TX",
+              "url": "https://montrosemedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5922,
+              "start_index": 5865,
+              "title": "Med Spa Houston, TX | Cosmetic Services | Lush RX",
+              "url": "https://www.lushrx.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 6135,
+              "start_index": 6064,
+              "title": "Ovation Med Spa \u2013 Med Spa in Houston, Texas",
+              "url": "https://www.ovationmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 6361,
+              "start_index": 6294,
+              "title": "Amy's Skincare & Med Spa - The Best Medical Spa in Houston",
+              "url": "https://www.amyshouston.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Here are several effective non-surgical methods to reduce wrinkles available in the Houston area, along with reputable local providers offering each treatment. I've structured this guide into key treatment categories, each with explanations, benefits, and recommended clinics to help you make an informed decision.\n\nInjectable Treatments (Neuromodulators and Dermal Fillers)\n\n- Neuromodulators like **Botox\u00ae, Dysport\u00ae, and Daxxify\u00ae** work by temporarily relaxing muscles that cause dynamic wrinkles, such as forehead lines and crow\u2019s feet. These treatments typically take 15\u201330 minutes and boast minimal downtime. Among them, **Daxxify\u00ae** often provides the longest-lasting results\u2014around six months\u2014while improvements with **Dysport\u00ae** and **Daxxify\u00ae** can appear within 1\u20133 days, compared to 3\u20135 days for **Botox\u00ae**. ([elitedermatology.com](https://www.elitedermatology.com/services/botox-dysport-daxxify/?utm_source=openai))  \n- For a personalized approach led by experienced providers, consider **Elite Dermatology & Plastic Surgery**, which serves Houston and nearby areas with all three neuromodulators and customized treatment plans based on your facial anatomy and goals. ([elitedermatology.com](https://www.elitedermatology.com/services/botox-dysport-daxxify/?utm_source=openai))  \n- **Dermal fillers**, such as hyaluronic acid-based products (e.g., Juvederm), restore volume in areas like cheeks, lips, and nasolabial folds, smoothing out static wrinkles and enhancing facial contours. They are often used in combination with neuromodulators for a more comprehensive rejuvenation. ([montrosemedspa.com](https://montrosemedspa.com/?utm_source=openai))  \n\nSkin Resurfacing and Tightening Technologies\n\n- **Morpheus8**, a popular choice in Houston, combines microneedling with radiofrequency (RF) energy to stimulate collagen production, leading to improved skin texture, firmness, and reduced fine lines. Treatments require minimal downtime and can produce significant rejuvenation. Available at both **RISE Med Spa** and **Lind Plastic Surgery & Med Spa**. ([bodybyravi.com](https://www.bodybyravi.com/non-surgical/morpheus8/?utm_source=openai))  \n- **Ellacor\u00ae**, offered by **Premier Derm Center**, uses micro-coring to remove tiny sections of skin mechanically (not with heat), reducing sagging and improving deep wrinkles with minimal thermal damage. Each session can remove up to ~8% of excess skin, and results continue to improve over several weeks. ([premierdermcenter.com](https://premierdermcenter.com/services/ellacor-for-wrinkle-treatment-in-houston-tx/?utm_source=openai))  \n- **HIFU (High-Intensity Focused Ultrasound)**, a non-surgical alternative to facelift, tightens the skin by stimulating collagen with ultrasound energy. **Lush RX MedSpa** includes this option among its anti-aging offerings. ([lushrx.com](https://www.lushrx.com/?utm_source=openai))  \n\nCombination and Advanced Technologies\n\n- **EMFace** at **Montrose Med Spa** uses synchronized radiofrequency and HIFES energy to lift facial contours, tone muscles, and smooth wrinkles\u2014all without injections or downtime. ([montrosemedspa.com](https://montrosemedspa.com/?utm_source=openai))  \n- **Ovation Med Spa** stands out for offering more than 40 FDA-approved devices, enabling truly customized treatment plans. They notably use combinations like Sofwave, EmFace+, BBL Hero, and Halo for non-surgical lifts and wrinkle reduction. ([ovationmedspa.com](https://www.ovationmedspa.com/?utm_source=openai))  \n\nTraditional and Supportive Treatments\n\n- **HydraFacial**, **chemical peels**, **microdermabrasion**, and **dermaplaning** are effective for improving skin texture, hydration, and minimizing fine lines through exfoliation and resurfacing. These are available at **Amy\u2019s Skincare & Med Spa**, **River Oaks Galleria Medspa**, and **RISE Med Spa**. ([amyshouston.com](https://www.amyshouston.com/?utm_source=openai))  \n- Regular use of **medical-grade skincare products**, such as retinoids, vitamin C, and peptides, can help maintain and enhance anti-aging results over time. Many spas complement treatments with tailored skincare regimens. ([drschusterman.com](https://www.drschusterman.com/medspa/?utm_source=openai))  \n\nSummary Table for Houston Non-Surgical Wrinkle Treatments\n\n| Treatment Type                  | Key Benefits                                           | Notable Providers in Houston                                      |\n|--------------------------------|--------------------------------------------------------|-------------------------------------------------------------------|\n| Neuromodulators (Botox\u00ae, etc.) | Quick, precise smoothing of dynamic lines, minimal downtime | Elite Dermatology & Plastic Surgery ([elitedermatology.com](https://www.elitedermatology.com/services/botox-dysport-daxxify/?utm_source=openai))              |\n| Dermal Fillers                 | Restore volume, smooth static wrinkles                 | Montrose Med Spa, RISE Med Spa ([montrosemedspa.com](https://montrosemedspa.com/?utm_source=openai))     |\n| Morpheus8 RF Microneedling     | Skin tightening, texture improvement                   | RISE Med Spa, Lind Plastic Surgery & Med Spa ([bodybyravi.com](https://www.bodybyravi.com/non-surgical/morpheus8/?utm_source=openai)) |\n| Ellacor\u00ae Micro-coring          | Deep wrinkle and skin laxity reduction, low heat       | Premier Derm Center ([premierdermcenter.com](https://premierdermcenter.com/services/ellacor-for-wrinkle-treatment-in-houston-tx/?utm_source=openai))                           |\n| EMFace RF/HIFES                | Lifts, tones without injections, no downtime           | Montrose Med Spa ([montrosemedspa.com](https://montrosemedspa.com/?utm_source=openai))                               |\n| HIFU (Ultrasound)              | Non-invasive lifting and tightening                     | Lush RX MedSpa ([lushrx.com](https://www.lushrx.com/?utm_source=openai))                                |\n| Customized Multi-Tech Plans    | Combines effective modalities tailored to you          | Ovation Med Spa ([ovationmedspa.com](https://www.ovationmedspa.com/?utm_source=openai))                                |\n| Hydrafacial, Peels, Microderm. | Texture improvement, hydration, gentle resurfacing     | Amy\u2019s, River Oaks Galleria, RISE ([amyshouston.com](https://www.amyshouston.com/?utm_source=openai)) |\n\nRecommendations\n\n1. Book consultations at two or three of the providers listed to compare their approach, technology offerings, experience, and how customizable their plans are.\n2. Ask about pre- and post-treatment care, expected recovery timeline, and how results are maintained.\n3. Review provider credentials\u2014look for board-certified dermatologists or plastic surgeons, as well as positive patient reviews.\n4. Consider combining treatments (e.g., neuromodulator + filler or RF microneedling + skincare) for more comprehensive rejuvenation.\n5. Maintain results with a high-quality home skincare regimen and sun protection.\n\nLet me know if you'd like help narrowing this list by area, budget, or treatment type\u2014or if you'd like assistance evaluating other local options!"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17236,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 1441,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18677
+  },
+  "user": null,
+  "metadata": {}
+}

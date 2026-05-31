@@ -1,0 +1,169 @@
+{
+  "id": "resp_09608426a3707310006a1ca48230608193af3b4bb9e4132b55",
+  "object": "response",
+  "created_at": 1780262018,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780262026,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_09608426a3707310006a1ca482598c8193a14e2f78b9c6f921",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Tratamiento facial profesional en Katy TX"
+        ],
+        "query": "Tratamiento facial profesional en Katy TX"
+      }
+    },
+    {
+      "id": "msg_09608426a3707310006a1ca483cfd88193b8d05273fba0f702",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 709,
+              "start_index": 652,
+              "title": "TSUKI Facial & Spa | Head Spa & Facials in Katy, TX",
+              "url": "https://tsukispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1352,
+              "start_index": 1289,
+              "title": "Suimin Spa Katy TX \u2013 Head Spa, Facial, Massage, Lashes & Wellness",
+              "url": "https://www.suiminspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2048,
+              "start_index": 1947,
+              "title": "Revitalize Infusion & Aesthetics | IV Therapy & Med Spa in Katy, TX",
+              "url": "https://www.revitalizeinfusionaesthetics.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2346,
+              "start_index": 2265,
+              "title": "Facial | The Perfect Touch Spa | Katy",
+              "url": "https://www.theperfecttouchspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2683,
+              "start_index": 2618,
+              "title": "GV SKINCARE | Facial and Body Spa in Katy, TX",
+              "url": "https://www.gvskincare.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3215,
+              "start_index": 3156,
+              "title": "Soo Med Spa | Premium Aesthetic Treatments | Katy, TX",
+              "url": "https://soomedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3529,
+              "start_index": 3446,
+              "title": "Facials | Ageless MedSpa Katy, Texas - M&M`s Site",
+              "url": "https://agelessmedspakaty.com/facials/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3885,
+              "start_index": 3810,
+              "title": "Skincare | Aika Skin Care | Katy TX",
+              "url": "https://www.aikaskincarellc.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4056,
+              "start_index": 3981,
+              "title": "Skincare | Aika Skin Care | Katy TX",
+              "url": "https://www.aikaskincarellc.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4563,
+              "start_index": 4470,
+              "title": "All is Well Holistic Spa | Katy, TX",
+              "url": "https://www.spaweek.com/spa/42405/all-is-well-holistic-spa?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Aqu\u00ed tienes una selecci\u00f3n de opciones profesionales para tratamientos faciales en Katy, Texas, que ofrecen variedad en precios, enfoques (desde med spa hasta tratamientos hol\u00edsticos) y experiencias personalizadas. Todas las opciones est\u00e1n activas a fecha de hoy, domingo 31 de mayo de 2026:\n\n---\n\n**1. TSUKI Facial & Spa**  \n- Ubicaci\u00f3n: Katy, TX (solo con cita previa).  \n- Servicios enfocados en el cuidado integral de piel y cuero cabelludo, como faciales personalizados, \u201cHead Spa\u201d y combinaciones como \u201cHead Spa + Full Facial\u201d.  \n- Ejemplos de precios: Facial personalizado de 90 minutos por $75; \u201cHead Spa + Full Facial\u201d de 150 minutos por $135. ([tsukispa.com](https://tsukispa.com/?utm_source=openai))\n\n---\n\n**2. Suimin Spa**  \n- Ubicaci\u00f3n: 1830 S Mason Rd, Suite 115, Katy, TX 77450.  \n- Ofrece faciales personalizados usando marcas premium y t\u00e9cnicas modernas: desde limpieza profunda, hidrataci\u00f3n, hasta tratamientos con vitamina C, col\u00e1geno y faciales express.  \n- Ejemplos de precios (marcas G.M Collin):  \n   \u2022 Acne Deep Cleansing Oxygenated Facial (1 h) por $169  \n   \u2022 Hydrolifting Facial (1 h 30\u202fmin) por $189  \n   \u2022 Sea C Radiance Facial (1 h 40\u202fmin) por $199  \n   \u2022 Collagen 90 Rejuvenate Facial (30 min) por $89  \n   \u2022 Mini Glowing Facial (1 h) por $79.95 (antes $109) ([suiminspa.com](https://www.suiminspa.com/?utm_source=openai))\n\n---\n\n**3. Revitalize Infusion & Aesthetics**  \n- Ubicaci\u00f3n: 28111 S Firethorne Road, Suite\u202f601, Katy, TX 77494.  \n- Med spa administrado por enfermeros practicantes certificados. Ofrece faciales avanzados como HydroFacial, CryoFacial, Ox\u00edgeno, VI Peel, Microneedling, PRP (Vampire Facial), Salmon DNA y m\u00e1s.  \n- Ejemplos de precios:  \n   \u2022 Express Glow Facial \u2013 $60 (30\u202fmin)  \n   \u2022 CryoFacial \u2013 $140 (30\u202fmin)  \n   \u2022 HydroFacial \u2013 $150 (45\u202fmin)  \n   \u2022 Oxygen Facial \u2013 $180 (30\u202fmin)  \n   \u2022 VI Peel o Microneedling \u2013 $300 (60\u202fmin)  \n   \u2022 PRP Vampire Facial \u2013 $400  \n   \u2022 Salmon DNA Facial \u2013 $425 ([revitalizeinfusionaesthetics.com](https://www.revitalizeinfusionaesthetics.com/?utm_source=openai))\n\n---\n\n**4. The Perfect Touch Spa**  \n- Ubicaci\u00f3n: 2027 N Mason Rd #304, Katy, TX 77499.  \n- Spa general que ofrece faciales, peelings y microneedling, adaptando los servicios al estilo y presupuesto de cada cliente. ([theperfecttouchspa.com](https://www.theperfecttouchspa.com/?utm_source=openai))\n\n---\n\n**5. GV Skin Care Center**  \n- Ubicaci\u00f3n: 23410 Grand Reserve Dr, Suite\u202f302, Katy, TX 77494.  \n- Ofrece tratamientos profesionales de cuidado facial y corporal, con enfoque en resultados naturales y piel saludable. Incluye evaluaci\u00f3n y tratamientos personalizados. ([gvskincare.com](https://www.gvskincare.com/?utm_source=openai))\n\n---\n\n**6. Soo Med Spa**  \n- Ubicaci\u00f3n: 21720 Highland Knolls Drive, Suite\u202f4\u2011A, Katy, TX.  \n- Med spa de estilo coreano con tratamientos est\u00e9ticos de grado m\u00e9dico: faciales personalizados (\u201cSignature Facial\u201d), HydraFacial, microneedling, RF microneedling, peel qu\u00edmicos, inyecciones, entre otros.  \n- La \u201cSignature Facial\u201d es personalizada, m\u00e9dica, de 60\u201375\u202fmin, y ofrece limpieza profunda, exfoliaci\u00f3n, extracci\u00f3n (opcional), sueros y mascarilla con hidrataci\u00f3n intensa. ([soomedspa.com](https://soomedspa.com/?utm_source=openai))\n\n---\n\n**7. Ageless Med Spa**  \n- Ubicaci\u00f3n: 414 W Grand Pkwy S., #115, Katy, TX 77494.  \n- Ofrece variedad de faciales: tradicionales, HydraFacial, peel qu\u00edmicos, IPL y faciales personalizados. Incluye evaluaci\u00f3n de tipo de piel. ([agelessmedspakaty.com](https://agelessmedspakaty.com/facials/?utm_source=openai))\n\n---\n\n**8. Aika Skin Care LLC**  \n- Ubicaci\u00f3n: 24551 Katy Fwy, Katy, TX 77494.  \n- Esteticista local que ofrece una gama de faciales: Glow Facial ($125), Deep Cleansing ($135), Express ($75), Hydraglow ($180), Microdermabrasi\u00f3n ($145), Radiofrecuencia ($145), Back Facial ($150). ([aikaskincarellc.com](https://www.aikaskincarellc.com/?utm_source=openai))  \n- Las rese\u00f1as destacan resultados inmediatos, experiencia detallada y cuidado personalizado. ([aikaskincarellc.com](https://www.aikaskincarellc.com/?utm_source=openai))\n\n---\n\n**9. All Is Well Holistic Spa**  \n- Ubicaci\u00f3n: 2001 Katy Mills Blvd STE I, Katy, TX 77494.  \n- Spa hol\u00edstico con ambiente relajante y variadas opciones de faciales como \u201cSothys Intensive Hydra3Ha\u201d (90\u202fmin \u2014 $180+), \u201cCircadia Custom Facial\u201d (60\u202fmin \u2014 $120+), faciales de oxigenaci\u00f3n, tratamientos Radiance o Glow Ritual, Faciales Dermaplane, y paquetes especiales como \u201cSignature Bliss\u201d de 120\u202fmin por $300. ([spaweek.com](https://www.spaweek.com/spa/42405/all-is-well-holistic-spa?utm_source=openai))\n\n---\n\n**Recomendaciones seg\u00fan tus preferencias:**\n\n\u2022 Para un enfoque m\u00e9dico-avanzado: **Revitalize Infusion & Aesthetics**, **Soo Med Spa** o **Ageless Med Spa**.  \n\u2022 Para una experiencia personalizada y relajante: **TSUKI**, **Suimin Spa**, o **Aika Skin Care**.  \n\u2022 Si prefieres un enfoque hol\u00edstico con ambiente spa: **All Is Well Holistic Spa**.  \n\u2022 Si buscas una alternativa accesible y local: considera **GV Skin Care Center** o **The Perfect Touch Spa**.\n\n---\n\nSi me compartes por ejemplo tu tipo de piel o preferencia de ambiente (cl\u00ednico, relajante, luxe, r\u00e1pido\u2026), puedo ayudarte a afinar la mejor opci\u00f3n para ti."
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17258,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 1378,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18636
+  },
+  "user": null,
+  "metadata": {}
+}

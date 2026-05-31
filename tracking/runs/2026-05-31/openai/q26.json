@@ -1,0 +1,204 @@
+{
+  "id": "resp_010dd7ba26feab2f006a1ca41149b08193be48a2c504c40ede",
+  "object": "response",
+  "created_at": 1780261905,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780261914,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_010dd7ba26feab2f006a1ca4116b6481939a21e9cde1f8124d",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best spas in Katy TX comparison"
+        ],
+        "query": "Best spas in Katy TX comparison"
+      }
+    },
+    {
+      "id": "msg_010dd7ba26feab2f006a1ca413cec08193bb1bc61ebea5567c",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 420,
+              "start_index": 332,
+              "title": "167 Best Med Spas in Katy, Texas (2026) \u2014 Ratings & Prices | Medical Spa Locator",
+              "url": "https://www.medicalspalocator.com/city/katy?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 581,
+              "start_index": 469,
+              "title": "Infrared Sauna Katy | Holistique Healing Spa",
+              "url": "https://www.plungesaunafinder.com/texas/katy/holistique-healing-spa?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 947,
+              "start_index": 835,
+              "title": "Infrared Sauna Katy | Holistique Healing Spa",
+              "url": "https://www.plungesaunafinder.com/texas/katy/holistique-healing-spa?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1125,
+              "start_index": 1054,
+              "title": "Top-Rated Day Spa & Wellness Center in Katy, TX",
+              "url": "https://wellnessspakaty.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1450,
+              "start_index": 1379,
+              "title": "Top-Rated Day Spa & Wellness Center in Katy, TX",
+              "url": "https://wellnessspakaty.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1588,
+              "start_index": 1521,
+              "title": "Tech Sauna Spa \u2013 21777 Merchants Way #330, Katy, TX 77449",
+              "url": "https://techsauna-spa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1905,
+              "start_index": 1838,
+              "title": "Tech Sauna Spa \u2013 21777 Merchants Way #330, Katy, TX 77449",
+              "url": "https://techsauna-spa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2174,
+              "start_index": 2088,
+              "title": "Katy's Best Day Spa [Updated 2026]",
+              "url": "https://houstonhits.com/best-day-spa-in-katy-tx?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2505,
+              "start_index": 2419,
+              "title": "Katy's Best Day Spa [Updated 2026]",
+              "url": "https://houstonhits.com/best-day-spa-in-katy-tx?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2766,
+              "start_index": 2680,
+              "title": "Katy's Best Day Spa [Updated 2026]",
+              "url": "https://houstonhits.com/best-day-spa-in-katy-tx?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2985,
+              "start_index": 2899,
+              "title": "Katy's Best Day Spa [Updated 2026]",
+              "url": "https://houstonhits.com/best-day-spa-in-katy-tx?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3324,
+              "start_index": 3238,
+              "title": "Katy's Best Day Spa [Updated 2026]",
+              "url": "https://houstonhits.com/best-day-spa-in-katy-tx?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3674,
+              "start_index": 3586,
+              "title": "167 Best Med Spas in Katy, Texas (2026) \u2014 Ratings & Prices | Medical Spa Locator",
+              "url": "https://www.medicalspalocator.com/city/katy?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3838,
+              "start_index": 3750,
+              "title": "167 Best Med Spas in Katy, Texas (2026) \u2014 Ratings & Prices | Medical Spa Locator",
+              "url": "https://www.medicalspalocator.com/city/katy?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4126,
+              "start_index": 4008,
+              "title": "4Ever Glow Salon & MedSpa - Katy, TX | Medical Spa Locator",
+              "url": "https://www.medicalspalocator.com/med-spa/4ever-glow-salon-medspa-katy-tx?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Here\u2019s a refined comparison of some of the best spas in Katy, TX as of May 31, 2026. The list includes day spas, holistic wellness centers, medical spas, and unique thermal spa experiences\u2014ideal for different preferences and needs.\n\n---\n\n##  Day & Holistic Spas\n\n### Holistique Healing Spa  \n- Rating: 4.9 with nearly 1,175 reviews ([medicalspalocator.com](https://www.medicalspalocator.com/city/katy?utm_source=openai))  \n- Location: 406 W Grand Pkwy S #280, Katy, TX ([plungesaunafinder.com](https://www.plungesaunafinder.com/texas/katy/holistique-healing-spa?utm_source=openai))  \n- Highlights: Offers services grounded in Traditional Chinese Medicine (TCM)\u2014including lymphatic drainage, cupping, gua sha, infrared sauna, and therapeutic massage. Highly praised for professional, personalized care and a tranquil, clean environment ([plungesaunafinder.com](https://www.plungesaunafinder.com/texas/katy/holistique-healing-spa?utm_source=openai)).  \n\n### Wellness Spa Katy (Holistic Massage & Facial Spa)  \n- Location: 1227 Grand W Blvd, B207, Katy, TX ([wellnessspakaty.com](https://wellnessspakaty.com/?utm_source=openai))  \n- Highlights: Specializes in solo, couple, and group massages, facial treatments, and wellness services rooted in a strong medical foundation. Offers treatments like essential oil massages and spa packages, with a focus on relaxation and rejuvenation ([wellnessspakaty.com](https://wellnessspakaty.com/?utm_source=openai)).\n\n### Tech Sauna Spa  \n- Location: 21777 Merchants Way #330, Katy, TX ([techsauna-spa.com](https://techsauna-spa.com/?utm_source=openai))  \n- Highlights: Focuses on therapeutic massages (deep tissue, couples, head therapy), a sauna capsule, body scrubs, and cupping. All services include a complimentary hot stone treatment; convenient parking and competitive pricing make it accessible ([techsauna-spa.com](https://techsauna-spa.com/?utm_source=openai)).\n\n---\n\n##  Day Spa Favorites from Local Review (Houston Hits 2026)\n\nBased on an in-depth local review, these day spas stood out for their atmosphere, service, and overall experience ([houstonhits.com](https://houstonhits.com/best-day-spa-in-katy-tx?utm_source=openai)):\n\n- **Spa World Houston \u2013 Korean Spa & Sauna**: Located at 929 Westgreen Blvd, Katy; offers immersive Korean thermal experiences like pine salt saunas, jade rooms, and body scrubs. The ambiance, scrub services, and authenticity received praise ([houstonhits.com](https://houstonhits.com/best-day-spa-in-katy-tx?utm_source=openai)).  \n- **Spavia Day Spa \u2013 Cinco Ranch**: Located at 10705 Spring Green Blvd, Cinco Ranch; lauded for serene ambiance, relaxing signature massages, and a cozy relaxation lounge ([houstonhits.com](https://houstonhits.com/best-day-spa-in-katy-tx?utm_source=openai)).  \n- **Holistique Healing Spa** and **Wellness Spa Katy**: Also included in the local review, reinforcing their status as top picks ([houstonhits.com](https://houstonhits.com/best-day-spa-in-katy-tx?utm_source=openai)).  \n- Additional noted spas include **Footworks Boutique Spa & Massage**, **Head Harmony Spa**, **Skyline Wellness and Massage LLC**, and **Hand and Stone Massage and Facial Spa**, all praised for atmosphere, skilled therapists, and tailored treatments ([houstonhits.com](https://houstonhits.com/best-day-spa-in-katy-tx?utm_source=openai)).\n\n---\n\n##  Medical & Aesthetic Spas (Med Spas)\n\nIf you're looking for advanced aesthetic treatments beyond relaxation:\n\n- Katy features over 160 medical spas offering services such as Botox, dermal fillers, laser hair removal, HydraFacials, and body contouring ([medicalspalocator.com](https://www.medicalspalocator.com/city/katy?utm_source=openai)).  \n- **Katy Med Tech Spa** leads with a 5.0 rating from over 1,190 reviews ([medicalspalocator.com](https://www.medicalspalocator.com/city/katy?utm_source=openai)).  \n- **4Ever Glow Salon & MedSpa** also earns high marks with a 4.9 rating from 110 reviews, offering treatments like Botox, laser hair removal, CoolSculpting, and more ([medicalspalocator.com](https://www.medicalspalocator.com/med-spa/4ever-glow-salon-medspa-katy-tx?utm_source=openai)).\n\n---\n\n##  Summary Table (Key Options)\n\n| Spa                     | Focus / Specialty                            | Rating & Reviews            | Notable Features                                                |\n|-------------------------|----------------------------------------------|-----------------------------|-----------------------------------------------------------------|\n| Holistique Healing Spa  | Holistic wellness (TCM, cupping, sauna)      | 4.9 (1,175 reviews)         | Infrared sauna, lymphatic drainage, holistic therapies           |\n| Wellness Spa Katy       | Holistic massage & facial treatments          | \u2014                           | Group massages, med-spa treatments                              |\n| Tech Sauna Spa          | Therapeutic massage & sauna                  | \u2014                           | Sauna capsule, cupping, hot stone included                      |\n| Spa World Houston       | Korean sauna, spa baths                      | Included in 2026 review     | Body scrubs, multi-sauna experiences                            |\n| Spavia \u2013 Cinco Ranch    | Day spa (massage, lounge)                    | Included in 2026 review     | Comfortable atmosphere, signature massages                      |\n| Katy Med Tech Spa       | Medical aesthetic procedures                  | 5.0 (1,193 reviews)         | Botox, fillers, laser, body contouring                         |\n| 4Ever Glow MedSpa       | Medical spa services                          | 4.9 (110 reviews)           | CoolSculpting, Laser, Facial aesthetics                        |\n\n---\n\n##  Recommendation Guide\n\nTo choose the spa that fits you best, consider:\n\n- You want **deep relaxation with holistic treatments** \u2192 Try **Holistique Healing Spa** or **Wellness Spa Katy**.  \n- You prefer **thermal experiences and body scrubs** \u2192 Go to **Spa World Houston**.  \n- You enjoy combo treatments like massage + sauna or cupping \u2192 **Tech Sauna Spa** offers excellent value.  \n- You\u2019re seeking **rejuvenation and professional ambiance** \u2192 **Spavia \u2013 Cinco Ranch** is highly rated.  \n- Looking for **aesthetic enhancements** \u2192 Explore **Katy Med Tech Spa** or **4Ever Glow Salon & MedSpa**.\n\n---\n\nLet me know if you'd like direct pricing, hours, appointment guidance, or help narrowing your selection based on specific services like couples packages, prenatal treatments, or budget preferences!"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17253,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 1310,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18563
+  },
+  "user": null,
+  "metadata": {}
+}

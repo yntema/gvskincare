@@ -1,0 +1,246 @@
+{
+  "id": "resp_093bc531d151f37f006a1ca35a69088194ae12d88ada6e35af",
+  "object": "response",
+  "created_at": 1780261722,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780261732,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_093bc531d151f37f006a1ca35a86b88194bab2926666a3770c",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Professional facial treatment Katy TX"
+        ],
+        "query": "Professional facial treatment Katy TX"
+      }
+    },
+    {
+      "id": "msg_093bc531d151f37f006a1ca35bc91c8194be73d451ac8ba1c1",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 438,
+              "start_index": 381,
+              "title": "TSUKI Facial & Spa | Head Spa & Facials in Katy, TX",
+              "url": "https://tsukispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 600,
+              "start_index": 543,
+              "title": "TSUKI Facial & Spa | Head Spa & Facials in Katy, TX",
+              "url": "https://tsukispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 724,
+              "start_index": 667,
+              "title": "TSUKI Facial & Spa | Head Spa & Facials in Katy, TX",
+              "url": "https://tsukispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1073,
+              "start_index": 980,
+              "title": "GV Skin Care Center - Katy, TX 77494 - Services and Reviews",
+              "url": "https://salondiscover.com/gv-skin-care-center-77494/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1209,
+              "start_index": 1144,
+              "title": "GV SKINCARE | Facial and Body Spa in Katy, TX",
+              "url": "https://www.gvskincare.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1601,
+              "start_index": 1500,
+              "title": "Revitalize Infusion & Aesthetics | IV Therapy & Med Spa in Katy, TX",
+              "url": "https://www.revitalizeinfusionaesthetics.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1871,
+              "start_index": 1770,
+              "title": "Revitalize Infusion & Aesthetics | IV Therapy & Med Spa in Katy, TX",
+              "url": "https://www.revitalizeinfusionaesthetics.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2282,
+              "start_index": 2219,
+              "title": "Suimin Spa Katy TX \u2013 Head Spa, Facial, Massage, Lashes & Wellness",
+              "url": "https://www.suiminspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2439,
+              "start_index": 2376,
+              "title": "Suimin Spa Katy TX \u2013 Head Spa, Facial, Massage, Lashes & Wellness",
+              "url": "https://www.suiminspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2558,
+              "start_index": 2495,
+              "title": "Suimin Spa Katy TX \u2013 Head Spa, Facial, Massage, Lashes & Wellness",
+              "url": "https://www.suiminspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2856,
+              "start_index": 2767,
+              "title": "Signature Facial | Soo Med Spa Katy TX",
+              "url": "https://soomedspa.com/services/signature-facial.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3035,
+              "start_index": 2976,
+              "title": "Soo Med Spa | Premium Aesthetic Treatments | Katy, TX",
+              "url": "https://soomedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3163,
+              "start_index": 3104,
+              "title": "Soo Med Spa | Premium Aesthetic Treatments | Katy, TX",
+              "url": "https://soomedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3494,
+              "start_index": 3387,
+              "title": "Four-Layer Facial | Divinity Spa",
+              "url": "https://www.divinityspa-katy.com/service-page/four-layer-facial?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3663,
+              "start_index": 3556,
+              "title": "Four-Layer Facial | Divinity Spa",
+              "url": "https://www.divinityspa-katy.com/service-page/four-layer-facial?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3940,
+              "start_index": 3869,
+              "title": "4Ever Glow Salon & MedSpa \u2014 Laser Hair Removal, HydraFacial & Body Sculpting | Katy, TX",
+              "url": "https://4everglowmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4187,
+              "start_index": 4116,
+              "title": "4Ever Glow Salon & MedSpa \u2014 Laser Hair Removal, HydraFacial & Body Sculpting | Katy, TX",
+              "url": "https://4everglowmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4365,
+              "start_index": 4294,
+              "title": "4Ever Glow Salon & MedSpa \u2014 Laser Hair Removal, HydraFacial & Body Sculpting | Katy, TX",
+              "url": "https://4everglowmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4507,
+              "start_index": 4436,
+              "title": "4Ever Glow Salon & MedSpa \u2014 Laser Hair Removal, HydraFacial & Body Sculpting | Katy, TX",
+              "url": "https://4everglowmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4843,
+              "start_index": 4776,
+              "title": "KT Spa: Massage &amp; Facials in Katy, TX",
+              "url": "https://ktwellnessspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4972,
+              "start_index": 4905,
+              "title": "KT Spa: Massage &amp; Facials in Katy, TX",
+              "url": "https://ktwellnessspa.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Here are several **highly regarded professional facial treatment providers in Katy, Texas**, offering a range of services\u2014from luxurious customized facials to advanced medspa procedures:\n\n1. TSUKI Facial & Spa  \n   - Offers **Customized Facials** that include deep cleansing, exfoliation, extractions (if needed), custom masks, facial massage, and facial devices (90 minutes, $75) ([tsukispa.com](https://tsukispa.com/?utm_source=openai)).  \n   - Combines scalp and facial care with options like **Head Spa + Full Facial** (150 minutes, $135) ([tsukispa.com](https://tsukispa.com/?utm_source=openai)).  \n   - Appointment-only service with a calm, minimalist ambiance ([tsukispa.com](https://tsukispa.com/?utm_source=openai)).\n\n2. GV Skin Care Center  \n   - A professional skincare facility offering a wide array of facial and body treatments, including HydraFacial, microdermabrasion, PRP, chemical peels, radiofrequency, microneedling, dermaplaning, lymphatic drainage, and more ([salondiscover.com](https://salondiscover.com/gv-skin-care-center-77494/?utm_source=openai)).  \n   - Located at 23410 Grand Reserve Dr., Suite 302, Katy, TX 77494 ([gvskincare.com](https://www.gvskincare.com/?utm_source=openai)).\n\n3. Revitalize Infusion & Aesthetics  \n   - A medspa led by certified Nurse Practitioners offering advanced facials like HydroFacial ($150), Oxygen Facial ($180), CryoFacial ($140), Red Carpet/Fall peel ($180), Microneedling ($300), PRP Vampire Facial ($400), and Salmon DNA Facial ($425) ([revitalizeinfusionaesthetics.com](https://www.revitalizeinfusionaesthetics.com/?utm_source=openai)).  \n   - Located at 28111 S Firethorne Road, Suite 601, Katy, TX 77494, with extended hours into evenings and weekends; mobile services and in-house financing available ([revitalizeinfusionaesthetics.com](https://www.revitalizeinfusionaesthetics.com/?utm_source=openai)).\n\n4. Suimin Spa  \n   - Offers a variety of facials using G.M. Collin products, including Signature Facial (1 hour 30 min, $159), Acne Deep Cleansing Oxygenated Facial (1 hr, $169), Hydrolifting Facial (1 hr 30 min, $189), Sea C Radiance Facial (1 hr 40 min, $199), Collagen 90 Rejuvenate Facial (30 min, $89), and Mini Glowing Facial (1 hr, ~$80) ([suiminspa.com](https://www.suiminspa.com/?utm_source=openai)).  \n   - Also combines facials with head spa and massage treatments for a holistic experience ([suiminspa.com](https://www.suiminspa.com/?utm_source=openai)); located at 1830 S Mason Rd, Suite 115, Katy, TX 77450 ([suiminspa.com](https://www.suiminspa.com/?utm_source=openai)).\n\n5. Soo Med Spa  \n   - Delivers medical-grade, personalized skincare and facials, including Signature Facial (customized steps with cleansing, exfoliation, serum infusion, massage, mask, SPF; 60\u201375 minutes) ([soomedspa.com](https://soomedspa.com/services/signature-facial.html?utm_source=openai)).  \n   - Offers HydraFacial, microneedling, chemical peels, RF microneedling (Morpheus8), and other advanced treatments ([soomedspa.com](https://soomedspa.com/?utm_source=openai)).  \n   - Located at 21720 Highland Knolls Drive, Suite 4\u2011A, Katy, TX ([soomedspa.com](https://soomedspa.com/?utm_source=openai)).\n\n6. Divinity Spa  \n   - Features a specialized **Four-Layer Facial** (75 minutes, $175): a European anti-aging treatment using layers of minerals, vitamins, and moisturizing seaweed to rejuvenate, rebalance, and tone skin ([divinityspa-katy.com](https://www.divinityspa-katy.com/service-page/four-layer-facial?utm_source=openai)).  \n   - Located at 511 S Mason Rd, Suite 122, Katy, TX 77450 ([divinityspa-katy.com](https://www.divinityspa-katy.com/service-page/four-layer-facial?utm_source=openai)).\n\n7. 4Ever Glow Salon & MedSpa  \n   - A medspa offering HydraFacials, microneedling, chemical peels, RF facials, dermaplaning, VI Peels, ultrasonics, and more \u2014 with premium offerings and membership plans ([4everglowmedspa.com](https://4everglowmedspa.com/?utm_source=openai)).  \n   - Notably offers comprehensive membership tiers:  \n     \u2022 Signature Membership ($99/month) includes one facial each month plus extras like LED therapy and chemical peel ([4everglowmedspa.com](https://4everglowmedspa.com/?utm_source=openai))  \n     \u2022 Elite and Luxe tiers offer more advanced facial options, laser services, and priority scheduling ([4everglowmedspa.com](https://4everglowmedspa.com/?utm_source=openai)).  \n   - Located at 722 Katy Fort Bend Road, Suite 500, Katy, TX 77494 ([4everglowmedspa.com](https://4everglowmedspa.com/?utm_source=openai)).\n\n8. KT Wellness Spa  \n   - Provides **Signature Glow Treatments**\u2014customized facial aesthetics to lift, hydrate, and restore the skin\u2019s natural radiance\u2014and combines treatments with massage (e.g., \u201cGlow & Relax\u201d package includes facial + 30-min back massage for $99) ([ktwellnessspa.com](https://ktwellnessspa.com/?utm_source=openai)).  \n   - Situated at 1820 Snake River Road, Suite C, Katy, TX ([ktwellnessspa.com](https://ktwellnessspa.com/?utm_source=openai)).\n\n---\n\n### Comparison Table (Brief Overview)\n\n| Spa / Medspa                        | Type of Facials Offered                                          | Specialty / Highlight                          |\n|------------------------------------|------------------------------------------------------------------|------------------------------------------------|\n| TSUKI Facial & Spa                 | Customized facials, head spa combos                             | Minimalist, tailored, appointment-only         |\n| GV Skin Care Center                | HydraFacial, PRP, microneedling, chemical peels, etc.           | Wide variety of advanced treatments             |\n| Revitalize Infusion & Aesthetics   | HydroFacial, CryoFacial, PRP, Salmon DNA, oxygen facials, etc.  | Nurse Practitioner\u2013supervised, medspa level     |\n| Suimin Spa                         | G.M. Collin facials (varied indulgent options)                  | Combined spa-head treatments in serene setting |\n| Soo Med Spa                        | Medical-grade Signature Facial, HydraFacial, RF microneedling    | Premium, medically-oriented, personalized       |\n| Divinity Spa                       | Four-Layer European anti-aging facial                          | Focus on anti-aging with natural ingredients    |\n| 4Ever Glow Salon & MedSpa         | HydraFacial, advanced facials with memberships                 | Budget-friendly memberships, clinical services  |\n| KT Wellness Spa                    | Glow facial packages with massage combos                       | Relaxation-focused, spa-combo offerings         |\n\n---\n\n### Choosing the Right Spa for Your Needs\n\n- **For tailored, relaxing experiences**: TSUKI Facial & Spa or Suimin Spa offer serene, custom treatments in peaceful settings.\n- **For advanced, medical-grade facials**: Revitalize, Soo Med Spa, and GV Skin Care Center offer high-end treatments with medical oversight.\n- **For anti-aging focus**: Consider Divinity\u2019s Four-Layer Facial or Soo Med Spa\u2019s cutting-edge options like RF microneedling.\n- **For value and consistency**: 4Ever Glow\u2019s membership model ensures regular treatment with financial advantages.\n- **For combined wellness and aesthetic services**: KT Wellness Spa\u2019s packages pair facials with massage for full-body relaxation.\n\nLet me know if you'd like help narrowing down based on specific preferences\u2014budget, type of treatment, or ambiance\u2014or if you'd like contact details, booking info, or access to any current promotions!"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17294,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 1639,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18933
+  },
+  "user": null,
+  "metadata": {}
+}

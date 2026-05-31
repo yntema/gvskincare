@@ -1,0 +1,169 @@
+{
+  "id": "resp_0657568f47c3c24e006a1ca426f7b88193926df7ec979f7dba",
+  "object": "response",
+  "created_at": 1780261926,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780261936,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0657568f47c3c24e006a1ca42711788193b926c67997212246",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Woodhouse Spa alternatives Katy Houston"
+        ],
+        "query": "Woodhouse Spa alternatives Katy Houston"
+      }
+    },
+    {
+      "id": "msg_0657568f47c3c24e006a1ca428754c8193a2acf8fcfcb07662",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 600,
+              "start_index": 543,
+              "title": "TSUKI Facial & Spa | Head Spa & Facials in Katy, TX",
+              "url": "https://tsukispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1041,
+              "start_index": 950,
+              "title": "Day Spa - Facial Spa | Spavia Cinco Ranch | Katy, TX 77494",
+              "url": "https://cincoranchtx.spaviadayspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1498,
+              "start_index": 1392,
+              "title": "Sole Reflextions | (281) 712-2239 | Katy, Texas",
+              "url": "https://www.bizarchive.com/business/sole-reflextions_1d-281-712-2239?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1840,
+              "start_index": 1759,
+              "title": "Facial | The Perfect Touch Spa | Katy",
+              "url": "https://www.theperfecttouchspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2276,
+              "start_index": 2164,
+              "title": "Infrared Sauna Katy | Holistique Healing Spa",
+              "url": "https://www.plungesaunafinder.com/texas/katy/holistique-healing-spa?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2702,
+              "start_index": 2635,
+              "title": "Tech Sauna Spa \u2013 21777 Merchants Way #330, Katy, TX 77449",
+              "url": "https://techsauna-spa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3229,
+              "start_index": 3145,
+              "title": "All is Well Holistic Spa | Katy, TX",
+              "url": "https://www.spaweek.com/spa/42405/all-is-well-spa?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3864,
+              "start_index": 3763,
+              "title": "Revitalize Infusion & Aesthetics | IV Therapy & Med Spa in Katy, TX",
+              "url": "https://www.revitalizeinfusionaesthetics.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4317,
+              "start_index": 4254,
+              "title": "Suimin Spa Katy TX \u2013 Head Spa, Facial, Massage, Lashes & Wellness",
+              "url": "https://www.suiminspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4749,
+              "start_index": 4629,
+              "title": "Looking for a Spa Recommendation",
+              "url": "https://www.reddit.com/r/AskHouston/comments/1ozzo3n/looking_for_a_spa_recommendation/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Here are several excellent spa alternatives to Woodhouse Spa in Katy, Houston\u2014spanning head and facial treatments, massages, holistic therapies, medical spa services, and even Korean-style saunas. Each offers a distinct experience, whether you're seeking quiet luxury, specialized wellness, or group-friendly services.\n\n---\n\n### 1. **TSUKI Facial & Spa**\n- Offers customized facials and signature \"head spa\" rituals combining scalp therapy with mini or full facials.  \n- Treatments last between 90 and 150 minutes and start around $75\u2013$135.  \n([tsukispa.com](https://tsukispa.com/?utm_source=openai))\n\n Ideal for those looking for tailored skincare in a serene, minimalist setting.\n\n---\n\n### 2. **Spavia Cinco Ranch**\n- A full-service day spa offering massages, facials, body treatments, waxing, and men's services within resort-like amenities such as plush robes and tranquil retreat rooms.  \n- Located at 10705 Spring Green Boulevard, Suite 600.  \n([cincoranchtx.spaviadayspa.com](https://cincoranchtx.spaviadayspa.com/?utm_source=openai))\n\n Perfect for spa-goers who enjoy a luxurious, all-inclusive atmosphere.\n\n---\n\n### 3. **Sole Reflextions**\n- Specializes in reflexology and foot-focused spa treatments for feet, legs, arms, neck, and shoulders.  \n- Open daily from 10 AM\u20139 PM, located at 2212 Katy Flewellen Rd #200.  \n- A second location opens mid-July at 6845 Peek Rd, Suite 160.  \n([bizarchive.com](https://www.bizarchive.com/business/sole-reflextions_1d-281-712-2239?utm_source=openai))\n\n Great option if you're looking for a relaxing, reflexology-centered experience.\n\n---\n\n### 4. **The Perfect Touch Spa**\n- Offers facials, chemical peels, microneedling, and body sculpting services.  \n- Located at 2027 N Mason Rd #304, open Monday\u2013Saturday.  \n([theperfecttouchspa.com](https://www.theperfecttouchspa.com/?utm_source=openai))\n\n A good alternative for specialized facial and aesthetic skincare treatments.\n\n---\n\n### 5. **Holistique Healing Spa**\n- Provides infrared sauna, lymphatic drainage, therapeutic massage, TCM cupping, gua sha therapy, and steam rooms.  \n- Located at 406 W Grand Pkwy S #280, open daily from approximately 8:30 AM\u20137:30 PM.  \n([plungesaunafinder.com](https://www.plungesaunafinder.com/texas/katy/holistique-healing-spa?utm_source=openai))\n\n A holistic, wellness-focused retreat offering both Eastern therapies and modern modalities.\n\n---\n\n### 6. **Tech Sauna Spa**\n- A mix of deep tissue massage, head therapy, foot massage, sauna capsule, cupping, body scrubs, and more, with complimentary hot stone in every service.  \n- Convenient location at 21777 Merchants Way #330, open daily 10 AM\u20138 PM.  \n([techsauna-spa.com](https://techsauna-spa.com/?utm_source=openai))\n\n A practical yet luxurious environment ideal for stress relief and recovery at a competitive price.\n\n---\n\n### 7. **All is Well Holistic Spa**\n- Features massage therapies (Swedish, lymphatic drainage, prenatal, hot stone, sports, deep tissue), facial/skin care, holistic treatments, and glamorous party suites (including couples and spa party rooms).  \n- Located at 2001 Katy Mills Blvd, Ste I, open Monday and Wednesday\u2013Sunday 9 AM\u20138 PM.  \n([spaweek.com](https://www.spaweek.com/spa/42405/all-is-well-spa?utm_source=openai))\n\n Excellent for group outings or someone seeking a blend of holistic care and community experience.\n\n---\n\n### 8. **Revitalize Infusion & Aesthetics (Med Spa)**\n- Offers medical-style services including IV therapy, Botox, dermal fillers, advanced facials (HydraFacial, peels, PRP), body sculpting, cryotherapy, weight loss injections, and luxury facials like the Valmont Serenity Wellness facial (~$400).  \n- Located at 28111 S Firethorne Rd Suite 601; open Monday\u2013Thursday 9 AM\u20138 PM, Friday\u2013Saturday until 9 PM, Sunday until 5 PM.  \n([revitalizeinfusionaesthetics.com](https://www.revitalizeinfusionaesthetics.com/?utm_source=openai))\n\n Perfect for those wanting a high-end medical spa experience for rejuvenation and advanced skincare.\n\n---\n\n### 9. **Suimin Spa**\n- Offers head spa (scalp and neck/shoulder relaxation using Eastern methods), customized facials (brightening, lifting, express, collagen boosting), and massages\u2014all in a serene setting.  \n- Located at 1830 S Mason Rd, Suite 115; bookings available online.  \n([suiminspa.com](https://www.suiminspa.com/?utm_source=openai))\n\n Offers a beautifully balanced blend of scalp, skin, and full-body wellness.\n\n---\n\n### Bonus: **Korean-Style Spa**\nThough not a traditional day spa, **\"Spa World\"** was recommended by locals as a Korean spa alternative nearby\u2014offering sauna rooms, soaking baths, and more akin to bathhouse-style relaxation.  \n([reddit.com](https://www.reddit.com/r/AskHouston/comments/1ozzo3n/looking_for_a_spa_recommendation/?utm_source=openai))\n\n---\n\n### Quick Comparison Table\n\n| Spa                            | Specialty / Vibe                                   | Standout Feature                             |\n|--------------------------------|----------------------------------------------------|----------------------------------------------|\n| TSUKI Facial & Spa            | Minimalist, bespoke facials & head spa              | Scalp + facial combo                         |\n| Spavia Cinco Ranch            | Full-service resort-day spa                        | Resort-amenity feel                          |\n| Sole Reflextions              | Reflexology & foot-centric treatments              | Opening a second location soon                |\n| The Perfect Touch Spa         | Advanced skincare treatments                       | Peels, microneedling                         |\n| Holistique Healing Spa        | Holistic & TCM-based treatments                    | Infrared sauna & cupping                     |\n| Tech Sauna Spa                | All-around wellness (massage, sauna, spa)          | Package flexibility & hot stone included     |\n| All is Well Holistic Spa      | Holistic massages + group spa parties              | Party suites & full-body care                |\n| Revitalize Infusion & Aesthetics | Medical-grade beauty & wellness                  | IV, injectables, advanced facials            |\n| Suimin Spa                    | Eastern-infused spa experience                     | Scalp/beauty fusion                          |\n| Spa World (Korean spa)        | Bathhouse with sauna rooms                         | Korean-style sauna experience                |\n\n---\n\n### Recommendations Based on Your Preference\n\n- Want the **woodhouse-style serene luxury**? Try **TSUKI** or **Spavia Cinco Ranch**.  \n- Seeking **holistic and body-focused wellness**? Go for **Holistique Healing Spa**, **Tech Sauna Spa**, or **All is Well**.  \n- Interested in **advanced beauty or medical treatments**? **Revitalize** is your go-to.  \n- Craving a **unique scalp treatment** with facial perks? **Suimin Spa** fits well.  \n- In the mood for a **Korean sauna-style experience**? Try local **Spa World** if available.\n\n---\n\nIf you'd like help narrowing it down based on your budget, preferred treatments, or whether you'd like a solo or group experience, feel free to let me know\u2014I\u2019d be happy to assist further!"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17196,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 1512,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18708
+  },
+  "user": null,
+  "metadata": {}
+}

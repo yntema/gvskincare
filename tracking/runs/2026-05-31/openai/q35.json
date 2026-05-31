@@ -1,0 +1,225 @@
+{
+  "id": "resp_0ea90f520ca6503b006a1ca465d8908195a3bdf2b501a7ee42",
+  "object": "response",
+  "created_at": 1780261989,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780261999,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0ea90f520ca6503b006a1ca465f6608195b46d59690a8ce6fa",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best anti-aging treatments 2026"
+        ],
+        "query": "Best anti-aging treatments 2026"
+      }
+    },
+    {
+      "id": "msg_0ea90f520ca6503b006a1ca46764d4819599a0c204f887fc8f",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 804,
+              "start_index": 695,
+              "title": "The Best Anti-Aging Products of 2026: Expert-Backed Skincare Guide \u2013 Greater Mood and Wellness",
+              "url": "https://greatermood.com/blogs/news/best-anti-aging-products-2026-guide?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1241,
+              "start_index": 1132,
+              "title": "The Best Anti-Aging Products of 2026: Expert-Backed Skincare Guide \u2013 Greater Mood and Wellness",
+              "url": "https://greatermood.com/blogs/news/best-anti-aging-products-2026-guide?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1627,
+              "start_index": 1518,
+              "title": "The Best Anti-Aging Products of 2026: Expert-Backed Skincare Guide \u2013 Greater Mood and Wellness",
+              "url": "https://greatermood.com/blogs/news/best-anti-aging-products-2026-guide?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2063,
+              "start_index": 1942,
+              "title": "What\u2019s the best anti-aging, skin longevity routine for 2026? | MDhair",
+              "url": "https://www.mdhair.co/article/what-s-the-best-anti-aging-skin-longevity-routine-for-2026?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2486,
+              "start_index": 2358,
+              "title": "2026 Updates in Dermatology",
+              "url": "https://www.skincarephysicians.net/content/uploads/2026/01/SCP_Newsletter_2026.pdf?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2986,
+              "start_index": 2838,
+              "title": "Merz Aesthetics' Radiesse Receives FDA Approval for D\u00e9collet\u00e9 Wrinkles - American Med Spa Association",
+              "url": "https://www.americanmedspa.org/news/merz-aesthetics-radiesse-receives-fda-approval-for-decollete-wrinkles/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3733,
+              "start_index": 3477,
+              "title": "Klothea Bio Announces the Launch of a Phase 1b Clinical",
+              "url": "https://www.globenewswire.com/de/news-release/2026/02/19/3241223/0/en/klothea-bio-announces-the-launch-of-a-phase-1b-clinical-trial-of-akl003-an-alpha-klotho-mrna-therapeutic-for-the-extension-of-human-lifespan.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4383,
+              "start_index": 4111,
+              "title": "Cyclarity Unveils First-Ever Clinical Data Demonstrating",
+              "url": "https://www.globenewswire.com/news-release/2026/05/14/3294723/0/en/cyclarity-unveils-first-ever-clinical-data-demonstrating-excretion-of-oxidized-cholesterol-at-american-heart-association-vascular-discovery-scientific-sessions.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4765,
+              "start_index": 4636,
+              "title": "ARPA-H designates up to $144M for anti-aging medical research",
+              "url": "https://www.fiercebiotech.com/biotech/arpa-h-designates-144m-anti-aging-medical-research?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5158,
+              "start_index": 5072,
+              "title": "Life Biosciences",
+              "url": "https://en.wikipedia.org/wiki/Life_Biosciences?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5677,
+              "start_index": 5551,
+              "title": "A clinical trial is set to put \u2018partial reprogramming\u2019, an experimental treatment that uses targeted protein expression to reverse cellular ageing to the test in people for the first time.",
+              "url": "https://www.reddit.com/r/Futurology/comments/1sguq9s/a_clinical_trial_is_set_to_put_partial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 6157,
+              "start_index": 6026,
+              "title": "Turning back time: a comprehensive list of interventions that decrease next-generation epigenetic aging clocks in humans (2026)",
+              "url": "https://www.reddit.com/r/immortalists/comments/1ts93dp/turning_back_time_a_comprehensive_list_of/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 6986,
+              "start_index": 6877,
+              "title": "The Best Anti-Aging Products of 2026: Expert-Backed Skincare Guide \u2013 Greater Mood and Wellness",
+              "url": "https://greatermood.com/blogs/news/best-anti-aging-products-2026-guide?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 7312,
+              "start_index": 7184,
+              "title": "2026 Updates in Dermatology",
+              "url": "https://www.skincarephysicians.net/content/uploads/2026/01/SCP_Newsletter_2026.pdf?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 7703,
+              "start_index": 7555,
+              "title": "Merz Aesthetics' Radiesse Receives FDA Approval for D\u00e9collet\u00e9 Wrinkles - American Med Spa Association",
+              "url": "https://www.americanmedspa.org/news/merz-aesthetics-radiesse-receives-fda-approval-for-decollete-wrinkles/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 8211,
+              "start_index": 7955,
+              "title": "Klothea Bio Announces the Launch of a Phase 1b Clinical",
+              "url": "https://www.globenewswire.com/de/news-release/2026/02/19/3241223/0/en/klothea-bio-announces-the-launch-of-a-phase-1b-clinical-trial-of-akl003-an-alpha-klotho-mrna-therapeutic-for-the-extension-of-human-lifespan.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 8517,
+              "start_index": 8431,
+              "title": "Life Biosciences",
+              "url": "https://en.wikipedia.org/wiki/Life_Biosciences?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 8820,
+              "start_index": 8689,
+              "title": "Turning back time: a comprehensive list of interventions that decrease next-generation epigenetic aging clocks in humans (2026)",
+              "url": "https://www.reddit.com/r/immortalists/comments/1ts93dp/turning_back_time_a_comprehensive_list_of/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Here\u2019s a comprehensive overview of the **best anti-aging (\u201cskin longevity\u201d and systemic healthspan) treatments in 2026**, incorporating the latest developments\u2014topical, medical, and experimental. Where available, I've included specifics on FDA approvals, clinical trial phases, and innovation trends.\n\n---\n\n##  1. Proven Topical & Aesthetic Skincare Approaches (\"Skin Longevity\")\n\n- **Retinoids (Next-Gen Versions)**  \n  Retinoids remain the gold standard for combating fine lines, wrinkles, and skin texture issues. In 2026, formulations like encapsulated retinol and retinaldehyde deliver equivalent efficacy to prescription-strength versions but with reduced irritation (less \u201cretinol burn\u201d) ([greatermood.com](https://greatermood.com/blogs/news/best-anti-aging-products-2026-guide?utm_source=openai)).\n\n- **Advanced Sunscreens (Bemotrizinol-Based)**  \n  High-performance SPF is central to preventing visible aging\u2014given UV exposure accounts for around 80% of skin aging. The latest sunscreens include Bemotrizinol, offering superior photostability, plus antioxidant infusions (e.g., Vitamin C) to combat environmental stressors ([greatermood.com](https://greatermood.com/blogs/news/best-anti-aging-products-2026-guide?utm_source=openai)).\n\n- **Peptides & Copper Peptides**  \n  Peptides are signaling molecules that help stimulate collagen and elastin. Notably, copper peptides are gaining traction for their ability to repair skin, enhance firmness, and deliver a natural \u201cplumping\u201d effect on par with injectables ([greatermood.com](https://greatermood.com/blogs/news/best-anti-aging-products-2026-guide?utm_source=openai)).\n\n- **Refined Skincare Routines (\u201cBack to Basics\u201d with Smarter Delivery)**  \n  The emphasis in 2026 is on simplified, consistent routines: \u201cProtect (AM), repair (PM), repeat.\u201d Innovations focus on better delivery systems and combining stabilized Vitamin C, paced retinoids, and peptide signaling\u2014not novelty alone ([mdhair.co](https://www.mdhair.co/article/what-s-the-best-anti-aging-skin-longevity-routine-for-2026?utm_source=openai)).\n\n- **In-Clinic Modalities (Fractional, Ultrasound, Radiofrequency)**  \n  Devices like Tixel (\u201cmild wrinkling\u201d), RF (radiofrequency), and ultrasound treatments are clinically validated to stimulate collagen and elastic tissue production, offering aesthetic improvements in firmness and texture ([skincarephysicians.net](https://www.skincarephysicians.net/content/uploads/2026/01/SCP_Newsletter_2026.pdf?utm_source=openai)).\n\n---\n\n##  2. Injectable & Biostimulator Treatments\n\n- **Radiesse Approved for D\u00e9collet\u00e9 Wrinkles**  \n  As of April 8, 2026, the FDA approved Radiesse\u2014a regenerative biostimulator\u2014for treating wrinkles in the d\u00e9collet\u00e9 area. This marks an expansion beyond facial applications, highlighting its efficacy in firming and tightening delicate skin regions ([americanmedspa.org](https://www.americanmedspa.org/news/merz-aesthetics-radiesse-receives-fda-approval-for-decollete-wrinkles/?utm_source=openai)).\n\n---\n\n##  3. Systemic and Regenerative Therapies Under Development\n\n- **AKL003 (Alpha\u2011Klotho mRNA Therapeutic)**  \n  In February 2026, Klothea Bio began a Phase 1b trial (randomized, double-blind, placebo-controlled) of AKL003, an mRNA-based agent aiming to upregulate the Klotho protein\u2014a biomarker closely tied to healthy aging across multiple organs. The study is measuring safety, tolerability, and exploratory biomarkers like mitochondrial function, inflammation, and quality of life ([globenewswire.com](https://www.globenewswire.com/de/news-release/2026/02/19/3241223/0/en/klothea-bio-announces-the-launch-of-a-phase-1b-clinical-trial-of-akl003-an-alpha-klotho-mrna-therapeutic-for-the-extension-of-human-lifespan.html?utm_source=openai)).\n\n- **Cyclarity\u2019s UDP\u2011003 (7\u2011Ketocholesterol Removal)**  \n  Presented at a May 14, 2026 conference, this Phase 1 trial demonstrated, for the first time in humans, safe mobilization and urinary excretion of 7-ketocholesterol\u2014a root driver of atherosclerosis. The agent achieved disease-modifying action, potentially reversing cardiovascular aging and associated systemic damage ([globenewswire.com](https://www.globenewswire.com/news-release/2026/05/14/3294723/0/en/cyclarity-unveils-first-ever-clinical-data-demonstrating-excretion-of-oxidized-cholesterol-at-american-heart-association-vascular-discovery-scientific-sessions.html?utm_source=openai)).\n\n- **ARPA-H\u2019s PROSPR Initiative**  \n  The U.S. Advanced Research Projects Agency for Health is investing up to $144 million over five years into anti-aging research\u2014including new biomarkers and interventions\u2014to extend healthspan across the population ([fiercebiotech.com](https://www.fiercebiotech.com/biotech/arpa-h-designates-144m-anti-aging-medical-research?utm_source=openai)).\n\n- **Gene Therapy for Partial De-Aging (ER\u2011100)**  \n  Life Biosciences received FDA clearance in early 2026 to initiate human testing of ER-100, an AAV-based gene therapy targeting optic neuropathies such as certain glaucoma forms. This marks the first partial de-aging gene therapy entering human trials ([en.wikipedia.org](https://en.wikipedia.org/wiki/Life_Biosciences?utm_source=openai)).\n\n---\n\n##  4. Cutting\u2011Edge and Experimental Therapies (Early-Stage)\n\n- **Partial Cellular Reprogramming / Epigenetic Therapies**  \n  Clinical trials are underway in 2026 to test partial reprogramming using Yamanaka factors to rejuvenate aged tissues\u2014starting in less risky areas like the eye. This is based on the concept that aging reflects epigenetic shifts rather than irreversible damage ([reddit.com](https://www.reddit.com/r/Futurology/comments/1sguq9s/a_clinical_trial_is_set_to_put_partial/?utm_source=openai)).\n\n- **Senolytics & Epigenetic Clocks**  \n  Senolytic drugs are beginning to enter later-stage trials. Meanwhile, interventions shown to reduce epigenetic aging (as measured by DNA methylation clocks) include semaglutide, caloric restriction, exercise, omega-3s, multivitamins, and even umbilical cord plasma\u2014though many are in observational phases ([reddit.com](https://www.reddit.com/r/immortalists/comments/1ts93dp/turning_back_time_a_comprehensive_list_of/?utm_source=openai)).\n\n---\n\n##  Summary Table: Best Anti\u2011Aging Treatments in 2026\n\n| Category                      | Treatment/Approach                                        | Status & Highlights                                                                                                                                     |\n|-------------------------------|-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Topical Skincare              | Encapsulated retinoids, Bemotrizinol SPF, copper peptides | Widely available; strong dermatologist support for skin longevity ([greatermood.com](https://greatermood.com/blogs/news/best-anti-aging-products-2026-guide?utm_source=openai))                                            |\n| In-Clinic Options             | Tixel, RF, ultrasound modalities                          | Clinically effective for firming and texture improvements ([skincarephysicians.net](https://www.skincarephysicians.net/content/uploads/2026/01/SCP_Newsletter_2026.pdf?utm_source=openai))                                                                            |\n| Injectable Biostimulators     | Radiesse (d\u00e9collet\u00e9 approval)                             | FDA-approved in April 2026 for notable wrinkle reduction in chest area ([americanmedspa.org](https://www.americanmedspa.org/news/merz-aesthetics-radiesse-receives-fda-approval-for-decollete-wrinkles/?utm_source=openai))                                                                 |\n| Regenerative Medicine         | AKL003 (alpha-Klotho), UDP\u2011003 (7KC removal)              | Early-phase human trials; promising potential for healthspan extension and plaque reversal ([globenewswire.com](https://www.globenewswire.com/de/news-release/2026/02/19/3241223/0/en/klothea-bio-announces-the-launch-of-a-phase-1b-clinical-trial-of-akl003-an-alpha-klotho-mrna-therapeutic-for-the-extension-of-human-lifespan.html?utm_source=openai))                             |\n| Gene & Epigenetic Therapies   | ER\u2011100, partial reprogramming                            | First human trials launched for de-aging therapies targeting optic health and cell rejuvenation ([en.wikipedia.org](https://en.wikipedia.org/wiki/Life_Biosciences?utm_source=openai))        |\n| Systemic & Senolytic Agents   | Lifestyle, semaglutide, supplements, senolytics          | Growing evidence on epigenetic age reversal; many still experimental ([reddit.com](https://www.reddit.com/r/immortalists/comments/1ts93dp/turning_back_time_a_comprehensive_list_of/?utm_source=openai))                                                  |\n\n---\n\n###  Bottom Line\n\nFor most individuals\u2014especially in the U.S. in May 2026\u2014the most reliable anti-aging strategies remain topical and aesthetic approaches: next-gen retinoids, advanced sunscreens, copper peptides, and professionally delivered treatments like RF or Tixel.\n\nIf you're interested in deeper regenerative or longevity therapies, several are entering **Phase 1 trials** (e.g., AKL003, UDP\u2011003, ER\u2011100) and could potentially shape the future of healthspan medicine. Contacting a specialist in dermatology or longevity medicine is a good step if you're considering these cutting-edge options.\n\nLet me know if you'd like details on any specific treatment, product, or clinical trial."
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17157,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 1685,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18842
+  },
+  "user": null,
+  "metadata": {}
+}

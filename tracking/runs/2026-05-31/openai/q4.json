@@ -1,0 +1,225 @@
+{
+  "id": "resp_03584c2185a34b5c006a1ca33f263081949b68a83f92723709",
+  "object": "response",
+  "created_at": 1780261695,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780261704,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_03584c2185a34b5c006a1ca33f3fe08194abb7ed582b97c8e6",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best medspa in Katy TX"
+        ],
+        "query": "Best medspa in Katy TX"
+      }
+    },
+    {
+      "id": "msg_03584c2185a34b5c006a1ca341e1e081949818397b7505184b",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 543,
+              "start_index": 425,
+              "title": "4Ever Glow Salon & MedSpa - Katy, TX | Medical Spa Locator",
+              "url": "https://www.medicalspalocator.com/med-spa/4ever-glow-salon-medspa-katy-tx?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 898,
+              "start_index": 797,
+              "title": "Revitalize Infusion & Aesthetics | IV Therapy & Med Spa in Katy, TX",
+              "url": "https://www.revitalizeinfusionaesthetics.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1162,
+              "start_index": 1061,
+              "title": "Revitalize Infusion & Aesthetics | IV Therapy & Med Spa in Katy, TX",
+              "url": "https://www.revitalizeinfusionaesthetics.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1419,
+              "start_index": 1318,
+              "title": "Revitalize Infusion & Aesthetics | IV Therapy & Med Spa in Katy, TX",
+              "url": "https://www.revitalizeinfusionaesthetics.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1666,
+              "start_index": 1599,
+              "title": "Med Spa in Katy, TX | Hibiscus Aesthetics & Wellness",
+              "url": "https://www.hibiscus.health/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1830,
+              "start_index": 1763,
+              "title": "Med Spa in Katy, TX | Hibiscus Aesthetics & Wellness",
+              "url": "https://www.hibiscus.health/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1958,
+              "start_index": 1891,
+              "title": "Med Spa in Katy, TX | Hibiscus Aesthetics & Wellness",
+              "url": "https://www.hibiscus.health/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2213,
+              "start_index": 2154,
+              "title": "Soo Med Spa | Premium Aesthetic Treatments | Katy, TX",
+              "url": "https://soomedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2447,
+              "start_index": 2388,
+              "title": "Soo Med Spa | Premium Aesthetic Treatments | Katy, TX",
+              "url": "https://soomedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2650,
+              "start_index": 2591,
+              "title": "Soo Med Spa | Premium Aesthetic Treatments | Katy, TX",
+              "url": "https://soomedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2912,
+              "start_index": 2845,
+              "title": "Best Medical Spa in Katy Texas - Katy Medi Spa",
+              "url": "https://www.katymedispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3125,
+              "start_index": 3058,
+              "title": "Best Medical Spa in Katy Texas - Katy Medi Spa",
+              "url": "https://www.katymedispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3389,
+              "start_index": 3320,
+              "title": "Medical Spa | Richmond, TX | Ara Med Spa",
+              "url": "https://www.thearamedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3621,
+              "start_index": 3558,
+              "title": "MedComplete | Primary Care & Med Spa in Katy, TX",
+              "url": "https://medcomplete.org/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3831,
+              "start_index": 3760,
+              "title": "Medical Spa & Aesthetics Clinic in Katy, TX - Macie Aesthetics",
+              "url": "https://macieaesthetics.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4077,
+              "start_index": 4008,
+              "title": "HTX Aesthetics | Leading Medical Spa in Katy, TX",
+              "url": "https://htx-aesthetics.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4353,
+              "start_index": 4288,
+              "title": "Med Spa in Katy, TX | Selah MediSpa",
+              "url": "https://selahmedispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4623,
+              "start_index": 4562,
+              "title": "Medspa in Katy| IV Therapy, weight loss, Botox | GlowMD",
+              "url": "https://www.drglowtx.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "If you're looking for the **best medspa in Katy, Texas** as of late May 2026, here are several top-rated options\u2014each excelling in its own way. \"Best\" is subjective and depends on your priorities, whether it\u2019s exceptional ratings, specialized services, physician-led care, or luxury experiences.\n\n---\n\n**1. 4Ever Glow Salon & MedSpa**  \n\u2022 Holds one of the highest customer ratings in the area: **4.9 stars from 110 reviews** ([medicalspalocator.com](https://www.medicalspalocator.com/med-spa/4ever-glow-salon-medspa-katy-tx?utm_source=openai)).  \n\u2022 Offers a wide range of services typical of a medical spa. If you prioritize reputation and overall guest satisfaction, this is a strong contender.\n\n---\n\n**2. Revitalize Infusion & Aesthetics**  \n\u2022 Known for a **consistent 5-star rating** on Google ([revitalizeinfusionaesthetics.com](https://www.revitalizeinfusionaesthetics.com/?utm_source=openai)).  \n\u2022 Offers a unique combination of **IV infusion therapy, aesthetic treatments**, body sculpting, medical weight loss, hormone therapy, and even mobile services ([revitalizeinfusionaesthetics.com](https://www.revitalizeinfusionaesthetics.com/?utm_source=openai)).  \n\u2022 Every treatment is performed by **certified nurse practitioners**, and in-house financing available makes this an accessible and well-reviewed choice ([revitalizeinfusionaesthetics.com](https://www.revitalizeinfusionaesthetics.com/?utm_source=openai)).\n\n---\n\n**3. Hibiscus Aesthetics & Wellness**  \n\u2022 Focuses on **physician-led aesthetic care, medical weight loss, and hormone optimization**, especially tailored for midlife women ([hibiscus.health](https://www.hibiscus.health/?utm_source=openai)).  \n\u2022 Offers both **in-person and secure virtual consultations** (telemedicine across 23 states) ([hibiscus.health](https://www.hibiscus.health/?utm_source=openai)).  \n\u2022 Comes with a strong **5-star rating from 132 reviews** ([hibiscus.health](https://www.hibiscus.health/?utm_source=openai)).  \nIf you're looking for medically integrative care, this may be your best match.\n\n---\n\n**4. Soo Med Spa**  \n\u2022 Positioned as a **premium, personalized med spa** in Katy, with a **5-star rating** ([soomedspa.com](https://soomedspa.com/?utm_source=openai)).  \n\u2022 Specializes in med\u2011grade facials, injectables (Botox, Dysport, Xeomin, Daxxify), fillers, skin tightening, chemical peels, microneedling, hair restoration PRP, and more ([soomedspa.com](https://soomedspa.com/?utm_source=openai)).  \n\u2022 Emphasizes elegant, refined care based on a philosophy of beauty (name \u201cSoo\u201d), appealing if you're seeking luxury and tailored aesthetics ([soomedspa.com](https://soomedspa.com/?utm_source=openai)).\n\n---\n\n**5. Katy Medi Spa**  \n\u2022 Physician-led with a wide treatment range\u2014**injectables, microneedling, laser hair removal, body contouring, hormone therapy, IV drips**, and functional medicine ([katymedispa.com](https://www.katymedispa.com/?utm_source=openai)).  \n\u2022 Promotes a mix of **medical and wellness services** under one roof and delivers advanced treatments in an intimate, luxury-like environment ([katymedispa.com](https://www.katymedispa.com/?utm_source=openai)).\n\n---\n\n**6. Other Noteworthy Contenders:**  \n\u2022 **Ara Med Spa** \u2013 Founded in 2024, offers Botox, fillers, laser resurfacing, and body contouring with a focus on affordability and personalization ([thearamedspa.com](https://www.thearamedspa.com/?utm_source=openai)).  \n\u2022 **MedComplete** \u2013 Integrates medspa services (lasers, injectables, skin tightening, fat freezing) with **primary care**, offering telehealth and in-clinic options ([medcomplete.org](https://medcomplete.org/?utm_source=openai)).  \n\u2022 **Macie Aesthetics** \u2013 Offers injectables, laser therapy, IV hydration, and skin rejuvenation in a welcoming, evidence-based setting ([macieaesthetics.com](https://macieaesthetics.com/?utm_source=openai)).  \n\u2022 **HTX Aesthetics** \u2013 Led by a board-certified aesthetic nurse specialist with over a decade of experience; specializes in neurotoxins, fillers, and medical-grade skincare ([htx-aesthetics.com](https://htx-aesthetics.com/?utm_source=openai)).  \n\u2022 **Selah MediSpa** \u2013 Offers a broad mix of aesthetic and wellness treatments\u2014injectables, weight\u2011loss protocols, body contouring, HydraFacial, microneedling, and more\u2014all aiming at \u201cLuxury Made Affordable\u201d ([selahmedispa.com](https://selahmedispa.com/?utm_source=openai)).  \n\u2022 **GlowMD Aesthetics & Wellness Institute** \u2013 Founded by a board-certified physician with over 15 years of experience, offering a blend of aesthetics, wellness, skincare, weight loss, and hormone balance ([drglowtx.com](https://www.drglowtx.com/?utm_source=openai)).\n\n---\n\n### Choosing the Right Medspa for You\n\nTo help you decide, here are tailored recommendations based on your priorities:\n\n\u2022 If you want **outstanding ratings and a trusted local favorite**:  \n\u202f\u202f4Ever Glow (4.9 / 110 reviews) or Revitalize (5-star).\n\n\u2022 If you're looking for **physician-led or clinically integrated wellness services**:  \n\u202f\u202fHibiscus Aesthetics, Katy Medi Spa, or MedComplete.\n\n\u2022 If your priority is **luxurious and personalized aesthetic treatments**:  \n\u202f\u202fSoo Med Spa or GlowMD.\n\n\u2022 If you want **affordable, broad-ranging services in a comfortable setting**:  \n\u202f\u202fSelah MediSpa or Ara Med Spa.\n\n\u2022 If you appreciate **skilled injector leadership with a focus on precision**:  \n\u202f\u202fHTX Aesthetics.\n\n---\n\n### Quick Comparison Table\n\n| Your Priority                          | Recommended Medspa                   |\n|----------------------------------------|--------------------------------------|\n| Top ratings & broad services            | Revitalize / 4Ever Glow              |\n| Physician\u2011led wellness & aesthetics     | Hibiscus Aesthetics / MedComplete    |\n| Luxury, personalized aesthetics         | Soo Med Spa / GlowMD                 |\n| Budget\u2011friendly, diverse offerings     | Selah MediSpa / Ara Med Spa          |\n| Precision injector expertise            | HTX Aesthetics                       |\n\n---\n\nLet me know if you'd like help comparing prices, booking appointments, or narrowing it based on specific treatments (e.g., Botox, weight loss, IV therapy)."
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17290,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 1321,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18611
+  },
+  "user": null,
+  "metadata": {}
+}

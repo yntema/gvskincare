@@ -1,0 +1,225 @@
+{
+  "id": "resp_0141a557a4d46f11006a1ca41bb2d0819482a82a3aafe1e7f4",
+  "object": "response",
+  "created_at": 1780261915,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780261925,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0141a557a4d46f11006a1ca41beb988194afe05d82e2e8c6c2",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Hand and Stone vs independent facial spa Katy"
+        ],
+        "query": "Hand and Stone vs independent facial spa Katy"
+      }
+    },
+    {
+      "id": "msg_0141a557a4d46f11006a1ca41e98d481949f5b211911d5a37d",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 499,
+              "start_index": 419,
+              "title": "Massage, Facial & Spa Treatments Near Katy - Hand & Stone Massage and Facial Spa",
+              "url": "https://handandstone.com/locations/katy/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 771,
+              "start_index": 691,
+              "title": "Massage, Facial & Spa Treatments Near Katy - Hand & Stone Massage and Facial Spa",
+              "url": "https://handandstone.com/locations/katy/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1002,
+              "start_index": 922,
+              "title": "Massage, Facial & Spa Treatments Near Katy - Hand & Stone Massage and Facial Spa",
+              "url": "https://handandstone.com/locations/katy/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1188,
+              "start_index": 1108,
+              "title": "Massage, Facial & Spa Treatments Near Katy - Hand & Stone Massage and Facial Spa",
+              "url": "https://handandstone.com/locations/katy/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1450,
+              "start_index": 1280,
+              "title": "Hand and Stone Massage and Facial Spa in Katy, TX 77494 - (281) 4...",
+              "url": "https://www.chamberofcommerce.com/united-states/texas/katy/massage-therapist/1338447396-hand-and-stone-massage-and-facial-spa?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1622,
+              "start_index": 1502,
+              "title": "Hand & Stone Massage and Facial Spa - 379 Reviews - Wellness in Katy, TX - Birdeye",
+              "url": "https://reviews.birdeye.com/hand-stone-massage-and-facial-spa-169820339918021?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1918,
+              "start_index": 1798,
+              "title": "Hand and Stone Massage and Facial Spa, Katy, TX - Reviews (174), Photos (23) - BestProsInTown",
+              "url": "https://www.bestprosintown.com/tx/katy/hand-and-stone-massage-and-facial-spa-/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2133,
+              "start_index": 2020,
+              "title": "Hand & Stone Massage and Facial Spa, 23541 Westheimer Pkwy, Katy, TX 77494, US - MapQuest",
+              "url": "https://www.mapquest.com/us/texas/hand-stone-massage-and-facial-spa-419889892?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2832,
+              "start_index": 2775,
+              "title": "TSUKI Facial & Spa | Head Spa & Facials in Katy, TX",
+              "url": "https://tsukispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3051,
+              "start_index": 2994,
+              "title": "TSUKI Facial & Spa | Head Spa & Facials in Katy, TX",
+              "url": "https://tsukispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3292,
+              "start_index": 3229,
+              "title": "Suimin Spa Katy TX \u2013 Head Spa, Facial, Massage, Lashes & Wellness",
+              "url": "https://www.suiminspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3504,
+              "start_index": 3441,
+              "title": "Suimin Spa Katy TX \u2013 Head Spa, Facial, Massage, Lashes & Wellness",
+              "url": "https://www.suiminspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3683,
+              "start_index": 3606,
+              "title": "Divinity Spa | Katy TX",
+              "url": "https://www.divinityspa-katy.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3985,
+              "start_index": 3894,
+              "title": "Divinity Spa Katy - Katy, TX 77450 - Services and Reviews",
+              "url": "https://salondiscover.com/divinity-spa-katy-77450/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4324,
+              "start_index": 4259,
+              "title": "Best Holistic Massage & Spa Katy, TX \u2013 All Is Well Massage & Spa \u2013 Best Holistic Massage & Spa \u2013 Katy, TX",
+              "url": "https://alliswellspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4469,
+              "start_index": 4404,
+              "title": "Best Holistic Massage & Spa Katy, TX \u2013 All Is Well Massage & Spa \u2013 Best Holistic Massage & Spa \u2013 Katy, TX",
+              "url": "https://alliswellspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4781,
+              "start_index": 4716,
+              "title": "GV SKINCARE | Facial and Body Spa in Katy, TX",
+              "url": "https://www.gvskincare.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5126,
+              "start_index": 5061,
+              "title": "AcuQi\u2122 Lymphatic Holistic Massage in Katy, TX | Holistique Healing Spa",
+              "url": "https://acuqimassage.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Here\u2019s a detailed comparison between **Hand & Stone Massage and Facial Spa (Katy, TX)**\u2014a well-known chain\u2014and several **independent facial spas in Katy, TX**, helping you weigh the pros and cons of each.\n\n---\n\n##  Hand & Stone Massage and Facial Spa (Chain)\n\n**Location & Hours**  \n- Located at 23541 Westheimer Pkwy, Katy, TX 77494. Open seven days a week\u2014typically 9 a.m. to 9 p.m., with variations on weekend hours ([handandstone.com](https://handandstone.com/locations/katy/?utm_source=openai)).\n\n**Offerings & Pricing**  \n- Provides a wide range of services including massages, facials (like Classic, Hydrating, Anti-Aging, DiamondGlow, Dermalogica LuminFusion), and toning treatments ([handandstone.com](https://handandstone.com/locations/katy/?utm_source=openai)).\n- Introductory facial is $79.95 for 50 minutes; non-member pricing varies by service, such as Hydrating Facial at $159.95 and DiamondGlow at $269.95 ([handandstone.com](https://handandstone.com/locations/katy/?utm_source=openai)).\n- Offers memberships that include a monthly facial or massage at discounted rates, loyalty points, etc. ([handandstone.com](https://handandstone.com/locations/katy/?utm_source=openai)).\n\n**Reputation & Reviews**  \n- Chamber of Commerce shows a strong 4.7 rating (265 reviews) ([chamberofcommerce.com](https://www.chamberofcommerce.com/united-states/texas/katy/massage-therapist/1338447396-hand-and-stone-massage-and-facial-spa?utm_source=openai)).\n- Birdeye reflects a 4.5 average from 379 reviews ([reviews.birdeye.com](https://reviews.birdeye.com/hand-stone-massage-and-facial-spa-169820339918021?utm_source=openai)).\n- Customers frequently praise professional, clean facilities and skilled therapists like Julie, Kayla, Athena; some note issues with pricing surprises or service consistency ([bestprosintown.com](https://www.bestprosintown.com/tx/katy/hand-and-stone-massage-and-facial-spa-/?utm_source=openai)).\n- Yelp includes both positive experiences and complaints about upcharges or bait-and-switch pricing ([mapquest.com](https://www.mapquest.com/us/texas/hand-stone-massage-and-facial-spa-419889892?utm_source=openai)).\n\n### Pros\n- Extensive menu of services and treatment options.\n- Flexible scheduling and convenient hours.\n- Membership pricing gives value for frequent users.\n- Generally consistent service due to standardized training.\n\n### Cons\n- Some guest complaints about unexpected charges or rushed service.\n- Being a chain may mean less personalized attention.\n- Pricing for advanced facials can be on the higher side.\n\n---\n\n##  Independent Facial Spas in Katy, TX\n\n###  TSUKI Facial & Spa  \n- A boutique, by-appointment-only establishment offering customized facials with cleansing, extractions, facial massage, and more (90\u2013150 minutes; $75\u2013$135) ([tsukispa.com](https://tsukispa.com/?utm_source=openai)).  \n- Focuses on a calm private environment and personalized high-quality care. Clients quote \u201cmost relaxing spa experience\u201d and \u201cincredible attention to detail\u201d ([tsukispa.com](https://tsukispa.com/?utm_source=openai)).\n\n###  Suimin Spa  \n- Located at 1830 S Mason Rd, Suite 115, Katy. Offers facials, head spa, massage, and wellness services combining traditional healing with modern techniques ([suiminspa.com](https://www.suiminspa.com/?utm_source=openai)).  \n- Treatments include lymphatic drainage, aromatherapy, hot stone, and advanced facials including G.M. COLLIN line (priced from ~$79.95 to ~$199) ([suiminspa.com](https://www.suiminspa.com/?utm_source=openai)).\n\n###  Divinity Spa  \n- Led by seasoned esthetician Vilma Fernandez with over 22 years of experience ([divinityspa-katy.com](https://www.divinityspa-katy.com/?utm_source=openai)).  \n- Offers facials, microdermabrasion, deep cleansing, waxing, and body contouring in a cozy, intimate setting. Clients highlight her knowledge and relaxing environment, including shoulder/arm massage add-ons ([salondiscover.com](https://salondiscover.com/divinity-spa-katy-77450/?utm_source=openai)).\n\n###  All Is Well Massage & Spa  \n- Provides massage and signature European-style facials, holistic skincare, and even acupuncture/TCM. Located at 2001 Katy Mills Blvd. Memberships available (~$90\u2013$160/month) offering facials, massages, rollover benefits, and no contract ([alliswellspa.com](https://alliswellspa.com/?utm_source=openai)).  \n- Clients describe a peaceful, attentive experience and recommend it highly ([alliswellspa.com](https://alliswellspa.com/?utm_source=openai)).\n\n###  GV Skin Care Center  \n- Located at Grand Reserve Dr, Katy. Offers facial and body treatments, virtual consultations, skincare evaluations, and personalized professional care. Client testimonials emphasize lasting improvements and radiance ([gvskincare.com](https://www.gvskincare.com/?utm_source=openai)).\n\n###  Holistique Healing Spa  \n- Not strictly facial-focused but offers AcuQi\u2122 lymphatic holistic massage\u2014TCM-based, highly rated (4.9 avg from 1000+ reviews). While not a facial spa per se, its calming treatments may appeal to those seeking deep relaxation and tension release ([acuqimassage.com](https://acuqimassage.com/?utm_source=openai)).\n\n---\n\n##  Comparison Summary\n\n| Feature                    | Hand & Stone (Chain)                            | Independent Spas (Selective Examples)                  |\n|----------------------------|-------------------------------------------------|--------------------------------------------------------|\n| Service Variety            | Wide menu, advanced facials available           | Often more specialized or unique offerings             |\n| Personalization            | Standardized protocols; consistent               | Highly personalized one-on-one attention               |\n| Ambiance                  | Clean, professional, possibly busy environment  | Quieter, more intimate settings                        |\n| Pricing                   | Mid\u2013high range; memberships available           | Variable; may offer more value or tailored packages    |\n| Reputation                | Generally solid but some complaints             | Often praised for expertise and soothing experience    |\n| Memberships               | Yes                                           | All Is Well offers flexible membership; others vary    |\n\n---\n\n##  Final Thoughts\n\nIf you value **consistent service**, **extensive treatment options**, and perks like memberships, **Hand & Stone** is a solid choice\u2014though be mindful of potential upsells or scheduling inconsistencies.\n\nIf you're after a **highly personalized facial experience in a tranquil setting**, independent spas like **TSUKI**, **Divinity Spa**, **Suimin Spa**, or **All Is Well** could be more fulfilling. Each offers its own unique advantages\u2014be it advanced techniques, expert esthetician, holistic approach, or flexible membership plans.\n\nLet me know if you'd like help comparing specific treatments, prices, or booking details!"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 32005,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 1407,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 33412
+  },
+  "user": null,
+  "metadata": {}
+}

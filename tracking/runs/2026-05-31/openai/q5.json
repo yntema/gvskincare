@@ -1,0 +1,169 @@
+{
+  "id": "resp_0f1cd380b38147f0006a1ca34a49848195b596e32f8fe0b7ab",
+  "object": "response",
+  "created_at": 1780261706,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780261713,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0f1cd380b38147f0006a1ca34a6ac0819598eb04a314a73308",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Top rated skincare spa Katy Texas"
+        ],
+        "query": "Top rated skincare spa Katy Texas"
+      }
+    },
+    {
+      "id": "msg_0f1cd380b38147f0006a1ca34bac48819595a93ed70559ec20",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 519,
+              "start_index": 401,
+              "title": "4Ever Glow Salon & MedSpa - Katy, TX | Medical Spa Locator",
+              "url": "https://www.medicalspalocator.com/med-spa/4ever-glow-salon-medspa-katy-tx?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 867,
+              "start_index": 743,
+              "title": "SkinSpirit Katy Reviews - Medical spa in Cinco Ranch, United States | Top-Rated.Online",
+              "url": "https://www.top-rated.online/cities/Cinco%2BRanch/place/p/16205826/SkinSpirit%2BKaty?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1261,
+              "start_index": 1202,
+              "title": "Soo Med Spa | Premium Aesthetic Treatments | Katy, TX",
+              "url": "https://soomedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1706,
+              "start_index": 1605,
+              "title": "Revitalize Infusion & Aesthetics | IV Therapy & Med Spa in Katy, TX",
+              "url": "https://www.revitalizeinfusionaesthetics.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1986,
+              "start_index": 1919,
+              "title": "Home - Le Chlo\u00e9 Med Spa",
+              "url": "https://lechloemedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2263,
+              "start_index": 2206,
+              "title": "TSUKI Facial & Spa | Head Spa & Facials in Katy, TX",
+              "url": "https://tsukispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2496,
+              "start_index": 2419,
+              "title": "Divinity Spa | Katy TX",
+              "url": "https://www.divinityspa-katy.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2744,
+              "start_index": 2677,
+              "title": "HOME - Body Revamp Spa",
+              "url": "https://bodyrevampspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3051,
+              "start_index": 2984,
+              "title": "Best Medical Spa in Katy Texas - Katy Medi Spa",
+              "url": "https://www.katymedispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3345,
+              "start_index": 3264,
+              "title": "Facial | The Perfect Touch Spa | Katy",
+              "url": "https://www.theperfecttouchspa.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Here are several **top-rated skincare and medspa options in Katy, Texas**, based on recent rankings, reviews, and service offerings:\n\n- **4Ever Glow Salon & MedSpa**  \n  A highly rated medical spa with a 4.9-star average from 110 Google reviews, offering services such as microneedling, CoolSculpting, HydraFacials, Botox, dermal fillers, and chemical peels\u2014all located at 722 Katy Fort Bend Rd #500. ([medicalspalocator.com](https://www.medicalspalocator.com/med-spa/4ever-glow-salon-medspa-katy-tx?utm_source=openai))\n\n- **SkinSpirit Katy**  \n  This med spa holds an excellent 4.9 average from 155 reviews. It\u2019s located at 23501 Cinco Ranch Blvd Suite J110 and is praised for attentive, knowledgeable staff and personalized treatment plans. ([top-rated.online](https://www.top-rated.online/cities/Cinco%2BRanch/place/p/16205826/SkinSpirit%2BKaty?utm_source=openai))\n\n- **Soo Med Spa**  \n  A newer, upscale med spa offering comprehensive treatments including personalized facials, injectables (like Botox, Dysport, fillers), microneedling, HydraFacial, chemical peels, RF microneedling with Morpheus8, and wellness services like PRP and weight loss. Located at 21720 Highland Knolls Drive, Suite 4\u2011A. ([soomedspa.com](https://soomedspa.com/?utm_source=openai))\n\n- **Revitalize Infusion & Aesthetics**  \n  With a solid 5-star rating, this med spa is staffed by certified Nurse Practitioners and offers IV therapies, advanced facials (HydraFacial, VI Peel, PRP, Salmon DNA), body sculpting, weight-loss programs, neurotoxins, and customizable spa day packages. Address: 28111 S Firethorne Road, Suite 601. ([revitalizeinfusionaesthetics.com](https://www.revitalizeinfusionaesthetics.com/?utm_source=openai))\n\n- **Le Chlo\u00e9 Med Spa**  \n  A boutique retreat in Katy offering services such as laser hair removal, Botox, dermal fillers, PDO threads, DiamondGlow facials, IPL, CoolSculpting/CoolTone, and medical weight-loss. ([lechloemedspa.com](https://lechloemedspa.com/?utm_source=openai))\n\n- **TSUKI Facial & Spa**  \n  Focuses on tranquility and personalized care, offering customized facials and head spa rituals designed for skin and scalp rejuvenation. Noted for its serene, appointment-only environment. ([tsukispa.com](https://tsukispa.com/?utm_source=openai))\n\n- **Divinity Spa**  \n  Run by a licensed master facialist with over 22 years of experience, this spa specializes in facials, waxing, and body contouring. ([divinityspa-katy.com](https://www.divinityspa-katy.com/?utm_source=openai))\n\n- **Body Revamp Spa**  \n  Marketing itself as a top-rated medical spa, it delivers luxurious facials and non-surgical aesthetic body treatments with a focus on personalized care. ([bodyrevampspa.com](https://bodyrevampspa.com/?utm_source=openai))\n\n- **Katy Medi Spa**  \n  A physician-led med spa offering facials, injectables, microneedling, laser hair removal, hormone therapy, IV drips, functional medicine, and wellness services. Their offerings are broad, though reviews are mixed. ([katymedispa.com](https://www.katymedispa.com/?utm_source=openai))\n\n- **The Perfect Touch Spa**  \n  Offers facials, chemical peels, microneedling, and body sculpting services, with a focus on personalized treatments to fit both style and budget. Located at 2027 N Mason Rd #304. ([theperfecttouchspa.com](https://www.theperfecttouchspa.com/?utm_source=openai))\n\n---\n\n###  Summary Table for Quick Comparison:\n\nService Focus and Highlights:\n- **4Ever Glow** \u2013 High overall rating, wide range of esthetic treatments.\n- **SkinSpirit Katy** \u2013 Personalized, knowledgeable care with stellar reviews.\n- **Soo Med Spa** \u2013 Premium med spa with advanced & wellness services.\n- **Revitalize Infusion & Aesthetics** \u2013 Nurse Practitioner\u2011led, med\u2011grade facials and IV therapy, top reviews.\n- **Le Chlo\u00e9** \u2013 Boutique feel, wide spectrum of anti-aging and contouring treatments.\n- **TSUKI** \u2013 Relaxed, boutique spa for skin and scalp rituals.\n- **Divinity Spa** \u2013 Expert facials by a seasoned esthetician.\n- **Body Revamp Spa** \u2013 Comprehensive facial and body aesthetic services in a tranquil setting.\n- **Katy Medi Spa** \u2013 Extensive service list with functional medicine integration (review experience varies).\n- **The Perfect Touch Spa** \u2013 Custom facials, peels, and microneedling in a budget-conscious environment.\n\n---\n\n###  Next Steps:\n1. **Identify Your Priorities** \u2014 Are you looking for relaxation, anti-aging, med-grade treatments, or weight-loss services?\n2. **Check Availability** \u2014 Most locations offer online booking; those like TSUKI require appointments in advance.\n3. **Read Recent Reviews** \u2014 Particularly helpful if you\u2019re looking for specialists or consistency in service.\n4. **Contact Directly** \u2014 Confirm pricing, availability, and any consultation requirements.\n\nLet me know if you\u2019d like help narrowing it down further by specific treatment type, budget, or atmosphere!"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17233,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 1091,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18324
+  },
+  "user": null,
+  "metadata": {}
+}

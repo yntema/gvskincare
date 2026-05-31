@@ -1,0 +1,204 @@
+{
+  "id": "resp_0bb2e6810771e22e006a1ca439202481968be67967b5e98caa",
+  "object": "response",
+  "created_at": 1780261945,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780261952,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_0bb2e6810771e22e006a1ca4393e9c8196973b4f9f94ea2fe3",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Milk and Honey spa alternatives west Houston"
+        ],
+        "query": "Milk and Honey spa alternatives west Houston"
+      }
+    },
+    {
+      "id": "msg_0bb2e6810771e22e006a1ca43a7e008196972b0c5b89a07388",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 448,
+              "start_index": 364,
+              "title": "Top Spas in Houston: Where the Bayou City Goes to Exhale - Houston Online Magazine",
+              "url": "https://www.houstonmagazine.com/top-spas/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 677,
+              "start_index": 593,
+              "title": "Top Spas in Houston: Where the Bayou City Goes to Exhale - Houston Online Magazine",
+              "url": "https://www.houstonmagazine.com/top-spas/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 885,
+              "start_index": 801,
+              "title": "Top Spas in Houston: Where the Bayou City Goes to Exhale - Houston Online Magazine",
+              "url": "https://www.houstonmagazine.com/top-spas/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1107,
+              "start_index": 1024,
+              "title": "Top 10 Day Spas in Houston [2026 ]",
+              "url": "https://www.htownbest.com/top-day-spa-houston/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1353,
+              "start_index": 1271,
+              "title": "The Post Oak",
+              "url": "https://en.wikipedia.org/wiki/The_Post_Oak?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1625,
+              "start_index": 1542,
+              "title": "Top 10 Day Spas in Houston [2026 ]",
+              "url": "https://www.htownbest.com/top-day-spa-houston/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1848,
+              "start_index": 1781,
+              "title": "Sanctuary Spa | Houston's First Day Spa - Facials, Skin Care & Massage",
+              "url": "https://www.besanctuary.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2116,
+              "start_index": 2049,
+              "title": "Sanctuary Spa | Houston's First Day Spa - Facials, Skin Care & Massage",
+              "url": "https://www.besanctuary.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2304,
+              "start_index": 2237,
+              "title": "Sanctuary Spa | Houston's First Day Spa - Facials, Skin Care & Massage",
+              "url": "https://www.besanctuary.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2558,
+              "start_index": 2481,
+              "title": "Luxury Salon &\u00a0Day Spa Houston | Visage Salon & Day Spa",
+              "url": "https://www.visage-salon-spa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2787,
+              "start_index": 2710,
+              "title": "Luxury Salon &\u00a0Day Spa Houston | Visage Salon & Day Spa",
+              "url": "https://www.visage-salon-spa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2953,
+              "start_index": 2876,
+              "title": "Luxury Salon &\u00a0Day Spa Houston | Visage Salon & Day Spa",
+              "url": "https://www.visage-salon-spa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3176,
+              "start_index": 3093,
+              "title": "Top 10 Day Spas in Houston [2026 ]",
+              "url": "https://www.htownbest.com/top-day-spa-houston/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3396,
+              "start_index": 3313,
+              "title": "Top 10 Day Spas in Houston [2026 ]",
+              "url": "https://www.htownbest.com/top-day-spa-houston/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3578,
+              "start_index": 3495,
+              "title": "Top 10 Day Spas in Houston [2026 ]",
+              "url": "https://www.htownbest.com/top-day-spa-houston/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Here are several excellent alternatives to **milk + honey spa (River Oaks)** located on Houston\u2019s west side. Each offers unique services and atmospheres that may align with your preferences.\n\n---\n\n##  Hiatus Spa + Retreat (Uptown area)\n- Located at **5740 San Felipe St. Suite 110, Houston, TX 77057**, still on the west side and easily accessible from River Oaks.([houstonmagazine.com](https://www.houstonmagazine.com/top-spas/?utm_source=openai))  \n- Notable for its **membership structure**\u2014for around **$89/month**, you get a **monthly massage plus discounts**, perfect for regular visits.([houstonmagazine.com](https://www.houstonmagazine.com/top-spas/?utm_source=openai))  \n- Offers a variety of services including massages, skincare, and med spa treatments (like Botox, fillers, microneedling).([houstonmagazine.com](https://www.houstonmagazine.com/top-spas/?utm_source=openai))  \n\n---\n\n##  The Spa at The Post Oak Hotel (Uptown Houston)\n- Located at **1600 West Loop South, Houston, TX 77027**\u2014also on the west side.([htownbest.com](https://www.htownbest.com/top-day-spa-houston/?utm_source=openai))  \n- A **Forbes five-star spa**, the only one in Texas, featuring luxurious amenities like indoor pools, steam rooms, saunas, zero-gravity massage chairs, and more.([en.wikipedia.org](https://en.wikipedia.org/wiki/The_Post_Oak?utm_source=openai))  \n- Signature treatments like the *Ritual of Five Worlds* and varying massage rituals (e.g., Polynesian Floral, Restorative) run from **$195\u2013$660** depending on the treatment and duration.([htownbest.com](https://www.htownbest.com/top-day-spa-houston/?utm_source=openai))  \n\n---\n\n##  Sanctuary Spa (River Oaks / Montrose area)\n- Just a few minutes from west Houston, located at **1701 S. Shepherd, Suite C, Houston, TX 77019**.([besanctuary.com](https://www.besanctuary.com/?utm_source=openai))  \n- One of Houston\u2019s oldest day spas (established 1984), offering facials, aromatherapeutic massages, hydrotherapy, body wraps, scrubs, and waxing\u2014all grounded in holistic, natural product approaches.([besanctuary.com](https://www.besanctuary.com/?utm_source=openai))  \n- Regularly featured by Vogue, Allure, Time, and Travel + Leisure, reflecting its longstanding reputation for quality.([besanctuary.com](https://www.besanctuary.com/?utm_source=openai))  \n\n---\n\n##  Visage Salon & Day Spa (Northwest Houston)\n- Located at **17820 West Rd, Houston, TX 77095**, offering a full-service salon and day spa experience on the west side.([visage-salon-spa.com](https://www.visage-salon-spa.com/?utm_source=openai))  \n- Services include hair, nails, facials, microdermabrasion, makeup, massage (Swedish, hot stone, deep tissue, prenatal), waxing, and luxury packages.([visage-salon-spa.com](https://www.visage-salon-spa.com/?utm_source=openai))  \n- Described as a \u201cone-stop\u201d spa where you can treat yourself head-to-toe in one visit.([visage-salon-spa.com](https://www.visage-salon-spa.com/?utm_source=openai))  \n\n---\n\n##  The NOW Massage (Houston Heights / Heights area)\n- Although a bit north, Houston Heights is still accessible from west Houston.([htownbest.com](https://www.htownbest.com/top-day-spa-houston/?utm_source=openai))  \n- Known for **affordable, high-quality massages** and modern amenities like touchless check-in, a mobile app, and a membership option.([htownbest.com](https://www.htownbest.com/top-day-spa-houston/?utm_source=openai))  \n- Praised highly by reviewers (e.g., Yelp: 5/5, Google: 4.6/5) for consistent quality and value.([htownbest.com](https://www.htownbest.com/top-day-spa-houston/?utm_source=openai))  \n\n---\n\n###  Quick Comparison Table\n\n| Spa Name                 | Location & Access                     | Highlights & Services                                                                                             |\n|--------------------------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------|\n| Hiatus Spa + Retreat     | 5740 San Felipe (Uptown)              | Membership massages, medspa treatments                                                                              |\n| Spa at The Post Oak      | 1600 West Loop S (Uptown)             | Ultra-luxurious spa with spa amenities like pools, steam, high-end rituals                                         |\n| Sanctuary Spa            | 1701 S. Shepherd (River Oaks)         | Established holistic & aromatherapy services, facials, body treatments                                             |\n| Visage Salon & Day Spa   | 17820 West Rd (NW Houston)            | Salon + spa combo\u2014hair, nails, facials, massage, skincare                                                           |\n| The NOW Massage          | Houston Heights                       | Affordable, high-quality massage services with modern, app-based service management                                |\n\n---\n\n##  Recommendations Based on Preferences\n\n- **Seeking luxury amenities**: *Spa at The Post Oak* is ideal\u2014nested in a five-star environment with indulgent treatments.\n- **Want frequent treatments on a budget**: *Hiatus Spa + Retreat*\u2019s membership makes regular visits both affordable and convenient.\n- **Prefer long-established, relaxed spa setting**: *Sanctuary Spa* offers aromatic, holistic therapies in a storied, calm environment.\n- **Looking for hair, nail, and massage in one stop**: *Visage* covers all your beauty needs in one location.\n- **Value-driven massages with flexibility**: *The NOW Massage* offers top-notch massage services with modern conveniences and accessible pricing.\n\n---\n\nLet me know if you'd like help narrowing down based on specific treatments, budget, availability, or location!"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17192,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 1202,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18394
+  },
+  "user": null,
+  "metadata": {}
+}

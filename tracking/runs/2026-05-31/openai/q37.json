@@ -1,0 +1,218 @@
+{
+  "id": "resp_09b86738261c0df2006a1ca479706c81938699518f91f5c340",
+  "object": "response",
+  "created_at": 1780262009,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780262016,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_09b86738261c0df2006a1ca479a0088193ac2586836fb681f7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Mejor spa facial en Katy Texas"
+        ],
+        "query": "Mejor spa facial en Katy Texas"
+      }
+    },
+    {
+      "id": "msg_09b86738261c0df2006a1ca47b007c8193bce819df06e4ddf2",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 384,
+              "start_index": 327,
+              "title": "TSUKI Facial & Spa | Head Spa & Facials in Katy, TX",
+              "url": "https://tsukispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 628,
+              "start_index": 571,
+              "title": "TSUKI Facial & Spa | Head Spa & Facials in Katy, TX",
+              "url": "https://tsukispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1000,
+              "start_index": 937,
+              "title": "Suimin Spa Katy TX \u2013 Head Spa, Facial, Massage, Lashes & Wellness",
+              "url": "https://www.suiminspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1136,
+              "start_index": 1073,
+              "title": "Suimin Spa Katy TX \u2013 Head Spa, Facial, Massage, Lashes & Wellness",
+              "url": "https://www.suiminspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1404,
+              "start_index": 1327,
+              "title": "Divinity Spa | Katy TX",
+              "url": "https://www.divinityspa-katy.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1665,
+              "start_index": 1574,
+              "title": "Divinity Spa Katy - Katy, TX 77450 - Services and Reviews",
+              "url": "https://salondiscover.com/divinity-spa-katy-77450/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1947,
+              "start_index": 1888,
+              "title": "Soo Med Spa | Premium Aesthetic Treatments | Katy, TX",
+              "url": "https://soomedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2095,
+              "start_index": 2036,
+              "title": "Soo Med Spa | Premium Aesthetic Treatments | Katy, TX",
+              "url": "https://soomedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2386,
+              "start_index": 2315,
+              "title": "4Ever Glow Salon & MedSpa \u2014 Laser Hair Removal, HydraFacial & Body Sculpting | Katy, TX",
+              "url": "https://4everglowmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2622,
+              "start_index": 2551,
+              "title": "4Ever Glow Salon & MedSpa \u2014 Laser Hair Removal, HydraFacial & Body Sculpting | Katy, TX",
+              "url": "https://4everglowmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2792,
+              "start_index": 2721,
+              "title": "4Ever Glow Salon & MedSpa \u2014 Laser Hair Removal, HydraFacial & Body Sculpting | Katy, TX",
+              "url": "https://4everglowmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3061,
+              "start_index": 2986,
+              "title": "Skincare | Aika Skin Care | Katy TX",
+              "url": "https://www.aikaskincarellc.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3237,
+              "start_index": 3162,
+              "title": "Skincare | Aika Skin Care | Katy TX",
+              "url": "https://www.aikaskincarellc.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3570,
+              "start_index": 3447,
+              "title": "Lymphatic/AcuQi Detox Energie Facial | Holistique Spa",
+              "url": "https://www.holistiquespa.com/service-page/holistic-lymphatic-ginseng-detox-facial?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3965,
+              "start_index": 3900,
+              "title": "Best Holistic Massage & Spa Katy, TX \u2013 All Is Well Massage & Spa \u2013 Best Holistic Massage & Spa \u2013 Katy, TX",
+              "url": "https://alliswellspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4117,
+              "start_index": 4052,
+              "title": "Best Holistic Massage & Spa Katy, TX \u2013 All Is Well Massage & Spa \u2013 Best Holistic Massage & Spa \u2013 Katy, TX",
+              "url": "https://alliswellspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4552,
+              "start_index": 4451,
+              "title": "Revitalize Infusion & Aesthetics | IV Therapy & Med Spa in Katy, TX",
+              "url": "https://www.revitalizeinfusionaesthetics.com/?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Aqu\u00ed tienes una selecci\u00f3n de los mejores spas faciales en Katy, Texas, basada en las opciones m\u00e1s destacadas y recientes:\n\n1. TSUKI Facial & Spa  \n   - Especializada en tratamientos personalizados para rostro y cuero cabelludo, TSUKI ofrece experiencias de lujo sin excesos, enfocadas en resultados, confort y ambiente relajado([tsukispa.com](https://tsukispa.com/?utm_source=openai)).  \n   - Servicios recomendados incluyen faciales personalizados (90 minutos por $75), rituales capilares (head spa) y combinaciones como head spa + facial completo (150 minutos por $135)([tsukispa.com](https://tsukispa.com/?utm_source=openai)).\n\n2. Suimin Spa  \n   - Ofrece faciales adaptados a las necesidades de cada cliente, con t\u00e9cnicas avanzadas y productos de alto rendimiento. Incluye tratamientos como faciales reafirmantes, de hidrataci\u00f3n, vitamina C, col\u00e1geno, y opciones r\u00e1pidas como faciales express, adem\u00e1s de rituales capilares orientales([suiminspa.com](https://www.suiminspa.com/?utm_source=openai)).  \n   - Amplia variedad: faciales desde $79.95 hasta $199, seg\u00fan el tipo([suiminspa.com](https://www.suiminspa.com/?utm_source=openai)).\n\n3. Divinity Spa  \n   - Dirigido por la esteticista Vilma Fern\u00e1ndez, con m\u00e1s de 22 a\u00f1os de experiencia como facialista maestra. Muy buena reputaci\u00f3n enfocada en cuidado experto para la piel([divinityspa-katy.com](https://www.divinityspa-katy.com/?utm_source=openai)).  \n   - Opiniones de clientes destacan su ambiente acogedor, servicios de microdermoabrasi\u00f3n y faciales profundamente relajantes con masaje adicional en hombros y brazos([salondiscover.com](https://salondiscover.com/divinity-spa-katy-77450/?utm_source=openai)).\n\n4. Soo Med Spa (Med Spa de alta gama)  \n   - Spa m\u00e9dico que propone faciales personalizados de grado m\u00e9dico, con tratamientos como Hydrafacial, peelings qu\u00edmicos, microneedling, radiofrecuencia, Botox y rellenos d\u00e9rmicos([soomedspa.com](https://soomedspa.com/?utm_source=openai)).  \n   - Ideal si buscas resultados cl\u00ednicos precisos y sofisticaci\u00f3n en cada tratamiento([soomedspa.com](https://soomedspa.com/?utm_source=openai)).\n\n5. 4Ever Glow Salon & MedSpa  \n   - Combina t\u00e9cnicas avanzadas como HydraFacial, microneedling, peelings qu\u00edmicos, dermaplaning, VI Peel y contorno facial, dentro de un entorno de est\u00e9tica m\u00e9dica con enfoque art\u00edstico([4everglowmedspa.com](https://4everglowmedspa.com/?utm_source=openai)).  \n   - Programa de membres\u00edas (desde $99/mes) que incluye faciales mensuales, descuentos extra, y opciones premium con prioridad de reserva y beneficios exclusivos([4everglowmedspa.com](https://4everglowmedspa.com/?utm_source=openai)).  \n   - Rese\u00f1as recientes resaltan los resultados visibles, servicio c\u00e1lido y ambiente profesional([4everglowmedspa.com](https://4everglowmedspa.com/?utm_source=openai)).\n\n6. Aika Skin Care  \n   - Ofrece una variedad de faciales como Glow Facial, Deep Cleansing, Hydraglow, Microdermabrasi\u00f3n, Radiofrecuencia y Back Facial, con precios que var\u00edan entre $75 y $180([aikaskincarellc.com](https://www.aikaskincarellc.com/?utm_source=openai)).  \n   - Muy buenas rese\u00f1as de clientes que elogian la precisi\u00f3n, conocimiento y resultados duraderos([aikaskincarellc.com](https://www.aikaskincarellc.com/?utm_source=openai)).\n\n7. Holistique Spa  \n   - Su facial \"Lymphatic/AcuQi Detox Energie\" incluye limpieza profunda, masaje en cabeza/cuello/rostro/escote y mascarilla con ginseng siberiano revitalizante, por $160 durante una hora([holistiquespa.com](https://www.holistiquespa.com/service-page/holistic-lymphatic-ginseng-detox-facial?utm_source=openai)).  \n   - Ideal para quienes buscan un enfoque hol\u00edstico con ingredientes energizantes.\n\n8. All Is Well Spa  \n   - Ofrece faciales europeos personalizados, incluido en planes mensuales que van desde $89.99 hasta $159.99, ofreciendo tratamientos combinados con masajes y beneficios como descuento en productos y prioridad de reserva([alliswellspa.com](https://alliswellspa.com/?utm_source=openai)).  \n   - Muy recomendado por su ambiente relajante, servicio c\u00e1lido y enfoque hol\u00edstico([alliswellspa.com](https://alliswellspa.com/?utm_source=openai)).\n\nRecomendaciones seg\u00fan tus preferencias:\n\n- Para tratamientos ultra personalizados y relajantes: TSUKI Facial & Spa, Divinity Spa o Aika Skin Care.\n- Si buscas innovaci\u00f3n cl\u00ednica y resultados est\u00e9ticos m\u00e9dicos: Soo Med Spa o Revitalize Infusion & Aesthetics (aunque este \u00faltimo ofrece un enfoque muy m\u00e9dico y amplio, no solo facial)([revitalizeinfusionaesthetics.com](https://www.revitalizeinfusionaesthetics.com/?utm_source=openai)).\n- Si quieres una experiencia membr\u00eda continua con beneficios: 4Ever Glow MedSpa o All Is Well Spa.\n- Para un enfoque m\u00e1s hol\u00edstico o especializado: Holistique Spa o Suimin Spa.\n\n\u00bfTe interesar\u00eda que te ayude a elegir un lugar espec\u00edfico seg\u00fan tu tipo de piel, presupuesto o si buscas algo m\u00e1s relajante vs. cl\u00ednico? Estoy aqu\u00ed para ayudarte."
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17240,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 1091,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18331
+  },
+  "user": null,
+  "metadata": {}
+}

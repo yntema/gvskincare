@@ -1,0 +1,155 @@
+{
+  "id": "resp_06d9ed36ca5a10d8006a1ca48d10648195a4da1da576a688f1",
+  "object": "response",
+  "created_at": 1780262029,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780262036,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_06d9ed36ca5a10d8006a1ca48d3de08195a2686fea24c98699",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "HydraFacial en Katy Texas"
+        ],
+        "query": "HydraFacial en Katy Texas"
+      }
+    },
+    {
+      "id": "msg_06d9ed36ca5a10d8006a1ca48e94c08195a8181757a140385a",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 591,
+              "start_index": 507,
+              "title": "HydraFacial | Soo Med Spa Katy TX",
+              "url": "https://soomedspa.com/services/hydrafacial.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 868,
+              "start_index": 785,
+              "title": "Rich & Rooted Medspa | Medspa in Katy, TX, 77494 | Botox, Fillers, Weight Loss",
+              "url": "https://www.richandrootedmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1369,
+              "start_index": 1279,
+              "title": "Hydrafacial\u2122 in Katy, TX | Restore Hyper Wellness",
+              "url": "https://www.restore.com/local/hydrafacial-tx-katy-tx014?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1803,
+              "start_index": 1728,
+              "title": "Beauty & Wellness Services | 4Ever Glow Salon & MedSpa | TX",
+              "url": "https://www.4everglowmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2191,
+              "start_index": 2104,
+              "title": "Hydrafacial | Ageless MedSpa Katy, Texas - M&M`s Site",
+              "url": "https://agelessmedspakaty.com/hydrafacial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2706,
+              "start_index": 2620,
+              "title": "Hydrafacial in Katy | Selah MediSpa",
+              "url": "https://selahmedispa.com/services/hydrafacial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3143,
+              "start_index": 3045,
+              "title": "Hydrafacial treatment \u2013 Fit & Healthy",
+              "url": "https://fitandhealthytx.com/shop/hydrafacial-treatment/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3650,
+              "start_index": 3527,
+              "title": "Hydrafacial | HDPS",
+              "url": "https://www.beautybecomesyou.com/med-spa/facials-and-chemical-peels/hydrafacial?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Aqu\u00ed tienes algunas opciones destacadas para realizarse un tratamiento HydraFacial en Katy, Texas, actualizadas a finales de mayo de 2026:\n\n\u2022 Soo Med Spa (Katy, TX) \u2014 Ofrecen tratamientos HydraFacial personalizados con sueros potenciadores (\"boosters\") para necesidades espec\u00edficas como antienvejecimiento, hidrataci\u00f3n intensa o control del acn\u00e9. Utilizan tecnolog\u00eda de v\u00f3rtice patentada que limpia, exfolia, extrae impurezas e infunde la piel, logrando un \"resplandor inmediato\" sin tiempo de inactividad. ([soomedspa.com](https://soomedspa.com/services/hydrafacial.html?utm_source=openai))\n\n\u2022 Rich & Rooted MedSpa \u2014 Centro m\u00e9dico-est\u00e9tico en el coraz\u00f3n de Katy, TX, que incluye HydraFacial entre sus servicios destacados, junto a botox, rellenos d\u00e9rmicos, bienestar hol\u00edstico y m\u00e1s. ([richandrootedmedspa.com](https://www.richandrootedmedspa.com/?utm_source=openai))\n\n\u2022 Restore Hyper Wellness \u2014 Ubicado en 23116 Cinco Ranch Boulevard, Katy, TX 77494. Ofrecen el tratamiento Hydrafacial\u2122 utilizando la tecnolog\u00eda Vortex\u2011Fusion\u00ae, en sesiones de 30, 60 o 90 minutos. Tambi\u00e9n proporcionan recomendaciones de frecuencia (recomendando de cada 2 a 4 semanas) y detallan m\u00faltiples beneficios como hidrataci\u00f3n, limpieza profunda, reducci\u00f3n de arrugas y mejora en la firmeza de la piel. ([restore.com](https://www.restore.com/local/hydrafacial-tx-katy-tx014?utm_source=openai))\n\n\u2022 4Ever Glow Salon & MedSpa \u2014 En 722 Katy Fort Bend Road, Katy, TX 77494. Ofrecen HydraFacial junto con IPL, otros tipos de faciales y tratamientos est\u00e9ticos, en un entorno de sal\u00f3n y medspa de lujo. Adem\u00e1s, incluyen promociones de membres\u00edas mensuales (como el plan Elite o Luxe) que pueden incluir HydraFacial con boosters y otros tratamientos avanzados. ([4everglowmedspa.com](https://www.4everglowmedspa.com/?utm_source=openai))\n\n\u2022 Ageless MedSpa \u2014 Ubicado en 414 W Grand Pkwy S, #115, Katy, TX 77494. Su HydraFacial combina limpieza, exfoliaci\u00f3n, extracci\u00f3n, hidrataci\u00f3n e infusi\u00f3n de sueros (antioxidantes, p\u00e9ptidos, \u00e1cido hialur\u00f3nico), con resultados inmediatos, personalizaci\u00f3n por tipo de piel y sin tiempo de recuperaci\u00f3n. ([agelessmedspakaty.com](https://agelessmedspakaty.com/hydrafacial/?utm_source=openai))\n\n\u2022 Selah MediSpa \u2014 En Katy, TX. Ofrecen HydraFacial en tres pasos: limpieza/exfoliaci\u00f3n, extracci\u00f3n por succi\u00f3n indolora e infusi\u00f3n de sueros nutritivos. Este tratamiento dura aproximadamente 30 minutos, sin tiempo de recuperaci\u00f3n, y puede mejorar l\u00edneas finas, tono desigual, textura, poros obstruidos, manchas solares, etc. Los resultados suelen durar entre 5 y 7 d\u00edas, y recomiendan sesiones mensuales para mantener mejoras. ([selahmedispa.com](https://selahmedispa.com/services/hydrafacial/?utm_source=openai))\n\n\u2022 Fit & Healthy \u2014 En 26077 Nelson Way, Katy, TX 77494. Ofrecen un tratamiento denominado \u201cHydrafacial treatment\u201d de 5 pasos que incluyen exfoliaci\u00f3n ultras\u00f3nica, booster HydraFacial, reducci\u00f3n de poros con crioterapia, estimulaci\u00f3n de col\u00e1geno con radiofrecuencia e infusi\u00f3n de antioxidantes; duraci\u00f3n aproximada de 50 minutos por $199. ([fitandhealthytx.com](https://fitandhealthytx.com/shop/hydrafacial-treatment/?utm_source=openai))\n\n\u2022 HDPS (Beauty Becomes You) \u2014 Cubre las \u00e1reas de Sugar Land, Katy y Houston, TX. Ofrecen un precio especial \u201cHydrafacial 2026 Katy Special\u201d, que incluye dermaplaning y mascarilla de biocelulosa, adem\u00e1s de los pasos t\u00edpicos de limpieza, peeling, extracci\u00f3n e hidrataci\u00f3n mediante tecnolog\u00eda HydraFacial\u2122. Hay membres\u00edas disponibles, por ejemplo: 3 meses por $495 o 6 meses por $930. ([beautybecomesyou.com](https://www.beautybecomesyou.com/med-spa/facials-and-chemical-peels/hydrafacial?utm_source=openai))\n\nResumiendo, aqu\u00ed tienes varias cl\u00ednicas en Katy, TX que brindan HydraFacial con distintas propuestas de valor:\n\n1. Soo Med Spa \u2014 tratamiento personalizado con boosters de v\u00f3rtice.\n2. Rich & Rooted MedSpa \u2014 spa m\u00e9dico con est\u00e9tica integral.\n3. Restore Hyper Wellness \u2014 cl\u00ednicas con tecnolog\u00eda Vortex\u2011Fusion\u00ae y diversas duraciones.\n4. 4Ever Glow \u2014 sal\u00f3n/medspa de lujo con membres\u00edas.\n5. Ageless MedSpa \u2014 faciales completos con sueros avanzados.\n6. Selah MediSpa \u2014 tratamiento r\u00e1pido en 3 pasos con resultados visibles y mantenibles.\n7. Fit & Healthy \u2014 versi\u00f3n extendida con crioterapia y radiofrecuencia.\n8. HDPS \u2014 ofertas especiales para HydraFacial en 2026 con dermaplaning y mascarilla.\n\nSi deseas ayuda para comparar precios, horarios, reservar una cita o necesidades espec\u00edficas (como tipo de piel, presupuestos o resultados deseados), estar\u00e9 encantado de ayudarte."
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17181,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 1059,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18240
+  },
+  "user": null,
+  "metadata": {}
+}

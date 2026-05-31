@@ -1,0 +1,232 @@
+{
+  "id": "resp_051afd46670de00a006a1ca32ddbf88193b893424b0644588c",
+  "object": "response",
+  "created_at": 1780261677,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780261685,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_051afd46670de00a006a1ca32df84c8193bbdf2cb1f4fdda31",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best HydraFacial in Katy Texas"
+        ],
+        "query": "Best HydraFacial in Katy Texas"
+      }
+    },
+    {
+      "id": "msg_051afd46670de00a006a1ca32f31888193b8510264d7f0a1d3",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 470,
+              "start_index": 399,
+              "title": "4Ever Glow Salon & MedSpa \u2014 Laser Hair Removal, HydraFacial & Body Sculpting | Katy, TX",
+              "url": "https://4everglowmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 688,
+              "start_index": 617,
+              "title": "4Ever Glow Salon & MedSpa \u2014 Laser Hair Removal, HydraFacial & Body Sculpting | Katy, TX",
+              "url": "https://4everglowmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 851,
+              "start_index": 780,
+              "title": "4Ever Glow Salon & MedSpa \u2014 Laser Hair Removal, HydraFacial & Body Sculpting | Katy, TX",
+              "url": "https://4everglowmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1153,
+              "start_index": 1069,
+              "title": "HydraFacial | Soo Med Spa Katy TX",
+              "url": "https://soomedspa.com/services/hydrafacial.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1388,
+              "start_index": 1304,
+              "title": "HydraFacial | Soo Med Spa Katy TX",
+              "url": "https://soomedspa.com/services/hydrafacial.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1798,
+              "start_index": 1708,
+              "title": "Hydrafacial\u2122 in Katy, TX | Restore Hyper Wellness",
+              "url": "https://www.restore.com/local/hydrafacial-tx-katy-tx014?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2116,
+              "start_index": 2030,
+              "title": "Hydrafacial in Katy | Selah MediSpa",
+              "url": "https://selahmedispa.com/services/hydrafacial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2389,
+              "start_index": 2303,
+              "title": "Hydrafacial in Katy | Selah MediSpa",
+              "url": "https://selahmedispa.com/services/hydrafacial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2714,
+              "start_index": 2627,
+              "title": "Hydrafacial | Ageless MedSpa Katy, Texas - M&M`s Site",
+              "url": "https://agelessmedspakaty.com/hydrafacial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2885,
+              "start_index": 2798,
+              "title": "Hydrafacial | Ageless MedSpa Katy, Texas - M&M`s Site",
+              "url": "https://agelessmedspakaty.com/hydrafacial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3238,
+              "start_index": 3151,
+              "title": "Hydrafacials, Peels & Advanced Skincare Katy, TX | Alexanne Aesthetics",
+              "url": "https://www.alexanneaestheticsllc.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3575,
+              "start_index": 3491,
+              "title": "Hydafacial Specialist Near Katy, Fulshear | Lumonous Medispa",
+              "url": "https://luminousmedispa.com/hydra-facial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3793,
+              "start_index": 3709,
+              "title": "Hydafacial Specialist Near Katy, Fulshear | Lumonous Medispa",
+              "url": "https://luminousmedispa.com/hydra-facial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4071,
+              "start_index": 3987,
+              "title": "HydraFacial | Soo Med Spa Katy TX",
+              "url": "https://soomedspa.com/services/hydrafacial.html?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4251,
+              "start_index": 4164,
+              "title": "Hydrafacials, Peels & Advanced Skincare Katy, TX | Alexanne Aesthetics",
+              "url": "https://www.alexanneaestheticsllc.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4471,
+              "start_index": 4400,
+              "title": "4Ever Glow Salon & MedSpa \u2014 Laser Hair Removal, HydraFacial & Body Sculpting | Katy, TX",
+              "url": "https://4everglowmedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4667,
+              "start_index": 4581,
+              "title": "Hydrafacial in Katy | Selah MediSpa",
+              "url": "https://selahmedispa.com/services/hydrafacial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4884,
+              "start_index": 4798,
+              "title": "Hydrafacial in Katy | Selah MediSpa",
+              "url": "https://selahmedispa.com/services/hydrafacial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 5073,
+              "start_index": 4983,
+              "title": "Hydrafacial\u2122 in Katy, TX | Restore Hyper Wellness",
+              "url": "https://www.restore.com/local/hydrafacial-tx-katy-tx014?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "If you're looking for the best places to get a HydraFacial in Katy, Texas, here are several highly rated options\u2014each offering its own specialties and strengths:\n\n\u2022 **4Ever Glow Salon & MedSpa**  \nLocated at 722 Katy Fort Bend Road, Suite 500, this medspa offers HydraFacials alongside a broad range of advanced skincare treatments, including microneedling, body sculpting, chemical peels, and more ([4everglowmedspa.com](https://4everglowmedspa.com/?utm_source=openai)). Clients frequently praise their service quality\u2014one reviewer noted dramatic skin transformation with HydraFacials through their Elite membership ([4everglowmedspa.com](https://4everglowmedspa.com/?utm_source=openai)). They offer membership plans with HydraFacials included and a 10% discount for new clients ([4everglowmedspa.com](https://4everglowmedspa.com/?utm_source=openai)).\n\n\u2022 **Soo Med Spa**  \nSoo Med Spa focuses specifically on the HydraFacial experience, emphasizing fully customized treatments with booster serums for concerns like brightening, anti-aging, acne control, and hydration ([soomedspa.com](https://soomedspa.com/services/hydrafacial.html?utm_source=openai)). Their HydraFacial uses patented vortex technology for cleansing, exfoliation, extraction, and infusion\u2014delivering an instant glow with zero downtime ([soomedspa.com](https://soomedspa.com/services/hydrafacial.html?utm_source=openai)).\n\n\u2022 **Restore Hyper Wellness**  \nLocated at 23116 Cinco Ranch Boulevard, this wellness-focused clinic offers Hydrafacial\u2122 treatments using Vortex-Fusion\u00ae technology. They provide 30-, 60-, and 90-minute session options and promote benefits such as tighter skin, reduced discoloration, and deep cleansing with hydration ([restore.com](https://www.restore.com/local/hydrafacial-tx-katy-tx014?utm_source=openai)).\n\n\u2022 **Selah MediSpa**  \nTheir HydraFacial follows the classic three-step cleanse, exfoliate, extract, and hydrate protocol, tailored to various concerns including fine lines, hyperpigmentation, dullness, and oily or congested skin ([selahmedispa.com](https://selahmedispa.com/services/hydrafacial/?utm_source=openai)). Notable perks include short treatment time (around 30 minutes) and no downtime. Results can last from 5\u20137 days or longer, and they recommend monthly treatments to maintain improvements ([selahmedispa.com](https://selahmedispa.com/services/hydrafacial/?utm_source=openai)).\n\n\u2022 **Ageless MedSpa Katy**  \nLocated at 414 W Grand Pkwy S., Suite 115, Ageless MedSpa also offers a full HydraFacial treatment featuring cleansing, an acid peel, extraction, hydration, and protective serums infused for lasting results ([agelessmedspakaty.com](https://agelessmedspakaty.com/hydrafacial/?utm_source=openai)). Patient reviews highlight professionalism, friendly staff, and remarkable results ([agelessmedspakaty.com](https://agelessmedspakaty.com/hydrafacial/?utm_source=openai)).\n\n\u2022 **Alexanne Aesthetics**  \nA solo-practitioner esthetician, Alle Pace offers highly personalized, one-on-one HydraFacial treatments. With more than 11 years of experience in advanced corrective skin treatments, Alexanne Aesthetics delivers a tailored experience ([alexanneaestheticsllc.com](https://www.alexanneaestheticsllc.com/?utm_source=openai)).\n\n\u2022 **Luminous MediSpa**  \nLocated at 410 W Grand Pkwy S., Suite 310, Luminous MediSpa offers multiple tiers of HydraFacial services\u2014Signature, Deluxe (with boosters), and Platinum (with LED light therapy)\u2014to address individual skin needs and concerns ([luminousmedispa.com](https://luminousmedispa.com/hydra-facial/?utm_source=openai)). They also highlight that HydraFacial is effective for all skin types, with results lasting several days to a week and zero downtime ([luminousmedispa.com](https://luminousmedispa.com/hydra-facial/?utm_source=openai)).\n\nHow to decide which option is best for you?\n\n1. **Customization & Technology**  \n   - *Soo Med Spa* and *Luminous MediSpa* offer highly customizable options with boosters or LED enhancements ([soomedspa.com](https://soomedspa.com/services/hydrafacial.html?utm_source=openai)).\n   - *Alexanne Aesthetics* offers an intimate, tailored experience with years of expertise ([alexanneaestheticsllc.com](https://www.alexanneaestheticsllc.com/?utm_source=openai)).\n\n2. **Additional Services & Memberships**  \n   - *4Ever Glow* includes membership programs and a wide array of other treatments beyond HydraFacial ([4everglowmedspa.com](https://4everglowmedspa.com/?utm_source=openai)).\n   - *Ageless MedSpa* and *Selah MediSpa* offer robust HydraFacial protocols with focused treatment options ([selahmedispa.com](https://selahmedispa.com/services/hydrafacial/?utm_source=openai)).\n\n3. **Treatment Duration & Flexibility**  \n   - *Selah MediSpa* emphasizes quick treatments (around 30 minutes) with no downtime ([selahmedispa.com](https://selahmedispa.com/services/hydrafacial/?utm_source=openai)).\n   - *Restore Hyper Wellness* offers flexible session durations up to 90 minutes for deeper care ([restore.com](https://www.restore.com/local/hydrafacial-tx-katy-tx014?utm_source=openai)).\n\nRecommendations\n\n- If you prefer a full-service medspa with convenient membership plans and diverse offerings, **4Ever Glow** is a top choice.\n- For highly customized, results-focused HydraFacials, **Soo Med Spa**, **Luminous MediSpa**, or **Alexanne Aesthetics** may be the best fit.\n- Looking for quick, effective treatments with no downtime? **Selah MediSpa** stands out.\n- Want flexible session lengths or wellness-centered treatments? Consider **Restore Hyper Wellness**.\n- If you value professionalism in a clean, welcoming environment, **Ageless MedSpa** is also a great pick.\n\nLet me know if you'd like help narrowing it down based on your specific skin concerns, budget, or scheduling preferences!"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17281,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 1179,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18460
+  },
+  "user": null,
+  "metadata": {}
+}

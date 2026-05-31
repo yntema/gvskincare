@@ -1,0 +1,183 @@
+{
+  "id": "resp_038ee30bafd0bd84006a1ca455b1a881939d0f17a8335df943",
+  "object": "response",
+  "created_at": 1780261973,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780261979,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_038ee30bafd0bd84006a1ca455d2e48193867891275982c8ae",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "How often should you get a facial?"
+        ],
+        "query": "How often should you get a facial?"
+      }
+    },
+    {
+      "id": "msg_038ee30bafd0bd84006a1ca4571b1081939a6b074a9978305b",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 523,
+              "start_index": 448,
+              "title": "How Often Should You Get a Facial? By Skin Type & Treatment | SpaLens",
+              "url": "https://spalens.com/how-often-get-facial?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 786,
+              "start_index": 711,
+              "title": "How Often Should You Get a Facial? By Skin Type & Treatment | SpaLens",
+              "url": "https://spalens.com/how-often-get-facial?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1052,
+              "start_index": 945,
+              "title": "How Often Should You Get a Facial? | kalon Dermatology",
+              "url": "https://kalondermatology.com/how-often-should-you-get-a-facial/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1575,
+              "start_index": 1500,
+              "title": "How Often Should You Get a Facial? By Skin Type & Treatment | SpaLens",
+              "url": "https://spalens.com/how-often-get-facial?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1770,
+              "start_index": 1695,
+              "title": "How Often Should You Get a Facial? By Skin Type & Treatment | SpaLens",
+              "url": "https://spalens.com/how-often-get-facial?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2012,
+              "start_index": 1918,
+              "title": "How Often Should You Get a Facial? Skin Type Guide (2026) \u2013 INIA",
+              "url": "https://theinia.com/a/blog/how-often-should-you-get-facials?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2235,
+              "start_index": 2160,
+              "title": "How Often Should You Get a Facial? By Skin Type & Treatment | SpaLens",
+              "url": "https://spalens.com/how-often-get-facial?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2454,
+              "start_index": 2379,
+              "title": "How Often Should You Get a Facial? By Skin Type & Treatment | SpaLens",
+              "url": "https://spalens.com/how-often-get-facial?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2690,
+              "start_index": 2596,
+              "title": "How Often Should You Get a Facial? Skin Type Guide (2026) \u2013 INIA",
+              "url": "https://theinia.com/a/blog/how-often-should-you-get-facials?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3102,
+              "start_index": 3008,
+              "title": "How Often Should You Get a Facial? Skin Type Guide (2026) \u2013 INIA",
+              "url": "https://theinia.com/a/blog/how-often-should-you-get-facials?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3506,
+              "start_index": 3384,
+              "title": "How Often Should You Get a Facial? What You Need to Know",
+              "url": "https://www.healthline.com/health/beauty-skin-care/how-often-should-you-get-a-facial?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 4248,
+              "start_index": 4126,
+              "title": "How Often Should You Get a Facial? What You Need to Know",
+              "url": "https://www.healthline.com/health/beauty-skin-care/how-often-should-you-get-a-facial?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Here\u2019s a well-rounded breakdown of how often you should get a facial, based on current expert guidance and tailored to different skin types and needs:\n\nProfessional recommendations consistently suggest getting a facial approximately every 4 to 6 weeks. This schedule aligns with your skin\u2019s natural renewal cycle, which typically takes about 28\u201340 days\u2014longer as you age\u2014making monthly facials a practical and effective rhythm for skin maintenance ([spalens.com](https://spalens.com/how-often-get-facial?utm_source=openai)).\n\n### Why the 4\u20136 Week Window Works\n- This interval matches your skin\u2019s cell turnover process, allowing treatments to build on each other rather than being redundant or overly aggressive ([spalens.com](https://spalens.com/how-often-get-facial?utm_source=openai)).\n- A blueprint from Kalon Dermatology notes that spacing treatments in this range helps maintain your skin barrier and supports gradual improvement over time ([kalondermatology.com](https://kalondermatology.com/how-often-should-you-get-a-facial/?utm_source=openai)).\n\n### Frequency According to Skin Type\n\n| Skin Type / Concern             | Recommended Interval     | Reason                                                                 |\n|----------------------------------|---------------------------|------------------------------------------------------------------------|\n| **Oily / Acne-prone**           | Every 2\u20134 weeks           | Frequent cleansing and extractions help manage breakouts effectively ([spalens.com](https://spalens.com/how-often-get-facial?utm_source=openai)). |\n| **Normal / Combination**        | Every 4\u20136 weeks           | Ideal for general maintenance and even skin balance ([spalens.com](https://spalens.com/how-often-get-facial?utm_source=openai)).            |\n| **Dry / Dehydrated**            | Every 4\u20136 weeks (some say ~5\u20136 weeks) | Supports hydration while giving the skin time to recover ([theinia.com](https://theinia.com/a/blog/how-often-should-you-get-facials?utm_source=openai)). |\n| **Sensitive / Reactive**        | Every 6\u20138 weeks           | Minimizes risk of irritation by allowing your skin to settle between treatments ([spalens.com](https://spalens.com/how-often-get-facial?utm_source=openai)). |\n| **Mature (aging skin 40+)**     | Every 3\u20134 weeks           | Helps compensate for slower cell turnover and supports collagen stimulation ([spalens.com](https://spalens.com/how-often-get-facial?utm_source=openai)). |\n| **Hyperpigmentation / Tone Issues** | Every 3\u20134 weeks initially | Builds results through consistent exfoliation or brightening measures ([theinia.com](https://theinia.com/a/blog/how-often-should-you-get-facials?utm_source=openai)). |\n\n### Special Treatment Schedules\n- For targeted or corrective series\u2014such as anti-acne plans or pigmentation reduction\u2014some specialists may recommend treatments **every 2\u20133 weeks** across 6\u20138 sessions before transitioning to maintenance. This approach accelerates results but should be monitored by a professional ([theinia.com](https://theinia.com/a/blog/how-often-should-you-get-facials?utm_source=openai)).\n\n### At-Home Masks: A Quick Reference\nFor those incorporating facial masks into their home skincare routine, anecdotal guidelines suggest:\n\n- Sheet masks: once a week  \n- Clay masks: once or twice a week  \n- Activated charcoal masks: once a month  \n- Gelatin masks: twice a month ([healthline.com](https://www.healthline.com/health/beauty-skin-care/how-often-should-you-get-a-facial?utm_source=openai))  \n\nThese are general estimates; listen to your skin\u2019s response and adjust accordingly.\n\n### Final Takeaway\nThe optimal facial frequency depends on your skin\u2019s unique condition and your specific goals. Monthly facials (every 4\u20136 weeks) are a reliable baseline for most\u2014but adjustments are encouraged:\n- Oily or acne-prone: start every 2\u20134 weeks  \n- Sensitive: slow down to every 6\u20138 weeks  \n- Mature or corrective-goal skin: consider every 3\u20134 weeks or structured series.\n\nConsulting a licensed esthetician or dermatologist ensures a tailored plan that protects your skin barrier while addressing your goals effectively ([healthline.com](https://www.healthline.com/health/beauty-skin-care/how-often-should-you-get-a-facial?utm_source=openai)).\n\nIf you\u2019d like guidance based on your skin type or current treatments, I\u2019m happy to help customize a plan!"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17406,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 894,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18300
+  },
+  "user": null,
+  "metadata": {}
+}

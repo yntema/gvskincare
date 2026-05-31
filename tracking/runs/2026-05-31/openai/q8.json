@@ -1,0 +1,162 @@
+{
+  "id": "resp_083d94dbb7a1e6ec006a1ca36597d0819790fa1956ebfbd5db",
+  "object": "response",
+  "created_at": 1780261733,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780261740,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_083d94dbb7a1e6ec006a1ca365b6b88197b735815de09571df",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best facial spa west Houston"
+        ],
+        "query": "Best facial spa west Houston"
+      }
+    },
+    {
+      "id": "msg_083d94dbb7a1e6ec006a1ca366f81881979e398e1d1b1c2aec",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 593,
+              "start_index": 524,
+              "title": "Acne Treatment & Facials Houston TX 77077 | L\u00ec Beauty MedSpa",
+              "url": "https://libeautymedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 998,
+              "start_index": 880,
+              "title": "Shineshine Cosmetics & Day Spa, Houston, TX - Reviews (10), Photos (20) - BestProsInTown",
+              "url": "https://www.bestprosintown.com/tx/houston/shineshine-cosmetics-and-day-spa-/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1312,
+              "start_index": 1249,
+              "title": "Day Spa in Houston Texas | Muna Glam Spa | Book Online",
+              "url": "https://munaglamspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1626,
+              "start_index": 1569,
+              "title": "Home - Luxe Wellness Spa | Skincare | Waxing",
+              "url": "https://luxewspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2049,
+              "start_index": 1918,
+              "title": "Rejuvenate Your Skin with Custom Facials at Burhani Laser Med Spa. - Burhani Laser",
+              "url": "https://burhanilaser.com/rejuvenate-your-skin-with-custom-facials-at-burhani-laser-med-spa/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2495,
+              "start_index": 2424,
+              "title": "Spa Zoey Skin Care \u2013 Premier Skin Studio Located in Houston, Bellaire, West University and surrounding areas",
+              "url": "https://spazoeyskincare.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2869,
+              "start_index": 2804,
+              "title": "Private Botox & Luxury Med Spa Houston | River Oaks, Memorial, West U Concierge",
+              "url": "https://vgmedicalspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3124,
+              "start_index": 3034,
+              "title": "Facials in Houston | VIO Med Spa- West U",
+              "url": "https://viomedspa.com/west-u/skin-treatments/facials/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3449,
+              "start_index": 3326,
+              "title": "Montrose Skin Club Reviews - Facial spa in Houston, United States | Top-Rated.Online",
+              "url": "https://www.top-rated.online/cities/Houston/place/p/14116978/Montrose%2BSkin%2BClub?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "If you're seeking the best facial spas in West Houston, here's a curated list of outstanding options based on recent information and customer reviews:\n\n1. **L\u00ec Beauty MedSpa** (Westheimer Road, 77077)  \n   - A medical-grade spa offering luxury facials, nano-infusion therapy, chemical peels, microdermabrasion, acne treatments, and more.  \n   - Known for its personalized, clinical approach using top-tier products like SkinCeuticals, Image Skincare, and Obagi.  \n   - Boasts a stellar 4.9 Google rating across 100+ reviews ([libeautymedspa.com](https://libeautymedspa.com/?utm_source=openai)).\n\n2. **Shineshine Cosmetics & Day Spa** (Westheimer Road, 77077)  \n   - Praised for its professionalism, soothing atmosphere, and customized care\u2014particularly helpful for skin concerns like rosacea.  \n   - Reviews highlight the owner\u2019s expertise and thoughtful, trust-building approach ([bestprosintown.com](https://www.bestprosintown.com/tx/houston/shineshine-cosmetics-and-day-spa-/?utm_source=openai)).\n\n3. **Muna Glam Spa** (Westchase/West Houston)  \n   - Offers holistic day spa services including anti-aging facials, acne facials, deep-cleansing facials, massages, and makeup.  \n   - Local, personable, and focused on creating a peaceful experience ([munaglamspa.com](https://munaglamspa.com/?utm_source=openai)).\n\n4. **Luxe Wellness Spa** (Westchase district)  \n   - A highly rated spa (5.0 with 40+ reviews) offering HydraFacial anti-aging treatments, holistic facials, waxing, and spa packages.  \n   - Open 7 days a week with flexible hours\u2014ideal for busy schedules ([luxewspa.com](https://luxewspa.com/?utm_source=openai)).\n\n5. **Burhani Laser Med Spa** (Cairnway Drive, near West Houston)  \n   - Specializes in custom facials including Korean Spicule Peel (FCR) and dermaplaning, tailored to address acne, hyperpigmentation, dryness, and aging.  \n   - Known for advanced facial technologies and personalized care ([burhanilaser.com](https://burhanilaser.com/rejuvenate-your-skin-with-custom-facials-at-burhani-laser-med-spa/?utm_source=openai)).\n\n6. **Spa Zoey Skincare & Wellness** (Bellaire area, near West Houston)  \n   - Offers a range of advanced treatments such as Green Peel\u00ae, LED light therapy, nano-infusion, acne treatments, anti-aging facials, and oncology facials.  \n   - Strong reputation for customization and long-term client trust\u2014many reviews cite the owner's personalized care and extensive expertise ([spazoeyskincare.com](https://spazoeyskincare.com/?utm_source=openai)).\n\n7. **VG Medical Spa** (Champion Forest Drive, 77069)  \n   - A boutique med spa focusing on facial harmonization\u2014Botox, fillers, Morpheus8 microneedling, laser treatments, and concierge in-home services.  \n   - Excellent for those seeking natural-looking enhancements and highly tailored aesthetic services ([vgmedicalspa.com](https://vgmedicalspa.com/?utm_source=openai)).\n\nAdditional Options to Consider:\n- **VIO Med Spa \u2013 West U**: Offers Hydrafacial, Glo2Facial, signature facials, and dermaplaning for tailored skin treatment needs ([viomedspa.com](https://viomedspa.com/west-u/skin-treatments/facials/?utm_source=openai)).  \n- **Montrose Skin Club**: Though located in central Houston, this facial spa earns praise for its thoughtful, unrushed treatments (e.g., \u201cMaysha was thorough\u2026 not just working through a time slot\u201d) ([top-rated.online](https://www.top-rated.online/cities/Houston/place/p/14116978/Montrose%2BSkin%2BClub?utm_source=openai)).\n\n---\n\n### Comparison of Top Picks in West Houston\n\n| Spa Name                  | Location                       | Specialty & Highlights                                        |\n|---------------------------|--------------------------------|----------------------------------------------------------------|\n| L\u00ec Beauty MedSpa          | Westheimer Rd, 77077           | Medical-grade facials, acne care, nano infusion (4.9)          |\n| Shineshine Cosmetics      | Westheimer Rd, 77077           | Personalized, caring facials, rosacea-friendly                 |\n| Luxe Wellness Spa         | Westchase                       | HydraFacial, waxing, spa packages with 5.0 rating              |\n| Muna Glam Spa             | Westchase                       | Holistic facials, massage, makeup in tranquil setting          |\n| Burhani Laser Med Spa     | Cairnway Dr, 77084              | Advanced facials\u2014Korean peel, dermaplaning                     |\n| Spa Zoey Skincare         | Bellaire (near West Houston)   | Wide range of advanced facial treatments, oncology safe        |\n| VG Medical Spa            | Champion Forest Dr, 77069       | Facial harmonization, injectables, concierge services          |\n\n---\n\n### Tips to Choose the Right One\n\n- **For clinical-grade, visible results**: L\u00ec Beauty MedSpa and Burhani Laser stand out.\n- **For a tranquil, nurturing experience**: Muna Glam Spa, Spa Zoey, or Shineshine may appeal most.\n- **For advanced aesthetics and injectables**: VG Medical Spa excels.\n- **For flexible hours and package deals**: Luxe Wellness Spa is a great fit.\n- **For a more central specialized spa**: Montrose Skin Club is highly rated.\n\n---\n\nLet me know if you'd like help narrowing it down based on your specific skin concerns, budget, or preferred ambiance\u2014I'd be happy to assist further!"
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17345,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 1134,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18479
+  },
+  "user": null,
+  "metadata": {}
+}

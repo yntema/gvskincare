@@ -1,0 +1,169 @@
+{
+  "id": "resp_046fc096a14bf48b006a1ca352c43c8196869bf91dce48d81c",
+  "object": "response",
+  "created_at": 1780261714,
+  "status": "completed",
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1780261720,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "output": [
+    {
+      "id": "ws_046fc096a14bf48b006a1ca352e0fc8196a04db89b5c1a7aa7",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Best place for facials in Katy TX"
+        ],
+        "query": "Best place for facials in Katy TX"
+      }
+    },
+    {
+      "id": "msg_046fc096a14bf48b006a1ca35424408196b6acb9450b9aebf9",
+      "type": "message",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "end_index": 615,
+              "start_index": 558,
+              "title": "TSUKI Facial & Spa | Head Spa & Facials in Katy, TX",
+              "url": "https://tsukispa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 958,
+              "start_index": 895,
+              "title": "Suimin Spa Katy TX \u2013 Head Spa, Facial, Massage, Lashes & Wellness",
+              "url": "https://www.suiminspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1264,
+              "start_index": 1187,
+              "title": "Divinity Spa | Katy TX",
+              "url": "https://www.divinityspa-katy.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1564,
+              "start_index": 1501,
+              "title": "Soo Med Spa | Premium Aesthetic Treatments | Katy, TX",
+              "url": "https://www.soomedspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 1998,
+              "start_index": 1897,
+              "title": "Revitalize Infusion & Aesthetics | IV Therapy & Med Spa in Katy, TX",
+              "url": "https://www.revitalizeinfusionaesthetics.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2333,
+              "start_index": 2258,
+              "title": "Skincare | Aika Skin Care | Katy TX",
+              "url": "https://www.aikaskincarellc.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2638,
+              "start_index": 2571,
+              "title": "HOME - Body Revamp Spa",
+              "url": "https://bodyrevampspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 2912,
+              "start_index": 2837,
+              "title": "Nail Salon 77494 | Elite Lash Nails And Spa of Katy, TX 77494 | Gel Manicure, Dipping Powder, Pedicure, Foot Massage, Facial, Waxing",
+              "url": "https://elitelashnailsspa.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3142,
+              "start_index": 3061,
+              "title": "Nail Salon 77494 | Vogue Nails & Spa | Katy, TX 77494 | Best Nail Salon",
+              "url": "https://voguenailsandspakaty.com/?utm_source=openai"
+            },
+            {
+              "type": "url_citation",
+              "end_index": 3380,
+              "start_index": 3277,
+              "title": "Facial (60 Minutes) of DIORRA Nails Spa, 1806 Avenue D #105, Katy, , TX 77493",
+              "url": "https://diorranailspa.com/service/facial-60-minutes-34085.html?utm_source=openai"
+            }
+          ],
+          "logprobs": [],
+          "text": "Here are some highly rated and diverse options for facial services in and around Katy, TX, based on recent listings and websites. Each offers a unique experience\u2014from luxurious head spa rituals to advanced medical-grade treatments. The listings below reflect several top-rated service providers available as of late May 2026:\n\n**TSUKI Facial & Spa**  \n- Offers luxury, personalized facials and head\u2011spa treatments in a serene, private setting. Services range from a 90\u2011minute customized facial to a full ritual combining head spa and facial for 150 minutes.\u2002([tsukispa.com](https://tsukispa.com/?utm_source=openai))\n\n**Suimin Spa**  \n- Located in Katy, offering a wide array of facial treatments tailored to skin concerns. Services include collagen-boosting, brightening, hydrating, acne-clarifying, express facials, and optional enhancements like gua sha. They also provide head spa therapies.\u2002([suiminspa.com](https://www.suiminspa.com/?utm_source=openai))\n\n**Divinity Spa**  \n- Run by veteran esthetician Vilma Fernandez, with over 22 years\u2019 experience. Offers facials, waxing, and body contouring therapies. Emphasizes expertise and personalized care by a licensed master facialist.\u2002([divinityspa-katy.com](https://www.divinityspa-katy.com/?utm_source=openai))\n\n**Soo Med Spa**  \n- Presents a med-spa experience combining medical-grade facials with aesthetic enhancements. Services include Hydrafacial, chemical peels, microneedling, and customizable \u201csignature facials\u201d under clinical precision.\u2002([soomedspa.com](https://www.soomedspa.com/?utm_source=openai))\n\n**Revitalize Infusion & Aesthetics**  \n- A medically supervised spa offering a comprehensive menu: HydroFacial, CryoFacial, Oxygen facial, Microdermabrasion, VI Peel, PRP \u201cVampire Facial,\u201d and premium treatments like Salmon DNA facials. Operated by certified Nurse Practitioners with 5-star reviews and flexible financing options.\u2002([revitalizeinfusionaesthetics.com](https://www.revitalizeinfusionaesthetics.com/?utm_source=openai))\n\n**Aika Skin Care**  \n- Located within Blue Lion Salon Studios, offers facials such as Glow, Deep Cleansing, Hydraglow, Microdermabrasion, Back Facial, and Radiofrequency. Client testimonials highlight detailed, knowledgeable service and significant results.\u2002([aikaskincarellc.com](https://www.aikaskincarellc.com/?utm_source=openai))\n\n**Body Revamp Spa**  \n- A top-rated medical spa offering corrective and luxurious facials along with injectables and body treatments. Focuses on results-driven and customized skincare using high\u2011quality equipment and professional care.\u2002([bodyrevampspa.com](https://bodyrevampspa.com/?utm_source=openai))\n\nOther notable options include nail and spa salons that also offer facials:\n- **Elite Lash Nails & Spa** offers custom facials, anti-aging treatments, and massages alongside nail and lash services.\u2002([elitelashnailsspa.com](https://elitelashnailsspa.com/?utm_source=openai))  \n- **Vogue Nails & Spa** includes facial treatments as part of a one-stop beauty experience, coupled with manicure, pedicure, and waxing services.\u2002([voguenailsandspakaty.com](https://voguenailsandspakaty.com/?utm_source=openai))  \n- **DIORRA Nails Spa** provides a 60-minute facial for $55 and emphasizes relaxation and quality service in a nail spa environment.\u2002([diorranailspa.com](https://diorranailspa.com/service/facial-60-minutes-34085.html?utm_source=openai))\n\n---\n\n##  Quick Comparison by Your Needs\n\n- If you seek **relaxation and luxury**, TSUKI Facial & Spa and Suimin Spa stand out for their serene, personalized experiences.\n- For **medical\u2011grade or advanced facial technology**, visit Soo Med Spa and Revitalize Infusion & Aesthetics.\n- If expertise from a highly experienced esthetician matters most, consider Divinity Spa.\n- For a **balanced experience with visible results and tailored skincare**, Aika Skin Care and Body Revamp Spa are excellent choices.\n- For those looking for a budget-friendly or bundled beauty experience, the nail\u2011spa facials at Elite Lash Nails, Vogue Nails, or DIORRA may suit you.\n\n---\n\nLet me know if you'd like help narrowing these options based on your skin type, budget, or availability. I can also assist with booking recommendations or details like pricing, location, or hours for any spa you're most interested in."
+        }
+      ],
+      "role": "assistant"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "auto",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "required",
+  "tools": [
+    {
+      "type": "web_search",
+      "return_token_budget": "default",
+      "search_context_size": "medium",
+      "user_location": {
+        "type": "approximate",
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null
+      }
+    }
+  ],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 17283,
+    "input_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "output_tokens": 907,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18190
+  },
+  "user": null,
+  "metadata": {}
+}
