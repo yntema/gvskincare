@@ -13,3 +13,4 @@ __pycache__/
 # Local tooling artifacts
 .playwright-mcp/
 *.jpeg
+.claude/scheduled_tasks.lock
