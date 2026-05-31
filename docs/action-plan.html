@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GV Skincare — AEO Action Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #faf5f2; --card: #ffffff; --border: #e0d0c8; --border-light: #e8e0db;
+    --text: #2d1f14; --text-body: #6b5a50; --muted: #8a7868;
+    --rose: #b44d6e; --rose-hover: #9c3d5c; --rose-tint: #fdf2f5; --card-hover: #fdf8f6;
+    --green: #38a169; --green-bg: #f0fdf4; --red: #c53030; --red-bg: #fff8f8;
+    --amber: #d97706; --amber-bg: #fdf2e3; --blue: #4a7dfc; --blue-bg: #eef2ff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; -webkit-font-smoothing: antialiased; background: var(--bg); color: var(--text-body); padding: 24px; max-width: 1040px; margin: 0 auto; line-height: 1.6; }
+  a { color: var(--rose); text-decoration: none; }
+  a:hover { text-decoration: underline; color: var(--rose-hover); }
+  .back { font-family: 'JetBrains Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; }
+  h1 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 30px; font-weight: 800; letter-spacing: -0.022em; color: var(--text); margin: 14px 0 4px; }
+  h2 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 21px; font-weight: 700; color: var(--text); margin: 38px 0 6px; letter-spacing: -0.01em; padding-top: 14px; border-top: 1px solid var(--border-light); }
+  h3 { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 16px; font-weight: 700; color: var(--text); margin: 22px 0 6px; }
+  p { margin: 8px 0; }
+  .subtitle { color: var(--muted); font-size: 14px; margin-bottom: 8px; }
+  .eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--muted); font-weight: 500; }
+  ul, ol { margin: 8px 0 8px 22px; }
+  li { margin: 5px 0; }
+  code { font-family: 'JetBrains Mono', monospace; font-size: 12px; background: var(--rose-tint); color: var(--rose-hover); padding: 1px 6px; border-radius: 5px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin: 14px 0; }
+  th { text-align: left; padding: 9px 12px; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; color: var(--text); border-bottom: 2px solid var(--border); vertical-align: top; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--border-light); vertical-align: top; }
+  tr:hover td { background: var(--card-hover); }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px 22px; margin: 16px 0; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; margin: 18px 0; }
+  .stat { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 16px 18px; }
+  .stat .label { font-family: 'JetBrains Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin-bottom: 6px; }
+  .stat .value { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 28px; font-weight: 700; color: var(--text); }
+  .stat .value.red { color: var(--red); } .stat .value.rose { color: var(--rose); } .stat .value.amber { color: var(--amber); }
+  .stat .detail { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .pill { display: inline-block; padding: 1px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; font-family: 'JetBrains Mono', monospace; white-space: nowrap; }
+  .pill.api { background: var(--green-bg); color: var(--green); }
+  .pill.editor { background: var(--blue-bg); color: var(--blue); }
+  .pill.q { background: var(--rose-tint); color: var(--rose); margin: 1px 2px; }
+  .legend { display: flex; gap: 22px; flex-wrap: wrap; margin: 10px 0 4px; font-size: 13px; }
+  .legend b { color: var(--text); }
+  .note { font-size: 13px; color: var(--muted); }
+  .callout { background: var(--rose-tint); border: 1px solid var(--border); border-left: 4px solid var(--rose); border-radius: 10px; padding: 14px 18px; margin: 16px 0; }
+  .callout.win { background: var(--green-bg); border-left-color: var(--green); }
+  footer { margin-top: 44px; padding-top: 16px; border-top: 1px solid var(--border-light); font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<a class="back" href="./index.html">← Back to AEO Dashboard</a>
+<div class="eyebrow" style="margin-top:18px;">GV Skincare Center · Katy, TX</div>
+<h1>AEO Action Plan</h1>
+<div class="subtitle">A prioritized plan to get GV Skincare cited by AI answer engines (ChatGPT, Gemini, Perplexity, Claude, AI Overviews). Assessed 2026-05-31, combining the SEO/AEO audit, a live crawl of gvskincare.com, and the latest tracking run.</div>
+
+<div class="legend">
+  <span><span class="pill api">🤖 API</span> &nbsp;<b>I execute directly</b> via the Wix API (no manual step)</span>
+  <span><span class="pill editor">✍️ EDITOR</span> &nbsp;<b>I draft, you paste</b> into the Wix Editor (classic-editor limitation)</span>
+</div>
+
+<h2>1 · Where we stand</h2>
+<p>GV Skincare is almost invisible to AI answer engines. Across the tracked query set it surfaces in roughly <b>1 in 15 answers</b>, and only when the query already contains the brand name or one of a couple of treatment terms. For the "best spa / medspa / facial in Katy" discovery questions and the "how do I treat X" problem questions — the queries real new customers ask — local competitors (Anita's Skin Care Clinic, Katy MediSpa, City Glow, Spavia, Face to Face Spa) are cited and GV is not.</p>
+
+<div class="cards">
+  <div class="stat"><div class="label">Visibility · Apr 4</div><div class="value red">6%</div><div class="detail">12 / 200 answers (5 engines)</div></div>
+  <div class="stat"><div class="label">Visibility · May 31</div><div class="value red">~7%</div><div class="detail">11 / 160 answers (4 engines)</div></div>
+  <div class="stat"><div class="label">Worst engines</div><div class="value amber">3</div><div class="detail">Gemini, Perplexity, Claude (≤2/40 each)</div></div>
+  <div class="stat"><div class="label">Blog posts live</div><div class="value rose">0</div><div class="detail">empty — biggest opportunity</div></div>
+</div>
+
+<h3>Where GV does / doesn't appear (May 31 run)</h3>
+<table>
+  <tr><th>Surfaces today</th><th>Invisible (high-value gaps)</th></tr>
+  <tr>
+    <td>
+      <span class="pill q">q25 brand</span> <span class="pill q">q7 pro facial</span> <span class="pill q">q14 acne facial</span> <span class="pill q">q16 dermaplaning</span> <span class="pill q">q38 ES facial</span> <span class="pill q">q40 ES acne</span>
+      <div class="note" style="margin-top:6px;">i.e. mostly brand + a few exact treatment matches.</div>
+    </td>
+    <td>
+      <b>Discovery:</b> <span class="pill q">q1</span><span class="pill q">q2</span><span class="pill q">q3</span><span class="pill q">q4</span><span class="pill q">q5</span><span class="pill q">q6</span><span class="pill q">q8</span> "best facial/medspa in Katy/Houston"<br>
+      <b>Problem-aware:</b> <span class="pill q">q17</span><span class="pill q">q18</span><span class="pill q">q19</span><span class="pill q">q20</span><span class="pill q">q21</span><span class="pill q">q22</span><span class="pill q">q23</span><span class="pill q">q24</span> acne scars, melasma, wrinkles, sagging, teen acne…<br>
+      <b>Treatments:</b> <span class="pill q">q9</span><span class="pill q">q10</span><span class="pill q">q11</span><span class="pill q">q12</span><span class="pill q">q13</span><span class="pill q">q15</span> microneedling, PRP, RF, peels, Aquagold
+    </td>
+  </tr>
+</table>
+
+<h3>Live-site state (crawled 2026-05-31) — the audit is partly out of date</h3>
+<table>
+  <tr><th>Item</th><th>Audit said</th><th>Reality today</th></tr>
+  <tr><td><code>robots.txt</code> + sitemap</td><td>Missing</td><td>✅ Both exist; AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended) are <b>not</b> blocked</td></tr>
+  <tr><td>Homepage schema</td><td>None</td><td>✅ <code>LocalBusiness</code> + <code>WebSite</code> auto-generated by Wix</td></tr>
+  <tr><td>Inner-page schema (services, body, about, contact, evaluation)</td><td>None</td><td>❌ Still zero — <code>Service</code>, <code>FAQPage</code>, <code>Person</code>, <code>Review</code>, <code>BreadcrumbList</code> all missing</td></tr>
+  <tr><td>Titles / meta</td><td>Weak, missing local modifiers</td><td>❌ Confirmed — inner titles lack "Katy, TX"; several pages have no meta description</td></tr>
+  <tr><td>FAQ / answer-ready content</td><td>Absent</td><td>❌ Confirmed — no Q&A blocks anywhere</td></tr>
+  <tr><td>Evaluation page slug</td><td><code>/copy-of-virtual-consultation</code></td><td>❌ Still the builder default</td></tr>
+  <tr><td>English virtual consultation page</td><td>Missing (Spanish only)</td><td>❌ Still missing</td></tr>
+</table>
+
+<h2>2 · How we'll execute (two lanes)</h2>
+<p>The site runs on the <b>classic Wix Editor</b>, so the work splits into two lanes. The good news: the single highest-leverage AEO lever — publishing question-answering content with embedded schema — is fully in the lane I can execute directly.</p>
+<table>
+  <tr><th>Lane</th><th>What it covers</th><th>How</th></tr>
+  <tr><td><span class="pill api">🤖 API</span></td><td>Blog posts <b>with per-post JSON-LD schema</b> (FAQPage / Service), <code>robots.txt</code>, content-item SEO, Bookings service SEO</td><td>I do it directly via the connected Wix MCP. No manual step.</td></tr>
+  <tr><td><span class="pill editor">✍️ EDITOR</span></td><td>Static-page titles/meta/H1, per-page FAQ blocks + their schema, <code>Service</code>/<code>Person</code>/<code>Review</code> markup on existing pages, slug rename + 301, internal links, reviews UI, galleries</td><td>I hand you exact copy / JSON-LD to paste into the page's <b>SEO panel → Advanced → Custom tags</b> (or the section editor). ~5 min each.</td></tr>
+</table>
+<p class="note">Why the split exists: Wix's REST API can fully manage <i>content apps</i> (Blog, CMS, Bookings) including their SEO/structured data, but it cannot rewrite the drag-and-drop canvas or the SEO tags of static Editor pages.</p>
+
+<h2>3 · The plan — four workstreams</h2>
+
+<h3>Workstream A — Blog as an answer engine &nbsp;<span class="pill api">🤖 API · highest leverage</span></h3>
+<p>The blog is empty and every post I publish can carry its own <code>FAQPage</code> + <code>Service</code> + <code>LocalBusiness</code> JSON-LD. AI engines cite pages that directly, concisely answer the question — so each article is built question-first, localized to Katy, and pointed at the exact tracked queries where GV is invisible. This is the fastest way to move the visibility number because I can ship it end-to-end.</p>
+<table>
+  <tr><th>Batch</th><th>Articles (question-led, Katy-localized, schema-embedded)</th><th>Targets</th></tr>
+  <tr><td><b>A1 · Problem/solution</b></td><td>"How to treat acne scars in Katy", melasma, hyperpigmentation, wrinkles without surgery, sagging skin (non-surgical), dry/dehydrated skin, teen acne, PRP for hair loss</td><td><span class="pill q">q17–q24</span></td></tr>
+  <tr><td><b>A2 · Treatment explainers</b></td><td>HydraFacial, microneedling, RF microneedling, chemical peel, PRP facial, dermaplaning, Aquagold, anti-aging facial — each "what it is / who it's for / what to expect / cost / FAQ"</td><td><span class="pill q">q2</span><span class="pill q">q9–q16</span></td></tr>
+  <tr><td><b>A3 · Comparisons</b></td><td>HydraFacial vs chemical peel · microneedling vs RF microneedling · chemical peel vs microneedling for acne scars (tables + pros/cons)</td><td>comparison intent (revives retired <span class="pill q">q31–q36</span> themes)</td></tr>
+  <tr><td><b>A4 · Spanish mirrors</b></td><td>Spanish versions of the top A1/A2 articles + the existing virtual-consultation strength</td><td><span class="pill q">q37–q40</span></td></tr>
+</table>
+<p class="note">Each post ships with: question H2/H3s, 2–3 sentence quotable answers, an FAQ block, internal links to the relevant service page, a booking CTA, and JSON-LD. I draft → you approve tone → I publish.</p>
+
+<h3>Workstream B — Crawlability &nbsp;<span class="pill api">🤖 API</span></h3>
+<ul>
+  <li>Keep AI crawlers explicitly welcome in <code>robots.txt</code> and confirm the sitemap line stays intact (currently auto-generated/permissive — already healthy, low effort to harden).</li>
+  <li>After new blog URLs exist, confirm they're in <code>sitemap.xml</code> so engines discover them.</li>
+</ul>
+
+<h3>Workstream C — Static-page SEO &nbsp;<span class="pill editor">✍️ EDITOR (I draft, you paste)</span></h3>
+<table>
+  <tr><th>Action</th><th>Detail</th><th>Targets</th></tr>
+  <tr><td>Rewrite titles + meta descriptions</td><td>Home, Services, Body Services, Evaluation, About, Contact — add service + "Katy, TX" + benefit. (Draft copy from the audit's Section 4.)</td><td><span class="pill q">q1–q8</span></td></tr>
+  <tr><td>Add FAQ blocks + <code>FAQPage</code> JSON-LD</td><td>5–7 Q&As per key service page; paste matching JSON-LD into the page's custom tags.</td><td>problem + treatment</td></tr>
+  <tr><td>Add <code>Service</code>, <code>Person</code> (Gabriela), <code>Review</code>/<code>AggregateRating</code> markup</td><td>Codify offerings, the provider's expertise, and the strong off-site review reputation on-site.</td><td>trust / E-E-A-T</td></tr>
+  <tr><td>Fix the Evaluation slug</td><td><code>/copy-of-virtual-consultation</code> → <code>/skin-evaluation-katy</code> + 301 redirect.</td><td>relevance</td></tr>
+  <tr><td>Add an English Virtual Consultation page</td><td>Mirror the strong Spanish page; cross-link EN/ES with hreflang.</td><td>consultation intent</td></tr>
+  <tr><td>Deepen thin pages + internal links</td><td>Service summaries on home/Services hub; "Areas We Serve" (Cinco Ranch, Fulshear, Richmond, west Houston); descriptive anchor links.</td><td>local relevance</td></tr>
+</table>
+
+<h3>Workstream D — Trust, reviews & local entity &nbsp;<span class="pill editor">✍️ EDITOR + off-site</span></h3>
+<ul>
+  <li>Surface real review counts + star ratings on-site and add <code>Review</code>/<code>AggregateRating</code> schema (the off-site reputation is strong but invisible on the website).</li>
+  <li>Standardize the brand name to one canonical form ("GV Skincare Center") across the site, schema, Google Business Profile, Yelp and directories — the name currently varies (GV SKINCARE / GV Skincare Center / GV Skin Care Center), which weakens entity consolidation.</li>
+  <li>Optimize the Google Business Profile (categories, services, photos, posts) — the dominant local-AI signal.</li>
+</ul>
+
+<h2>4 · Prioritized roadmap</h2>
+<table>
+  <tr><th>Phase</th><th>Action</th><th>Lane</th><th>Impact</th></tr>
+  <tr><td rowspan="4"><b>Quick wins<br>(week 1)</b></td><td>Publish first 3 problem/solution blog posts (acne scars, melasma, teen acne) with full schema</td><td><span class="pill api">🤖 API</span></td><td>High</td></tr>
+  <tr><td>Harden <code>robots.txt</code> for AI crawlers + verify sitemap</td><td><span class="pill api">🤖 API</span></td><td>Low–Med</td></tr>
+  <tr><td>Draft + paste new titles/meta for Home, Services, Body, Evaluation</td><td><span class="pill editor">✍️</span></td><td>High</td></tr>
+  <tr><td>Standardize brand name + NAP across site & key listings</td><td><span class="pill editor">✍️</span></td><td>High</td></tr>
+  <tr><td rowspan="3"><b>30–60 days</b></td><td>Complete A1 + A2 article batches (problem + treatment explainers, with schema)</td><td><span class="pill api">🤖 API</span></td><td>High</td></tr>
+  <tr><td>Add FAQ blocks + <code>FAQPage</code>/<code>Service</code> schema to all key service pages</td><td><span class="pill editor">✍️</span></td><td>High</td></tr>
+  <tr><td>Ship English Virtual Consultation page; fix Evaluation slug + 301</td><td><span class="pill editor">✍️</span></td><td>Med–High</td></tr>
+  <tr><td rowspan="3"><b>60–90 days</b></td><td>Comparison + Spanish article batches (A3, A4)</td><td><span class="pill api">🤖 API</span></td><td>High</td></tr>
+  <tr><td>Reviews page + on-site review/rating display & schema</td><td><span class="pill editor">✍️</span></td><td>High</td></tr>
+  <tr><td>Local landing sections + before/after galleries; GBP optimization</td><td><span class="pill editor">✍️</span> + off-site</td><td>Med–High</td></tr>
+</table>
+
+<h2>5 · How we'll measure</h2>
+<p>The existing tracking harness re-runs the 40-query set across the AI engines and feeds the <a href="./index.html">AEO Dashboard</a>. Success = the visibility line climbs off ~7%, GV starts appearing on discovery (<span class="pill q">q1–q8</span>) and problem-aware (<span class="pill q">q17–q24</span>) queries, and new blog URLs show up as cited sources. We re-audit after each content batch and watch:</p>
+<ul>
+  <li><b>Visibility score</b> — % of non-branded queries where GV appears, per engine.</li>
+  <li><b>Citation share</b> — % of organic citations pointing to <code>gvskincare.com</code>.</li>
+  <li><b>Query coverage</b> — which query categories flip from absent → present.</li>
+</ul>
+
+<div class="callout win"><b>Net:</b> the work that moves AEO fastest — schema-rich, question-answering content — is exactly what I can publish directly through the Wix API. The static-page polish runs in parallel as paste-ready drafts. First measurable lift expected after the week-1 blog batch lands and the next audit runs.</div>
+
+<footer>
+GV Skincare Center · Katy, TX · AEO Action Plan — generated 2026-05-31. Sources: external SEO/AEO audit, live crawl of gvskincare.com, tracking runs <code>2026-04-04</code> &amp; <code>2026-05-31</code>. &nbsp;<a href="./index.html">AEO Dashboard →</a>
+</footer>
+
+</body>
+</html>
