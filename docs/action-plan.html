@@ -78,7 +78,7 @@
   <div class="stat"><div class="label">Where GV shows</div><div class="value amber">brand</div><div class="detail">+ a few exact treatments</div></div>
   <div class="stat"><div class="label">AI picks per query</div><div class="value rose">1–3</div><div class="detail">no "page 2," named or not</div></div>
 </div>
-<p class="note"><b>Live site (crawled 2026-05-31):</b> homepage already carries auto-generated <code>LocalBusiness</code> + <code>WebSite</code> schema and AI crawlers aren't blocked. Inner pages have <b>no schema</b>, inner titles lack "Katy, TX," several pages have <b>no meta description</b>, there are <b>no FAQ/answer blocks</b> anywhere, the Evaluation page still uses the <code>/copy-of-virtual-consultation</code> slug, and there's no English virtual-consultation page.</p>
+<p class="note"><b>Live site (crawled 2026-05-31):</b> AI crawlers aren't blocked, but the homepage's <code>LocalBusiness</code> node is <b>bare</b> (no hours, geo, price range, <code>sameAs</code>, or rating) and ships a <b>duplicate</b> <code>WebSite</code> node; its Services tiles and client reviews are images/loose text with <b>no extractable copy</b> and no <code>Review</code>/<code>FAQPage</code> markup; and the schema address <b>drops the "Suite 302"</b> the footer shows. Inner pages have <b>no schema</b>, inner titles lack "Katy, TX," several pages have <b>no meta description</b>, there are <b>no FAQ/answer blocks</b> anywhere, the Evaluation page still uses the <code>/copy-of-virtual-consultation</code> slug, and there's no English virtual-consultation page.</p>
 
 <h2>2 · What the research says</h2>
 <p>Method: 94 source-backed claims were extracted from current (2025–2026) studies and run through adversarial verification. <b>45 of 74 checks were refutes</b>, which stripped out the vendor hype. Only claims that survived are used below.</p>
@@ -141,6 +141,48 @@ GV's tracking gaps are mostly <i>subjective</i> discovery (<span class="pill q">
   <li><b>Lean into bilingual:</b> the Spanish-speaking esthetician angle is a genuine local differentiator. Surface Spanish service content and answer Spanish-language queries (mirrors tracked <span class="pill q">q37–q40</span>).</li>
   <li>Add <code>Service</code>, <code>FAQPage</code>, <code>Person</code> (Gabriela) and <code>Review</code> schema. <span class="note">(Static-page copy + schema = paste-ready drafts I give you; <code>robots.txt</code> and any content-item SEO I do via API.)</span></li>
 </ul>
+
+<p style="margin-top:18px;"><b>Home page, section by section</b> (from the 2026-05-31 crawl). Every block below already lives on the page or belongs there; the problem is each is currently <b>unreadable to an answer engine</b> — images, tiles, loose text, thin schema. The fix is the same pattern throughout: real HTML answer-text plus matching markup.</p>
+<table>
+  <tr><th>Section</th><th>Now</th><th>On-page fix</th><th>Lane</th></tr>
+  <tr>
+    <td><b>Hero / entity block</b></td>
+    <td>H1 is generic (<code>SKIN &amp; BODY SPA</code>); the intro is a philosophy paragraph — nothing extractable about what the business is.</td>
+    <td>H1 → <b>"GV Skincare — Facial &amp; Body Spa in Katy, TX."</b> Add one quotable answer sentence near the top: what it is, where, top treatments, how to book/call.</td>
+    <td><span class="pill editor">✍️</span></td>
+  </tr>
+  <tr>
+    <td><b>Services</b></td>
+    <td>Four image tiles (Evaluation, Facial, Body, Virtual Consultation); no prose, no named treatments, no prices. An LLM sees four category words.</td>
+    <td>Under each tile add real text: the named treatments inside it (HydraFacial, dermaplaning, RF microneedling…), a one-line "what it treats," and a "from&nbsp;$X." Mark up with <code>Service</code> / <code>OfferCatalog</code>.</td>
+    <td><span class="pill editor">✍️</span> <span class="pill api">🤖</span></td>
+  </tr>
+  <tr>
+    <td><b>Reviews ("From our clients")</b></td>
+    <td>Four testimonials, several Spanish-only; <b>no visible stars, count, or schema</b> — an LLM can't tell these are reviews or that the rating is high.</td>
+    <td>Show stars + a count; add full reviewer attribution; sync to the Google reviews; wrap in <code>Review</code> + <code>aggregateRating</code> so the page is citable for "is GV any good."</td>
+    <td><span class="pill editor">✍️</span> <span class="pill api">🤖</span></td>
+  </tr>
+  <tr>
+    <td><b>FAQ</b></td>
+    <td>Not on the home page at all — Q&amp;A lives only on a separate footer page.</td>
+    <td>Add a <b>5–7 question</b> home-page FAQ (where, treatments, HydraFacial cost, payment plans, how to book, ¿hablan español?); lead each answer with one quotable 40–60 word sentence. Add <code>FAQPage</code> schema.</td>
+    <td><span class="pill editor">✍️</span> <span class="pill api">🤖</span></td>
+  </tr>
+  <tr>
+    <td><b>NAP / contact</b></td>
+    <td>Footer shows <b>Suite 302</b>; the schema address omits it; the phone is in schema but not a visible click-to-call.</td>
+    <td>Make on-page NAP identical to GBP + footer (incl. Suite 302) under one canonical name; add a visible <code>tel:</code> link in the header/hero.</td>
+    <td><span class="pill editor">✍️</span> <span class="pill api">🤖</span></td>
+  </tr>
+  <tr>
+    <td><b>Schema layer</b></td>
+    <td>Bare <code>LocalBusiness</code> + a <b>duplicate</b> <code>WebSite</code> node; no geo, hours, price range, <code>sameAs</code>, or rating.</td>
+    <td>Upgrade <code>LocalBusiness</code> (specific <code>@type</code>, <code>@id</code>, <code>geo</code>, <code>openingHoursSpecification</code>, <code>priceRange</code>, <code>description</code>, <code>areaServed</code>, <code>sameAs</code> → GBP/IG/FB/Yelp); drop the duplicate <code>WebSite</code>; carry the FAQ/Review/aggregateRating markup above.</td>
+    <td><span class="pill api">🤖</span></td>
+  </tr>
+</table>
+<p class="note"><b>Inputs I need</b> to fill the schema + FAQ accurately: <b>hours</b>, <b>GBP / Instagram / Facebook URLs</b>, typical <b>price ranges</b>, and confirmation the testimonials are Google reviews. The schema layer I push via API; the visible copy, H1, FAQ layout, and star displays are paste-ready Editor drafts.</p>
 
 <h3>E · Local "best of" inclusion + light PR &nbsp;<span class="pill owner">👤 OWNER · modest</span></h3>
 <ul>
