@@ -141,6 +141,21 @@
   .cite-count { font-size: 13px; color: var(--muted); }
   .cite-empty { padding: 28px 12px; color: var(--muted); font-size: 13px; text-align: center; }
   @media (max-width: 768px) { .chart-row { grid-template-columns: 1fr; } }
+  /* Phones: the fixed Rank/Category/Share columns crowd out the flexible Name
+     column, hiding spa/domain/page names. Shrink the fixed columns (Category
+     collapses to its icon/dot, label hidden) so Name always keeps room. */
+  @media (max-width: 600px) {
+    body { padding: 16px; }
+    .cite-panel { padding: 16px; }
+    .cite-table { font-size: 12px; }
+    .cite-table thead th, .cite-table td { padding-left: 7px; padding-right: 7px; }
+    .cite-table thead th:first-child { width: 26px !important; }      /* Rank */
+    .cite-table thead th:nth-child(3) { width: 34px !important; }     /* Category → icon only */
+    .cite-table thead th.num { width: 96px !important; }              /* Share / Visibility Score */
+    .cite-table .cat-label { display: none; }
+    .cite-table .cite-cat { padding: 4px; gap: 0; }
+    .cite-delta { margin-left: 6px; }
+  }
 </style>
 </head>
 <body>
@@ -550,7 +565,7 @@ function brandVisRank(date) {
   const catBadge = (cat) => {
     const c = CATEGORY_COMP_COLOR[cat] || CATEGORY_COMP_COLOR.other;
     return `<span class="cite-cat" style="background:${c.tint};color:${c.text};">` +
-      `<span class="cite-dot" style="background:${c.bar};margin-right:0;"></span>${CAT_LABEL[cat]}</span>`;
+      `<span class="cite-dot" style="background:${c.bar};margin-right:0;"></span><span class="cat-label">${CAT_LABEL[cat]}</span></span>`;
   };
 
   const rows = ranked.map(([name, score], i) => ({
@@ -690,7 +705,7 @@ function brandVisRank(date) {
     'Other':      { cls: 'other',      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>' },
   };
   const CAT_ORDER = ['Owned', 'Competitor', 'Other'];
-  const catBadge = c => { const m = CAT[c] || CAT['Other']; return `<span class="cite-cat ${m.cls}">${m.icon}${c}</span>`; };
+  const catBadge = c => { const m = CAT[c] || CAT['Other']; return `<span class="cite-cat ${m.cls}">${m.icon}<span class="cat-label">${c}</span></span>`; };
 
   const rows = (DATA.citationDomains || []).map(d => ({ ...d, _search: d.domain.toLowerCase() }));
   const total = DATA.citationDomainsTotal || rows.length;
@@ -762,7 +777,7 @@ function brandVisRank(date) {
     'Other':      { cls: 'other',      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>' },
   };
   const CAT_ORDER = ['Owned', 'Competitor', 'Other'];
-  const catBadge = c => { const m = CAT[c] || CAT['Other']; return `<span class="cite-cat ${m.cls}">${m.icon}${c}</span>`; };
+  const catBadge = c => { const m = CAT[c] || CAT['Other']; return `<span class="cite-cat ${m.cls}">${m.icon}<span class="cat-label">${c}</span></span>`; };
 
   const rows = (DATA.citationPages || []).map(d => ({ ...d, _search: d.page.toLowerCase() }));
   const total = DATA.citationPagesTotal || rows.length;
