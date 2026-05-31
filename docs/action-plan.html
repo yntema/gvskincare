@@ -12,7 +12,7 @@
     --text: #2d1f14; --text-body: #6b5a50; --muted: #8a7868;
     --rose: #b44d6e; --rose-hover: #9c3d5c; --rose-tint: #fdf2f5; --card-hover: #fdf8f6;
     --green: #38a169; --green-bg: #f0fdf4; --red: #c53030; --red-bg: #fff8f8;
-    --amber: #d97706; --amber-bg: #fdf2e3; --blue: #4a7dfc; --blue-bg: #eef2ff;
+    --amber: #b9770a; --amber-bg: #fdf2e3; --blue: #4a7dfc; --blue-bg: #eef2ff;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; -webkit-font-smoothing: antialiased; background: var(--bg); color: var(--text-body); padding: 24px; max-width: 1040px; margin: 0 auto; line-height: 1.6; }
@@ -40,15 +40,19 @@
   .stat .value.red { color: var(--red); } .stat .value.rose { color: var(--rose); } .stat .value.amber { color: var(--amber); }
   .stat .detail { font-size: 12px; color: var(--muted); margin-top: 3px; }
   .pill { display: inline-block; padding: 1px 8px; border-radius: 9999px; font-size: 11px; font-weight: 600; font-family: 'JetBrains Mono', monospace; white-space: nowrap; }
+  .pill.owner { background: var(--amber-bg); color: var(--amber); }
   .pill.api { background: var(--green-bg); color: var(--green); }
   .pill.editor { background: var(--blue-bg); color: var(--blue); }
   .pill.q { background: var(--rose-tint); color: var(--rose); margin: 1px 2px; }
-  .legend { display: flex; gap: 22px; flex-wrap: wrap; margin: 10px 0 4px; font-size: 13px; }
+  .pill.t1 { background: #fbe9ef; color: var(--rose-hover); }
+  .legend { display: flex; gap: 18px; flex-wrap: wrap; margin: 10px 0 4px; font-size: 13px; }
   .legend b { color: var(--text); }
   .note { font-size: 13px; color: var(--muted); }
   .callout { background: var(--rose-tint); border: 1px solid var(--border); border-left: 4px solid var(--rose); border-radius: 10px; padding: 14px 18px; margin: 16px 0; }
   .callout.win { background: var(--green-bg); border-left-color: var(--green); }
+  .callout.warn { background: var(--amber-bg); border-left-color: var(--amber); }
   footer { margin-top: 44px; padding-top: 16px; border-top: 1px solid var(--border-light); font-size: 12px; color: var(--muted); }
+  .src { font-size: 12px; color: var(--muted); font-style: italic; }
 </style>
 </head>
 <body>
@@ -56,124 +60,123 @@
 <a class="back" href="./index.html">← Back to AEO Dashboard</a>
 <div class="eyebrow" style="margin-top:18px;">GV Skincare Center · Katy, TX</div>
 <h1>AEO Action Plan</h1>
-<div class="subtitle">A prioritized plan to get GV Skincare cited by AI answer engines (ChatGPT, Gemini, Perplexity, Claude, AI Overviews). Assessed 2026-05-31 from a live crawl of gvskincare.com and the latest tracking run.</div>
+<div class="subtitle">A prioritized plan to get GV Skincare cited by AI answer engines (ChatGPT, Gemini, Perplexity, Google AI Overviews, Copilot). Built 2026-05-31 from a live crawl of gvskincare.com, the latest tracking run, and a verified research pass on what actually drives local AI citations.</div>
 
 <div class="legend">
-  <span><span class="pill api">🤖 API</span> &nbsp;<b>I execute directly</b> via the Wix API (no manual step)</span>
-  <span><span class="pill editor">✍️ EDITOR</span> &nbsp;<b>I draft, you paste</b> into the Wix Editor (classic-editor limitation)</span>
+  <span><span class="pill owner">👤 OWNER</span> &nbsp;<b>off-site, you act</b> (highest-leverage levers live here)</span>
+  <span><span class="pill editor">✍️ EDITOR</span> &nbsp;<b>I draft, you paste</b> into the Wix Editor</span>
+  <span><span class="pill api">🤖 API</span> &nbsp;<b>I execute</b> via the Wix API</span>
 </div>
+
+<div class="callout warn"><b>Headline:</b> the biggest AEO levers for a single-location spa are <b>off your website</b> — Google Business Profile, reviews, and consistent listings. Your site matters too, but through <b>service pages + FAQs</b>, not a blog. An earlier draft of this plan led with blogging; the research below corrected that.</div>
 
 <h2>1 · Where we stand</h2>
-<p>GV Skincare is almost invisible to AI answer engines. Across the tracked query set it surfaces in roughly <b>1 in 15 answers</b>, and only when the query already contains the brand name or one of a couple of treatment terms. For the "best spa / medspa / facial in Katy" discovery questions and the "how do I treat X" problem questions — the queries real new customers ask — local competitors (Anita's Skin Care Clinic, Katy MediSpa, City Glow, Spavia, Face to Face Spa) are cited and GV is not.</p>
-
+<p>GV surfaces in roughly <b>1 in 15</b> AI answers across the tracked query set, almost only when the query already names the brand or an exact treatment. For the "best spa / facial / medspa in Katy" discovery questions and the "how do I treat X" problem questions — what new customers actually ask — local competitors are cited and GV is not.</p>
 <div class="cards">
-  <div class="stat"><div class="label">Visibility · Apr 4</div><div class="value red">6%</div><div class="detail">12 / 200 answers (5 engines)</div></div>
-  <div class="stat"><div class="label">Visibility · May 31</div><div class="value red">~7%</div><div class="detail">11 / 160 answers (4 engines)</div></div>
-  <div class="stat"><div class="label">Worst engines</div><div class="value amber">3</div><div class="detail">Gemini, Perplexity, Claude (≤2/40 each)</div></div>
-  <div class="stat"><div class="label">Blog posts live</div><div class="value rose">0</div><div class="detail">empty — biggest opportunity</div></div>
+  <div class="stat"><div class="label">Visibility · Apr 4</div><div class="value red">6%</div><div class="detail">12 / 200 answers</div></div>
+  <div class="stat"><div class="label">Visibility · May 31</div><div class="value red">~7%</div><div class="detail">11 / 160 answers</div></div>
+  <div class="stat"><div class="label">Where GV shows</div><div class="value amber">brand</div><div class="detail">+ a few exact treatments</div></div>
+  <div class="stat"><div class="label">AI picks per query</div><div class="value rose">1–3</div><div class="detail">no "page 2" — named or invisible</div></div>
 </div>
+<p class="note"><b>Live site (crawled 2026-05-31):</b> homepage already carries auto-generated <code>LocalBusiness</code> + <code>WebSite</code> schema and AI crawlers aren't blocked. Inner pages have <b>no schema</b>, inner titles lack "Katy, TX," several pages have <b>no meta description</b>, there are <b>no FAQ/answer blocks</b> anywhere, the Evaluation page still uses the <code>/copy-of-virtual-consultation</code> slug, and there's no English virtual-consultation page.</p>
 
-<h3>Where GV does / doesn't appear (May 31 run)</h3>
+<h2>2 · What the research says</h2>
+<p>Method: 94 source-backed claims were extracted from current (2025–2026) studies and run through adversarial verification — <b>45 of 74 checks were refutes</b>, which stripped out the vendor hype. Only claims that survived are used below.</p>
+
+<h3>The lever ranking (for a local, single-location business)</h3>
 <table>
-  <tr><th>Surfaces today</th><th>Invisible (high-value gaps)</th></tr>
-  <tr>
-    <td>
-      <span class="pill q">q25 brand</span> <span class="pill q">q7 pro facial</span> <span class="pill q">q14 acne facial</span> <span class="pill q">q16 dermaplaning</span> <span class="pill q">q38 ES facial</span> <span class="pill q">q40 ES acne</span>
-      <div class="note" style="margin-top:6px;">i.e. mostly brand + a few exact treatment matches.</div>
-    </td>
-    <td>
-      <b>Discovery:</b> <span class="pill q">q1</span><span class="pill q">q2</span><span class="pill q">q3</span><span class="pill q">q4</span><span class="pill q">q5</span><span class="pill q">q6</span><span class="pill q">q8</span> "best facial/medspa in Katy/Houston"<br>
-      <b>Problem-aware:</b> <span class="pill q">q17</span><span class="pill q">q18</span><span class="pill q">q19</span><span class="pill q">q20</span><span class="pill q">q21</span><span class="pill q">q22</span><span class="pill q">q23</span><span class="pill q">q24</span> acne scars, melasma, wrinkles, sagging, teen acne…<br>
-      <b>Treatments:</b> <span class="pill q">q9</span><span class="pill q">q10</span><span class="pill q">q11</span><span class="pill q">q12</span><span class="pill q">q13</span><span class="pill q">q15</span> microneedling, PRP, RF, peels, Aquagold
-    </td>
-  </tr>
+  <tr><th>Tier</th><th>Lever</th><th>Why it wins</th><th>Lane</th></tr>
+  <tr><td rowspan="4"><span class="pill t1">TIER 1</span></td>
+      <td><b>Google Business Profile</b></td><td>Foundational, heavily-weighted input; Google AI Mode surfaces GBP data even when it isn't the cited source. Basic AI presence is achievable from an optimized GBP alone.</td><td><span class="pill owner">👤</span></td></tr>
+  <tr><td><b>Reviews</b> (volume, <b>recency</b>, specificity, rating, owner responses)</td><td>A primary trust filter. AI-recommended businesses averaged ~4.1–4.3★. Reviews naming the service + location carry more weight than generic ones.</td><td><span class="pill owner">👤</span></td></tr>
+  <tr><td><b>NAP / entity consistency</b> across the web</td><td>AI cross-checks name/address/phone across Google, Yelp, Apple Maps, Facebook, Foursquare (even MapQuest). Inconsistency <i>lowers</i> AI confidence in the entity.</td><td><span class="pill owner">👤</span></td></tr>
+  <tr><td><b>Directory / review-platform presence</b> (esp. Yelp)</td><td>Yelp was a source in <b>33%</b> of local searches (every industry on Perplexity); directories used across every industry tested. Be <i>in</i> the aggregators AI reads.</td><td><span class="pill owner">👤</span></td></tr>
+  <tr><td rowspan="2"><span class="pill t1" style="background:#eef2ff;color:#4a7dfc;">TIER 2</span></td>
+      <td><b>Answer-first service pages + FAQs</b> on your own site</td><td>Own-websites are cited ~44–58% of the time for local — but that value sits in clear <b>service/FAQ pages</b>, not blogs. Put the direct answer in the first 1–2 sentences; one page per service.</td><td><span class="pill editor">✍️</span> <span class="pill api">🤖</span></td></tr>
+  <tr><td><b>Schema markup</b> (LocalBusiness, Service, FAQ, Review)</td><td>Machine-readability hygiene — worth doing, but <i>not</i> a silver bullet (one study found no correlation with citations; Google deprecated FAQ rich results May 2026).</td><td><span class="pill editor">✍️</span> <span class="pill api">🤖</span></td></tr>
+  <tr><td rowspan="2"><span class="pill t1" style="background:#f0ece8;color:#8a7868;">TIER 3</span></td>
+      <td><b>Local "best of" listicles + light local PR</b></td><td>Mildly helpful (getting into a "top medspas in Katy" article). The dramatic "third-party drives 85%" stat is B2B-SaaS, not local — local citations are ~86% brand-controlled.</td><td><span class="pill owner">👤</span></td></tr>
+  <tr><td><b>Blog / educational posts</b></td><td>Low-leverage for a local spa. Only pays off if answer-first, tightly structured, locally focused, entity-linked, and kept fresh — and still ranks behind everything above.</td><td><span class="pill api">🤖</span></td></tr>
 </table>
 
-<h3>Live-site state (crawled 2026-05-31)</h3>
-<table>
-  <tr><th>Item</th><th>Current state</th></tr>
-  <tr><td><code>robots.txt</code> + sitemap</td><td>✅ Both exist; AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended) are <b>not</b> blocked</td></tr>
-  <tr><td>Homepage schema</td><td>✅ <code>LocalBusiness</code> + <code>WebSite</code> auto-generated by Wix</td></tr>
-  <tr><td>Inner-page schema (services, body, about, contact, evaluation)</td><td>❌ Zero — <code>Service</code>, <code>FAQPage</code>, <code>Person</code>, <code>Review</code>, <code>BreadcrumbList</code> all missing</td></tr>
-  <tr><td>Titles / meta</td><td>❌ Inner titles lack "Katy, TX"; several pages have no meta description</td></tr>
-  <tr><td>FAQ / answer-ready content</td><td>❌ No Q&A blocks anywhere</td></tr>
-  <tr><td>Evaluation page slug</td><td>❌ Still the builder default <code>/copy-of-virtual-consultation</code></td></tr>
-  <tr><td>English virtual consultation page</td><td>❌ Missing (Spanish page only)</td></tr>
-</table>
+<div class="callout"><b>The key strategic split — objective vs subjective queries:</b><br>
+• <b>Subjective</b> ("best facial spa in Katy") → driven by <b>reviews + Yelp + third-party roundups + GBP</b>. Your website barely moves these. → <span class="pill owner">👤 Tier 1</span><br>
+• <b>Objective / branded</b> ("does GV do microneedling," hours, a specific treatment) → driven by <b>your own site + GBP</b> as the "truth anchor." → <span class="pill editor">✍️</span> <span class="pill api">🤖 Tier 2</span><br>
+GV's tracking gaps are mostly <i>subjective</i> discovery (<span class="pill q">q1–q8</span>) and problem-aware (<span class="pill q">q17–q24</span>) queries — so Tier 1 owner levers are what will actually move them.</div>
 
-<h2>2 · How we'll execute (two lanes)</h2>
-<p>The site runs on the <b>classic Wix Editor</b>, so the work splits into two lanes. The good news: the single highest-leverage AEO lever — publishing question-answering content with embedded schema — is fully in the lane I can execute directly.</p>
-<table>
-  <tr><th>Lane</th><th>What it covers</th><th>How</th></tr>
-  <tr><td><span class="pill api">🤖 API</span></td><td>Blog posts <b>with per-post JSON-LD schema</b> (FAQPage / Service), <code>robots.txt</code>, content-item SEO, Bookings service SEO</td><td>I do it directly via the connected Wix MCP. No manual step.</td></tr>
-  <tr><td><span class="pill editor">✍️ EDITOR</span></td><td>Static-page titles/meta/H1, per-page FAQ blocks + their schema, <code>Service</code>/<code>Person</code>/<code>Review</code> markup on existing pages, slug rename + 301, internal links, reviews UI, galleries</td><td>I hand you exact copy / JSON-LD to paste into the page's <b>SEO panel → Advanced → Custom tags</b> (or the section editor). ~5 min each.</td></tr>
-</table>
-<p class="note">Why the split exists: Wix's REST API can fully manage <i>content apps</i> (Blog, CMS, Bookings) including their SEO/structured data, but it cannot rewrite the drag-and-drop canvas or the SEO tags of static Editor pages.</p>
+<p class="note"><b>Also true:</b> ChatGPT aligns ~87% with Bing's top results, and Google AI Overviews pull from the organic index — so classic SEO + map-pack ranking still feed AEO. It's an overlapping game, not a separate one.</p>
+<p class="note"><b>Discarded as hype (refuted):</b> "schema = 92% lift," "GBP weighted 35% / reviews 2.8–3.2×" (single vendor, no methodology), "listicles drive 90% / third-party 6.5×" (B2B-SaaS scope), "AI recommends only 1.2% of businesses" (multi-location <i>enterprise</i> scope, not single-location spas).</p>
 
-<h2>3 · The plan — four workstreams</h2>
+<h2>3 · The plan — by leverage</h2>
 
-<h3>Workstream A — Blog as an answer engine &nbsp;<span class="pill api">🤖 API · highest leverage</span></h3>
-<p>The blog is empty and every post I publish can carry its own <code>FAQPage</code> + <code>Service</code> + <code>LocalBusiness</code> JSON-LD. AI engines cite pages that directly, concisely answer the question — so each article is built question-first, localized to Katy, and pointed at the exact tracked queries where GV is invisible. This is the fastest way to move the visibility number because I can ship it end-to-end.</p>
-<table>
-  <tr><th>Batch</th><th>Articles (question-led, Katy-localized, schema-embedded)</th><th>Targets</th></tr>
-  <tr><td><b>A1 · Problem/solution</b></td><td>"How to treat acne scars in Katy", melasma, hyperpigmentation, wrinkles without surgery, sagging skin (non-surgical), dry/dehydrated skin, teen acne, PRP for hair loss</td><td><span class="pill q">q17–q24</span></td></tr>
-  <tr><td><b>A2 · Treatment explainers</b></td><td>HydraFacial, microneedling, RF microneedling, chemical peel, PRP facial, dermaplaning, Aquagold, anti-aging facial — each "what it is / who it's for / what to expect / cost / FAQ"</td><td><span class="pill q">q2</span><span class="pill q">q9–q16</span></td></tr>
-  <tr><td><b>A3 · Comparisons</b></td><td>HydraFacial vs chemical peel · microneedling vs RF microneedling · chemical peel vs microneedling for acne scars (tables + pros/cons)</td><td>comparison intent (revives retired <span class="pill q">q31–q36</span> themes)</td></tr>
-  <tr><td><b>A4 · Spanish mirrors</b></td><td>Spanish versions of the top A1/A2 articles + the existing virtual-consultation strength</td><td><span class="pill q">q37–q40</span></td></tr>
-</table>
-<p class="note">Each post ships with: question H2/H3s, 2–3 sentence quotable answers, an FAQ block, internal links to the relevant service page, a booking CTA, and JSON-LD. I draft → you approve tone → I publish.</p>
-
-<h3>Workstream B — Crawlability &nbsp;<span class="pill api">🤖 API</span></h3>
+<h3>A · Google Business Profile &nbsp;<span class="pill owner">👤 OWNER · highest leverage</span></h3>
 <ul>
-  <li>Keep AI crawlers explicitly welcome in <code>robots.txt</code> and confirm the sitemap line stays intact (currently auto-generated/permissive — already healthy, low effort to harden).</li>
-  <li>After new blog URLs exist, confirm they're in <code>sitemap.xml</code> so engines discover them.</li>
+  <li>Complete every field: categories (primary + secondary), full granular services list, attributes, hours, service area (Katy, Cinco Ranch, Fulshear, west Houston).</li>
+  <li>Add 80+ current photos; post weekly (offers, treatments, before/afters).</li>
+  <li>Fill the Q&A section with the real questions customers ask.</li>
+  <li>Keep it active and accurate — staleness gets you deprioritized.</li>
+</ul>
+<p class="note">I can't edit GBP (it's Google, not Wix), but I can draft your categories, services list, Q&A, and post copy.</p>
+
+<h3>B · Review engine &nbsp;<span class="pill owner">👤 OWNER</span></h3>
+<ul>
+  <li>Systematize asking every happy client for a Google review (text/QR at checkout, follow-up).</li>
+  <li>Prioritize <b>recency</b> (a steady trickle beats a one-time burst) and <b>specificity</b> (encourage mentioning the treatment + "Katy").</li>
+  <li><b>Respond to every review</b>, good and bad — engagement is itself a signal.</li>
+  <li>Mirror onto Yelp + Facebook so the off-site review picture is consistent.</li>
 </ul>
 
-<h3>Workstream C — Static-page SEO &nbsp;<span class="pill editor">✍️ EDITOR (I draft, you paste)</span></h3>
-<table>
-  <tr><th>Action</th><th>Detail</th><th>Targets</th></tr>
-  <tr><td>Rewrite titles + meta descriptions</td><td>Home, Services, Body Services, Evaluation, About, Contact — add service + "Katy, TX" + benefit.</td><td><span class="pill q">q1–q8</span></td></tr>
-  <tr><td>Add FAQ blocks + <code>FAQPage</code> JSON-LD</td><td>5–7 Q&As per key service page; paste matching JSON-LD into the page's custom tags.</td><td>problem + treatment</td></tr>
-  <tr><td>Add <code>Service</code>, <code>Person</code> (Gabriela), <code>Review</code>/<code>AggregateRating</code> markup</td><td>Codify offerings, the provider's expertise, and the strong off-site review reputation on-site.</td><td>trust / E-E-A-T</td></tr>
-  <tr><td>Fix the Evaluation slug</td><td><code>/copy-of-virtual-consultation</code> → <code>/skin-evaluation-katy</code> + 301 redirect.</td><td>relevance</td></tr>
-  <tr><td>Add an English Virtual Consultation page</td><td>Mirror the strong Spanish page; cross-link EN/ES with hreflang.</td><td>consultation intent</td></tr>
-  <tr><td>Deepen thin pages + internal links</td><td>Service summaries on home/Services hub; "Areas We Serve" (Cinco Ranch, Fulshear, Richmond, west Houston); descriptive anchor links.</td><td>local relevance</td></tr>
-</table>
-
-<h3>Workstream D — Trust, reviews & local entity &nbsp;<span class="pill editor">✍️ EDITOR + off-site</span></h3>
+<h3>C · NAP / listings consistency &nbsp;<span class="pill owner">👤 OWNER</span> <span class="pill editor">✍️ I audit</span></h3>
 <ul>
-  <li>Surface real review counts + star ratings on-site and add <code>Review</code>/<code>AggregateRating</code> schema (the off-site reputation is strong but invisible on the website).</li>
-  <li>Standardize the brand name to one canonical form ("GV Skincare Center") across the site, schema, Google Business Profile, Yelp and directories — the name currently varies (GV SKINCARE / GV Skincare Center / GV Skin Care Center), which weakens entity consolidation.</li>
-  <li>Optimize the Google Business Profile (categories, services, photos, posts) — the dominant local-AI signal.</li>
+  <li>Pick one canonical name ("GV Skincare Center") and make name/address/phone/hours identical everywhere — the site varies between GV SKINCARE / GV Skincare Center / GV Skin Care Center today.</li>
+  <li>Claim/correct Yelp, Apple Maps, Facebook, Foursquare, Bing Places, and major local directories.</li>
+  <li>I'll produce the exact canonical NAP block + a checklist of listings to fix.</li>
 </ul>
+
+<h3>D · On-site service pages + FAQ + schema &nbsp;<span class="pill editor">✍️ EDITOR</span> <span class="pill api">🤖 API</span></h3>
+<ul>
+  <li>One dedicated, answer-first page per core service (HydraFacial, microneedling, RF microneedling, chemical peel, acne facial, body contouring, lymphatic drainage) — direct answer first, then detail, with "who it's for / what to expect / cost."</li>
+  <li>Add a 5–7 question FAQ block to the homepage and each service page; lead each answer with one quotable sentence.</li>
+  <li>Rewrite inner-page titles/meta to include service + "Katy, TX"; fix the <code>/copy-of-virtual-consultation</code> slug + 301; add an English virtual-consultation page.</li>
+  <li>Add <code>Service</code>, <code>FAQPage</code>, <code>Person</code> (Gabriela) and <code>Review</code> schema. <span class="note">(Static-page copy + schema = paste-ready drafts I give you; <code>robots.txt</code> and any content-item SEO I do via API.)</span></li>
+</ul>
+
+<h3>E · Local "best of" inclusion + light PR &nbsp;<span class="pill owner">👤 OWNER · modest</span></h3>
+<ul>
+  <li>Get listed in "best medspas / facials in Katy" roundups and local press; aim to appear in the first few names (position in a listicle matters).</li>
+  <li>Partner with nearby complementary businesses (bridal, gyms, wellness) for mentions/links.</li>
+</ul>
+
+<h3>F · Blog &nbsp;<span class="pill api">🤖 API · optional, conditional</span></h3>
+<p>Only if Tiers A–D are underway and you want incremental reach on problem-aware queries. If we do it, posts must be <b>answer-first, locally framed, entity-linked, and refreshed regularly</b> — and tied to specific tracked queries (acne scars, melasma, teen acne). Skipping or deferring this is a reasonable choice; it is <b>not</b> where the wins are.</p>
 
 <h2>4 · Prioritized roadmap</h2>
 <table>
   <tr><th>Phase</th><th>Action</th><th>Lane</th><th>Impact</th></tr>
-  <tr><td rowspan="4"><b>Quick wins<br>(week 1)</b></td><td>Publish first 3 problem/solution blog posts (acne scars, melasma, teen acne) with full schema</td><td><span class="pill api">🤖 API</span></td><td>High</td></tr>
-  <tr><td>Harden <code>robots.txt</code> for AI crawlers + verify sitemap</td><td><span class="pill api">🤖 API</span></td><td>Low–Med</td></tr>
+  <tr><td rowspan="4"><b>Weeks 1–2</b></td><td>Fully optimize Google Business Profile (categories, services, photos, Q&A, posts)</td><td><span class="pill owner">👤</span></td><td>Highest</td></tr>
+  <tr><td>Stand up the review-ask routine; respond to all existing reviews</td><td><span class="pill owner">👤</span></td><td>Highest</td></tr>
+  <tr><td>Fix NAP: canonical name + correct top listings (I supply the block + checklist)</td><td><span class="pill owner">👤</span> <span class="pill editor">✍️</span></td><td>High</td></tr>
   <tr><td>Draft + paste new titles/meta for Home, Services, Body, Evaluation</td><td><span class="pill editor">✍️</span></td><td>High</td></tr>
-  <tr><td>Standardize brand name + NAP across site & key listings</td><td><span class="pill editor">✍️</span></td><td>High</td></tr>
-  <tr><td rowspan="3"><b>30–60 days</b></td><td>Complete A1 + A2 article batches (problem + treatment explainers, with schema)</td><td><span class="pill api">🤖 API</span></td><td>High</td></tr>
-  <tr><td>Add FAQ blocks + <code>FAQPage</code>/<code>Service</code> schema to all key service pages</td><td><span class="pill editor">✍️</span></td><td>High</td></tr>
-  <tr><td>Ship English Virtual Consultation page; fix Evaluation slug + 301</td><td><span class="pill editor">✍️</span></td><td>Med–High</td></tr>
-  <tr><td rowspan="3"><b>60–90 days</b></td><td>Comparison + Spanish article batches (A3, A4)</td><td><span class="pill api">🤖 API</span></td><td>High</td></tr>
-  <tr><td>Reviews page + on-site review/rating display & schema</td><td><span class="pill editor">✍️</span></td><td>High</td></tr>
-  <tr><td>Local landing sections + before/after galleries; GBP optimization</td><td><span class="pill editor">✍️</span> + off-site</td><td>Med–High</td></tr>
+  <tr><td rowspan="3"><b>30–60 days</b></td><td>Build answer-first service pages + FAQ blocks; add Service/FAQ/Person/Review schema</td><td><span class="pill editor">✍️</span> <span class="pill api">🤖</span></td><td>High</td></tr>
+  <tr><td>Ship English virtual-consultation page; fix Evaluation slug + 301</td><td><span class="pill editor">✍️</span></td><td>Med–High</td></tr>
+  <tr><td>Pursue local "best of" roundups + Yelp profile build-out</td><td><span class="pill owner">👤</span></td><td>Medium</td></tr>
+  <tr><td rowspan="3"><b>60–90 days</b></td><td>Sustain review velocity; keep GBP posts weekly</td><td><span class="pill owner">👤</span></td><td>High (compounding)</td></tr>
+  <tr><td>Before/after galleries + on-site review display & schema</td><td><span class="pill editor">✍️</span></td><td>Medium</td></tr>
+  <tr><td><i>Optional:</i> answer-first blog posts for problem-aware queries</td><td><span class="pill api">🤖</span></td><td>Low–Med</td></tr>
 </table>
 
 <h2>5 · How we'll measure</h2>
-<p>The existing tracking harness re-runs the 40-query set across the AI engines and feeds the <a href="./index.html">AEO Dashboard</a>. Success = the visibility line climbs off ~7%, GV starts appearing on discovery (<span class="pill q">q1–q8</span>) and problem-aware (<span class="pill q">q17–q24</span>) queries, and new blog URLs show up as cited sources. We re-run the tracking after each content batch and watch:</p>
+<p>The tracking harness re-runs the 40-query set across the AI engines and feeds the <a href="./index.html">AEO Dashboard</a>. Expect the <b>subjective</b> discovery/problem queries (<span class="pill q">q1–q8</span>, <span class="pill q">q17–q24</span>) to respond to the Tier 1 owner levers (GBP + reviews + listings), and <b>objective/branded</b> queries to respond to the Tier 2 site work. We re-run after each phase and watch:</p>
 <ul>
   <li><b>Visibility score</b> — % of non-branded queries where GV appears, per engine.</li>
   <li><b>Citation share</b> — % of organic citations pointing to <code>gvskincare.com</code>.</li>
-  <li><b>Query coverage</b> — which query categories flip from absent → present.</li>
+  <li><b>Query coverage</b> — which categories flip from absent → present.</li>
 </ul>
 
-<div class="callout win"><b>Net:</b> the work that moves AEO fastest — schema-rich, question-answering content — is exactly what I can publish directly through the Wix API. The static-page polish runs in parallel as paste-ready drafts. First measurable lift expected after the week-1 blog batch lands and the next tracking run completes.</div>
+<div class="callout win"><b>Net:</b> invest first where the evidence points — <b>Google Business Profile, reviews, and listing consistency</b> — then answer-first service pages + FAQs on the site. The blog is optional and last. Most of the highest-leverage work is owner/off-site; the Wix-API work I can run directly is real but secondary. First measurable lift expected once the GBP + review work lands and the next tracking run completes.</div>
 
 <footer>
-GV Skincare Center · Katy, TX · AEO Action Plan — generated 2026-05-31. Sources: live crawl of gvskincare.com, tracking runs <code>2026-04-04</code> &amp; <code>2026-05-31</code>. &nbsp;<a href="./index.html">AEO Dashboard →</a>
+GV Skincare Center · Katy, TX · AEO Action Plan — rebuilt 2026-05-31 on verified research (94 claims / 74 adversarial checks / 45 refuted). Primary sources: BrightLocal (Jul 2025 listings-source study), SOCi 2026 Local Visibility Index (via Search Engine Land), Yext 6.8M-citation study, Whitespark 2026 Local Search Ranking Factors. &nbsp;<a href="./index.html">AEO Dashboard →</a>
 </footer>
 
 </body>
