@@ -117,3 +117,62 @@ rendered text and the markup agree. Lead each answer with the quotable sentence.
 - **Wix note:** Wix auto-injects its own `LocalBusiness` + `WebSite` schema. On push we
   either disable Wix's auto structured data for the home page or rely on `@id` de-duplication
   so we don't end up with two business nodes again.
+
+---
+
+## Manual implementation playbook (the proper path)
+
+Verified 2026-06-01 against the Wix APIs **and** the live Business Info screen: there is
+no clean API to write a static page's structured data, and the core `LocalBusiness` is
+generated from **Settings → Business Info**, not from custom markup. So the proper fix is
+to correct the *source* (Business Info) plus paste the few things Wix doesn't generate.
+
+### Lane reality
+
+| Item | Proper path | Clean via API? |
+|---|---|---|
+| Name, address+suite, phone, hours | **Business Info** (feeds the auto `LocalBusiness`) | Yes — Site Properties API, but it edits live business data sitewide + likely needs a republish |
+| `sameAs` (Instagram/Facebook/Yelp/Google) | Business Info social links / SEO markup | Partly |
+| `FAQPage` | Home page SEO → Advanced → **Structured data markup** → paste | No (embed would work but isn't native) |
+| `aggregateRating`, `geo`, `priceRange`, `OfferCatalog` | Same SEO markup box, **or** let GBP carry them | No (would duplicate the auto node) |
+| Visible copy (H1, hero, services, FAQ, CTA) | Wix **Editor** | No |
+| robots.txt | — | Yes — already clean, nothing to do |
+
+### Step 1 — Fix the source in Business Info (root cause of the NAP/hours gaps)
+
+1. **Suite 302 (the missing-suite bug):** expand the **Default** location *Grand Reserve
+   Drive* and set **Apartment/suite = 302**. The schema reads the default location, so this
+   is what actually adds "Suite 302" to your markup. (The second location *Gran Reserve Katy
+   TX* already has #302 but isn't the default.)
+2. **Remove the redundant second location** (*Gran Reserve Katy TX* — also note the "Gran"
+   typo) so there's one clean address. Keep only the default.
+3. **Business hours:** set **Tue–Sat, 9:00 AM–5:00 PM**, closed Sun/Mon (Business Info →
+   Business hours, or the schedule section). This populates `openingHours` in the schema.
+4. **Name decision:** Business Info says `GV Skincare`; Google/Yelp/Facebook say
+   `GV Skincare Center`. Pick one and match everywhere. Recommended: change this field to
+   **GV Skincare Center** to match your Google Business Profile (the heaviest-weighted local
+   signal). Brand call — the alternative is renaming the listings instead.
+5. Phone `(346) 257-4149` and email `info@gvskincare.com` are already correct here.
+
+### Step 2 — Add what Business Info can't generate (Home page SEO → Advanced → Structured data markup)
+
+- Paste the **`FAQPage`** node from `homepage-schema.json`. This is the biggest AEO win and
+  has zero conflict with Wix's auto schema.
+- Optional: add `aggregateRating`/`geo`/`priceRange` here too — but only once a matching
+  rating is visible on the page, and know it sits as a second business node. Simpler to let
+  your Google Business Profile carry geo + rating.
+
+### Step 3 — Paste the visible copy (Wix Editor)
+
+H1, hero answer sentence, per-service text, the visible FAQ, and the click-to-call — from
+sections 1–5 above.
+
+### Step 4 — Publish, then validate
+
+Test the live URL at https://search.google.com/test/rich-results and
+https://validator.schema.org.
+
+> If you'd rather I handle Step 1 via the Site Properties API (name / address+suite / hours)
+> instead of doing it in the dashboard, say go — caveat: it edits your live business info
+> everywhere on Wix, not just the schema, and may need a republish to appear in the page HTML.
+> Since you're already on the Business Info screen, doing Step 1 there by hand is the cleaner call.
